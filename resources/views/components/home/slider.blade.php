@@ -5,28 +5,28 @@
             <div class="container">
                 <div class="hero-content text-center">
                     <span class="promo-text">
-                        Dental Services Provider
+                        Home Cleaning
                     </span>
-                    <h1 class="slider-title"><span>Better Cleaning</span> Service Agency
+                    <h1>Sydney’s No 1 rated <br><span>trusted cleaners for your home</span>
                     </h1>
                     <div class="btn-wrap">
-                        <a class="main-btn" href="contact.html">Contact Us<i class="fal fa-plus"></i></a>
-                        <a class="main-btn main-btn-2" href="services.html">Our Services<i
+                        <a class="main-btn" href="contact.html">Quote Me<i class="fal fa-plus"></i></a>
+                        <a class="main-btn main-btn-2" href="services.html">Book online<i
                                 class="fal fa-plus"></i></a>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="single-hero-slide" style="background-image: url({{asset('images/slider/hero-image-3.jpg')}});">
+        <div class="single-hero-slide" style="background-image: url(assets/img/hero-image-2.jpg);">
             <div class="container">
                 <div class="hero-content text-center">
                     <span class="promo-text">
-                        Dental Services Provider
+                        Commercial Cleaning
                     </span>
-                    <h1 class="slider-title"><span>Cleaning Your</span> Worries Away </h1>
+                    <h1><span>The Only Choice of</span> Commercial Cleaners</h1>
                     <div class="btn-wrap">
                         <a class="main-btn" href="contact.html">Contact Us<i class="fal fa-plus"></i></a>
-                        <a class="main-btn main-btn-2" href="services.html">Our Services<i
+                        <a class="main-btn main-btn-2" href="services.html">Quote Me<i
                                 class="fal fa-plus"></i></a>
                     </div>
                 </div>
