@@ -22,3 +22,9 @@ Route::view('service_details', 'pages.service_details')->name('service_details')
 Route::view('about_us', 'pages.about_us')->name('about_us');
 
 Route::view('faq', 'pages.faq')->name('faq');
+
+Route::view('terms_and_conditions', 'pages.terms_and_conditions')->name('terms_and_conditions');
+
+Route::view('privacy_policy', 'pages.privacy_policy')->name('privacy_policy');
+
+Route::view('contact', 'pages.contact')->name('contact');

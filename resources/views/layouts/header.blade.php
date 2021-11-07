@@ -44,17 +44,6 @@
                                     </li>
 
                                     <li class="nav-item">
-                                        <a class="nav-link" href="projects.html">Project
-                                            <i class="fal fa-plus"></i>
-                                        </a>
-                                        <ul class="sub-menu">
-                                            <li>
-                                                <a href="projects.html">Project</a>
-                                                <a href="projects-details.html">Project Details</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="nav-item">
                                         <a class="nav-link" href="{{ route('about_us') }}">
                                             About Us
                                         </a>
@@ -64,8 +53,28 @@
                                             FAQ
                                         </a>
                                     </li>
+
                                     <li class="nav-item">
-                                        <a class="nav-link" href="contact.html">Contact
+                                        <a class="nav-link" href="#">
+                                            More
+                                            <i class="fal fa-plus"></i>
+                                        </a>
+                                        <ul class="sub-menu">
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="{{ route('terms_and_conditions') }}">
+                                                    Terms & Conditions
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="{{ route('privacy_policy') }}">
+                                                    Privacy Policy
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="{{ route('contact') }}">Contact
                                         </a>
                                     </li>
                                 </ul>
