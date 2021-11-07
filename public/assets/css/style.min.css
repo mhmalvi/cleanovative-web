@@ -152,7 +152,7 @@ a {
 
 a,
 a:hover {
-    color: #279e64
+    color: #50C2C3
 }
 
 .bg-cover {
@@ -167,7 +167,7 @@ a:hover {
     height: 100%;
     top: 0px;
     left: 0px;
-    background-color: #279e64;
+    background-color: #50C2C3;
     z-index: 99999
 }
 
@@ -256,7 +256,7 @@ a:hover {
 }
 
 .main-btn.main-btn-3:hover {
-    background-color: #279e64;
+    background-color: #50C2C3;
     color: #fff
 }
 
@@ -316,7 +316,7 @@ a:hover {
 .section-title p.title-tag {
     font-size: 18px;
     font-weight: 700;
-    color: #279e64
+    color: #50C2C3
 }
 
 @media (max-width: 767px) {
@@ -343,7 +343,7 @@ a:hover {
     width: 50px;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
-    background-color: #279e64;
+    background-color: #50C2C3;
     height: 3px;
     content: ''
 }
@@ -368,7 +368,7 @@ a:hover {
     width: 50px;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
-    background-color: #279e64;
+    background-color: #50C2C3;
     height: 3px;
     content: ''
 }
@@ -1009,7 +1009,7 @@ body.version-two .blog-nag-margin {
 }
 
 .header-area .header-nav .navigation .navbar .navbar-nav .nav-item .sub-menu>li a:hover {
-    background-color: #279e64;
+    background-color: #50C2C3;
     color: #fff !important
 }
 
@@ -1316,7 +1316,7 @@ body.version-two .blog-nag-margin {
 }
 
 .header-area.header-two .header-nav .navigation .navbar .navbar-nav .nav-item.active .nav-link {
-    color: #279e64
+    color: #50C2C3
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -1455,7 +1455,7 @@ body.version-two .blog-nag-margin {
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
     font-size: 35px;
-    color: #279e64
+    color: #50C2C3
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
@@ -1680,7 +1680,7 @@ body.version-two .blog-nag-margin {
 }
 
 .hero-section .slick-arrow:hover {
-    background-color: #279e64;
+    background-color: #50C2C3;
     color: #fff
 }
 
@@ -1995,7 +1995,7 @@ body.version-two .blog-nag-margin {
 }
 
 .single-feature-box {
-    background-color: #279e64;
+    background-color: #50C2C3;
     text-align: center;
     padding: 80px 55px;
     position: relative;
@@ -2265,7 +2265,7 @@ body.version-two .blog-nag-margin {
 }
 
 .single-feature-box.style-two .learn-more::before {
-    background-color: #279e64;
+    background-color: #50C2C3;
     width: 0;
     visibility: hidden;
     opacity: 0;
@@ -2279,7 +2279,7 @@ body.version-two .blog-nag-margin {
 .single-feature-box.style-two .feature-thumb .thumb {
     background-size: cover;
     background-position: center;
-    background-color: #279e64;
+    background-color: #50C2C3;
     width: 100%;
     height: 255px;
     -webkit-transition: all .4s ease-out 0s;
@@ -2289,7 +2289,7 @@ body.version-two .blog-nag-margin {
 .single-feature-box.style-two.active h4.title a,
 .single-feature-box.style-two.active .learn-more,
 .single-feature-box.style-two.active i {
-    color: #279e64
+    color: #50C2C3
 }
 
 .single-feature-box.style-two.active .learn-more::before {
@@ -2372,7 +2372,7 @@ body.version-two .blog-nag-margin {
 
 .about-section .video-text .watch-video-link {
     position: relative;
-    color: #279e64;
+    color: #50C2C3;
     font-family: "Poppins", sans-serif;
     font-size: 15px;
     font-weight: 700;
@@ -2389,7 +2389,7 @@ body.version-two .blog-nag-margin {
     bottom: 0;
     width: calc(100% - 30px);
     height: 2px;
-    background-color: #279e64
+    background-color: #50C2C3
 }
 
 .about-section .video-text .watch-video-link::before {
@@ -2438,7 +2438,7 @@ body.version-two .blog-nag-margin {
     width: 60px;
     border-radius: 50%;
     background-color: #fff;
-    color: #279e64;
+    color: #50C2C3;
     line-height: 60px;
     text-align: center
 }
@@ -2583,7 +2583,7 @@ body.version-two .blog-nag-margin {
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    color: #279e64
+    color: #50C2C3
 }
 
 .about-section-two .about-text .chart-list .single-chart .chart-desc {
@@ -2744,7 +2744,7 @@ body.version-two .blog-nag-margin {
 }
 
 .single-service.active .service-content {
-    background-color: #279e64
+    background-color: #50C2C3
 }
 
 .single-service.active .service-content p,
@@ -2783,7 +2783,7 @@ body.version-two .blog-nag-margin {
 
 .single-service-two:hover .service-link,
 .single-service-two:hover h4 a {
-    color: #279e64
+    color: #50C2C3
 }
 
 .service-details-wrap .details-content .title {
@@ -2834,7 +2834,7 @@ body.version-two .blog-nag-margin {
     width: 60px;
     text-align: center;
     line-height: 60px;
-    background-color: #279e64;
+    background-color: #50C2C3;
     color: #fff;
     font-size: 24px;
     border-radius: 50%
@@ -2917,7 +2917,7 @@ body.version-two .blog-nag-margin {
     width: 60px;
     border-radius: 50%;
     background-color: #fff;
-    color: #279e64;
+    color: #50C2C3;
     line-height: 60px;
     text-align: center
 }
@@ -3004,7 +3004,7 @@ body.version-two .blog-nag-margin {
     bottom: 0;
     width: 40px;
     height: 3px;
-    background-color: #279e64;
+    background-color: #50C2C3;
     content: ''
 }
 
@@ -3028,7 +3028,7 @@ body.version-two .blog-nag-margin {
 }
 
 .service-details-wrap .service-sidebar .widget.services-widget ul li a:hover {
-    color: #279e64
+    color: #50C2C3
 }
 
 .service-details-wrap .service-sidebar .widget.services-widget ul li i {
@@ -3083,7 +3083,7 @@ body.version-two .blog-nag-margin {
 }
 
 .service-details-wrap .service-sidebar .widget.about-widget ul li a:hover {
-    color: #279e64
+    color: #50C2C3
 }
 
 .experience-section {
@@ -3092,7 +3092,7 @@ body.version-two .blog-nag-margin {
 }
 
 .experience-section .experience-inner {
-    background-color: #279e64;
+    background-color: #50C2C3;
     position: relative;
     z-index: 1
 }
@@ -3247,7 +3247,7 @@ body.version-two .blog-nag-margin {
     height: 60px;
     width: 60px;
     background-color: #fff;
-    color: #279e64;
+    color: #50C2C3;
     text-align: center;
     line-height: 60px;
     font-size: 40px;
@@ -3333,7 +3333,7 @@ body.version-two .blog-nag-margin {
     width: 80px;
     border-radius: 50%;
     background-color: #fff;
-    color: #279e64;
+    color: #50C2C3;
     line-height: 80px;
     text-align: center
 }
@@ -3431,7 +3431,7 @@ body.version-two .blog-nag-margin {
     top: 10px;
     height: 60px;
     width: 60px;
-    background-color: #279e64;
+    background-color: #50C2C3;
     color: #fff;
     text-align: center;
     line-height: 60px;
@@ -3445,7 +3445,7 @@ body.version-two .blog-nag-margin {
     top: 0;
     height: 60px;
     width: 60px;
-    background-color: #279e64;
+    background-color: #50C2C3;
     opacity: 0.22;
     content: ''
 }
@@ -3524,7 +3524,7 @@ body.version-two .blog-nag-margin {
 
 .single-member-box .team-content .team-post {
     font-size: 16px;
-    color: #279e64;
+    color: #50C2C3;
     font-weight: 700;
     line-height: 1
 }
@@ -3550,7 +3550,7 @@ body.version-two .blog-nag-margin {
     border-radius: 50%;
     display: block;
     background-color: #e9f5ef;
-    color: #279e64;
+    color: #50C2C3;
     line-height: 35px;
     font-size: 13px;
     margin: 0px 5px;
@@ -3559,7 +3559,7 @@ body.version-two .blog-nag-margin {
 }
 
 .single-member-box .team-content .social-icons li a:hover {
-    background-color: #279e64;
+    background-color: #50C2C3;
     color: #fff
 }
 
@@ -3626,7 +3626,7 @@ body.version-two .blog-nag-margin {
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-size: 15px;
-    color: #279e64;
+    color: #50C2C3;
     margin-top: 20px;
     display: inline-block;
     position: relative;
@@ -3638,7 +3638,7 @@ body.version-two .blog-nag-margin {
     left: 0;
     width: 100%;
     height: 2px;
-    background-color: #279e64;
+    background-color: #50C2C3;
     content: '';
     bottom: 0
 }
@@ -3682,7 +3682,7 @@ body.version-two .blog-nag-margin {
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: #279e64;
+    background-color: #50C2C3;
     content: ''
 }
 
@@ -3798,7 +3798,7 @@ body.version-two .blog-nag-margin {
 
 .project-filter ul li.active,
 .project-filter ul li:hover {
-    color: #279e64
+    color: #50C2C3
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -3876,7 +3876,7 @@ body.version-two .blog-nag-margin {
     width: 60px;
     text-align: center;
     line-height: 60px;
-    background-color: #279e64;
+    background-color: #50C2C3;
     color: #fff;
     font-size: 24px;
     border-radius: 50%
@@ -3953,7 +3953,7 @@ body.version-two .blog-nag-margin {
     width: 60px;
     border-radius: 50%;
     background-color: #fff;
-    color: #279e64;
+    color: #50C2C3;
     line-height: 60px;
     text-align: center
 }
@@ -4022,7 +4022,7 @@ body.version-two .blog-nag-margin {
     height: 4px;
     width: 100%;
     content: '';
-    background-color: #279e64
+    background-color: #50C2C3
 }
 
 .project-details-wrap .project-sidebar .widget .widget-title {
@@ -4051,7 +4051,7 @@ body.version-two .blog-nag-margin {
     bottom: 0;
     width: 58px;
     height: 3px;
-    background-color: #279e64;
+    background-color: #50C2C3;
     content: ''
 }
 
@@ -4319,7 +4319,7 @@ body.version-two .blog-nag-margin {
     height: 150px;
     width: 150px;
     text-align: center;
-    color: #279e64;
+    color: #50C2C3;
     font-size: 30px;
     line-height: 150px;
     background-color: #fff;
@@ -4770,7 +4770,7 @@ body.version-two .blog-nag-margin {
     transform: rotate(0);
     height: auto;
     width: auto;
-    color: #279e64;
+    color: #50C2C3;
     line-height: 75px;
     top: 0;
     margin-top: 0;
@@ -4824,7 +4824,7 @@ body.version-two .blog-nag-margin {
 .appointment-section .appointment-form form .input-group span.icon {
     position: absolute;
     right: 30px;
-    color: #279e64;
+    color: #50C2C3;
     top: 50%;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%)
@@ -4854,7 +4854,7 @@ body.version-two .blog-nag-margin {
 }
 
 .appointment-section-two .form-title {
-    background-color: #279e64;
+    background-color: #50C2C3;
     padding: 30px 0
 }
 
@@ -4990,7 +4990,7 @@ body.version-two .blog-nag-margin {
     transform: rotate(0);
     height: auto;
     width: auto;
-    color: #279e64;
+    color: #50C2C3;
     line-height: 75px;
     top: 0;
     margin-top: 0;
@@ -5050,7 +5050,7 @@ body.version-two .blog-nag-margin {
 .appointment-section-two .appointment-form form .input-group span.icon {
     position: absolute;
     right: 30px;
-    color: #279e64;
+    color: #50C2C3;
     top: 50%;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%)
@@ -5069,7 +5069,7 @@ body.version-two .blog-nag-margin {
 
 .testimonial-section {
     position: relative;
-    background-color: #279e64;
+    background-color: #50C2C3;
     z-index: 1;
     padding-top: 100px;
     padding-bottom: 230px
@@ -5282,7 +5282,7 @@ body.version-two .blog-nag-margin {
 }
 
 .testimonial-section.style-two .section-title p.title-tag {
-    color: #279e64
+    color: #50C2C3
 }
 
 .testimonial-section.style-two .section-title h2 {
@@ -5295,7 +5295,7 @@ body.version-two .blog-nag-margin {
 
 .testimonial-section.style-two .section-title p.title-tag::before,
 .testimonial-section.style-two .section-title p.title-tag::after {
-    background-color: #279e64
+    background-color: #50C2C3
 }
 
 .testimonial-section.style-two .single-testimonial .testimonial-author h4 {
@@ -5303,7 +5303,7 @@ body.version-two .blog-nag-margin {
 }
 
 .testimonial-section.style-two .single-testimonial .testimonial-author .author-pro {
-    color: #279e64
+    color: #50C2C3
 }
 
 .testimonial-section.style-two .single-testimonial .author-img {
@@ -5317,11 +5317,11 @@ body.version-two .blog-nag-margin {
 }
 
 .testimonial-section.style-two ul.slick-dots li button {
-    border-color: #279e64
+    border-color: #50C2C3
 }
 
 .testimonial-section.style-two ul.slick-dots li.slick-active button {
-    background: #279e64
+    background: #50C2C3
 }
 
 .single-latest-post {
@@ -5431,12 +5431,12 @@ body.version-two .blog-nag-margin {
 }
 
 .single-latest-post .post-content h4 a:hover {
-    color: #279e64
+    color: #50C2C3
 }
 
 .brand-section {
     position: relative;
-    background-color: #279e64;
+    background-color: #50C2C3;
     padding: 90px 0
 }
 
@@ -5693,7 +5693,7 @@ body.version-two .blog-nag-margin {
     line-height: 1;
     font-weight: 300;
     font-family: "Poppins", sans-serif;
-    color: #279e64;
+    color: #50C2C3;
     padding-left: 30px
 }
 
@@ -5710,7 +5710,7 @@ body.version-two .blog-nag-margin {
     font-size: 40px;
     line-height: 1;
     content: '$';
-    color: #279e64;
+    color: #50C2C3;
     -webkit-transition: all .3s ease-out 0s;
     transition: all .3s ease-out 0s
 }
@@ -5720,7 +5720,7 @@ body.version-two .blog-nag-margin {
 }
 
 .pricing-box .main-btn:hover {
-    color: #279e64
+    color: #50C2C3
 }
 
 .pricing-box .pricing-icon {
@@ -5736,7 +5736,7 @@ body.version-two .blog-nag-margin {
 }
 
 .pricing-box.active {
-    background-color: #279e64
+    background-color: #50C2C3
 }
 
 .pricing-box.active .pricing-title,
@@ -5748,7 +5748,7 @@ body.version-two .blog-nag-margin {
 
 .pricing-box.active .main-btn {
     background-color: #fff;
-    color: #279e64
+    color: #50C2C3
 }
 
 .pricing-boxes {
@@ -5821,8 +5821,8 @@ body.version-two .blog-nag-margin {
 }
 
 .faq-wrap .faq-accordion .card .card-header button.active-accordion {
-    border-color: #279e64;
-    color: #279e64
+    border-color: #50C2C3;
+    color: #50C2C3
 }
 
 .faq-wrap .faq-accordion .card .card-header button.active-accordion .close-icon {
@@ -5881,7 +5881,7 @@ body.version-two .blog-nag-margin {
     bottom: 0;
     width: 58px;
     height: 3px;
-    background-color: #279e64;
+    background-color: #50C2C3;
     content: ''
 }
 
@@ -5973,7 +5973,7 @@ body.version-two .blog-nag-margin {
 
 .contact-info-boxes .info-box .icon {
     font-size: 50px;
-    color: #279e64;
+    color: #50C2C3;
     position: absolute;
     left: 0;
     top: 0;
@@ -6031,8 +6031,8 @@ body.version-two .blog-nag-margin {
 
 .contact-form input:focus,
 .contact-form textarea:focus {
-    border-color: #279e64;
-    color: #279e64
+    border-color: #50C2C3;
+    color: #50C2C3
 }
 
 .contact-form input,
@@ -6164,12 +6164,12 @@ body.version-two .blog-nag-margin {
 }
 
 .single-blog-post .main-btn:hover {
-    background-color: #279e64;
+    background-color: #50C2C3;
     color: #fff
 }
 
 .single-blog-post.quote-post {
-    background-color: #279e64;
+    background-color: #50C2C3;
     padding: 60px 50px 60px 60px;
     position: relative;
     z-index: -1
@@ -6308,7 +6308,7 @@ body.version-two .blog-nag-margin {
 .blog-sidebar .widget::before {
     position: absolute;
     content: '';
-    background-color: #279e64;
+    background-color: #50C2C3;
     left: 75px;
     right: 75px;
     height: 3px;
@@ -6329,7 +6329,7 @@ body.version-two .blog-nag-margin {
     width: 40px;
     height: 3px;
     content: '';
-    background-color: #279e64
+    background-color: #50C2C3
 }
 
 .blog-sidebar .widget.search-widget {
@@ -6352,7 +6352,7 @@ body.version-two .blog-nag-margin {
 .blog-sidebar .widget.search-widget form button {
     border: none;
     background-color: transparent;
-    color: #279e64;
+    color: #50C2C3;
     top: 50%;
     right: 30px;
     -webkit-transform: translateY(-50%);
@@ -6378,7 +6378,7 @@ body.version-two .blog-nag-margin {
 }
 
 .blog-sidebar .widget.category-widget ul li a:hover {
-    color: #279e64
+    color: #50C2C3
 }
 
 .blog-sidebar .widget.category-widget ul li i {
@@ -6468,7 +6468,7 @@ body.version-two .blog-nag-margin {
 }
 
 .blog-sidebar .widget.recent-post-widget ul li h6 a:hover {
-    color: #279e64
+    color: #50C2C3
 }
 
 .blog-sidebar .widget.recent-post-widget ul li span.date {
@@ -6511,7 +6511,7 @@ body.version-two .blog-nag-margin {
 }
 
 .blog-sidebar .widget.tag-widget ul li a:hover {
-    background-color: #279e64;
+    background-color: #50C2C3;
     color: #fff
 }
 
@@ -6623,14 +6623,14 @@ body.version-two .blog-nag-margin {
     right: auto;
     width: 5px;
     content: '';
-    background-color: #279e64
+    background-color: #50C2C3
 }
 
 .blog-details-wrap .post-content blockquote span {
     font-size: 16px;
     font-weight: 700;
     font-family: "Heebo", sans-serif;
-    color: #279e64;
+    color: #50C2C3;
     display: block;
     padding-top: 20px;
     line-height: 1
@@ -6688,7 +6688,7 @@ body.version-two .blog-nag-margin {
 }
 
 .blog-details-wrap .post-content .social-share li a:hover {
-    background-color: #279e64;
+    background-color: #50C2C3;
     color: #fff
 }
 
@@ -6843,7 +6843,7 @@ body.version-two .blog-nag-margin {
 }
 
 .blog-details-wrap .post-author .about-author .social-link li a:hover {
-    background-color: #279e64;
+    background-color: #50C2C3;
     color: #fff
 }
 
@@ -6871,7 +6871,7 @@ body.version-two .blog-nag-margin {
     height: 3px;
     width: 45px;
     content: '';
-    background-color: #279e64
+    background-color: #50C2C3
 }
 
 .blog-details-wrap .comments-area .comments-list {
@@ -6964,11 +6964,11 @@ body.version-two .blog-nag-margin {
     margin-left: 10px;
     visibility: hidden;
     opacity: 0;
-    color: #279e64
+    color: #50C2C3
 }
 
 .blog-details-wrap .comments-area .comments-list li .comment-desc .reply-links:hover {
-    color: #279e64
+    color: #50C2C3
 }
 
 .blog-details-wrap .comments-area .comments-list li .comment-desc .reply-links:hover i {
@@ -7050,7 +7050,7 @@ body.version-two .blog-nag-margin {
 .blog-details-wrap .comments-area form .input-group span.icon {
     position: absolute;
     right: 30px;
-    color: #279e64;
+    color: #50C2C3;
     top: 50%;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%)
@@ -7061,7 +7061,7 @@ body.version-two .blog-nag-margin {
 }
 
 .blog-details-wrap .comments-area form .main-btn:hover {
-    background-color: #279e64;
+    background-color: #50C2C3;
     color: #fff
 }
 
@@ -7155,7 +7155,7 @@ footer .footer-widget-area .widget.nav-widget ul li a i {
 }
 
 footer .footer-widget-area .widget.nav-widget ul li a:hover {
-    color: #279e64
+    color: #50C2C3
 }
 
 footer .footer-widget-area .widget .contact-info h3 {
@@ -7185,7 +7185,7 @@ footer .footer-widget-area .widget .contact-info ul li {
 }
 
 footer .footer-widget-area .widget .contact-info ul li i {
-    color: #279e64;
+    color: #50C2C3;
     margin-right: 10px
 }
 
@@ -7301,7 +7301,7 @@ footer .subscribe-form .subs-inner form::placeholder {
 footer .subscribe-form .subs-inner form button {
     height: 80px;
     width: 100%;
-    background-color: #279e64;
+    background-color: #50C2C3;
     color: #fff;
     border: none;
     font-size: 15px;
@@ -7387,7 +7387,7 @@ footer .footer-nav ul li a i {
 
 footer .footer-nav ul li.active a,
 footer .footer-nav ul li:hover a {
-    color: #279e64
+    color: #50C2C3
 }
 
 footer::after {
@@ -7433,7 +7433,7 @@ footer.footer-two::after {
     top: 0;
     right: 24px;
     color: #ffffff;
-    background-color: #279e64;
+    background-color: #50C2C3;
     z-index: 9999;
     width: 40px;
     text-align: center;
@@ -7473,7 +7473,7 @@ footer.footer-two::after {
     width: 100%;
     height: 100%;
     z-index: -1;
-    background-color: #279e64;
+    background-color: #50C2C3;
     opacity: 0;
     visibility: hidden;
     -webkit-transition: all .5s ease-out 0s;
@@ -7540,7 +7540,7 @@ footer.footer-two::after {
     color: #fff;
     top: 3px;
     z-index: 1;
-    background: #279e64
+    background: #50C2C3
 }
 
 .go-top-wrap .go-top-btn i {
@@ -7561,7 +7561,7 @@ footer.footer-two::after {
     -webkit-animation: ripple 1.6s ease-out infinite;
     animation: ripple 1.6s ease-out infinite;
     opacity: 0;
-    background: #279e64
+    background: #50C2C3
 }
 
 .go-top-wrap .go-top-btn:hover {

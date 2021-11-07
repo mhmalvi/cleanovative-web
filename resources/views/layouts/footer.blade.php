@@ -3,9 +3,9 @@
     <div class="footer-widget-area pt-80 pb-40">
         <div class="container">
             <div class="row">
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-3 col-md-6 d-flex justify-content-center align-items-center">
                     <div class="footer-logo mb-40">
-                        <img src="assets/img/footer-logo.png" alt="Safem">
+                        <img src="{{asset('images/logos/logo01.png')}}" alt="Safem">
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
