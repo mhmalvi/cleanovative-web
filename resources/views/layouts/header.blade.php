@@ -1,6 +1,9 @@
 <header class="header-area">
-    <div class="welome-text">
-        <p>Welcome to Saafy. Professional Cleaning Service Comapny</p>
+    <div class="container">
+        <div class="welome-text">
+            <p>Email: example@email.com</p>
+            <p>Contact: +2635112344</p>
+        </div>
     </div>
     <div class="header-nav">
         <div class="container">
@@ -8,11 +11,11 @@
                 <div class="col-lg-12">
                     <div class="navigation">
                         <nav class="navbar navbar-expand-lg">
-                            <a class="navbar-brand logo-mt-neg main-logo" href="index.html">
-                                <img src="{{asset('assets/img/logo.png')}}" alt="Safem" />
+                            <a class="navbar-brand logo-mt-neg main-logo" href="{{URL::to('/')}}">
+                                <img src="{{asset('images/logos/logo01.png')}}" alt="Safem" />
                             </a>
-                            <a class="navbar-brand sticky-logo" href="index.html">
-                                <img src="{{asset('assets/img/footer-logo-2.png')}}" alt="Safem">
+                            <a class="navbar-brand sticky-logo" href="{{URL::to('/')}}">
+                                <img src="{{asset('images/logos/logo02.png')}}" alt="Safem">
                             </a>
                             <!-- logo -->
                             <button class="navbar-toggler" type="button" data-toggle="collapse"

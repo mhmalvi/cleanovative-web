@@ -10,6 +10,8 @@
 
     @include('components.home.about_section')
 
+    @include('components.home.services')
+
     @include('components.home.team')
 
     @include('components.home.projects')

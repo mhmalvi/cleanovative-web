@@ -5,7 +5,7 @@
         <div class="row align-items-center justify-content-between">
             <div class="col-lg-6 wow fadeInLeft" data-wow-delay=".3s">
                 <div class="about-img text-center">
-                    <img src="assets/img/about-img.jpg" alt="Image">
+                    <img src="{{asset('images/about-img.jpg')}}" alt="Image">
                 </div>
             </div>
             <div class="col-lg-6 wow fadeInRight" data-wow-delay=".5s">
@@ -40,7 +40,7 @@
             </div>
             <div class=" col-lg-6 wow fadeInRight" data-wow-delay=".5s">
                 <div class="video-wrap">
-                    <div class="video-bg bg-cover" style="background-image: url(assets/img/video-thumb.jpg);">
+                    <div class="video-bg bg-cover" style="background-image: url({{asset('images/video-thumb.jpg')}});">
                         <a href="https://www.youtube.com/watch?v=JP-PTke2x8w" class="popup-video"><i
                                 class="fas fa-play"></i></a>
                     </div>

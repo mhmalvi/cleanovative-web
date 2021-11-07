@@ -226,16 +226,16 @@ a:hover {
 .main-btn {
     display: inline-block;
     padding: 0 45px;
-    line-height: 65px;
+    line-height: 50px;
     font-size: 15px;
     font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    background-color: #ffc600;
-    color: #111111;
-    border-radius: 32px;
+    font-weight: 600;
+    background-color: #50C2C3;
+    color: #162E42;
+    border-radius: 3px;
     -webkit-transition: all .4s ease-out 0s;
     transition: all .4s ease-out 0s;
-    border: none
+    border: none;
 }
 
 .main-btn i {
@@ -244,7 +244,7 @@ a:hover {
 
 .main-btn:hover {
     background-color: #fff;
-    color: #111111
+    color: #162E42
 }
 
 .main-btn.main-btn-2 {
@@ -252,7 +252,7 @@ a:hover {
 }
 
 .main-btn.main-btn-2:hover {
-    background-color: #ffc600
+    background-color: #8CD3C6
 }
 
 .main-btn.main-btn-3:hover {
@@ -1661,11 +1661,11 @@ body.version-two .blog-nag-margin {
     z-index: 9;
     height: 60px;
     width: 60px;
-    background: #ffc600;
+    background: #8CD3C6;
     text-align: center;
     line-height: 60px;
     border-radius: 50%;
-    color: #111111;
+    color: #162E42;
     font-size: 18px;
     cursor: pointer;
     -webkit-transition: all .3s ease-out 0s;
@@ -1876,8 +1876,8 @@ body.version-two .blog-nag-margin {
 
 .hero-section-two .single-hero-slider .hero-content h1 span span.first-letter {
     display: inline-block;
-    background-color: #ffc600;
-    color: #111111;
+    background-color: #8CD3C6;
+    color: #162E42;
     border-radius: 0 25px 25px 25px;
     line-height: 1;
     padding: 5px 10px;
@@ -1989,7 +1989,7 @@ body.version-two .blog-nag-margin {
 }
 
 .hero-section-two .slider-arrow .slick-arrow:hover {
-    background-color: #ffc600;
+    background-color: #8CD3C6;
     color: #000;
     border-color: transparent
 }
@@ -2700,8 +2700,8 @@ body.version-two .blog-nag-margin {
     line-height: 70px;
     text-align: center;
     font-size: 30px;
-    color: #111111;
-    background-color: #ffc600;
+    color: #162E42;
+    background-color: #8CD3C6;
     border-radius: 50%;
     -webkit-box-shadow: 0px 10px 30px 0px rgba(255, 198, 0, 0.57);
     box-shadow: 0px 10px 30px 0px rgba(255, 198, 0, 0.57);
@@ -4375,7 +4375,7 @@ body.version-two .blog-nag-margin {
 
 .cta-section .cta-inner {
     position: relative;
-    background-color: #ffc600;
+    background-color: #8CD3C6;
     padding: 120px 0;
     z-index: 1;
     text-align: center
@@ -4416,7 +4416,7 @@ body.version-two .blog-nag-margin {
 .cta-section .cta-inner .cta-text span {
     font-size: 18px;
     font-weight: 700;
-    color: #111111;
+    color: #162E42;
     padding-bottom: 20px
 }
 
@@ -4437,7 +4437,7 @@ body.version-two .blog-nag-margin {
 .cta-section .cta-inner .cta-text h1 {
     font-size: 60px;
     font-weight: 600;
-    color: #111111;
+    color: #162E42;
     line-height: 70px
 }
 
@@ -4657,7 +4657,7 @@ body.version-two .blog-nag-margin {
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-size: 15px;
-    color: #ffc600;
+    color: #8CD3C6;
     margin-top: 30px;
     display: inline-block;
     position: relative;
@@ -4669,7 +4669,7 @@ body.version-two .blog-nag-margin {
     left: 0;
     width: 100%;
     height: 2px;
-    background-color: #ffc600;
+    background-color: #8CD3C6;
     content: '';
     bottom: 0
 }
@@ -5207,7 +5207,7 @@ body.version-two .blog-nag-margin {
 .testimonial-section .single-testimonial .testimonial-content .rating li {
     display: inline-block;
     margin-right: 6px;
-    color: #ffc600
+    color: #8CD3C6
 }
 
 .testimonial-section .single-testimonial .author-img {
@@ -5365,8 +5365,8 @@ body.version-two .blog-nag-margin {
     line-height: 70px;
     text-align: center;
     font-size: 30px;
-    color: #111111;
-    background-color: #ffc600;
+    color: #162E42;
+    background-color: #8CD3C6;
     border-radius: 50%;
     -webkit-box-shadow: 0px 10px 30px 0px rgba(255, 198, 0, 0.57);
     box-shadow: 0px 10px 30px 0px rgba(255, 198, 0, 0.57);
@@ -6282,8 +6282,8 @@ body.version-two .blog-nag-margin {
 .pagination-wrap ul li a:hover {
     -webkit-box-shadow: 0px 10px 49.5px 0.5px rgba(255, 198, 0, 0.78);
     box-shadow: 0px 10px 49.5px 0.5px rgba(255, 198, 0, 0.78);
-    background-color: #ffc600;
-    color: #111111
+    background-color: #8CD3C6;
+    color: #162E42
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -7225,7 +7225,7 @@ footer .footer-widget-area .widget.instagram-widget .insta-loop {
 
 footer .subscribe-form .subs-inner {
     padding: 30px;
-    background-color: #ffc600
+    background-color: #8CD3C6
 }
 
 footer .subscribe-form .subs-inner form input {

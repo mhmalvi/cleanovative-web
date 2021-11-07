@@ -1,5 +1,5 @@
 <!--====== SERVICE PART START ======-->
-<section class="service-section" style="background-image: url(assets/img/service-bg.png);">
+<section class="service-section" style="background-image: url({{asset('images/service-bg.png')}});">
     <div class="container">
         <div class="section-title white-color text-center both-border mb-50">
             <h2>We Provide Best Offer For <br>

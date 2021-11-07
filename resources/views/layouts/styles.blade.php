@@ -16,3 +16,4 @@
 <link rel="stylesheet" href="{{asset('assets/css/default.css')}}" />
 <!--====== Style css ======-->
 <link rel="stylesheet" href="{{asset('assets/css/style.min.css')}}" />
+<link rel="stylesheet" href="{{asset('css/custom.css')}}" />
