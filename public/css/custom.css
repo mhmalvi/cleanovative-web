@@ -20,6 +20,11 @@
 
 .slider-title{
     font-size: 48px !important;
+    color: var(--main) !important;
+}
+
+.promo-text{
+    color: #2d2d2d !important;
 }
 
 .main-logo img{
