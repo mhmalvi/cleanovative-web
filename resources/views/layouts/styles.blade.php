@@ -1,0 +1,18 @@
+<!--====== Animate Css ======-->
+<link rel="stylesheet" href="{{asset('assets/css/animate.min.css')}}">
+<!--====== Bootstrap css ======-->
+<link rel="stylesheet" href="{{asset('assets/css/bootstrap.min.css')}}" />
+<!--====== Fontawesome css ======-->
+<link rel="stylesheet" href="{{asset('assets/css/font-awesome.min.css')}}" />
+<!--====== flaticon css ======-->
+<link rel="stylesheet" href="{{asset('assets/css/flaticon.css')}}" />
+<!--====== nice select css ======-->
+<link rel="stylesheet" href="{{asset('assets/css/nice-select.css')}}" />
+<!--====== Magnific Popup css ======-->
+<link rel="stylesheet" href="{{asset('assets/css/magnific-popup.css')}}" />
+<!--====== Owl Carousel css ======-->
+<link rel="stylesheet" href="{{asset('assets/css/slick.css')}}" />
+<!--====== Default css ======-->
+<link rel="stylesheet" href="{{asset('assets/css/default.css')}}" />
+<!--====== Style css ======-->
+<link rel="stylesheet" href="{{asset('assets/css/style.min.css')}}" />
