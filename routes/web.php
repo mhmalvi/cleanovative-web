@@ -18,3 +18,7 @@ Route::view('/', 'pages.home')->name('home');
 Route::view('services', 'pages.services')->name('services');
 
 Route::view('service_details', 'pages.service_details')->name('service_details');
+
+Route::view('about_us', 'pages.about_us')->name('about_us');
+
+Route::view('faq', 'pages.faq')->name('faq');

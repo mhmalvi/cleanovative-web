@@ -28,7 +28,7 @@
                                 <ul class="navbar-nav m-auto">
                                     <li class="nav-item active">
                                         <a class="nav-link" href="{{ route('home') }}">
-                                            Home
+                                            Cleanovative
                                         </a>
                                     </li>
                                     <li class="nav-item">
@@ -55,35 +55,14 @@
                                         </ul>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="blog.html">Pages
-                                            <i class="fal fa-plus"></i></a>
-                                        <ul class="sub-menu">
-
-                                            <li>
-                                                <a href="about.html">About Us </a>
-                                            </li>
-                                            <li>
-                                                <a href="team.html">Team Member </a>
-                                            </li>
-                                            <li>
-                                                <a href="pricing.html">Pricing Plan </a>
-                                            </li>
-                                            <li>
-                                                <a href="faq.html">FAQ </a>
-                                            </li>
-
-                                        </ul>
+                                        <a class="nav-link" href="{{ route('about_us') }}">
+                                            About Us
+                                        </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="blog.html">Blog
-                                            <i class="fal fa-plus"></i>
+                                        <a class="nav-link" href="{{ route('faq') }}">
+                                            FAQ
                                         </a>
-                                        <ul class="sub-menu">
-                                            <li>
-                                                <a href="blog.html">Blog</a>
-                                                <a href="blog-details.html">Blog Details</a>
-                                            </li>
-                                        </ul>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="contact.html">Contact
