@@ -16,7 +16,7 @@
 
     @include('components.testimonials')
 
-    @include('components.booking_steps')
+    @include('components.booking_steps', ['number' => '04'])
 
     @include('components.home.projects')
 

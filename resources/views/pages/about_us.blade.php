@@ -5,14 +5,14 @@
 @section('content')
 
     <!--====== BREADCRUMB PART START ======-->
-    <section class="breadcrumb-area" style="background-image: url(assets/img/breadcrumb.jpg);">
+    <section class="breadcrumb-area" style="background-image: url({{ asset('images/breadcrumb.jpg') }});">
         <div class="container">
             <div class="breadcrumb-text text-center">
-                <h1 class="page-title">About Us</h1>
+                <h1 class="page-title text-dark">About Us</h1>
                 <ul>
-                    <li><a href="{{ route('home') }}">Home</a></li>
-                    <li class="sep"><i class="fal fa-angle-double-right"></i></li>
-                    <li>About Us</li>
+                    <li><a class="text-dark" href="{{ route('home') }}">Home</a></li>
+                    <li class="sep text-dark"><i class="fal fa-angle-double-right"></i></li>
+                    <li class="text-dark">About Us</li>
                 </ul>
             </div>
         </div>
@@ -25,7 +25,7 @@
             <div class="row align-items-center justify-content-between">
                 <div class="col-lg-6">
                     <div class="about-img text-center wow fadeInLeft" data-wow-delay=".3s">
-                        <img src="assets/img/about-img.jpg" alt="Image">
+                        <img src="{{ asset('images/about-img.jpg') }}" alt="Image">
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -70,59 +70,12 @@
         </div>
     </section>
     <!--====== ABOUT PART END ======-->
-    <!--====== SERVICE PART START ======-->
-    <section class="service-section-two pb-130">
-        <div class="container">
-            <div class="section-title text-center both-border mb-20">
-                <h2>We Offer Most Exclusive <br>
-                    Cleaning Services <span>02</span></h2>
-                <p class="title-tag">Company Services</p>
-            </div>
-            <!-- Service Loop -->
-            <div class="row service-loop-two">
-                <div class="col-xl-3 col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay=".3s">
-                    <div class="single-service-two text-center">
-                        <div class="service-img mb-40">
-                            <img src="assets/img/service-icon-1.png" alt="Icon">
-                        </div>
-                        <div class="service-content">'
-                            <h4><a href="service-details.html">House Cleaning</a></h4>
-                            <p>Sed ut perspiciatis unde omnis iste natus error voluptate accusa</p>
-                            <a href="#" class="service-link"><i class="fal fa-long-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 offset-xl-1 col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay=".4s">
-                    <div class="single-service-two text-center">
-                        <div class="service-img mb-40">
-                            <img src="assets/img/service-icon-2.png" alt="Icon">
-                        </div>
-                        <div class="service-content">'
-                            <h4><a href="service-details.html">Dress Cleaning</a></h4>
-                            <p>Consequuntur magni dolores eos qui ratione voluptatem sequi</p>
-                            <a href="#" class="service-link"><i class="fal fa-long-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 offset-xl-1 col-lg-4 mx-auto col-sm-6 wow fadeInUp" data-wow-delay=".5s">
-                    <div class="single-service-two text-center">
-                        <div class="service-img mb-40">
-                            <img src="assets/img/service-icon-3.png" alt="Icon">
-                        </div>
-                        <div class="service-content">'
-                            <h4><a href="service-details.html">Kitchen Cleaning</a></h4>
-                            <p>Totam rem aperia eaque ipsa quae abillo inventore veritatis quasi</p>
-                            <a href="#" class="service-link"><i class="fal fa-long-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--====== SERVICE PART END ======-->
+
+    @include('components.booking_steps', ['number' => '02'])
+
     <!--====== STATISTICS PART START ======-->
     <section class="statistics-section with-video bg-cover"
-        style="background-image: url(assets/img/counter-bg-2.jpg);">
+        style="background-image: url({{ asset('images/counter-bg-2.jpg') }});">
         <div class="container">
             <div class="video">
                 <a href="https://www.youtube.com/watch?v=JP-PTke2x8w" class="popup-video"><i
@@ -170,13 +123,14 @@
         </div>
     </section>
     <!--====== STATISTICS PART END ======-->
+
     <!--====== EXPERIENCE PART START ======-->
     <section class="experience-section-two pt-130 pb-130">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6 wow fadeInLeft" data-wow-delay=".3s">
                     <div class="experience-img text-center">
-                        <img src="assets/img/experience-3.jpg" alt="Image">
+                        <img src="{{ asset('images/experience-3.jpg') }}" alt="Image">
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInRight" data-wow-delay=".3s">
