@@ -13,7 +13,7 @@
                 <!-- Single Blog Post -->
                 <div class="single-latest-post">
                     <div class="post-thumb">
-                        <a href="blog-details.html">
+                        <a href="#">
                             <span class="thumb" style="background-image: url(assets/img/blog01.jpg);"></span>
                         </a>
                     </div>
@@ -25,7 +25,7 @@
                         <a href="#" class="published-date"><i class="far fa-calendar-alt"></i>20 Apr 2020</a>
                         <a href="#" class="comments"><i class="far fa-comments"></i>(05)</a>
                     </div>
-                    <a href="blog-details.html" class="post-link"><i class="fal fa-long-arrow-right"></i></a>
+                    <a href="#" class="post-link"><i class="fal fa-long-arrow-right"></i></a>
                 </div>
                 <!-- End Single Post -->
             </div>
@@ -33,7 +33,7 @@
                 <!-- Single Blog Post -->
                 <div class="single-latest-post">
                     <div class="post-thumb">
-                        <a href="blog-details.html">
+                        <a href="#">
                             <span class="thumb" style="background-image: url(assets/img/blog03.jpg);"></span>
                         </a>
                     </div>
@@ -44,7 +44,7 @@
                         <a href="#" class="published-date"><i class="far fa-calendar-alt"></i>20 Apr 2020</a>
                         <a href="#" class="comments"><i class="far fa-comments"></i>(05)</a>
                     </div>
-                    <a href="blog-details.html" class="post-link"><i class="fal fa-long-arrow-right"></i></a>
+                    <a href="#" class="post-link"><i class="fal fa-long-arrow-right"></i></a>
                 </div>
                 <!-- End Single Post -->
             </div>
@@ -52,7 +52,7 @@
                 <!-- Single Blog Post -->
                 <div class="single-latest-post">
                     <div class="post-thumb">
-                        <a href="blog-details.html">
+                        <a href="#">
                             <span class="thumb" style="background-image: url(assets/img/blog02.jpg);"></span>
                         </a>
                     </div>
@@ -63,7 +63,7 @@
                         <a href="#" class="published-date"><i class="far fa-calendar-alt"></i>20 Apr 2020</a>
                         <a href="#" class="comments"><i class="far fa-comments"></i>(05)</a>
                     </div>
-                    <a href="blog-details.html" class="post-link"><i class="fal fa-long-arrow-right"></i></a>
+                    <a href="#" class="post-link"><i class="fal fa-long-arrow-right"></i></a>
                 </div>
                 <!-- End Single Post -->
             </div>

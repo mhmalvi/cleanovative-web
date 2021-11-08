@@ -4,7 +4,7 @@
         <div class="breadcrumb-text text-center">
             <h1 class="page-title text-dark">Service Details</h1>
             <ul>
-                <li><a class="text-dark" href="index.html">Home</a></li>
+                <li><a class="text-dark" href="{{ route('home') }}">Home</a></li>
                 <li class="sep"><i class="text-dark fal fa-angle-double-right"></i></li>
                 <li class="text-dark">Service Details</li>
             </ul>

@@ -14,7 +14,7 @@
                         <img src="assets/img/service-icon-1.png" alt="Icon">
                     </div>
                     <div class="service-content">'
-                        <h4><a href="service-details.html">House Cleaning</a></h4>
+                        <h4><a href="{{ route('services') }}">House Cleaning</a></h4>
                         <p>Sed ut perspiciatis unde omnis iste natus error voluptate accusa</p>
                         <a href="#" class="service-link"><i class="fal fa-long-arrow-right"></i></a>
                     </div>
@@ -26,7 +26,7 @@
                         <img src="assets/img/service-icon-2.png" alt="Icon">
                     </div>
                     <div class="service-content">'
-                        <h4><a href="service-details.html">Dress Cleaning</a></h4>
+                        <h4><a href="{{ route('services') }}">Dress Cleaning</a></h4>
                         <p>Consequuntur magni dolores eos qui ratione voluptatem sequi</p>
                         <a href="#" class="service-link"><i class="fal fa-long-arrow-right"></i></a>
                     </div>
@@ -38,7 +38,7 @@
                         <img src="assets/img/service-icon-3.png" alt="Icon">
                     </div>
                     <div class="service-content">'
-                        <h4><a href="service-details.html">Kitchen Cleaning</a></h4>
+                        <h4><a href="{{ route('services') }}">Kitchen Cleaning</a></h4>
                         <p>Totam rem aperia eaque ipsa quae abillo inventore veritatis quasi</p>
                         <a href="#" class="service-link"><i class="fal fa-long-arrow-right"></i></a>
                     </div>
@@ -50,7 +50,7 @@
                         <img src="assets/img/service-icon-4.png" alt="Icon">
                     </div>
                     <div class="service-content">'
-                        <h4><a href="service-details.html">Ofice Cleaning</a></h4>
+                        <h4><a href="{{ route('services') }}">Ofice Cleaning</a></h4>
                         <p>Noma ut perspiciatis unde omnis iste natus error voluptate</p>
                         <a href="#" class="service-link"><i class="fal fa-long-arrow-right"></i></a>
                     </div>
@@ -74,7 +74,7 @@
                         <img src="assets/img/service-icon-6.png" alt="Icon">
                     </div>
                     <div class="service-content">'
-                        <h4><a href="service-details.html">Road Cleaning</a></h4>
+                        <h4><a href="{{ route('services') }}">Road Cleaning</a></h4>
                         <p>Hokila ut perspiciatis unde omnis iste natus error voluptate</p>
                         <a href="#" class="service-link"><i class="fal fa-long-arrow-right"></i></a>
                     </div>

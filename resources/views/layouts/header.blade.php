@@ -125,7 +125,7 @@
                             </div>
                             <!-- navbar collapse -->
                             <div class="navbar-btn d-none d-sm-block">
-                                <a class="main-btn" href="#">Get a Quote <i class="fal fa-plus"></i></a>
+                                <a class="main-btn text-light" href="#">Become a Cleaner <i class="fal fa-plus"></i></a>
                             </div>
                         </nav>
                     </div>

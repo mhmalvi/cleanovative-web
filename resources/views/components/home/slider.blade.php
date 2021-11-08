@@ -10,8 +10,8 @@
                     <h1 class="slider-title">Sydney’s No 1 rated <br><span>trusted cleaners for your home</span>
                     </h1>
                     <div class="btn-wrap">
-                        <a class="main-btn" href="contact.html">Quote Me<i class="fal fa-plus"></i></a>
-                        <a class="main-btn main-btn-2" href="services.html">Book online<i
+                        <a class="main-btn" href="{{ route('contact') }}">Quote Me<i class="fal fa-plus"></i></a>
+                        <a class="main-btn main-btn-2" href="{{ route('services') }}">Book online<i
                                 class="fal fa-plus"></i></a>
                     </div>
                 </div>
@@ -25,8 +25,8 @@
                     </span>
                     <h1 class="slider-title"><span>The Only Choice of</span> Commercial Cleaners</h1>
                     <div class="btn-wrap">
-                        <a class="main-btn" href="contact.html">Contact Us<i class="fal fa-plus"></i></a>
-                        <a class="main-btn main-btn-2" href="services.html">Quote Me<i
+                        <a class="main-btn" href="{{ route('contact') }}">Contact Us<i class="fal fa-plus"></i></a>
+                        <a class="main-btn main-btn-2" href="{{ route('services') }}">Quote Me<i
                                 class="fal fa-plus"></i></a>
                     </div>
                 </div>
