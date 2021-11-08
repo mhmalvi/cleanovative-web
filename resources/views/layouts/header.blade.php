@@ -1,8 +1,44 @@
 <header class="header-area">
-    <div class="container">
+    <div class="container welcome">
         <div class="welome-text">
-            <p>Email: example@email.com</p>
-            <p>Contact: +2635112344</p>
+            <ul class="top-list">
+                <li>
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>
+                        105/26 Cairds Avenue , Bankstown , 2200
+                    </span>
+                </li>
+                <li>
+                    <i class="fas fa-mobile-alt"></i>
+                    <span>
+                        042 445 5451
+                    </span>
+                </li>
+                <li>
+                    <i class="far fa-clock"></i>
+                    <span>
+                        07.00 am - 07.00 pm
+                    </span>
+                </li>
+            </ul>
+
+            <ul>
+                <li>
+                    <a href="">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+            </ul>
         </div>
     </div>
     <div class="header-nav">
@@ -11,11 +47,11 @@
                 <div class="col-lg-12">
                     <div class="navigation">
                         <nav class="navbar navbar-expand-lg">
-                            <a class="navbar-brand logo-mt-neg main-logo" href="{{URL::to('/')}}">
-                                <img src="{{asset('images/logos/logo01.png')}}" alt="Safem" />
+                            <a class="navbar-brand logo-mt-neg main-logo" href="{{ URL::to('/') }}">
+                                <img src="{{ asset('images/logos/logo01.png') }}" alt="Safem" />
                             </a>
-                            <a class="navbar-brand sticky-logo" href="{{URL::to('/')}}">
-                                <img src="{{asset('images/logos/logo02.png')}}" alt="Safem">
+                            <a class="navbar-brand sticky-logo" href="{{ URL::to('/') }}">
+                                <img src="{{ asset('images/logos/logo02.png') }}" alt="Safem">
                             </a>
                             <!-- logo -->
                             <button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -40,13 +76,20 @@
                                         </a>
                                         <ul class="sub-menu">
                                             <li>
-                                                <a href="{{ route('services.details', ['number' => '1']) }}">House-Residential Cleaning</a>
-                                                <a href="{{ route('services.details', ['number' => '2']) }}">End of Lease Cleaning</a>
-                                                <a href="{{ route('services.details', ['number' => '3']) }}">Office-Commercial Cleaning</a>
-                                                <a href="{{ route('services.details', ['number' => '4']) }}">Party-Event Cleaning</a>
-                                                <a href="{{ route('services.details', ['number' => '5']) }}">Construction Cleaning</a>
-                                                <a href="{{ route('services.details', ['number' => '6']) }}">Strata Cleaning</a>
-                                                <a href="{{ route('services.details', ['number' => '7']) }}">Other Commercial Cleaning</a>
+                                                <a href="{{ route('services.details', ['number' => '1']) }}">House-Residential
+                                                    Cleaning</a>
+                                                <a href="{{ route('services.details', ['number' => '2']) }}">End of
+                                                    Lease Cleaning</a>
+                                                <a href="{{ route('services.details', ['number' => '3']) }}">Office-Commercial
+                                                    Cleaning</a>
+                                                <a href="{{ route('services.details', ['number' => '4']) }}">Party-Event
+                                                    Cleaning</a>
+                                                <a href="{{ route('services.details', ['number' => '5']) }}">Construction
+                                                    Cleaning</a>
+                                                <a href="{{ route('services.details', ['number' => '6']) }}">Strata
+                                                    Cleaning</a>
+                                                <a href="{{ route('services.details', ['number' => '7']) }}">Other
+                                                    Commercial Cleaning</a>
                                             </li>
                                         </ul>
                                     </li>

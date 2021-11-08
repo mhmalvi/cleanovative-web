@@ -1,14 +1,31 @@
 :root {
-    --main: #162E42;
-    --second: #50C2C3;
-    --light: #EBF1F2;
+    --main: #162e42;
+    --second: #50c2c3;
+    --light: #ebf1f2;
+}
+.welome-text ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    overflow: hidden;
 }
 
-.header-area{
+.welome-text ul li {
+    float: left;
+    margin: 0px 15px;
+}
+
+.welome-text ul li a,
+span,
+i {
+    color: var(--light);
+}
+
+.header-area {
     background-color: var(--second) !important;
 }
 
-.header-area .welome-text{
+.header-area .welome-text {
     text-align: left !important;
     justify-content: space-between !important;
     background-color: transparent !important;
@@ -18,82 +35,128 @@
     margin: 10px 0px !important;
 }
 
-.slider-title{
+.slider-title {
     font-size: 48px !important;
     color: var(--main) !important;
 }
 
-.promo-text{
+.promo-text {
     color: #2d2d2d !important;
 }
 
-.main-logo img{
+.main-logo img {
     max-width: 130px !important;
 }
 
-.sticky-logo img{
+.sticky-logo img {
     max-width: 200px !important;
 }
 
-.header-area .header-nav.sticky{
+.header-area .header-nav.sticky {
     background-color: var(--light) !important;
 }
 
-.header-area .header-nav .navigation .navbar .navbar-nav .nav-item .nav-link{
+.header-area .header-nav .navigation .navbar .navbar-nav .nav-item .nav-link {
     color: var(--main) !important;
 }
 
-.header-area .header-nav .navigation .navbar .navbar-brand.logo-mt-neg{
+.header-area .header-nav .navigation .navbar .navbar-brand.logo-mt-neg {
     margin-top: 0px !important;
 }
 
-.hero-section .single-hero-slide::before{
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(235, 241, 242, 0.94902)), color-stop(79%, rgba(235, 241, 242, 0.47)), to(rgba(235, 241, 242, 0))) !important;
-    background: linear-gradient(-180deg, rgba(235, 241, 242, 0.949) 0%, rgba(235, 241, 242, 0.47) 79%, rgba(235, 241, 242, 0) 100%) !important;
+.hero-section .single-hero-slide::before {
+    background: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        from(rgba(235, 241, 242, 0.9)),
+        color-stop(79%, rgba(235, 241, 242, 0.47)),
+        to(rgba(235, 241, 242, 0))
+    ) !important;
+    background: linear-gradient(
+        -180deg,
+        rgba(235, 241, 242, 0.9) 0%,
+        rgba(235, 241, 242, 0.47) 79%,
+        rgba(235, 241, 242, 0) 100%
+    ) !important;
 }
 
-.single-service .service-bg .service-link{
+.single-service .service-bg .service-link {
     -webkit-box-shadow: 0px 10px 30px 0px rgba(235, 241, 242, 0.57);
     box-shadow: 0px 10px 30px 0px rgba(235, 241, 242, 0.57);
 }
 
-footer::after{
+footer::after {
     background-image: url(../images/footer-shape.png);
 }
 
-footer .subscribe-form .subs-inner form input{
+footer .subscribe-form .subs-inner form input {
     height: 40px !important;
     padding-left: 15px !important;
 }
 
-footer .subscribe-form .subs-inner form button{
+footer .subscribe-form .subs-inner form button {
     height: 40px !important;
     background-color: var(--main) !important;
     color: var(--light) !important;
     font-weight: 500 !important;
 }
 
-.footer-logo img{
+.footer-logo img {
     max-width: 130px !important;
 }
 
-.cta-section .cta-inner
-{
-    background-color: #50C2C3;
+.cta-section .cta-inner {
+    background-color: #50c2c3;
 }
 
-.cta-section .cta-inner::before
-{
+.cta-section .cta-inner::before {
     background-image: url(../images/cta-bg.png) !important;
 }
 
-.testimonial-section::after
-{
-    background-image: url('../images/testimonial-bg.png');
+.testimonial-section::after {
+    background-image: url("../images/testimonial-bg.png");
 }
 
-.breadcrumb-area::after
-{
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(235, 241, 242, 0.94902)), color-stop(79%, rgba(235, 241, 242, 0.47)), to(rgba(235, 241, 242, 0))) !important;
-    background: linear-gradient(-180deg, rgba(235, 241, 242, 0.949) 0%, rgba(235, 241, 242, 0.47) 79%, rgba(235, 241, 242, 0) 100%) !important;
+.breadcrumb-area::after {
+    background: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        from(rgba(235, 241, 242, 0.94902)),
+        color-stop(79%, rgba(235, 241, 242, 0.47)),
+        to(rgba(235, 241, 242, 0))
+    ) !important;
+    background: linear-gradient(
+        -180deg,
+        rgba(235, 241, 242, 0.949) 0%,
+        rgba(235, 241, 242, 0.47) 79%,
+        rgba(235, 241, 242, 0) 100%
+    ) !important;
+}
+
+@media screen and (max-width: 480px) {
+    .welcome {
+        display: none !important;
+    }
+
+    .header-area .header-nav {
+        top: 10px !important;
+    }
+
+    .main-logo img {
+        max-width: 80px !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header-area .header-nav .navigation .navbar .navbar-collapse {
+        background-color: var(--second) !important;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .header-area .header-nav .navigation .navbar .navbar-collapse {
+        background-color: var(--second) !important;
+    }
 }
