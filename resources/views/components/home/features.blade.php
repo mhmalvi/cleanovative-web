@@ -8,13 +8,8 @@
                         <i class="flaticon-glass-cleaner"></i>
                     </div>
                     <div class="featre-content">
-                        <h4 class="title">Special Service Care
-                            Support Agency</h4>
+                        <h4 class="title">Trusted Cleaning</h4>
                         <span class="line"></span>
-                        <p>Sed perspiciatis unde omn iste natus error sit voluptatem accusantium dolor udaium
-                            totam
-                            rem aperiam</p>
-                        <a href="#" class="learn-more"><i class="fal fa-long-arrow-right"></i></a>
                     </div>
                     <span class="feature-count">Features 01</span>
                 </div>
@@ -25,13 +20,8 @@
                         <i class="flaticon-window"></i>
                     </div>
                     <div class="featre-content">
-                        <h4 class="title">Most Latest Cleaning
-                            Product Store</h4>
+                        <h4 class="title">5-Star Rated</h4>
                         <span class="line"></span>
-                        <p>Sed perspiciatis unde omn iste natus error sit voluptatem accusantium dolor udaium
-                            totam
-                            rem aperiam</p>
-                        <a href="#" class="learn-more"><i class="fal fa-long-arrow-right"></i></a>
                     </div>
                     <span class="feature-count">Features 02</span>
                 </div>
@@ -42,13 +32,8 @@
                         <i class="flaticon-maid"></i>
                     </div>
                     <div class="featre-content">
-                        <h4 class="title">Exclusive Cleaner
-                            Support Team</h4>
+                        <h4 class="title">100% Guarantee</h4>
                         <span class="line"></span>
-                        <p>Sed perspiciatis unde omn iste natus error sit voluptatem accusantium dolor udaium
-                            totam
-                            rem aperiam</p>
-                        <a href="#" class="learn-more"><i class="fal fa-long-arrow-right"></i></a>
                     </div>
                     <span class="feature-count">Features 03</span>
                 </div>

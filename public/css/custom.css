@@ -16,7 +16,7 @@
 }
 
 .welome-text ul li a,
-span,
+.infos,
 i {
     color: var(--light);
 }
@@ -37,6 +37,11 @@ i {
 
 .slider-title {
     font-size: 48px !important;
+    color: var(--main) !important;
+}
+
+.slider-sub-title {
+    padding: 15px 0px !important;
     color: var(--main) !important;
 }
 
