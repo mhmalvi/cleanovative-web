@@ -14,6 +14,10 @@
 
     @include('components.home.team')
 
+    @include('components.testimonials')
+
+    @include('components.booking_steps')
+
     @include('components.home.projects')
 
     @include('components.home.statistics')

@@ -86,3 +86,8 @@ footer .subscribe-form .subs-inner form button{
 {
     background-image: url(../images/cta-bg.png) !important;
 }
+
+.testimonial-section::after
+{
+    background-image: url('../images/testimonial-bg.png');
+}
