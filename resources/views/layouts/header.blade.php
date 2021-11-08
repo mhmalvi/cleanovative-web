@@ -4,19 +4,19 @@
             <ul class="top-list">
                 <li>
                     <i class="fas fa-map-marker-alt"></i>
-                    <span>
+                    <span class="infos">
                         105/26 Cairds Avenue , Bankstown , 2200
                     </span>
                 </li>
                 <li>
                     <i class="fas fa-mobile-alt"></i>
-                    <span>
+                    <span class="infos">
                         042 445 5451
                     </span>
                 </li>
                 <li>
                     <i class="far fa-clock"></i>
-                    <span>
+                    <span class="infos">
                         07.00 am - 07.00 pm
                     </span>
                 </li>
