@@ -76,3 +76,13 @@ footer .subscribe-form .subs-inner form button{
 .footer-logo img{
     max-width: 130px !important;
 }
+
+.cta-section .cta-inner
+{
+    background-color: #50C2C3;
+}
+
+.cta-section .cta-inner::before
+{
+    background-image: url(../images/cta-bg.png) !important;
+}
