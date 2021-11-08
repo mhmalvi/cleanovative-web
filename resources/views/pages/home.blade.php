@@ -18,7 +18,7 @@
 
     @include('components.booking_steps', ['number' => '04'])
 
-    @include('components.home.projects')
+    @include('components.home.why_choose_us')
 
     @include('components.home.statistics')
 
