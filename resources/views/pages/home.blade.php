@@ -22,8 +22,6 @@
 
     @include('components.home.appointment')
 
-    @include('components.home.blog')
-
     @include('components.brands')
 
 @endsection

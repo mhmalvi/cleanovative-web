@@ -5,7 +5,7 @@
             <div class="col-lg-3">
                 <div class="single-project-box">
                     <div class="project-img">
-                        <img src="assets/img/project01.jpg" alt="Image">
+                        <img src="{{ asset('images/project01.jpg') }}" alt="Image">
                     </div>
                     <div class="project-content">
                         <h4>Windows Cleaning</h4>
@@ -18,7 +18,7 @@
             <div class="col-lg-3">
                 <div class="single-project-box">
                     <div class="project-img">
-                        <img src="assets/img/project02.jpg" alt="Image">
+                        <img src="{{ asset('images/project02.jpg') }}" alt="Image">
                     </div>
                     <div class="project-content">
                         <h4>Windows Cleaning</h4>
@@ -31,7 +31,7 @@
             <div class="col-lg-3">
                 <div class="single-project-box">
                     <div class="project-img">
-                        <img src="assets/img/project03.jpg" alt="Image">
+                        <img src="{{ asset('images/project03.jpg') }}" alt="Image">
                     </div>
                     <div class="project-content">
                         <h4>Windows Cleaning</h4>
@@ -44,7 +44,7 @@
             <div class="col-lg-3">
                 <div class="single-project-box">
                     <div class="project-img">
-                        <img src="assets/img/project04.jpg" alt="Image">
+                        <img src="{{ asset('images/project04.jpg') }}" alt="Image">
                     </div>
                     <div class="project-content">
                         <h4>Windows Cleaning</h4>
@@ -57,7 +57,7 @@
             <div class="col-lg-3">
                 <div class="single-project-box">
                     <div class="project-img">
-                        <img src="assets/img/project01.jpg" alt="Image">
+                        <img src="{{ asset('images/project01.jpg') }}" alt="Image">
                     </div>
                     <div class="project-content">
                         <h4>Windows Cleaning</h4>
@@ -70,7 +70,7 @@
             <div class="col-lg-3">
                 <div class="single-project-box">
                     <div class="project-img">
-                        <img src="assets/img/project02.jpg" alt="Image">
+                        <img src="{{ asset('images/project02.jpg') }}" alt="Image">
                     </div>
                     <div class="project-content">
                         <h4>Windows Cleaning</h4>
@@ -83,7 +83,7 @@
             <div class="col-lg-3">
                 <div class="single-project-box">
                     <div class="project-img">
-                        <img src="assets/img/project03.jpg" alt="Image">
+                        <img src="{{ asset('images/project03.jpg') }}" alt="Image">
                     </div>
                     <div class="project-content">
                         <h4>Windows Cleaning</h4>
@@ -96,7 +96,7 @@
             <div class="col-lg-3">
                 <div class="single-project-box">
                     <div class="project-img">
-                        <img src="assets/img/project04.jpg" alt="Image">
+                        <img src="{{ asset('images/project04.jpg') }}" alt="Image">
                     </div>
                     <div class="project-content">
                         <h4>Windows Cleaning</h4>

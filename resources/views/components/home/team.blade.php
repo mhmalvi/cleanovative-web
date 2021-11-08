@@ -11,7 +11,7 @@
                 <div class="col-lg-4">
                     <div class="single-member-box">
                         <div class="team-img">
-                            <img src="assets/img/team01.jpg" alt="Image">
+                            <img src="{{ asset('images/team01.jpg') }}" alt="Image">
                         </div>
                         <div class="team-content">
                             <div class="content-wrap">
@@ -29,7 +29,7 @@
                 <div class="col-lg-4">
                     <div class="single-member-box">
                         <div class="team-img">
-                            <img src="assets/img/team02.jpg" alt="Image">
+                            <img src="{{ asset('images/team02.jpg') }}" alt="Image">
                         </div>
                         <div class="team-content">
                             <div class="content-wrap">
@@ -47,7 +47,7 @@
                 <div class="col-lg-4">
                     <div class="single-member-box">
                         <div class="team-img">
-                            <img src="assets/img/team03.jpg" alt="Image">
+                            <img src="{{ asset('images/team03.jpg') }}" alt="Image">
                         </div>
                         <div class="team-content">
                             <div class="content-wrap">
@@ -65,7 +65,7 @@
                 <div class="col-lg-4">
                     <div class="single-member-box">
                         <div class="team-img">
-                            <img src="assets/img/team04.jpg" alt="Image">
+                            <img src="{{ asset('images/team04.jpg') }}" alt="Image">
                         </div>
                         <div class="team-content">
                             <div class="content-wrap">
@@ -83,7 +83,7 @@
                 <div class="col-lg-4">
                     <div class="single-member-box">
                         <div class="team-img">
-                            <img src="assets/img/team05.jpg" alt="Image">
+                            <img src="{{ asset('images/team05.jpg') }}" alt="Image">
                         </div>
                         <div class="team-content">
                             <div class="content-wrap">
@@ -101,7 +101,7 @@
                 <div class="col-lg-4">
                     <div class="single-member-box">
                         <div class="team-img">
-                            <img src="assets/img/team06.jpg" alt="Image">
+                            <img src="{{ asset('images/team06.jpg') }}" alt="Image">
                         </div>
                         <div class="team-content">
                             <div class="content-wrap">
@@ -119,7 +119,7 @@
                 <div class="col-lg-4">
                     <div class="single-member-box">
                         <div class="team-img">
-                            <img src="assets/img/team08.jpg" alt="Image">
+                            <img src="{{ asset('images/team07.jpg') }}" alt="Image">
                         </div>
                         <div class="team-content">
                             <div class="content-wrap">
@@ -137,30 +137,12 @@
                 <div class="col-lg-4">
                     <div class="single-member-box">
                         <div class="team-img">
-                            <img src="assets/img/team08.jpg" alt="Image">
+                            <img src="{{ asset('images/team08.jpg') }}" alt="Image">
                         </div>
                         <div class="team-content">
                             <div class="content-wrap">
                                 <h4>Adam C. Sewell</h4>
                                 <p class="team-post">Kitchen Cleaner</p>
-                                <ul class="social-icons">
-                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-behance"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="single-member-box">
-                        <div class="team-img">
-                            <img src="assets/img/team09.jpg" alt="Image">
-                        </div>
-                        <div class="team-content">
-                            <div class="content-wrap">
-                                <h4>Danny S. Maddox</h4>
-                                <p class="team-post">House Cleaner</p>
                                 <ul class="social-icons">
                                     <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                                     <li><a href="#"><i class="fab fa-twitter"></i></a></li>

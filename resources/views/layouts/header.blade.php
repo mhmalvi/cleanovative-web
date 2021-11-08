@@ -35,13 +35,18 @@
                                         </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="services.html">Services
+                                        <a class="nav-link" href="{{ route('services') }}">Services
                                             <i class="fal fa-plus"></i>
                                         </a>
                                         <ul class="sub-menu">
                                             <li>
-                                                <a href="{{ route('services') }}">Services</a>
-                                                <a href="{{ route('service_details') }}">Services Details</a>
+                                                <a href="{{ route('services.one') }}">House-Residential Cleaning</a>
+                                                <a href="{{ route('services.two') }}">End of Lease Cleaning</a>
+                                                <a href="{{ route('services.three') }}">Office-Commercial Cleaning</a>
+                                                <a href="{{ route('services.four') }}">Party-Event Cleaning</a>
+                                                <a href="{{ route('services.five') }}">Construction Cleaning</a>
+                                                <a href="{{ route('services.six') }}">Strata Cleaning</a>
+                                                <a href="{{ route('services.seven') }}">Other Commercial Cleaning</a>
                                             </li>
                                         </ul>
                                     </li>

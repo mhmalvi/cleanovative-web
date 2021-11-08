@@ -4,7 +4,7 @@
         <div class="row no-gutters">
             <div class="col-lg-5">
                 <div class="appointment-text bg-cover"
-                    style="background-image: url(assets/img/appointment-bg.jpg);">
+                    style="background-image: url({{ asset('images/appointment-bg.jpg') }});">
                     <div class="appointment-content">
                         <div class="section-title left-border mb-40">
                             <h2>Make An <br>
@@ -26,10 +26,10 @@
                 <!-- appointment form -->
                 <div class="appointment-form">
                     <div class="form-title bg-cover"
-                        style="background-image: url(assets/img/form-title-bg.jpg);">
+                        style="background-image: url({{ asset('images/form-title-bg.jpg') }});">
                         <h2>Request A Quote</h2>
                     </div>
-                    <form action="#" style="background-image: url(assets/img/app-form-bg.jpg);">
+                    <form action="#" style="background-image: url({{ asset('images/app-form-bg.jpg') }});">
                         <div class="input-group mb-15">
                             <input type="text" placeholder="Your Name">
                             <span class="icon"><i class="far fa-user-edit"></i></span>

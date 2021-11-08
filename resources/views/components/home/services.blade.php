@@ -11,7 +11,7 @@
         <div class="row service-loop">
             <div class="col-lg-4 col-md-6 wow fadeInLeft" data-wow-delay=".3s">
                 <div class="single-service">
-                    <div class="service-bg" style="background-image: url(assets/img/service-1.jpg);">
+                    <div class="service-bg" style="background-image: url({{ asset('images/service-1.jpg') }});">
                         <span class="service-count">01</span>
                         <a href="#" class="service-link"><i class="fal fa-long-arrow-right"></i></a>
                     </div>
@@ -25,7 +25,7 @@
             </div>
             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".5s">
                 <div class="single-service active">
-                    <div class="service-bg" style="background-image: url(assets/img/service-2.jpg);">
+                    <div class="service-bg" style="background-image: url({{ asset('images/service-2.jpg') }});">
                         <span class="service-count">02</span>
                         <a href="#" class="service-link"><i class="fal fa-long-arrow-right"></i></a>
                     </div>
@@ -39,7 +39,7 @@
             </div>
             <div class="col-lg-4 col-md-6 mx-auto wow fadeInRight" data-wow-delay=".7s">
                 <div class=" single-service">
-                    <div class="service-bg" style="background-image: url(assets/img/service-3.jpg);">
+                    <div class="service-bg" style="background-image: url({{ asset('images/service-3.jpg')}});">
                         <span class="service-count">03</span>
                         <a href="#" class="service-link"><i class="fal fa-long-arrow-right"></i></a>
                     </div>
@@ -53,7 +53,7 @@
             </div>
             <div class="col-lg-4 col-md-6 mx-auto wow fadeInRight" data-wow-delay=".7s">
                 <div class=" single-service">
-                    <div class="service-bg" style="background-image: url(assets/img/service-3.jpg);">
+                    <div class="service-bg" style="background-image: url({{ asset('images/service-4.jpg')}});">
                         <span class="service-count">04</span>
                         <a href="#" class="service-link"><i class="fal fa-long-arrow-right"></i></a>
                     </div>
@@ -67,7 +67,7 @@
             </div>
             <div class="col-lg-4 col-md-6 mx-auto wow fadeInRight" data-wow-delay=".7s">
                 <div class=" single-service">
-                    <div class="service-bg" style="background-image: url(assets/img/service-3.jpg);">
+                    <div class="service-bg" style="background-image: url({{ asset('images/service-5.jpg')}});">
                         <span class="service-count">05</span>
                         <a href="#" class="service-link"><i class="fal fa-long-arrow-right"></i></a>
                     </div>
@@ -82,7 +82,7 @@
 
             <div class="col-lg-4 col-md-6 mx-auto wow fadeInRight" data-wow-delay=".7s">
                 <div class=" single-service">
-                    <div class="service-bg" style="background-image: url(assets/img/service-3.jpg);">
+                    <div class="service-bg" style="background-image: url({{ asset('images/service-6.jpg')}});">
                         <span class="service-count">06</span>
                         <a href="#" class="service-link"><i class="fal fa-long-arrow-right"></i></a>
                     </div>
@@ -97,7 +97,7 @@
 
             <div class="col-lg-4 col-md-6 mx-auto wow fadeInRight" data-wow-delay=".7s">
                 <div class=" single-service">
-                    <div class="service-bg" style="background-image: url(assets/img/service-3.jpg);">
+                    <div class="service-bg" style="background-image: url({{ asset('images/service-7.jpg')}});">
                         <span class="service-count">07</span>
                         <a href="#" class="service-link"><i class="fal fa-long-arrow-right"></i></a>
                     </div>
