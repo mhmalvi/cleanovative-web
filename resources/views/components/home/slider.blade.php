@@ -16,13 +16,7 @@
                         Sydney. Book online in less than 60 seconds.
                     </p>
                     <div class="btn-wrap">
-<<<<<<< HEAD
-                        <a class="main-btn main-btn-2" href="services.html">Book online<i class="fal fa-plus"></i></a>
-=======
-                        <a class="main-btn" href="{{ route('contact') }}">Quote Me<i class="fal fa-plus"></i></a>
-                        <a class="main-btn main-btn-2" href="{{ route('services') }}">Book online<i
-                                class="fal fa-plus"></i></a>
->>>>>>> 3f594c0d13088cc79f85aca9e088801690099a15
+                        <a class="main-btn main-btn-2" href="">Book online<i class="fal fa-plus"></i></a>
                     </div>
                 </div>
             </div>
@@ -40,13 +34,8 @@
                         Tailored quotation to your space and budget.
                     </p>
                     <div class="btn-wrap">
-<<<<<<< HEAD
-                        <a class="main-btn" href="contact.html">Contact Us<i class="fal fa-plus"></i></a>
-=======
-                        <a class="main-btn" href="{{ route('contact') }}">Contact Us<i class="fal fa-plus"></i></a>
-                        <a class="main-btn main-btn-2" href="{{ route('services') }}">Quote Me<i
+                        <a class="main-btn" href="{{ route('contact') }}">Contact Us<i
                                 class="fal fa-plus"></i></a>
->>>>>>> 3f594c0d13088cc79f85aca9e088801690099a15
                     </div>
                 </div>
             </div>
