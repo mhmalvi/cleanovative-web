@@ -76,20 +76,13 @@
                                         </a>
                                         <ul class="sub-menu">
                                             <li>
-                                                <a href="{{ route('services.details', ['number' => '1']) }}">House-Residential
-                                                    Cleaning</a>
-                                                <a href="{{ route('services.details', ['number' => '2']) }}">End of
-                                                    Lease Cleaning</a>
-                                                <a href="{{ route('services.details', ['number' => '3']) }}">Office-Commercial
-                                                    Cleaning</a>
-                                                <a href="{{ route('services.details', ['number' => '4']) }}">Party-Event
-                                                    Cleaning</a>
-                                                <a href="{{ route('services.details', ['number' => '5']) }}">Construction
-                                                    Cleaning</a>
-                                                <a href="{{ route('services.details', ['number' => '6']) }}">Strata
-                                                    Cleaning</a>
-                                                <a href="{{ route('services.details', ['number' => '7']) }}">Other
-                                                    Commercial Cleaning</a>
+                                                <a href="{{ route('services.details', ['service' => 'house-residential-cleaning']) }}">House-Residential Cleaning</a>
+                                                <a href="{{ route('services.details', ['service' => 'end-of-lease-cleaning']) }}">End of Lease Cleaning</a>
+                                                <a href="{{ route('services.details', ['service' => 'office-commercial-cleaning']) }}">Office-Commercial Cleaning</a>
+                                                <a href="{{ route('services.details', ['service' => 'party-event-cleaning']) }}">Party-Event Cleaning</a>
+                                                <a href="{{ route('services.details', ['service' => 'construction-cleaning']) }}">Construction Cleaning</a>
+                                                <a href="{{ route('services.details', ['service' => 'strata-cleaning']) }}">Strata Cleaning</a>
+                                                <a href="{{ route('services.details', ['service' => 'other-commercial-cleaning']) }}">Other Commercial Cleaning</a>
                                             </li>
                                         </ul>
                                     </li>
@@ -132,7 +125,7 @@
                             </div>
                             <!-- navbar collapse -->
                             <div class="navbar-btn d-none d-sm-block">
-                                <a class="main-btn" href="#">Get a Quote <i class="fal fa-plus"></i></a>
+                                <a class="main-btn text-light" href="#">Become a Cleaner <i class="fal fa-plus"></i></a>
                             </div>
                         </nav>
                     </div>

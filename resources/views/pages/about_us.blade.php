@@ -62,7 +62,7 @@
                             </li>
                         </ul>
 
-                        <a class="main-btn main-btn-3 mt-50" href="about.html">Learn More<i
+                        <a class="main-btn main-btn-3 mt-50" href="{{ route('about_us') }}">Learn More<i
                                 class="fal fa-plus"></i></a>
                     </div>
                 </div>

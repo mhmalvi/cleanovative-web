@@ -7,11 +7,11 @@
     <section class="breadcrumb-area" style="background-image: url({{ asset('images/breadcrumb.jpg') }});">
         <div class="container">
             <div class="breadcrumb-text text-center">
-                <h1 class="page-title">FAQ</h1>
+                <h1 class="page-title text-dark">FAQ</h1>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li class="sep"><i class="fal fa-angle-double-right"></i></li>
-                    <li>FAQ</li>
+                    <li><a href="{{ route('home') }}" class="text-dark">Home</a></li>
+                    <li class="sep"><i class="text-dark fal fa-angle-double-right"></i></li>
+                    <li class="text-dark">FAQ</li>
                 </ul>
             </div>
         </div>

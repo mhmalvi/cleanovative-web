@@ -4,14 +4,14 @@
 
 @section('content')
     <!--====== BREADCRUMB PART START ======-->
-    <section class="breadcrumb-area" style="background-image: url(assets/img/breadcrumb.jpg);">
+    <section class="breadcrumb-area" style="background-image: url({{ asset('images/breadcrumb.jpg') }});">
         <div class="container">
             <div class="breadcrumb-text text-center">
-                <h1 class="page-title">Contact Us</h1>
+                <h1 class="page-title text-dark">Contact Us</h1>
                 <ul>
-                    <li><a href="{{ route('home') }}">Home</a></li>
-                    <li class="sep"><i class="fal fa-angle-double-right"></i></li>
-                    <li>Contact Us</li>
+                    <li><a href="{{ route('home') }}" class="text-dark">Home</a></li>
+                    <li class="sep"><i class="text-dark fal fa-angle-double-right"></i></li>
+                    <li class="text-dark">Contact Us</li>
                 </ul>
             </div>
         </div>
@@ -28,7 +28,7 @@
                         <div class="info-box">
                             <span class="icon"><i class="far fa-phone-plus"></i></span>
                             <h6 class="title">Phone Number</h6>
-                            <p class="info"><a href="#">+012 (345) 789 99</a></p>
+                            <p class="info"><a href="tel:0401396554">0401396554</a></p>
                         </div>
                     </div>
                     <div class="col-lg-4">
@@ -36,7 +36,9 @@
                         <div class="info-box">
                             <span class="icon"><i class="far fa-envelope-open"></i></span>
                             <h6 class="title">Email Address</h6>
-                            <p class="info"><a href="#">support@Safem.com</a> </p>
+                            <p class="info">
+                                <a href="mailto:info.cleanovative@gmail.com">info.cleanovative@gmail.com</a>
+                            </p>
                         </div>
                     </div>
                     <div class="col-lg-4">
@@ -86,72 +88,6 @@
         </div>
     </section>
     <!--====== CONTACT PART END ======-->
-    <!--====== BRAND AREA START ======-->
-    <section class="brand-section">
-        <div class="container">
-            <div class="brand-slide-wrap" id="brandSlide">
-                <div class="single-brand">
-                    <div class="brand-img text-center">
-                        <a href="#"><img src="assets/img/brand01.png" alt="Image"></a>
-                    </div>
-                </div>
-                <div class="single-brand">
-                    <div class="brand-img text-center">
-                        <a href="#"><img src="assets/img/brand02.png" alt="Image"></a>
-                    </div>
-                </div>
-                <div class="single-brand">
-                    <div class="brand-img text-center">
-                        <a href="#"><img src="assets/img/brand03.png" alt="Image"></a>
-                    </div>
-                </div>
-                <div class="single-brand">
-                    <div class="brand-img text-center">
-                        <a href="#"><img src="assets/img/brand04.png" alt="Image"></a>
-                    </div>
-                </div>
-                <div class="single-brand">
-                    <div class="brand-img text-center">
-                        <a href="#"><img src="assets/img/brand05.png" alt="Image"></a>
-                    </div>
-                </div>
-                <div class="single-brand">
-                    <div class="brand-img text-center">
-                        <a href="#"><img src="assets/img/brand06.png" alt="Image"></a>
-                    </div>
-                </div>
-                <div class="single-brand">
-                    <div class="brand-img text-center">
-                        <a href="#"><img src="assets/img/brand01.png" alt="Image"></a>
-                    </div>
-                </div>
-                <div class="single-brand">
-                    <div class="brand-img text-center">
-                        <a href="#"><img src="assets/img/brand02.png" alt="Image"></a>
-                    </div>
-                </div>
-                <div class="single-brand">
-                    <div class="brand-img text-center">
-                        <a href="#"><img src="assets/img/brand03.png" alt="Image"></a>
-                    </div>
-                </div>
-                <div class="single-brand">
-                    <div class="brand-img text-center">
-                        <a href="#"><img src="assets/img/brand04.png" alt="Image"></a>
-                    </div>
-                </div>
-                <div class="single-brand">
-                    <div class="brand-img text-center">
-                        <a href="#"><img src="assets/img/brand05.png" alt="Image"></a>
-                    </div>
-                </div>
-                <div class="single-brand">
-                    <div class="brand-img text-center">
-                        <a href="#"><img src="assets/img/brand06.png" alt="Image"></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--====== BRAND AREA END ======-->
+
+    @include('components.brands')
 @endsection

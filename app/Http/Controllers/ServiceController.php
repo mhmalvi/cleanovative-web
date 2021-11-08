@@ -3,35 +3,46 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Str;
 
 class ServiceController extends Controller
 {
-    public function details($number)
+    private $service_one = '',
+        $service_two = '',
+        $service_three = '',
+        $service_four = '',
+        $service_five = '',
+        $service_six = '',
+        $service_seven = '';
+
+    public function details($service)
     {
         $data = $this->get_data();
 
+        $this->setSlugs($data);
+
         $item = [];
 
-        switch ($number) {
-            case '1':
+        switch ($service) {
+            case $this->service_one:
                 $item = $data['one'];
                 break;
-            case '2':
+            case $this->service_two:
                 $item = $data['two'];
                 break;
-            case '3':
+            case $this->service_three:
                 $item = $data['three'];
                 break;
-            case '4':
+            case $this->service_four:
                 $item = $data['four'];
                 break;
-            case '5':
+            case $this->service_five:
                 $item = $data['five'];
                 break;
-            case '6':
+            case $this->service_six:
                 $item = $data['six'];
                 break;
-            case '7':
+            case $this->service_seven:
                 $item = $data['seven'];
                 break;
             default:
@@ -52,7 +63,7 @@ class ServiceController extends Controller
             'content' => "Moving in-or-out of houses? Looking to secure a strong return on your bond? Don’t stress, You’ve come to the right spot. Allow us to handle the housecleaning so you can enter into a home that has been professionally cleaned to your complete satisfaction and cross a major task off your list while you move. Our team will ensure that your end of lease cleaning meets the highest standard. Let us worry about cleaning the house like new and you can focus on your move. <br> <br> In less than a minute, you can get a quote and book us",
         ];
         $three_data = [
-            'title' => 'Office-Commercial Cleaning ',
+            'title' => 'Office-Commercial Cleaning',
             'content' => "A lot of time is spent at work, and significant meetings are most likely held there. It is critical to maintain the cleanliness of the office in order to instil pride in the workplace, impress clients, and preserve hygiene. We believe that everyone, including you, your employees, and your customers, deserves to come to work in a clean atmosphere. We take pride in providing high-quality cleaning services at a fair price that are personalised to your individual or company needs. <br> <br> You can rely on our skilled cleaners at Cleanovative to handle a variety of office cleaning services. Click here to see the area our services cover. In less than a minute, you can get a quote and book us.",
         ];
         $four_data = [
@@ -80,5 +91,16 @@ class ServiceController extends Controller
         $data['seven'] = $seven_data;
 
         return $data;
+    }
+
+    private function setSlugs($data)
+    {
+        $this->service_one = Str::slug($data['one']['title']);
+        $this->service_two = Str::slug($data['two']['title']);
+        $this->service_three = Str::slug($data['three']['title']);
+        $this->service_four = Str::slug($data['four']['title']);
+        $this->service_five = Str::slug($data['five']['title']);
+        $this->service_six = Str::slug($data['six']['title']);
+        $this->service_seven = Str::slug($data['seven']['title']);
     }
 }

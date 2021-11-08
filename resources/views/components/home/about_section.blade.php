@@ -20,7 +20,7 @@
                         eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
                         explicabo. Nemo enim ipsam
                         voluptatem quia voluptas sit aspernatur aut odit aut fugi</p>
-                    <a class="main-btn main-btn-3 mt-50" href="about.html">Learn More<i
+                    <a class="main-btn main-btn-3 mt-50" href="{{ route('about_us') }}">Learn More<i
                             class="fal fa-plus"></i></a>
                 </div>
             </div>
