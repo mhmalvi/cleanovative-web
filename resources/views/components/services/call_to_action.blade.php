@@ -1,5 +1,5 @@
 <!--====== CALL TO ACTION PART START ======-->
-<section class="cta-section-two" style="background-image: url(assets/img/cta-bg-2.jpg);">
+<section class="cta-section-two" style="background-image: url({{ asset('images/cta-bg-2.jpg') }});">
     <div class="container">
         <div class="cta-text text-center wow fadeInUp" data-wow-delay=".3s">
             <span>Needs Any Helps Or Supports</span>

@@ -1,5 +1,5 @@
 <!--====== BREADCRUMB PART START ======-->
-<section class="breadcrumb-area" style="background-image: url(assets/img/breadcrumb.jpg);">
+<section class="breadcrumb-area" style="background-image: url({{ asset('images/breadcrumb.jpg') }});">
     <div class="container">
         <div class="breadcrumb-text text-center">
             <h1 class="page-title">Our Services</h1>

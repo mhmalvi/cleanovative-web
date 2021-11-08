@@ -9,8 +9,6 @@
 
     @include('components.services.call_to_action')
 
-    @include('components.services.more_services')
-
     @include('components.services.about_us')
 
     @include('components.services.pricing')
