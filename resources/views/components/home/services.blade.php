@@ -13,7 +13,7 @@
                 <div class="single-service">
                     <div class="service-bg" style="background-image: url({{ asset('images/service-1.jpg') }});">
                         <span class="service-count">01</span>
-                        <a href="{{ route('services.details', ['number' => '1']) }}" class="service-link"><i class="fal fa-long-arrow-right"></i></a>
+                        <a href="{{ route('services.details', ['service' => 'house-residential-cleaning']) }}" class="service-link"><i class="fal fa-long-arrow-right"></i></a>
                     </div>
                     <div class="service-content">
                         <h4>House-Residential Cleaning</h4>
@@ -27,7 +27,7 @@
                 <div class="single-service active">
                     <div class="service-bg" style="background-image: url({{ asset('images/service-2.jpg') }});">
                         <span class="service-count">02</span>
-                        <a href="{{ route('services.details', ['number' => '2']) }}" class="service-link"><i class="fal fa-long-arrow-right"></i></a>
+                        <a href="{{ route('services.details', ['service' => 'end-of-lease-cleaning']) }}" class="service-link"><i class="fal fa-long-arrow-right"></i></a>
                     </div>
                     <div class="service-content">
                         <h4>End of Lease Cleaning</h4>
@@ -41,7 +41,7 @@
                 <div class=" single-service">
                     <div class="service-bg" style="background-image: url({{ asset('images/service-3.jpg')}});">
                         <span class="service-count">03</span>
-                        <a href="{{ route('services.details', ['number' => '3']) }}" class="service-link"><i class="fal fa-long-arrow-right"></i></a>
+                        <a href="{{ route('services.details', ['service' => 'office-commercial-cleaning']) }}" class="service-link"><i class="fal fa-long-arrow-right"></i></a>
                     </div>
                     <div class="service-content">
                         <h4>Office-Commercial Cleaning</h4>
@@ -55,7 +55,7 @@
                 <div class=" single-service">
                     <div class="service-bg" style="background-image: url({{ asset('images/service-4.jpg')}});">
                         <span class="service-count">04</span>
-                        <a href="{{ route('services.details', ['number' => '4']) }}" class="service-link"><i class="fal fa-long-arrow-right"></i></a>
+                        <a href="{{ route('services.details', ['service' => 'party-event-cleaning']) }}" class="service-link"><i class="fal fa-long-arrow-right"></i></a>
                     </div>
                     <div class="service-content">
                         <h4>Party-Event Cleaning</h4>
@@ -69,7 +69,7 @@
                 <div class=" single-service">
                     <div class="service-bg" style="background-image: url({{ asset('images/service-5.jpg')}});">
                         <span class="service-count">05</span>
-                        <a href="{{ route('services.details', ['number' => '5']) }}" class="service-link"><i class="fal fa-long-arrow-right"></i></a>
+                        <a href="{{ route('services.details', ['service' => 'construction-cleaning']) }}" class="service-link"><i class="fal fa-long-arrow-right"></i></a>
                     </div>
                     <div class="service-content">
                         <h4>Construction Cleaning</h4>
@@ -84,7 +84,7 @@
                 <div class=" single-service">
                     <div class="service-bg" style="background-image: url({{ asset('images/service-6.jpg')}});">
                         <span class="service-count">06</span>
-                        <a href="{{ route('services.details', ['number' => '6']) }}" class="service-link"><i class="fal fa-long-arrow-right"></i></a>
+                        <a href="{{ route('services.details', ['service' => 'strata-cleaning']) }}" class="service-link"><i class="fal fa-long-arrow-right"></i></a>
                     </div>
                     <div class="service-content">
                         <h4>Strata Cleaning</h4>
@@ -99,7 +99,7 @@
                 <div class=" single-service">
                     <div class="service-bg" style="background-image: url({{ asset('images/service-7.jpg')}});">
                         <span class="service-count">07</span>
-                        <a href="{{ route('services.details', ['number' => '7']) }}" class="service-link"><i class="fal fa-long-arrow-right"></i></a>
+                        <a href="{{ route('services.details', ['service' => 'other-commercial-cleaning']) }}" class="service-link"><i class="fal fa-long-arrow-right"></i></a>
                     </div>
                     <div class="service-content">
                         <h4>Other Commercial Cleaning</h4>

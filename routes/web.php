@@ -30,4 +30,4 @@ Route::view('privacy_policy', 'pages.privacy_policy')->name('privacy_policy');
 
 Route::view('contact', 'pages.contact')->name('contact');
 
-Route::get('services/{number}', [ServiceController::class, 'details'])->name('services.details');
+Route::get('services/{service}', [ServiceController::class, 'details'])->name('services.details');
