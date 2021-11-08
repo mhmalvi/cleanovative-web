@@ -140,6 +140,10 @@ footer .subscribe-form .subs-inner form button {
     ) !important;
 }
 
+.header-area .header-nav .navigation .navbar .navbar-toggler .toggler-icon {
+    background-color: var(--main) !important;
+}
+
 @media screen and (max-width: 480px) {
     .welcome {
         display: none !important;
@@ -155,6 +159,9 @@ footer .subscribe-form .subs-inner form button {
 }
 
 @media screen and (max-width: 768px) {
+    .slider-title {
+        font-size: 28px !important;
+    }
     .header-area .header-nav .navigation .navbar .navbar-collapse {
         background-color: var(--second) !important;
     }

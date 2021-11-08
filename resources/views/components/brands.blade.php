@@ -64,7 +64,5 @@
             </div>
         </div>
     </div>
-    <div class="shape-one"></div>
-    <div class="shape-two"></div>
 </section>
 <!--====== BRAND AREA END ======-->
