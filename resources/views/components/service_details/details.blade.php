@@ -4,7 +4,7 @@
         <div class="row">
             @include('components.service_details._sidebar')
 
-            @include('components.service_details._info')
+            @include('components.service_details._info', ['data' => $data])
         </div>
     </div>
 </section>

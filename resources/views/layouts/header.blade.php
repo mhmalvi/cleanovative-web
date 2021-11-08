@@ -40,13 +40,13 @@
                                         </a>
                                         <ul class="sub-menu">
                                             <li>
-                                                <a href="{{ route('services.one') }}">House-Residential Cleaning</a>
-                                                <a href="{{ route('services.two') }}">End of Lease Cleaning</a>
-                                                <a href="{{ route('services.three') }}">Office-Commercial Cleaning</a>
-                                                <a href="{{ route('services.four') }}">Party-Event Cleaning</a>
-                                                <a href="{{ route('services.five') }}">Construction Cleaning</a>
-                                                <a href="{{ route('services.six') }}">Strata Cleaning</a>
-                                                <a href="{{ route('services.seven') }}">Other Commercial Cleaning</a>
+                                                <a href="{{ route('services.details', ['number' => '1']) }}">House-Residential Cleaning</a>
+                                                <a href="{{ route('services.details', ['number' => '2']) }}">End of Lease Cleaning</a>
+                                                <a href="{{ route('services.details', ['number' => '3']) }}">Office-Commercial Cleaning</a>
+                                                <a href="{{ route('services.details', ['number' => '4']) }}">Party-Event Cleaning</a>
+                                                <a href="{{ route('services.details', ['number' => '5']) }}">Construction Cleaning</a>
+                                                <a href="{{ route('services.details', ['number' => '6']) }}">Strata Cleaning</a>
+                                                <a href="{{ route('services.details', ['number' => '7']) }}">Other Commercial Cleaning</a>
                                             </li>
                                         </ul>
                                     </li>

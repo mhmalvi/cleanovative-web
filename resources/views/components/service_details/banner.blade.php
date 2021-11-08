@@ -1,12 +1,12 @@
 <!--====== BREADCRUMB PART START ======-->
-<section class="breadcrumb-area" style="background-image: url(assets/img/breadcrumb.jpg);">
+<section class="breadcrumb-area" style="background-image: url({{ asset('images/breadcrumb.jpg') }});">
     <div class="container">
         <div class="breadcrumb-text text-center">
-            <h1 class="page-title">Service Details</h1>
+            <h1 class="page-title text-dark">Service Details</h1>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li class="sep"><i class="fal fa-angle-double-right"></i></li>
-                <li>Service Details</li>
+                <li><a class="text-dark" href="index.html">Home</a></li>
+                <li class="sep"><i class="text-dark fal fa-angle-double-right"></i></li>
+                <li class="text-dark">Service Details</li>
             </ul>
         </div>
     </div>

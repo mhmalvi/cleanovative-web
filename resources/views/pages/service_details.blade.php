@@ -6,7 +6,7 @@
 
     @include('components.service_details.banner')
 
-    @include('components.service_details.details')
+    @include('components.service_details.details', ['data' => $item])
 
     @include('components.brands')
 

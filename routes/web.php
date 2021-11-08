@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ServiceController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -29,10 +30,4 @@ Route::view('privacy_policy', 'pages.privacy_policy')->name('privacy_policy');
 
 Route::view('contact', 'pages.contact')->name('contact');
 
-Route::view('services/1', 'pages.services.one')->name('services.one');
-Route::view('services/2', 'pages.services.two')->name('services.two');
-Route::view('services/3', 'pages.services.three')->name('services.three');
-Route::view('services/4', 'pages.services.four')->name('services.four');
-Route::view('services/5', 'pages.services.five')->name('services.five');
-Route::view('services/6', 'pages.services.six')->name('services.six');
-Route::view('services/7', 'pages.services.seven')->name('services.seven');
+Route::get('services/{number}', [ServiceController::class, 'details'])->name('services.details');
