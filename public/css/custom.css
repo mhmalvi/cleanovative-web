@@ -13,6 +13,10 @@
     border-bottom: 1px solid var(--second);
 }
 
+.why-us p {
+    font-size: 14px !important;
+}
+
 .welome-text ul {
     list-style-type: none;
     margin: 0px;
