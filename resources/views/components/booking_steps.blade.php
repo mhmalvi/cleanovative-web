@@ -2,7 +2,7 @@
 <section class="service-section-two pt-5 pb-130">
     <div class="container">
         <div class="section-title text-center both-border mb-20">
-            <h2>Simply book in 4 steps <span>{{ $number ? $number : "01" }}</span></h2>
+            <h2>Simply book in 4 steps</h2>
             <p class="title-tag">Book Appointment</p>
         </div>
         <!-- Service Loop -->

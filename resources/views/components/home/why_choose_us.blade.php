@@ -2,7 +2,7 @@
 <section class="project-area pb-130 wow fadeInUp" data-wow-delay=".3s">
     <div class="container-fluid">
         <div class="section-title text-center both-border mb-20">
-            <h2>25 Years We Provide <br> Cleaning Services <span>05</span></h2>
+            <h2>25 Years We Provide <br> Cleaning Services</h2>
             <p class="title-tag">Why Choose Us?</p>
         </div>
         <div class="row project-loop" id="projectSlider">

@@ -3,7 +3,6 @@
     <div class="container">
         <div class="section-title text-center both-border mb-80">
             <h2>What People’s Say About <br>
-                Company Service <span>03</span></h2>
             <p class="title-tag">Our Testimonials</p>
         </div>
         <!-- Testimonial Loop -->

@@ -10,8 +10,6 @@
 
     @include('components.home.services')
 
-    @include('components.home.team')
-
     @include('components.testimonials')
 
     @include('components.booking_steps', ['number' => '04'])

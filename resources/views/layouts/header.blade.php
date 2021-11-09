@@ -69,11 +69,19 @@
                                 <ul class="navbar-nav m-auto">
                                     <li class="nav-item active">
                                         <a class="nav-link" href="{{ route('home') }}">
-                                            Cleanovative
+                                            Home
                                         </a>
                                     </li>
+
                                     <li class="nav-item">
-                                        <a class="nav-link" href="{{ route('services') }}">Services
+                                        <a class="nav-link" href="{{ route('about_us') }}">
+                                            About Us
+                                        </a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="{{ route('services') }}">
+                                            Services & Pricing
                                             <i class="fal fa-plus"></i>
                                         </a>
                                         <ul class="sub-menu">
@@ -85,18 +93,14 @@
                                                 <a href="{{ route('services.details', ['service' => 'construction-cleaning']) }}">Construction Cleaning</a>
                                                 <a href="{{ route('services.details', ['service' => 'strata-cleaning']) }}">Strata Cleaning</a>
                                                 <a href="{{ route('services.details', ['service' => 'other-commercial-cleaning']) }}">Other Commercial Cleaning</a>
+                                                <a href="{{ route('services.details', ['service' => 'other-commercial-cleaning']) }}">Deep Cleaning</a>
                                             </li>
                                         </ul>
                                     </li>
 
                                     <li class="nav-item">
-                                        <a class="nav-link" href="{{ route('about_us') }}">
-                                            About Us
-                                        </a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="{{ route('faq') }}">
-                                            FAQ
+                                        <a class="nav-link" href="#">
+                                            Gift Cards
                                         </a>
                                     </li>
 
@@ -106,6 +110,16 @@
                                             <i class="fal fa-plus"></i>
                                         </a>
                                         <ul class="sub-menu">
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="{{ route('contact') }}">
+                                                    Contact
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="{{ route('faq') }}">
+                                                    FAQ
+                                                </a>
+                                            </li>
                                             <li class="nav-item">
                                                 <a class="nav-link" href="{{ route('terms_and_conditions') }}">
                                                     Terms & Conditions
@@ -120,14 +134,15 @@
                                     </li>
 
                                     <li class="nav-item">
-                                        <a class="nav-link" href="{{ route('contact') }}">Contact
+                                        <a class="nav-link" href="#">
+                                            Login
                                         </a>
                                     </li>
                                 </ul>
                             </div>
                             <!-- navbar collapse -->
                             <div class="navbar-btn d-none d-sm-block">
-                                <a class="main-btn text-light" href="#">Become a Cleaner <i class="fal fa-plus"></i></a>
+                                <a class="main-btn text-light" href="#">Book Now <i class="fal fa-plus"></i></a>
                             </div>
                         </nav>
                     </div>
