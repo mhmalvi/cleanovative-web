@@ -10,7 +10,7 @@
             <div class="col-xl-3 col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".3s">
                 <div class="single-service-two text-center">
                     <div class="service-img mb-40 mx-5">
-                        <img src="{{ asset('images/booking-step-1.png') }}" alt="Icon">
+                        <img src="{{ asset('images/booking.png') }}" alt="Icon">
                         <span>01</span>
                     </div>
                     <div class="service-content">
@@ -21,7 +21,7 @@
             <div class="col-xl-3 col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".4s">
                 <div class="single-service-two text-center">
                     <div class="service-img mb-40 mx-5">
-                        <img src="{{ asset('images/booking-step-2.png') }}" alt="Icon">
+                        <img src="{{ asset('images/portfolio.png') }}" alt="Icon">
                         <span>02</span>
                     </div>
                     <div class="service-content">
@@ -32,7 +32,7 @@
             <div class="col-xl-3 col-lg-3 mx-auto col-sm-6 wow fadeInUp" data-wow-delay=".5s">
                 <div class="single-service-two text-center">
                     <div class="service-img mb-40 mx-5">
-                        <img src="{{ asset('images/booking-step-3.png') }}" alt="Icon">
+                        <img src="{{ asset('images/login.png') }}" alt="Icon">
                         <span>03</span>
                     </div>
                     <div class="service-content">
@@ -43,7 +43,7 @@
             <div class="col-xl-3 col-lg-3 mx-auto col-sm-6 wow fadeInUp" data-wow-delay=".5s">
                 <div class="single-service-two text-center">
                     <div class="service-img mb-40 mx-5">
-                        <img src="{{ asset('images/booking-step-4.png') }}" alt="Icon">
+                        <img src="{{ asset('images/coffee-break.png') }}" alt="Icon">
                         <span>04</span>
                     </div>
                     <div class="service-content">
