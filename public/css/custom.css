@@ -3,6 +3,16 @@
     --second: #50c2c3;
     --light: #eff2f7;
 }
+
+.top-bar {
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    border-bottom: 1px solid var(--second);
+}
+
 .welome-text ul {
     list-style-type: none;
     margin: 0px;
@@ -12,20 +22,32 @@
 
 .welome-text ul li {
     float: left;
+    font-size: 14px !important;
     margin: 0px 15px;
 }
 
 .welome-text ul li a,
 .infos,
 i {
-    color: var(--light);
+    color: var(--main);
 }
 
-.header-area {
-    background-color: var(--second) !important;
+.banner-ticks {
+    display: flex !important;
+    text-align: center !important;
+    justify-content: center !important;
+    align-items: center !important;
+    color: var(--main) !important;
+}
+
+.banner-ticks i {
+    color: var(--main) !important;
+    font-size: 1.8rem !important;
+    margin-right: 15px !important;
 }
 
 .header-area .welome-text {
+    height: 50px !important;
     text-align: left !important;
     justify-content: space-between !important;
     background-color: transparent !important;
@@ -212,12 +234,16 @@ footer .subscribe-form .subs-inner {
 }
 
 @media screen and (max-width: 480px) {
-    .welcome {
+    .top-bar {
         display: none !important;
     }
 
     .header-area .header-nav {
-        top: 10px !important;
+        top: 20px !important;
+    }
+
+    .header-area .header-nav.sticky {
+        top: 0px !important;
     }
 
     .main-logo img {
@@ -231,6 +257,12 @@ footer .subscribe-form .subs-inner {
     }
     .header-area .header-nav .navigation .navbar .navbar-collapse {
         background-color: var(--second) !important;
+    }
+    .banner-ticks {
+        width: calc(100% - 45%) !important;
+        justify-content: left !important;
+        text-align: left !important;
+        margin: 5px auto !important;
     }
 }
 

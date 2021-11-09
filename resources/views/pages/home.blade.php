@@ -6,8 +6,6 @@
 
     @include('components.home.slider')
 
-    @include('components.home.features')
-
     @include('components.home.about_section')
 
     @include('components.home.services')

@@ -1,44 +1,46 @@
 <header class="header-area">
-    <div class="container welcome">
-        <div class="welome-text">
-            <ul class="top-list">
-                <li>
-                    <i class="fas fa-map-marker-alt"></i>
-                    <span class="infos">
-                        105/26 Cairds Avenue , Bankstown , 2200
-                    </span>
-                </li>
-                <li>
-                    <i class="fas fa-mobile-alt"></i>
-                    <span class="infos">
-                        042 445 5451
-                    </span>
-                </li>
-                <li>
-                    <i class="far fa-clock"></i>
-                    <span class="infos">
-                        07.00 am - 07.00 pm
-                    </span>
-                </li>
-            </ul>
+    <div class="top-bar">
+        <div class="container">
+            <div class="welome-text">
+                <ul class="top-list">
+                    <li>
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span class="infos">
+                            105/26 Cairds Avenue , Bankstown , 2200
+                        </span>
+                    </li>
+                    <li>
+                        <i class="fas fa-mobile-alt"></i>
+                        <span class="infos">
+                            042 445 5451
+                        </span>
+                    </li>
+                    <li>
+                        <i class="far fa-clock"></i>
+                        <span class="infos">
+                            07.00 am - 07.00 pm
+                        </span>
+                    </li>
+                </ul>
 
-            <ul>
-                <li>
-                    <a href="">
-                        <i class="fab fa-facebook-f"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-                </li>
-            </ul>
+                <ul>
+                    <li>
+                        <a href="">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
     <div class="header-nav">
