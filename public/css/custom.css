@@ -1,7 +1,7 @@
 :root {
     --main: #162e42;
     --second: #50c2c3;
-    --light: #ebf1f2;
+    --light: #eff2f7;
 }
 .welome-text ul {
     list-style-type: none;
@@ -86,9 +86,60 @@ i {
     ) !important;
 }
 
+.about-section-two .about-left::after {
+    background-color: var(--second) !important;
+}
+
 .single-service .service-bg .service-link {
     -webkit-box-shadow: 0px 10px 30px 0px rgba(235, 241, 242, 0.57);
     box-shadow: 0px 10px 30px 0px rgba(235, 241, 242, 0.57);
+}
+
+.single-service-two {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.service-img {
+    position: relative !important;
+    border: 1px solid var(--main) !important;
+    width: 100px !important;
+    height: 100px !important;
+    padding: 30px !important;
+    border-radius: 50% !important;
+}
+
+.service-img span {
+    width: 36px;
+    height: 36px;
+    border: 1px solid var(--main);
+    border-radius: 50%;
+    position: absolute;
+    color: var(--second);
+    top: 70%;
+    left: 0;
+    background: #fff;
+    padding: 5px;
+    font-weight: 600;
+}
+
+.single-feature-box.active {
+    background-color: var(--main) !important;
+}
+
+.about-section .video-bg .popup-video {
+    background-color: transparent !important;
+}
+
+.statistics-section::before,
+.about-section .video-bg::before {
+    background-color: var(--main) !important;
+}
+
+footer {
+    background-color: var(--light) !important;
 }
 
 footer::after {
@@ -109,6 +160,22 @@ footer .subscribe-form .subs-inner form button {
 
 .footer-logo img {
     max-width: 130px !important;
+}
+
+footer .footer-widget-area .widget .widget-title {
+    color: var(--main) !important;
+}
+
+footer .footer-widget-area .widget .contact-info h3 {
+    color: var(--second) !important;
+}
+
+footer .footer-widget-area .widget .social-link li a:hover {
+    background-color: var(--second) !important;
+}
+
+footer .subscribe-form .subs-inner {
+    background-color: var(--second) !important;
 }
 
 .cta-section .cta-inner {

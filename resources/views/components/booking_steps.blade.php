@@ -11,6 +11,7 @@
                 <div class="single-service-two text-center">
                     <div class="service-img mb-40 mx-5">
                         <img src="{{ asset('images/booking-step-1.png') }}" alt="Icon">
+                        <span>01</span>
                     </div>
                     <div class="service-content">
                         <p>Book your services online or over the phone</p>
@@ -21,6 +22,7 @@
                 <div class="single-service-two text-center">
                     <div class="service-img mb-40 mx-5">
                         <img src="{{ asset('images/booking-step-2.png') }}" alt="Icon">
+                        <span>02</span>
                     </div>
                     <div class="service-content">
                         <p>Cleanovative matches you with your trusted professional</p>
@@ -31,6 +33,7 @@
                 <div class="single-service-two text-center">
                     <div class="service-img mb-40 mx-5">
                         <img src="{{ asset('images/booking-step-3.png') }}" alt="Icon">
+                        <span>03</span>
                     </div>
                     <div class="service-content">
                         <p>Manage your bookings online through your own login portal</p>
@@ -41,6 +44,7 @@
                 <div class="single-service-two text-center">
                     <div class="service-img mb-40 mx-5">
                         <img src="{{ asset('images/booking-step-4.png') }}" alt="Icon">
+                        <span>04</span>
                     </div>
                     <div class="service-content">
                         <p>Relax and enjoy your clean space</p>
