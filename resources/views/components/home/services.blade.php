@@ -59,7 +59,7 @@
                             class="service-link"><i class="fal fa-long-arrow-right"></i></a>
                     </div>
                     <div class="service-content">
-                        <h6>Office-Commercial Cleaning</h6>
+                        <h6>Office Cleaning</h6>
                     </div>
                 </div>
             </div>
@@ -71,7 +71,7 @@
                             class="service-link"><i class="fal fa-long-arrow-right"></i></a>
                     </div>
                     <div class="service-content">
-                        <h6>House-Residential Cleaning</h6>
+                        <h6>Residential Cleaning</h6>
                     </div>
                 </div>
             </div>
@@ -83,7 +83,7 @@
                             class="service-link"><i class="fal fa-long-arrow-right"></i></a>
                     </div>
                     <div class="service-content">
-                        <h6>Other Commercial Cleaning</h6>
+                        <h6>Other Cleaning</h6>
                     </div>
                 </div>
             </div>
