@@ -204,6 +204,11 @@ footer .subscribe-form .subs-inner {
     background-color: var(--second) !important;
 }
 
+footer .footer-widget-area .widget .social-link li a {
+    background-color: transparent !important;
+    border: 1px solid var(--second) !important;
+}
+
 .cta-section .cta-inner {
     background-color: #50c2c3;
 }
