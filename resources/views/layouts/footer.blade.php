@@ -5,7 +5,7 @@
             <div class="row">
                 <div class="col-lg-3 col-md-6 d-flex justify-content-center align-items-center">
                     <div class="footer-logo mb-40">
-                        <img src="{{asset('images/logos/logo01.png')}}" alt="Safem">
+                        <img src="{{asset('images/logos/logo01.png')}}" alt="Cleanovative">
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
@@ -43,9 +43,9 @@
                         <div class="contact-info">
                             <h3>Don’t Hesited To <br> Contact Us</h3>
                             <ul>
-                                <li><i class="far fa-phone"></i>+012 (345) 78 99</li>
-                                <li><i class="far fa-envelope-open"></i>support@gmail.com</li>
-                                <li><i class="far fa-map-marker-alt"></i>Middle East, London</li>
+                                <li><i class="far fa-phone"></i>042 445 5451</li>
+                                <li><i class="far fa-envelope-open"></i>info.cleanovative@gmail.com</li>
+                                <li><i class="far fa-map-marker-alt"></i>105/26 Cairds Avenue, Bankstown, 2200</li>
                             </ul>
                         </div>
                     </div>

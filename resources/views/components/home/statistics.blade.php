@@ -6,7 +6,8 @@
                 <div class="statistics-text">
                     <div class="section-title left-border mb-40">
                         <h2>Let’s See Company <br>
-                            Life Statistics <span>04</span></h2>
+                            Life Statistics
+                        </h2>
                         <p class="title-tag">Company Statistics</p>
                     </div>
                     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
@@ -21,7 +22,6 @@
                         <div class="counter-box">
                             <div class="counter-title">
                                 <span class="counter-num">3624 </span>
-                                <span class="box-count">01</span>
                             </div>
                             <p>Saticified Clients</p>
                         </div>
@@ -30,7 +30,6 @@
                         <div class="counter-box">
                             <div class="counter-title">
                                 <span class="counter-num">9862 </span>
-                                <span class="box-count">02</span>
                             </div>
                             <p>Project Complated</p>
                         </div>
@@ -39,7 +38,6 @@
                         <div class="counter-box">
                             <div class="counter-title">
                                 <span class="counter-num">4563</span>
-                                <span class="box-count">03</span>
                             </div>
                             <p>World Wide Branch</p>
                         </div>
@@ -48,7 +46,6 @@
                         <div class="counter-box">
                             <div class="counter-title">
                                 <span class="counter-num">78964</span>
-                                <span class="box-count">04</span>
                             </div>
                             <p>Win Int’s Awards</p>
                         </div>

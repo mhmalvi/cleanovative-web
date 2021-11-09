@@ -8,7 +8,7 @@
                     <div class="appointment-content">
                         <div class="section-title left-border mb-40">
                             <h2>Make An <br>
-                                Appointment <span>05</span></h2>
+                                Appointment</h2>
                             <p class="title-tag">Contact Us</p>
                         </div>
                         <p>Sed ut perspiciatis unde omnis istnatus error
