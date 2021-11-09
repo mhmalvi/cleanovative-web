@@ -7,11 +7,11 @@
     <section class="breadcrumb-area" style="background-image: url({{ asset('images/breadcrumb.jpg') }})">
         <div class="container">
             <div class="breadcrumb-text text-center">
-                <h1 class="page-title">Terms & Conditions</h1>
+                <h1 class="page-title text-dark">Terms & Conditions</h1>
                 <ul>
-                    <li><a href="{{ route('home') }}">Home</a></li>
-                    <li class="sep"><i class="fal fa-angle-double-right"></i></li>
-                    <li>Terms & Conditions</li>
+                    <li><a href="{{ route('home') }}" class="text-dark">Home</a></li>
+                    <li class="sep"><i class="text-dark fal fa-angle-double-right"></i></li>
+                    <li class="text-dark">Terms & Conditions</li>
                 </ul>
             </div>
         </div>
