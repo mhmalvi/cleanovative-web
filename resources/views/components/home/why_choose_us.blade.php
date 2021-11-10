@@ -37,8 +37,8 @@
                     </p>
                 </div>
             </div>
-            <div class="col-md-4 d-flex justify-content-center align-items-center px-4">
-                <img class="image-fluid rounded" src="{{asset('images/whyus.png')}}" alt="">
+            <div class="col-md-4 d-flex justify-content-center align-items-center">
+                <img class="image-fluid rounded" src="{{asset('images/whyus.jpg')}}" alt="">
             </div>
             <div class="col-md-4">
                 <div class="py-3">

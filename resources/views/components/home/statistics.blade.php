@@ -21,33 +21,33 @@
                     <div class="col-lg-6 col-sm-6 wow fadeInUp" data-wow-delay=".3s">
                         <div class="counter-box">
                             <div class="counter-title">
-                                <span class="counter-num">3624 </span>
+                                <span class="counter-num">295</span>
                             </div>
-                            <p>Saticified Clients</p>
+                            <p>Completed Movings</p>
                         </div>
                     </div>
                     <div class="col-lg-6 col-sm-6 wow fadeInUp" data-wow-delay=".3s">
                         <div class="counter-box">
                             <div class="counter-title">
-                                <span class="counter-num">9862 </span>
+                                <span class="counter-num">400</span>
                             </div>
-                            <p>Project Complated</p>
+                            <p>Happy Clients</p>
                         </div>
                     </div>
                     <div class="col-lg-6 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
                         <div class="counter-box">
                             <div class="counter-title">
-                                <span class="counter-num">4563</span>
+                                <span class="counter-num">527</span>
                             </div>
-                            <p>World Wide Branch</p>
+                            <p>Completed Projects</p>
                         </div>
                     </div>
                     <div class="col-lg-6 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
                         <div class="counter-box">
                             <div class="counter-title">
-                                <span class="counter-num">78964</span>
+                                <span class="counter-num">105</span>
                             </div>
-                            <p>Win Int’s Awards</p>
+                            <p>Places Cleaned</p>
                         </div>
                     </div>
                     <!-- End of counter Loop -->

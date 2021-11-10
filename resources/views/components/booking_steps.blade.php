@@ -1,5 +1,5 @@
 <!--====== SERVICE PART START ======-->
-<section class="service-section-two pt-5 pb-130">
+<section class="service-section-two pt-130 pb-130">
     <div class="container">
         <div class="section-title text-center both-border mb-20">
             <h2>Simply book in 4 steps</h2>

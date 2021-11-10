@@ -164,6 +164,24 @@ i {
     background-color: var(--main) !important;
 }
 
+.single-service .service-bg {
+    height: auto !important;
+}
+
+.single-service .service-bg .service-link {
+    right: calc(100% - 63%) !important;
+    line-height: 60px !important;
+}
+
+.single-service .service-content {
+    text-align: center !important;
+    padding: 60px 30px 30px 30px !important;
+}
+
+.brand-section {
+    padding: 30px 0 !important;
+}
+
 footer {
     background-color: var(--light) !important;
 }
