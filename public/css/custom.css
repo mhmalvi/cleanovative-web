@@ -328,3 +328,8 @@ footer .footer-widget-area .widget .social-link li a {
         background-color: var(--second) !important;
     }
 }
+
+.list-style-type-square
+{
+    list-style-type: square;
+}
