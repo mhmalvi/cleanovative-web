@@ -1,7 +1,7 @@
 @extends('pages.service_details')
 
 @section('banner')
-    @include('components.service_details.banner', ['banner_title' => 'Deep Cleaning'])
+    @include('components.service_details.banner', ['banner_title' => 'Office Cleaning'])
 @endsection
 
 @section('service_title', 'Office Cleaning')

@@ -33,7 +33,7 @@
                                             <img src="{{ asset('images/icons/contact.png') }}" alt="phone">
                                         </span>
                                         <h6 class="title py-2">Phone Number</h6>
-                                        <p class="info"><a href="tel:0401396554" style="font-size: 14px">0401396554</a></p>
+                                        <p class="info"><a href="tel:0401396554">0401396554</a></p>
                                     </div>
                                 </div>
                             </div>
@@ -61,7 +61,7 @@
                                             <img src="{{ asset('images/icons/location.png') }}" alt="location">
                                         </span>
                                         <h6 class="title py-2">Location</h6>
-                                        <p class="info">205 South East Road, USA</p>
+                                        <p class="info">105/26 Cairds Avenue , Bankstown , 2200</p>
                                     </div>
                                 </div>
                             </div>

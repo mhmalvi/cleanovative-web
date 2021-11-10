@@ -375,3 +375,8 @@ footer .footer-widget-area .widget .social-link li a {
 {
     width: 50px;
 }
+
+.contact-info-boxes .card .info
+{
+    font-size: 14px;
+}
