@@ -32,34 +32,18 @@ Route::view('contact', 'pages.contact')->name('contact');
 
 // Route::get('services/{service}', [ServiceController::class, 'details'])->name('services.details');
 
-Route::get('services/house-cleaning', function () {
-    return view('pages.services.house_cleaning');
-})->name('service.house_cleaning');
+Route::view('services/house-cleaning', 'pages.services.house_cleaning')->name('service.house_cleaning');
 
-Route::get('services/deep-cleaning', function () {
-    return view('pages.services.deep_cleaning');
-})->name('service.deep_cleaning');
+Route::view('services/deep-cleaning', 'pages.services.deep_cleaning')->name('service.deep_cleaning');
 
-Route::get('services/end-of-lease-cleaning', function () {
-    return view('pages.services.end_of_lease_cleaning');
-})->name('service.end_of_lease_cleaning');
+Route::view('services/end-of-lease-cleaning', 'pages.services.end_of_lease_cleaning')->name('service.end_of_lease_cleaning');
 
-Route::get('services/office-cleaning', function () {
-    return view('pages.services.office_cleaning');
-})->name('service.office_cleaning');
+Route::view('services/office-cleaning', 'pages.services.office_cleaning')->name('service.office_cleaning');
 
-Route::get('services/party-event-cleaning', function () {
-    return view('pages.services.party_event_cleaning');
-})->name('service.party_event_cleaning');
+Route::view('services/party-event-cleaning', 'pages.services.party_event_cleaning')->name('service.party_event_cleaning');
 
-Route::get('services/construction-cleaning', function () {
-    return view('pages.services.construction_cleaning');
-})->name('service.construction_cleaning');
+Route::view('services/construction-cleaning', 'pages.services.construction_cleaning')->name('service.construction_cleaning');
 
-Route::get('services/strata-cleaning', function () {
-    return view('pages.services.strata_cleaning');
-})->name('service.strata_cleaning');
+Route::view('services/strata-cleaning', 'pages.services.strata_cleaning')->name('service.strata_cleaning');
 
-Route::get('services/other-cleaning', function () {
-    return view('pages.services.other_cleaning');
-})->name('service.other_cleaning');
+Route::view('services/other-cleaning', 'pages.services.other_cleaning')->name('service.other_cleaning');
