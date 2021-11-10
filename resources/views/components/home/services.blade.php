@@ -3,7 +3,7 @@
     <div class="container">
         <div class="section-title white-color text-center both-border mb-50">
             <h2>
-                Are you looking for the right company <br> to make your home or office look <br> as good as new?
+                Are you looking for the right company to make your home or office look as good as new?
             </h2>
             <p class="title-tag">Company Services</p>
         </div>
@@ -127,6 +127,13 @@
                     </div>
                 </div>
             </div>
+        </div>
+
+        <div class="text-center pt-50">
+            <a class="main-btn main-btn-3 mt-50" href="#">
+                Book Now
+                <i class="fal fa-plus"></i>
+            </a>
         </div>
     </div>
 </section>

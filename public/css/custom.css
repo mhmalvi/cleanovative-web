@@ -151,6 +151,15 @@ i {
     font-weight: 600;
 }
 
+.section-title h2 {
+    font-size: 48px !important;
+    line-height: 1.5 !important;
+}
+
+.service-section {
+    padding-bottom: 100px !important;
+}
+
 .single-feature-box.active {
     background-color: var(--main) !important;
 }
@@ -286,6 +295,10 @@ footer .footer-widget-area .widget .social-link li a {
     background-color: var(--main) !important;
 }
 
+.breadcrumb-area .breadcrumb-text h1.page-title {
+    font-size: 72px !important;
+}
+
 @media screen and (max-width: 480px) {
     .top-bar {
         display: none !important;
@@ -329,7 +342,6 @@ footer .footer-widget-area .widget .social-link li a {
     }
 }
 
-.list-style-type-square
-{
+.list-style-type-square {
     list-style-type: square;
 }
