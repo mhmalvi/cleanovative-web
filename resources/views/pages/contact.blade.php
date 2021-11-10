@@ -27,7 +27,7 @@
                         <div class="row">
                             <div class="col-lg-4">
                                 <!-- Single Boxes -->
-                                <div class="card pt-25 pb-25 text-center">
+                                <div class="card pt-25 pb-25 text-center mt-25">
                                     <div class="card-body">
                                         <span class="icon h2">
                                             <img src="{{ asset('images/icons/contact.png') }}" alt="phone">
@@ -39,7 +39,7 @@
                             </div>
                             <div class="col-lg-4">
                                 <!-- Single Boxes -->
-                                <div class="card pt-25 pb-25 text-center">
+                                <div class="card pt-25 pb-25 text-center mt-25">
                                     <div class="card-body">
                                     <span class="icon h2">
                                         <img src="{{ asset('images/icons/mail.png') }}" alt="email">
@@ -55,7 +55,7 @@
                             </div>
                             <div class="col-lg-4">
                                 <!-- Single Boxes -->
-                                <div class="card pt-25 pb-25 text-center">
+                                <div class="card pt-25 pb-25 text-center mt-25">
                                     <div class="card-body">
                                         <span class="icon h2">
                                             <img src="{{ asset('images/icons/location.png') }}" alt="location">
@@ -67,19 +67,14 @@
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
 
-            <!-- Conatact Form -->
-            <div class="row">
-                <div class="col-md-10 mx-auto">
-                    <div class="pb-130 row">
-                        <div class="section-title left-border mb-30">
-                            <h2>Don’t Hesited To Contact <br>
-                                With Us, Say Hello</h2>
-                            <p class="title-tag">Leave A Message</p>
-                        </div>
-                        <div class="col-md-6">
+                    <!-- Conatact Form -->
+                    <div class="row pb-130 pt-85">
+                        <div class="col-md-6 pt-50 pb-15">
+                            <div class="section-title left-border mb-30">
+                                <h2>Say Hello</h2>
+                                <p class="title-tag">Leave A Message</p>
+                            </div>
                             <form action="#">
                                 <div class="row">
                                     <div class="form-group col-12">
@@ -103,8 +98,8 @@
                                 </div>
                             </form>
                         </div>
-                        <div class="col-md-6">
-                            <img src="https://via.placeholder.com/550x400" alt="">
+                        <div class="col-md-6 pt-50 pb-15 order-first order-md-last">
+                            <img src="{{asset('images/contact-us.jpg')}}" alt="contact us" class="img-thumbnail">
                         </div>
                     </div>
                 </div>
