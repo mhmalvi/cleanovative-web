@@ -1,5 +1,9 @@
 @extends('pages.service_details')
 
+@section('banner')
+    @include('components.service_details.banner', ['banner_title' => 'Deep Cleaning'])
+@endsection
+
 @section('service_title', 'Office Cleaning')
 
 @section('service_content')
