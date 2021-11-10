@@ -86,14 +86,14 @@
                                         </a>
                                         <ul class="sub-menu">
                                             <li>
-                                                <a href="{{ route('services.details', ['service' => 'house-residential-cleaning']) }}">House-Residential Cleaning</a>
-                                                <a href="{{ route('services.details', ['service' => 'end-of-lease-cleaning']) }}">End of Lease Cleaning</a>
-                                                <a href="{{ route('services.details', ['service' => 'office-commercial-cleaning']) }}">Office-Commercial Cleaning</a>
-                                                <a href="{{ route('services.details', ['service' => 'party-event-cleaning']) }}">Party-Event Cleaning</a>
-                                                <a href="{{ route('services.details', ['service' => 'construction-cleaning']) }}">Construction Cleaning</a>
-                                                <a href="{{ route('services.details', ['service' => 'strata-cleaning']) }}">Strata Cleaning</a>
-                                                <a href="{{ route('services.details', ['service' => 'other-commercial-cleaning']) }}">Other Commercial Cleaning</a>
-                                                <a href="{{ route('services.details', ['service' => 'other-commercial-cleaning']) }}">Deep Cleaning</a>
+                                                <a href="{{ route('service.house_cleaning') }}">House Cleaning</a>
+                                                <a href="{{ route('service.deep_cleaning') }}">Deep Cleaning</a>
+                                                <a href="{{ route('service.end_of_lease_cleaning') }}">End of Lease Cleaning</a>
+                                                <a href="{{ route('service.office_cleaning') }}">Office Cleaning</a>
+                                                <a href="{{ route('service.party_event_cleaning') }}">Party-Event Cleaning</a>
+                                                <a href="{{ route('service.construction_cleaning') }}">Construction Cleaning</a>
+                                                <a href="{{ route('service.strata_cleaning') }}">Strata Cleaning</a>
+                                                <a href="{{ route('service.other_cleaning') }}">Other Cleaning</a>
                                             </li>
                                         </ul>
                                     </li>
