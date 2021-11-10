@@ -71,31 +71,43 @@
             </div>
 
             <!-- Conatact Form -->
-            <div class="contact-form pb-130">
-                <div class="section-title left-border mb-30">
-                    <h2>Don’t Hesited To Contact <br>
-                        With Us, Say Hello</h2>
-                    <p class="title-tag">Leave A Message</p>
-                </div>
-                <form action="#">
-                    <div class="row">
-                        <div class="col-lg-4">
-                            <input type="text" placeholder="Your Name">
+            <div class="row">
+                <div class="col-md-10 mx-auto">
+                    <div class="pb-130 row">
+                        <div class="section-title left-border mb-30">
+                            <h2>Don’t Hesited To Contact <br>
+                                With Us, Say Hello</h2>
+                            <p class="title-tag">Leave A Message</p>
                         </div>
-                        <div class="col-lg-4">
-                            <input type="email" placeholder="Your Email">
+                        <div class="col-md-6">
+                            <form action="#">
+                                <div class="row">
+                                    <div class="form-group col-12">
+                                        <input type="text" class="form-control" placeholder="Your Name*" required>
+                                    </div>
+                                    <div class="form-group col-12">
+                                        <input type="text" class="form-control" placeholder="Your Business name">
+                                    </div>
+                                    <div class="form-group col-12">
+                                        <input type="tel" class="form-control" placeholder="Your Phone Number*">
+                                    </div>
+                                    <div class="form-group col-12">
+                                        <input type="email" class="form-control" placeholder="Your Email*">
+                                    </div>
+                                    <div class="form-group col-12">
+                                        <textarea class="form-control" placeholder="Brief comment about your enquiry"></textarea>
+                                    </div>
+                                    <div class="col-12">
+                                        <button class="main-btn"> Send <i class="fal fa-plus"></i></button>
+                                    </div>
+                                </div>
+                            </form>
                         </div>
-                        <div class="col-lg-4">
-                            <input type="text" placeholder="Your Phone">
-                        </div>
-                        <div class="col-12">
-                            <textarea placeholder="Your Message"></textarea>
-                        </div>
-                        <div class="col-12">
-                            <button class="main-btn"> Send Message <i class="fal fa-plus"></i></button>
+                        <div class="col-md-6">
+                            <img src="https://via.placeholder.com/550x400" alt="">
                         </div>
                     </div>
-                </form>
+                </div>
             </div>
         </div>
 
