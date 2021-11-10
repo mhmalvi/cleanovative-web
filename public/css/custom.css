@@ -345,3 +345,33 @@ footer .footer-widget-area .widget .social-link li a {
 .list-style-type-square {
     list-style-type: square;
 }
+
+.contact-breadcrumb-area .breadcrumb-text h1.page-title
+{
+    font-size: 64px !important;
+}
+
+.contact-breadcrumb-area .contact-breadcrumb-items
+{
+    font-size: 14px !important;
+}
+
+.contact-wrap
+{
+    margin-top: -40px;
+}
+
+.contact-info-boxes .card
+{
+    z-index: 2;
+}
+
+.contact-info-boxes .far
+{
+    font-weight: 100;
+}
+
+.contact-info-boxes .card img
+{
+    width: 50px;
+}
