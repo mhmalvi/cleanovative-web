@@ -8,20 +8,18 @@
 
     @include('components.home.why_choose_us')
 
-    @include('components.home.about_section')
-
     @include('components.home.services')
 
     @include('components.testimonials')
-
-    @include('components.booking_steps', ['number' => '04'])
 
     @include('components.home.statistics')
 
     @include('components.home.call_to_action')
 
-    @include('components.home.appointment')
+    @include('components.booking_steps', ['number' => '04'])
 
-    @include('components.brands')
+    @include('components.home.about_section')
+
+    @include('components.home.appointment')
 
 @endsection
