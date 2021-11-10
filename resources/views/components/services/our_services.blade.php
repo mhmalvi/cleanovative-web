@@ -10,7 +10,7 @@
             <div class="col-lg-3 col-md-6 wow fadeInLeft" data-wow-delay=".3s">
                 <div class="single-service">
                     <div class="service-bg" style="background-image: url({{ asset('images/service-1.jpg') }});">
-                        <a href="{{ route('services.details', ['service' => 'house-residential-cleaning']) }}"
+                        <a href="{{ route('service.strata_cleaning') }}"
                             class="service-link"><i class="fal fa-long-arrow-right"></i></a>
                     </div>
                     <div class="service-content">
@@ -21,7 +21,7 @@
             <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay=".5s">
                 <div class="single-service active">
                     <div class="service-bg" style="background-image: url({{ asset('images/service-2.jpg') }});">
-                        <a href="{{ route('services.details', ['service' => 'end-of-lease-cleaning']) }}"
+                        <a href="{{ route('service.end_of_lease_cleaning') }}"
                             class="service-link"><i class="fal fa-long-arrow-right"></i></a>
                     </div>
                     <div class="service-content">
@@ -32,7 +32,7 @@
             <div class="col-lg-3 col-md-6 mx-auto wow fadeInRight" data-wow-delay=".7s">
                 <div class=" single-service">
                     <div class="service-bg" style="background-image: url({{ asset('images/service-3.jpg') }});">
-                        <a href="{{ route('services.details', ['service' => 'office-commercial-cleaning']) }}"
+                        <a href="{{ route('service.construction_cleaning') }}"
                             class="service-link"><i class="fal fa-long-arrow-right"></i></a>
                     </div>
                     <div class="service-content">
@@ -43,7 +43,7 @@
             <div class="col-lg-3 col-md-6 mx-auto wow fadeInRight" data-wow-delay=".7s">
                 <div class=" single-service">
                     <div class="service-bg" style="background-image: url({{ asset('images/service-4.jpg') }});">
-                        <a href="{{ route('services.details', ['service' => 'party-event-cleaning']) }}"
+                        <a href="{{ route('service.party_event_cleaning') }}"
                             class="service-link"><i class="fal fa-long-arrow-right"></i></a>
                     </div>
                     <div class="service-content">
@@ -54,7 +54,7 @@
             <div class="col-lg-3 col-md-6 mx-auto wow fadeInRight" data-wow-delay=".7s">
                 <div class=" single-service">
                     <div class="service-bg" style="background-image: url({{ asset('images/service-5.jpg') }});">
-                        <a href="{{ route('services.details', ['service' => 'construction-cleaning']) }}"
+                        <a href="{{ route('service.office_cleaning') }}"
                             class="service-link"><i class="fal fa-long-arrow-right"></i></a>
                     </div>
                     <div class="service-content">
@@ -66,7 +66,7 @@
             <div class="col-lg-3 col-md-6 mx-auto wow fadeInRight" data-wow-delay=".7s">
                 <div class=" single-service">
                     <div class="service-bg" style="background-image: url({{ asset('images/service-6.jpg') }});">
-                        <a href="{{ route('services.details', ['service' => 'strata-cleaning']) }}"
+                        <a href="{{ route('service.house_cleaning') }}"
                             class="service-link"><i class="fal fa-long-arrow-right"></i></a>
                     </div>
                     <div class="service-content">
@@ -78,7 +78,7 @@
             <div class="col-lg-3 col-md-6 mx-auto wow fadeInRight" data-wow-delay=".7s">
                 <div class=" single-service">
                     <div class="service-bg" style="background-image: url({{ asset('images/service-7.jpg') }});">
-                        <a href="{{ route('services.details', ['service' => 'other-commercial-cleaning']) }}"
+                        <a href="{{ route('service.other_cleaning') }}"
                             class="service-link"><i class="fal fa-long-arrow-right"></i></a>
                     </div>
                     <div class="service-content">
@@ -90,7 +90,7 @@
             <div class="col-lg-3 col-md-6 mx-auto wow fadeInRight" data-wow-delay=".7s">
                 <div class=" single-service">
                     <div class="service-bg" style="background-image: url({{ asset('images/service-8.jpg') }});">
-                        <a href="{{ route('services.details', ['service' => 'other-commercial-cleaning']) }}"
+                        <a href="{{ route('service.deep_cleaning') }}"
                             class="service-link"><i class="fal fa-long-arrow-right"></i></a>
                     </div>
                     <div class="service-content">

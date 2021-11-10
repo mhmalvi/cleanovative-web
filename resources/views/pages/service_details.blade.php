@@ -4,7 +4,7 @@
 
 @section('content')
 
-    @include('components.service_details.banner')
+    @yield('banner')
 
     <!--====== SERVICE DETAILS PART START ======-->
     <section class="service-details-wrap pt-130 pb-130">
