@@ -11,17 +11,29 @@
                                 Appointment</h2>
                             <p class="title-tag">Contact Us</p>
                         </div>
-                        <p>Sed ut perspiciatis unde omnis istnatus error
-                            voluptatem accusantium doloremque laudanti
-                            um totam rem aperiam, eaque ipsa quae abllo invtore veritatis et quasi architect
-                            beatae vitae dictsunt explicabo enim
-                            ipsam volupta</p>
+                        <p>
+                            Starting with us is easy:
+                        </p>
+                        <ol class="list-style-type-square">
+                            <li>Contact us and organise a free quotation</li>
+                            <li>
+                                One of our friendly managers will come to your space and will do a walk through
+                                with you and indentify what you require.
+                            </li>
+                            <li>
+                                We then draw up and send our quotation to you.
+                            </li>
+                            <li>
+                                Once you accept our quotation we organise a start date that suits you.
+                            </li>
+                        </ol>
                         <div class="read-more-btn">
-                            <a href="#">Get Started</a>
+                            <a href="#">Start experiencing clean today!</a>
                         </div>
                     </div>
                 </div>
             </div>
+
             <div class="col-lg-7">
                 <!-- appointment form -->
                 <div class="appointment-form">
@@ -31,26 +43,28 @@
                     </div>
                     <form action="#" style="background-image: url({{ asset('images/app-form-bg.jpg') }});">
                         <div class="input-group mb-15">
-                            <input type="text" placeholder="Your Name">
+                            <input type="text" placeholder="Your Name*" required>
                             <span class="icon"><i class="far fa-user-edit"></i></span>
                         </div>
                         <div class="input-group mb-15">
-                            <input type="text" placeholder="Your Email">
+                            <input type="text" placeholder="Your Business Name">
+                            <span class="icon"><i class="far fa-building"></i></span>
+                        </div>
+                        <div class="input-group mb-15">
+                            <input type="tel" placeholder="Your Phone Number*" required>
+                            <span class="icon"><i class="far fa-phone"></i></span>
+                        </div>
+                        <div class="input-group mb-15">
+                            <input type="text" placeholder="Your Email Address*" required>
                             <span class="icon"><i class="far fa-envelope-open"></i></span>
                         </div>
                         <div class="input-group mb-15">
-                            <select>
-                                <option value="1" disabled>I Would Like To</option>
-                                <option value="2">House Cleaning</option>
-                                <option value="3">Kitchen Cleaning</option>
-                                <option value="4">Office Cleaning</option>
-                            </select>
+                            <textarea placeholder="Brief comment about your enquiry"></textarea>
                         </div>
-                        <div class="input-group mb-15">
-                            <textarea placeholder="Write a Message"></textarea>
-                        </div>
-                        <button class="main-btn main-btn-3" type="submit"> Send Request <i
-                                class="fal fa-plus"></i></button>
+                        <button class="main-btn main-btn-3" type="submit">
+                            Send
+                            <i class="fal fa-plus"></i>
+                        </button>
                     </form>
                 </div>
             </div>
