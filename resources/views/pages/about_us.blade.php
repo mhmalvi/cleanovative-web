@@ -31,7 +31,7 @@
                 <div class="col-lg-6">
                     <div class="about-text">
                         <div class="section-title left-border mb-40">
-                            <h2>Who We Are<span>01</span></h2>
+                            <h2>Who We Are</h2>
                             <p class="title-tag">About Company</p>
                         </div>
                         <p>
@@ -75,7 +75,7 @@
 
     <!--====== STATISTICS PART START ======-->
     <section class="statistics-section with-video bg-cover"
-        style="background-image: url({{ asset('images/counter-bg-2.jpg') }});">
+        style="background-image: url({{ asset('images/counter-bg.jpg') }});">
         <div class="container">
             <div class="video">
                 <a href="https://www.youtube.com/watch?v=JP-PTke2x8w" class="popup-video"><i
@@ -87,7 +87,6 @@
                     <div class="counter-box">
                         <div class="counter-title">
                             <span class="counter-num">3624 </span>
-                            <span class="box-count">01</span>
                         </div>
                         <p>Saticified Clients</p>
                     </div>
@@ -96,7 +95,6 @@
                     <div class="counter-box">
                         <div class="counter-title">
                             <span class="counter-num">9862 </span>
-                            <span class="box-count">02</span>
                         </div>
                         <p>Project Complated</p>
                     </div>
@@ -105,7 +103,6 @@
                     <div class="counter-box">
                         <div class="counter-title">
                             <span class="counter-num">4563</span>
-                            <span class="box-count">03</span>
                         </div>
                         <p>World Wide Branch</p>
                     </div>
@@ -114,7 +111,6 @@
                     <div class="counter-box">
                         <div class="counter-title">
                             <span class="counter-num">78964</span>
-                            <span class="box-count">04</span>
                         </div>
                         <p>Win Int’s Awards</p>
                     </div>

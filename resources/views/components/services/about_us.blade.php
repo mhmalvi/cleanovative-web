@@ -15,7 +15,7 @@
                 <div class="about-text">
                     <div class="section-title left-border mb-40">
                         <h2>Let’s Start Project
-                            Our Agency <span>03</span></h2>
+                            Our Agency</h2>
                         <p class="title-tag">About Company</p>
                     </div>
                     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium

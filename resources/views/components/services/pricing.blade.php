@@ -3,7 +3,7 @@
     <div class="container">
         <div class="section-title text-center both-border mb-80">
             <h2>Our Best Pricing Plan For <br>
-                Cleaning Services<span>01</span></h2>
+                Cleaning Services</h2>
             <p class="title-tag">Pricing Plan</p>
         </div>
         <!-- Pricing Loop -->

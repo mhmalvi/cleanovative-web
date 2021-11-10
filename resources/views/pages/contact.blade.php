@@ -55,7 +55,7 @@
             <div class="contact-form pb-130">
                 <div class="section-title left-border mb-30">
                     <h2>Don’t Hesited To Contact <br>
-                        With Us, Say Hello<span>01</span></h2>
+                        With Us, Say Hello</h2>
                     <p class="title-tag">Leave A Message</p>
                 </div>
                 <form action="#">

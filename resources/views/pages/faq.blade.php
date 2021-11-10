@@ -25,7 +25,7 @@
                     <div class="faq-wrap">
                         <div class="section-title left-border mb-30">
                             <h2>Freequently Ask <br>
-                                Questions<span>01</span></h2>
+                                Questions</h2>
                             <p class="title-tag">FAQ</p>
                         </div>
                         <h3>General Enquiries</h3>
