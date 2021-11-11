@@ -47,3 +47,5 @@ Route::view('services/construction-cleaning', 'pages.services.construction_clean
 Route::view('services/strata-cleaning', 'pages.services.strata_cleaning')->name('service.strata_cleaning');
 
 Route::view('services/other-cleaning', 'pages.services.other_cleaning')->name('service.other_cleaning');
+
+Route::view('book-now', 'pages.book_now')->name('book_now');

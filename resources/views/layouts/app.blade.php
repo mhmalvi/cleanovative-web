@@ -50,6 +50,8 @@
     @include('layouts.footer')
 
     @include('layouts.scripts')
+
+    @stack('js')
 </body>
 
 </html>
