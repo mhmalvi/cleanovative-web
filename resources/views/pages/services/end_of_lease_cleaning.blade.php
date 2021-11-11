@@ -27,7 +27,7 @@
             What is included in our home cleaning service?
         </h2>
         <ul class="nav nav-pills service-nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
-            <li class="nav-item mx-2">
+            <li class="nav-item">
                 <a class="nav-link service-nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Standard</a>
             </li>
         </ul>

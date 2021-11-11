@@ -14,4 +14,9 @@
     <p>
         Please call us on 180 xxx xxx to discuss maintenance on your strata property.
     </p>
+
+    <a class="main-btn booking-btn main-btn-3 mt-50 mb-50" href="#">
+        Book Now
+        <i class="fal fa-plus"></i>
+    </a>
 @endsection
