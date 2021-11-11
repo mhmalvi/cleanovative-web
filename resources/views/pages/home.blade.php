@@ -23,5 +23,5 @@
     @include('components.booking-banner')
 
     @include('components.home.appointment')
-
+    
 @endsection
