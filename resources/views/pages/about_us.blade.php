@@ -71,7 +71,7 @@
     </section>
     <!--====== ABOUT PART END ======-->
 
-    @include('components.booking_steps', ['number' => '02'])
+    @include('components.booking_steps')
 
     <!--====== STATISTICS PART START ======-->
     @include('components.booking-banner')

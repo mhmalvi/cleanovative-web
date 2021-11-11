@@ -10,7 +10,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="widget about-company mb-40">
-                        <h4 class="widget-title">About Comapny</h4>
+                        <h4 class="widget-title">About Company</h4>
                         <p>Sed ut perspiciati unde omnis iste natus error sit voluptatem accusantium doloque
                             laudantium, totam rem aperiam eaquipsa
                             quae ab illo inventore veritatis</p>

@@ -99,7 +99,7 @@
                                     </li>
 
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">
+                                        <a class="nav-link" href="{{ route('gift_cards') }}" target="_blank">
                                             Gift Cards
                                         </a>
                                     </li>
@@ -134,15 +134,27 @@
                                     </li>
 
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">
-                                            Login
+                                        <a href="#" class="nav-link">
+                                            Join Us <i class="fal fa-plus"></i>
                                         </a>
+                                        <ul class="sub-menu">
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="{{ route('signin') }}" target="_blank">
+                                                    Sign In
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="{{ route('signup') }}" target="_blank">
+                                                    Sign Up
+                                                </a>
+                                            </li>
+                                        </ul>
                                     </li>
                                 </ul>
                             </div>
                             <!-- navbar collapse -->
                             <div class="navbar-btn d-none d-sm-block">
-                                <a class="main-btn btn-sm booking-btn text-light" href="javascript:void(0)">
+                                <a class="main-btn btn-sm booking-btn text-light" href="{{ route('book_now') }}" target="_blank">
                                     Book Now <i class="fal fa-plus"></i>
                                 </a>
                             </div>
