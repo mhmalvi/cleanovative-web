@@ -2,8 +2,6 @@
 <link rel="stylesheet" href="{{asset('assets/css/animate.min.css')}}">
 <!--====== Bootstrap css ======-->
 <link rel="stylesheet" href="{{asset('assets/css/bootstrap.min.css')}}" />
-<!--====== Fontawesome css ======-->
-<link rel="stylesheet" href="{{asset('assets/css/font-awesome.min.css')}}" />
 <!--====== flaticon css ======-->
 <link rel="stylesheet" href="{{asset('assets/css/flaticon.css')}}" />
 <!--====== nice select css ======-->
