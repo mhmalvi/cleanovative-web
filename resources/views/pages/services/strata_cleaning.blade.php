@@ -15,8 +15,106 @@
         Please call us on 180 xxx xxx to discuss maintenance on your strata property.
     </p>
 
-    <a class="main-btn booking-btn main-btn-3 mt-50 mb-50" href="#">
+    <a class="main-btn booking-btn main-btn-3 mt-50 mb-50" href="{{ route('book_now') }}" target="_blank">
         Book Now
         <i class="fal fa-plus"></i>
     </a>
 @endsection
+
+@section('checklist')
+    <div class="container mt-100 mb-50">
+        <h2 class="sub-title text-md-center mb-85">
+            What is included in our strata cleaning service?
+        </h2>
+        <ul class="nav nav-pills service-nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link service-nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Standard</a>
+            </li>
+        </ul>
+
+        <p class="text-center mt-25 mb-25">
+            Our strata cleaning service is perfect for preparing the homes for new tenants/owners, homes needing extra care, or getting your bond money back.
+        </p>
+
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                <div class="row mt-25">
+                    <div class="col-md-4 py-3">
+                        <h6 class="text-uppercase mb-3">Internal common areas</h6>
+
+                        <ul class="service-checklist">
+                            <li><span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Remove Loose Rubbish.<br>
+                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Sweep & Mop Fire Stairs.<br>
+                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Sweep & Mop Common Area Stairs.<br>
+                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Wall Scuff Marks Cleaned<br>
+                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Cobwebs Removed<br>
+                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Picture Frames Dusted<br>
+                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Window Sills & Windows Dusted & Cleaned<br>
+                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Stairwell Balustrade Dusted & Cleaned<br>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-4 py-3">
+                        <h6 class="text-uppercase mb-3">External common areas</h6>
+
+                        <ul class="service-checklist">
+                            <li>
+                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Refill of biodegradable toilet paper, soap dispenser and paper towel.<br>
+                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Remove Loose Rubbish<br>
+                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Mailboxes Cleaned<br>
+                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Take In / Out Bins<br>
+                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Remove Cobwebs<br>
+                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean Bins<br>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-4 py-3">
+                        <h6 class="text-uppercase mb-3">Foyers</h6>
+
+                        <ul class="service-checklist">
+                            <li>
+                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Vacuum / Mop Floors<br>
+                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean Light Switches<br>
+                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Remove Loose Rubbish<br>
+                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Remove Cobwebs<br>
+                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean Windows & Window Sills<br>
+                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Cleaning & Dusting Furniture<br>
+                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Glass Door & Mirrors Cleaned<br>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-4 py-3">
+                        <h6 class="text-uppercase mb-3">Additional services</h6>
+
+                        <ul class="service-checklist">
+                            <li>
+                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Carpet Steam Cleaning<br>
+                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Pressure Washing<br>
+                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Car Park / Basement Cleaning<br>
+                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Remove Cobwebs<br>
+                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean Windows & Window Sills<br>
+                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Cleaning & Dusting Furniture<br>
+                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Glass Door & Mirrors Cleaned<br>
+                            </li>
+                        </ul>
+                        We can cater to most strata cleaning demands, give us a call to learn more.
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center mt-85">
+            <a class="main-btn booking-btn main-btn-3" href="{{ route('book_now') }}" target="_blank">
+                Book Now
+                <i class="fal fa-plus"></i>
+            </a>
+        </div>
+    </div>
+@endsection
+
+
+

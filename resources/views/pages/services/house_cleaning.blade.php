@@ -8,9 +8,9 @@
 
 @section('service_content')
     <p>
-        Grab a coffee with your loved ones while we handle the housecleaning so you may walk into your home that has been inexplicably 
-        cleaned to your satisfaction. Sit back and embrace the peace of mind that comes with knowing that your entire home has been 
-        professionally cleaned by a reputable company. Our team will ensure that your property is perfect and spotless. 
+        Grab a coffee with your loved ones while we handle the housecleaning so you may walk into your home that has been inexplicably
+        cleaned to your satisfaction. Sit back and embrace the peace of mind that comes with knowing that your entire home has been
+        professionally cleaned by a reputable company. Our team will ensure that your property is perfect and spotless.
         A professional cleaning staff that cleans exactly as you want it every time.
     </p>
 
@@ -18,7 +18,7 @@
         In less than a minute, you can get a quote and book us.
     </p>
 
-    <a class="main-btn booking-btn main-btn-3 mt-50 mb-50" href="#">
+    <a class="main-btn booking-btn main-btn-3 mt-50 mb-50" href="{{ route('book_now') }}" target="_blank">
         Book Now
         <i class="fal fa-plus"></i>
     </a>
@@ -81,7 +81,7 @@
                                 <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean bathtub &amp; shower<br>
                                 <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean sink &amp; taps<br>
                                 <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean mirrors<br>
-                                <span class="wrong"><i class="fas fa-times-circle mr-2"></i></span>Clean inside of cabinets &amp; drawers
+                                <span class="correct"><i class="fas fa-check-circle mr-2 icon-color-red"></i></span>Clean inside of cabinets &amp; drawers
                             </li>
                         </ul>
                     </div>
@@ -98,13 +98,14 @@
                                 <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean sink<br>
                                 <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean stove<br>
                                 <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Vacuum &amp; mop floors<br>
-                                <span class="wrong"><i class="fas fa-times-circle mr-2"></i></span>Clean inside oven<br>
-                                <span class="wrong"><i class="fas fa-times-circle mr-2"></i></span>Clean range hood &amp; filters<br>
-                                <span class="wrong"><i class="fas fa-times-circle mr-2"></i></span>Clean inside cabinets, shelves &amp; drawers</li>
+                                <span class="correct"><i class="fas fa-check-circle mr-2 icon-color-red"></i></span>Clean inside oven<br>
+                                <span class="correct"><i class="fas fa-check-circle mr-2 icon-color-red"></i></span>Clean range hood &amp; filters<br>
+                                <span class="correct"><i class="fas fa-check-circle mr-2 icon-color-red"></i></span>Clean inside cabinets, shelves &amp; drawers</li>
                         </ul>
                     </div>
                 </div>
             </div>
+
             <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
                 <div class="row mt-25">
                     <div class="col-md-4 py-3">
@@ -127,8 +128,8 @@
                                 <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Detail skirting boards<br>
                                 <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Detail all doors &amp; door frames<br>
                                 <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean ceiling fans &amp; A.C vents<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean inside cabinets, drawers &amp; shelves<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Inside windows + Window Tracks
+                                <span class="wrong"><i class="fas fa-times-circle mr-2"></i></span>Clean inside cabinets, drawers &amp; shelves<br>
+                                <span class="wrong"><i class="fas fa-times-circle mr-2"></i></span>Inside windows + Window Tracks
                             </li>
                         </ul>
                     </div>
@@ -143,7 +144,7 @@
                                 <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean bathtub &amp; shower<br>
                                 <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean sink &amp; taps<br>
                                 <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean mirrors<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean inside of cabinets &amp; drawers
+                                <span class="correct"><i class="fas fa-check-circle mr-2 icon-color-red"></i></span>Clean inside of cabinets &amp; drawers
                             </li>
                         </ul>
                     </div>
@@ -160,9 +161,9 @@
                                 <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean sink<br>
                                 <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean stove<br>
                                 <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Vacuum &amp; mop floors<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean inside oven<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean range hood &amp; filters<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean inside cabinets, shelves &amp; drawers
+                                <span class="correct"><i class="fas fa-check-circle mr-2 icon-color-red"></i></span>Clean inside oven<br>
+                                <span class="correct"><i class="fas fa-check-circle mr-2 icon-color-red"></i></span>Clean range hood &amp; filters<br>
+                                <span class="correct"><i class="fas fa-check-circle mr-2 icon-color-red"></i></span>Clean inside cabinets, shelves &amp; drawers
                             </li>
                         </ul>
                     </div>
@@ -171,7 +172,7 @@
         </div>
 
         <div class="text-center mt-85">
-            <a class="main-btn booking-btn main-btn-3" href="#">
+            <a class="main-btn booking-btn main-btn-3" href="{{ route('book_now') }}" target="_blank">
                 Book Now
                 <i class="fal fa-plus"></i>
             </a>

@@ -461,3 +461,8 @@ footer .footer-widget-area .widget .social-link li a {
 {
     margin-bottom: -1rem;
 }
+
+.icon-color-red::before
+{
+    color: red !important;
+}

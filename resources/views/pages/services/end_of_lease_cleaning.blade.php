@@ -15,7 +15,7 @@
         In less than a minute, you can get a quote and book us.
     </p>
 
-    <a class="main-btn booking-btn main-btn-3 mt-50 mb-50" href="#">
+    <a class="main-btn booking-btn main-btn-3 mt-50 mb-50" href="{{ route('book_now') }}" target="_blank">
         Book Now
         <i class="fal fa-plus"></i>
     </a>
@@ -24,7 +24,7 @@
 @section('checklist')
     <div class="container mt-100 mb-50">
         <h2 class="sub-title text-md-center mb-85">
-            What is included in our home cleaning service?
+            What is included in our end of lease cleaning service?
         </h2>
         <ul class="nav nav-pills service-nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
             <li class="nav-item">
@@ -156,7 +156,7 @@
         </div>
 
         <div class="text-center mt-85">
-            <a class="main-btn booking-btn main-btn-3" href="#">
+            <a class="main-btn booking-btn main-btn-3" href="{{ route('book_now') }}" target="_blank">
                 Book Now
                 <i class="fal fa-plus"></i>
             </a>

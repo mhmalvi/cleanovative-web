@@ -5,7 +5,7 @@
             So just grab a coffee and sit back, we will take take care of everything
         </p>
 
-        <a class="main-btn booking-btn main-btn-3 mt-50" href="#">
+        <a class="main-btn booking-btn main-btn-3 mt-50" href="{{ route('book_now') }}" target="_blank">
             Book Now
             <i class="fal fa-plus"></i>
         </a>
