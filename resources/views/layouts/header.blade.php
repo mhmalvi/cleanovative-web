@@ -139,21 +139,9 @@
                                     </li>
 
                                     <li class="nav-item">
-                                        <a href="#" class="nav-link">
-                                            Join Us <i class="fal fa-plus"></i>
+                                        <a class="nav-link" href="{{ route('signin') }}" target="_blank">
+                                            Sign in
                                         </a>
-                                        <ul class="sub-menu">
-                                            <li class="nav-item">
-                                                <a class="nav-link" href="{{ route('signin') }}" target="_blank">
-                                                    Sign In
-                                                </a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link" href="{{ route('signup') }}" target="_blank">
-                                                    Sign Up
-                                                </a>
-                                            </li>
-                                        </ul>
                                     </li>
                                 </ul>
                             </div>
