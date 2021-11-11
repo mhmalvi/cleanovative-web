@@ -74,50 +74,7 @@
     @include('components.booking_steps', ['number' => '02'])
 
     <!--====== STATISTICS PART START ======-->
-    <section class="statistics-section with-video bg-cover"
-        style="background-image: url({{ asset('images/counter-bg.jpg') }});">
-        <div class="container">
-            <div class="video">
-                <a href="https://www.youtube.com/watch?v=JP-PTke2x8w" class="popup-video"><i
-                        class="fas fa-play"></i></a>
-            </div>
-            <div class="row no-gutters justify-content-between">
-                <!-- Counetr Loop Start -->
-                <div class="col-xl-2 col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".3s">
-                    <div class="counter-box">
-                        <div class="counter-title">
-                            <span class="counter-num">3624 </span>
-                        </div>
-                        <p>Saticified Clients</p>
-                    </div>
-                </div>
-                <div class="col-xl-2 col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".4s">
-                    <div class="counter-box">
-                        <div class="counter-title">
-                            <span class="counter-num">9862 </span>
-                        </div>
-                        <p>Project Complated</p>
-                    </div>
-                </div>
-                <div class="col-xl-2 col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
-                    <div class="counter-box">
-                        <div class="counter-title">
-                            <span class="counter-num">4563</span>
-                        </div>
-                        <p>World Wide Branch</p>
-                    </div>
-                </div>
-                <div class="col-xl-2 col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".6s">
-                    <div class="counter-box">
-                        <div class="counter-title">
-                            <span class="counter-num">78964</span>
-                        </div>
-                        <p>Win Int’s Awards</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    @include('components.booking-banner')
     <!--====== STATISTICS PART END ======-->
 
     <!--====== EXPERIENCE PART START ======-->

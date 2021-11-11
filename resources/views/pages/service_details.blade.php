@@ -11,7 +11,6 @@
         <div class="container">
             <div class="row">
                 @include('components.service_details._sidebar')
-
                 <div class="col-lg-8 order-1 order-lg-2">
                     <div class="details-content">
                         <h1 class="title">
@@ -54,28 +53,16 @@
                                 </p>
                             </li>
                         </ul>
-                        <div class="srevice-gallery">
-                            <div class="row">
-                                <div class="col-sm-6">
-                                    <div class="gallery-img">
-                                        <img src="{{ asset('images/service-gallery-2.jpg') }}" alt="Image">
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="gallery-img video">
-                                        <img src="{{ asset('images/service-gallery.jpg') }}" alt="Image">
-                                        <div class="video-wrap">
-                                            <a href="https://www.youtube.com/watch?v=JP-PTke2x8w"
-                                                class="popup-video"><i class="fas fa-play"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
         </div>
+
+        <div class="mt-5 mb-50">
+            @include('components.booking-banner')
+        </div>
+
+        @yield('checklist')
     </section>
     <!--====== SERVICE AREA STOP ======-->
 

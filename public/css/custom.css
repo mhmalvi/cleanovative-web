@@ -61,6 +61,16 @@ i {
     margin: 10px 0px !important;
 }
 
+.header-area
+    .header-nav.sticky
+    .navigation
+    .navbar
+    .navbar-nav
+    .nav-item
+    .nav-link {
+    line-height: 30px !important;
+}
+
 .slider-title {
     font-size: 48px !important;
     color: var(--main) !important;
@@ -217,6 +227,38 @@ i {
     line-height: 55px !important;
 }
 
+.service-nav-pills .service-nav-link.active {
+    background-color: var(--second) !important;
+}
+
+.service-nav-pills .service-nav-link {
+    border-top-left-radius: 45px !important;
+    border-top-right-radius: 45px !important;
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+}
+
+.service-nav-link {
+    padding: 0.8rem 3.5rem !important;
+}
+
+.correct i {
+    color: green !important;
+}
+
+.wrong i {
+    color: red !important;
+}
+
+.correct .fas,
+.wrong .fas {
+    font-weight: 400 !important;
+}
+
+.service-checklist li span {
+    margin: 5px 0px !important;
+}
+
 footer {
     background-color: var(--light) !important;
 }
@@ -299,6 +341,66 @@ footer .footer-widget-area .widget .social-link li a {
     font-size: 72px !important;
 }
 
+.contact-breadcrumb-area .breadcrumb-text h1.page-title {
+    font-size: 64px !important;
+}
+
+.contact-breadcrumb-area .contact-breadcrumb-items {
+    font-size: 14px !important;
+}
+
+.contact-wrap {
+    margin-top: -40px;
+}
+
+.contact-info-boxes .card {
+    z-index: 2;
+}
+
+.contact-info-boxes .far {
+    font-weight: 100;
+}
+
+.contact-info-boxes .card img {
+    width: 50px;
+}
+
+.contact-info-boxes .card .info {
+    font-size: 14px;
+    color: #50c2c3;
+}
+
+.btn-sm {
+    padding: 0.5rem 1rem !important;
+    font-size: 0.875rem !important;
+    line-height: 1.5 !important;
+    border-radius: 0.2rem !important;
+}
+
+.booking-btn {
+    border-top-right-radius: 0px !important;
+    border-top-left-radius: 18px !important;
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 18px !important;
+    animation: ripple 1.8s linear infinite;
+}
+
+.booking-btn:hover {
+    color: #fff !important;
+    background-color: var(--second) !important;
+}
+
+@keyframes ripple {
+    0% {
+        box-shadow: 0 0 0 2px rgba(80, 194, 195, 0.3),
+            0 0 0 5px rgba(80, 194, 195, 0.3);
+    }
+    100% {
+        box-shadow: 0 0 0 20px rgba(80, 194, 195, 0),
+            0 0 0 30px rgba(80, 194, 195, 0);
+    }
+}
+
 @media screen and (max-width: 480px) {
     .top-bar {
         display: none !important;
@@ -314,6 +416,15 @@ footer .footer-widget-area .widget .social-link li a {
 
     .main-logo img {
         max-width: 80px !important;
+    }
+
+    .section-title h2 {
+        font-size: 21px !important;
+        line-height: 1.5 !important;
+    }
+
+    .breadcrumb-area .breadcrumb-text h1.page-title {
+        font-size: 34px !important;
     }
 }
 
@@ -344,40 +455,4 @@ footer .footer-widget-area .widget .social-link li a {
 
 .list-style-type-square {
     list-style-type: square;
-}
-
-.contact-breadcrumb-area .breadcrumb-text h1.page-title
-{
-    font-size: 64px !important;
-}
-
-.contact-breadcrumb-area .contact-breadcrumb-items
-{
-    font-size: 14px !important;
-}
-
-.contact-wrap
-{
-    margin-top: -40px;
-}
-
-.contact-info-boxes .card
-{
-    z-index: 2;
-}
-
-.contact-info-boxes .far
-{
-    font-weight: 100;
-}
-
-.contact-info-boxes .card img
-{
-    width: 50px;
-}
-
-.contact-info-boxes .card .info
-{
-    font-size: 14px;
-    color: #50c2c3;
 }

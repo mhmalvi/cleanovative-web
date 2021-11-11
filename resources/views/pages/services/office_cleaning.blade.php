@@ -15,5 +15,10 @@
         You can rely on our skilled cleaners at Cleanovative to handle a variety of office cleaning services. Click here to see the area our services cover. 
         In less than a minute, you can get a quote and book us.
     </p>
+
+    <a class="main-btn booking-btn main-btn-3 mt-50 mb-50" href="#">
+        Book Now
+        <i class="fal fa-plus"></i>
+    </a>
 @endsection
 

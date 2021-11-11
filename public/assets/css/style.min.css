@@ -1,14 +1,4 @@
-/*----------------------------------------------------
-	Template Name: Safee 
-    Template URI: https://www.webtend.biz
-    Description: Cleaning Service HTML Template
-    Author: WebTend
-    Author URI: https://themeforest.net/user/webtend
-    Version: 1.0
----------------------------------------------------- */
 /*=====================================================================
-
-
 @Default Styles
 
 Table of Content:
@@ -38,7 +28,9 @@ Table of Content:
 24/ Footer
 
 =====================================================================*/
+
 @import url("https://fonts.googleapis.com/css?family=Heebo:300,400,500,700|Poppins:400,500,500i,600i,700,700i|Rubik&display=swap");
+
 body {
     font-family: "Heebo", sans-serif;
     font-weight: normal;

@@ -12,7 +12,7 @@
                     <li>
                         <i class="fas fa-mobile-alt"></i>
                         <span class="infos">
-                            042 445 5451
+                            <a href="tel:0401396554"> 042 445 5451</a>
                         </span>
                     </li>
                     <li>
@@ -142,7 +142,7 @@
                             </div>
                             <!-- navbar collapse -->
                             <div class="navbar-btn d-none d-sm-block">
-                                <a class="main-btn text-light" href="#">Book Now <i class="fal fa-plus"></i></a>
+                                <a class="main-btn btn-sm booking-btn text-light" href="#">Book Now <i class="fal fa-plus"></i></a>
                             </div>
                         </nav>
                     </div>
