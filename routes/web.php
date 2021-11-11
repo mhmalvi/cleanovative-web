@@ -49,3 +49,9 @@ Route::view('services/strata-cleaning', 'pages.services.strata_cleaning')->name(
 Route::view('services/other-cleaning', 'pages.services.other_cleaning')->name('service.other_cleaning');
 
 Route::view('book-now', 'pages.book_now')->name('book_now');
+
+Route::view('gift-cards', 'pages.gift_cards')->name('gift_cards');
+
+Route::view('signin', 'pages.signin')->name('signin');
+
+Route::view('signup', 'pages.signup')->name('signup');
