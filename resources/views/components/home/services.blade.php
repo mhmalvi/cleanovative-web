@@ -1,11 +1,11 @@
 <!--====== SERVICE PART START ======-->
 <section class="service-section" style="background-image: url({{ asset('images/service-bg.png') }});">
     <div class="container">
-        <div class="section-title white-color text-center both-border mb-50">
+        <div class="section-title white-color text-center both-border mb-40">
             <h2>
                 Are you looking for the right company to make your home or office look as good as new?
             </h2>
-            <p class="title-tag">Company Services</p>
+            <p class="title-tag">Our Services</p>
         </div>
         <div class="row service-loop">
             <div class="col-lg-3 col-md-6 mx-auto wow fadeInRight" data-wow-delay=".3s">

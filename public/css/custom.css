@@ -466,3 +466,14 @@ footer .footer-widget-area .widget .social-link li a {
 {
     color: red !important;
 }
+
+.service-section
+{
+    padding-top: 30px !important;
+}
+
+.testimonial-section
+{
+    padding-top: 30px !important;
+    padding-bottom: 160px !important;
+}
