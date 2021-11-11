@@ -45,8 +45,8 @@
 			</div>
 		</div>
 	</div>
-	<!--====== GO TO TOP PART ENDS ======-->
 
+	<!--====== GO TO TOP PART ENDS ======-->
     @include('layouts.footer')
 
     @include('layouts.scripts')

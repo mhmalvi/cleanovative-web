@@ -142,7 +142,9 @@
                             </div>
                             <!-- navbar collapse -->
                             <div class="navbar-btn d-none d-sm-block">
-                                <a class="main-btn btn-sm booking-btn text-light" href="#">Book Now <i class="fal fa-plus"></i></a>
+                                <a class="main-btn btn-sm booking-btn text-light" href="javascript:void(0)">
+                                    Book Now <i class="fal fa-plus"></i>
+                                </a>
                             </div>
                         </nav>
                     </div>

@@ -14,7 +14,7 @@
                         Use our booking form to create an instant customised quote for any home cleaning services in Sydney
                     </p>
                     <div class="btn-wrap">
-                        <a class="main-btn main-btn-2" href=""> Book online in less than 60 seconds</a>
+                        <a class="main-btn main-btn-2" href="https://cleanovative.bookingkoala.com/booknow"> Book online in less than 60 seconds</a>
                     </div>
 
                     <div class="row pt-4 mt-4">
