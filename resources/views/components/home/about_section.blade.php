@@ -1,11 +1,11 @@
 <!--====== ABOUT PART START ======-->
-<section class="about-section">
+<section class="about-section pt-100 pb-100">
     <div class="container">
         <!-- About Text -->
         <div class="row align-items-center justify-content-between">
             <div class="col-lg-6 order-last order-md-first wow fadeInLeft" data-wow-delay=".3s">
                 <div class="about-img text-center mb-0">
-                    <img src="{{asset('images/about-img.jpg')}}" alt="Image">
+                    <img src="{{asset('images/about-img.png')}}" alt="Image">
                 </div>
             </div>
             <div class="col-lg-6 wow fadeInRight" data-wow-delay=".5s">

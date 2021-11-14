@@ -11,13 +11,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mx-auto">
-                    <div class="row d-flex justify-content-center">
-                        <a class="main-btn text-center booking-btn main-btn-3 mt-50 mb-50" href="#">
-                            Book Now
-                            <i class="fal fa-plus"></i>
-                        </a>
+                    <div class="pt-100 pb-100">
+                        @yield('service_content')
                     </div>
-                    @yield('service_content')
                 </div>
             </div>
         </div>
