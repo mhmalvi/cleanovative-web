@@ -309,6 +309,11 @@ footer .footer-widget-area .widget .social-link li a {
     border: 1px solid var(--second) !important;
 }
 
+.cta-section
+{
+    margin-top: 0;
+}
+
 .cta-section .cta-inner {
     background-color: #50c2c3;
 }
