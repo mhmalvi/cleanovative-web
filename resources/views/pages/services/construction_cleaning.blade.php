@@ -1,24 +1,53 @@
 @extends('pages.service_details')
 
 @section('banner')
-    @include('components.service_details.banner', ['banner_title' => 'Construction Cleaning'])
+    @php
+        $content =
+            "
+            <p>
+                Worried about the mess made after construction work? A post-construction property becomes
+                hazardous for our tradies and you due to the mess made.
+            </p>
+            ";
+    @endphp
+    @include('components.service_details.banner', ['banner_title' => 'Construction Cleaning', 'content' => $content])
 @endsection
 
-@section('service_title', 'Construction Cleaning')
-
 @section('service_content')
-    <p>
-        Worried about the mess made after construction work? A post-construction property becomes hazardous for our tradies and you due to the mess made. At Cleanovative our professional and certified cleaners will make sure your new property is safe, breathable and spotless when you walk in, so you and your loved ones can actually feel like it's brand new.
-    </p>
-
-    <p>
-        Please call us on 180 xxx xxx to discuss a construction cleaning service on your property.
-    </p>
-
-    <a class="main-btn booking-btn main-btn-3 mt-50 mb-50" href="#">
-        Book Now
-        <i class="fal fa-plus"></i>
-    </a>
+    <img class="main-thumb" src="{{ asset('images/service-details.jpg') }}" alt="Image">
+    <h2 class="sub-title text-center py-3">Why Choose Our Services</h2>
+    <ul class="service-list">
+        <li class="d-flex align-items-center">
+            <span class="icon"><i class="far fa-check"></i></span>
+            <p>
+                Satisfaction guaranteed – If you are unhappy with the clean, simply contact us within 48 hours and we will re-do it. If your still unhappy we will provide a refund.
+            </p>
+        </li>
+        <li class="d-flex align-items-center">
+            <span class="icon"><i class="far fa-check"></i></span>
+            <p>
+                We are insured, so your always covered!
+            </p>
+        </li>
+        <li class="d-flex align-items-center">
+            <span class="icon"><i class="far fa-check"></i></span>
+            <p>
+                We are simple, and so is our booking system.
+            </p>
+        </li>
+        <li class="d-flex align-items-center">
+            <span class="icon"><i class="far fa-check"></i></span>
+            <p>
+                We are honest and straightforward. The price quoted is our final price. There are no hidden charges.
+            </p>
+        </li>
+        <li class="d-flex align-items-center">
+            <span class="icon"><i class="far fa-check"></i></span>
+            <p>
+                We care about the satisfaction and happiness of everyone involved with our service.
+            </p>
+        </li>
+    </ul>
 @endsection
 
 @section('checklist')
@@ -83,7 +112,7 @@
                     <li><span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Carpet Steam Cleaning<br>
                         <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Pressure Washing<br>
                         <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Car park / Basement Cleaning<br>
-                        <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>We can cater to most post construction cleans; 
+                        <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>We can cater to most post construction cleans;
                         give us a call to learn more.
                     </li>
                 </ul>

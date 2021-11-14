@@ -4,15 +4,9 @@
             <div class="welome-text">
                 <ul class="top-list">
                     <li>
-                        <i class="fas fa-map-marker-alt"></i>
-                        <span class="infos">
-                            105/26 Cairds Avenue , Bankstown , 2200
-                        </span>
-                    </li>
-                    <li>
                         <i class="fas fa-mobile-alt"></i>
                         <span class="infos">
-                            <a href="tel:0401396554"> 042 445 5451</a>
+                            <a href="tel:0401396554">040 139 6554</a>
                         </span>
                     </li>
                     <li>
@@ -55,7 +49,7 @@
                     <div class="navigation">
                         <nav class="navbar navbar-expand-lg">
                             <a class="navbar-brand logo-mt-neg main-logo" href="{{ URL::to('/') }}">
-                                <img src="{{ asset('images/logos/logo01.png') }}" alt="Safem" />
+                                <img src="{{ asset('images/logos/logo02.png') }}" alt="Safem" />
                             </a>
                             <a class="navbar-brand sticky-logo" href="{{ URL::to('/') }}">
                                 <img src="{{ asset('images/logos/logo02.png') }}" alt="Safem">
@@ -78,11 +72,11 @@
                                         </a>
                                     </li>
 
-                                    <li class="nav-item">
+                                    {{-- <li class="nav-item">
                                         <a class="nav-link" href="{{ route('about_us') }}">
                                             About Us
                                         </a>
-                                    </li>
+                                    </li> --}}
 
                                     <li class="nav-item">
                                         <a class="nav-link" href="{{ route('services') }}">
@@ -138,15 +132,24 @@
                                         </ul>
                                     </li>
 
-                                    <li class="nav-item">
+                                    <li class="nav-item d-sm-none d-xs-block">
                                         <a class="nav-link" href="{{ route('signin') }}" target="_blank">
                                             Sign in
                                         </a>
                                     </li>
+                                    <li class="nav-item d-sm-none d-xs-block">
+                                        <a class="nav-link" href="{{ route('book_now') }}" target="_blank">
+                                            Book Now
+                                        </a>
+                                    </li>
                                 </ul>
                             </div>
+
                             <!-- navbar collapse -->
                             <div class="navbar-btn d-none d-sm-block">
+                                <a class="main-btn btn-sm signin-btn text-light" href="{{ route('signin') }}" target="_blank">
+                                    Sign in <i class="fal fa-plus"></i>
+                                </a>
                                 <a class="main-btn btn-sm booking-btn text-light" href="{{ route('book_now') }}" target="_blank">
                                     Book Now <i class="fal fa-plus"></i>
                                 </a>

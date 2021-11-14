@@ -14,7 +14,7 @@
                         <p>
                             Starting with us is easy:
                         </p>
-                        <ol class="list-style-type-square">
+                        <ol class="list-style-type-square pl-3">
                             <li>Contact us and organise a free quotation</li>
                             <li>
                                 One of our friendly managers will come to your space and will do a walk through

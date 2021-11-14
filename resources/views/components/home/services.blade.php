@@ -2,10 +2,9 @@
 <section class="service-section" style="background-image: url({{ asset('images/service-bg.png') }});">
     <div class="container">
         <div class="section-title white-color text-center both-border mb-40">
-            <h2>
-                Are you looking for the right company to make your home or office look as good as new?
+            <h2 class="pb-0">
+                Our Services
             </h2>
-            <p class="title-tag">Our Services</p>
         </div>
         <div class="row service-loop">
             <div class="col-lg-3 col-md-6 mx-auto wow fadeInRight" data-wow-delay=".3s">
@@ -129,8 +128,8 @@
             </div>
         </div>
 
-        <div class="text-center pt-50">
-            <a class="main-btn booking-btn main-btn-3 mt-50" href="{{ route('book_now') }}" target="_blank">
+        <div class="text-center pt-30">
+            <a class="main-btn booking-btn main-btn-3 mt-10 mb-0" href="{{ route('book_now') }}" target="_blank">
                 Book Now
                 <i class="fal fa-plus"></i>
             </a>

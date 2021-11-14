@@ -1,27 +1,55 @@
 @extends('pages.service_details')
 
 @section('banner')
-    @include('components.service_details.banner', ['banner_title' => 'House Cleaning'])
+    @php
+        $content =
+            "
+            <p>
+                Grab a coffee with your loved ones while we handle the housecleaning so you may walk into your home that has been inexplicably
+                cleaned to your satisfaction.
+            </p>
+            ";
+    @endphp
+    @include('components.service_details.banner', ['banner_title' => 'House Cleaning', 'content' => $content])
 @endsection
 
 @section('service_title', 'House Cleaning')
 
 @section('service_content')
-    <p>
-        Grab a coffee with your loved ones while we handle the housecleaning so you may walk into your home that has been inexplicably
-        cleaned to your satisfaction. Sit back and embrace the peace of mind that comes with knowing that your entire home has been
-        professionally cleaned by a reputable company. Our team will ensure that your property is perfect and spotless.
-        A professional cleaning staff that cleans exactly as you want it every time.
-    </p>
-
-    <p>
-        In less than a minute, you can get a quote and book us.
-    </p>
-
-    <a class="main-btn booking-btn main-btn-3 mt-50 mb-50" href="{{ route('book_now') }}" target="_blank">
-        Book Now
-        <i class="fal fa-plus"></i>
-    </a>
+    <img class="main-thumb" src="{{ asset('images/service-details.jpg') }}" alt="Image">
+    <h2 class="sub-title text-center py-3">Why Choose Our Services</h2>
+    <ul class="service-list">
+        <li class="d-flex align-items-center">
+            <span class="icon"><i class="far fa-check"></i></span>
+            <p>
+                Satisfaction guaranteed – If you are unhappy with the clean, simply contact us within 48 hours and we will re-do it. If your still unhappy we will provide a refund.
+            </p>
+        </li>
+        <li class="d-flex align-items-center">
+            <span class="icon"><i class="far fa-check"></i></span>
+            <p>
+                We are insured, so your always covered!
+            </p>
+        </li>
+        <li class="d-flex align-items-center">
+            <span class="icon"><i class="far fa-check"></i></span>
+            <p>
+                We are simple, and so is our booking system.
+            </p>
+        </li>
+        <li class="d-flex align-items-center">
+            <span class="icon"><i class="far fa-check"></i></span>
+            <p>
+                We are honest and straightforward. The price quoted is our final price. There are no hidden charges.
+            </p>
+        </li>
+        <li class="d-flex align-items-center">
+            <span class="icon"><i class="far fa-check"></i></span>
+            <p>
+                We care about the satisfaction and happiness of everyone involved with our service.
+            </p>
+        </li>
+    </ul>
 @endsection
 
 @section('checklist')

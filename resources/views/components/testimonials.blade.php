@@ -1,9 +1,10 @@
 <!--====== TESTIMONIAL PART START ======-->
 <section class="testimonial-section style-two">
     <div class="container">
-        <div class="section-title text-center both-border mb-80">
-            <h2>What People’s Say About <br>
-            <p class="title-tag">Our Testimonials</p>
+        <div class="section-title text-center both-border mb-20">
+            <h2>
+                Our Testimonials
+            </h2>
         </div>
         <!-- Testimonial Loop -->
         <div class="row testimonial-loop" id="testimonialSlide">

@@ -1,5 +1,5 @@
 <!--====== SERVICE PART START ======-->
-<section class="service-section-two pt-130 pb-130">
+<section class="service-section-two pt-20 pb-70">
     <div class="container">
         <div class="section-title text-center both-border mb-20">
             <h2>Simply book in 4 steps</h2>
@@ -51,6 +51,12 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="text-center pt-50">
+            <a class="main-btn booking-btn main-btn-3 mt-50" href="{{ route('book_now') }}" target="_blank">
+                Book Now
+                <i class="fal fa-plus"></i>
+            </a>
         </div>
     </div>
 </section>

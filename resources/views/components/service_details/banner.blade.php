@@ -1,15 +1,13 @@
 <!--====== BREADCRUMB PART START ======-->
-<section class="breadcrumb-area" style="background-image: url({{ asset('images/breadcrumb.jpg') }});">
+<section class="breadcrumb-area service-breadcrumb-area" style="background-image: url({{ asset('images/breadcrumb.jpg') }});">
     <div class="container">
-        <div class="breadcrumb-text text-center">
+        <div class="breadcrumb-text text-center col-md-8 mx-auto">
             <h1 class="page-title text-dark">
                 {{ isset($banner_title) ? $banner_title : "Service Details" }}
             </h1>
-            <ul>
-                <li><a class="text-dark" href="{{ route('home') }}">Home</a></li>
-                <li class="sep"><i class="text-dark fal fa-angle-double-right"></i></li>
-                <li class="text-dark">{{ isset($banner_title) ? $banner_title : "Service Details" }}</li>
-            </ul>
+            <div class="service-banner-content">
+                {!! $content !!}
+            </div>
         </div>
     </div>
 </section>

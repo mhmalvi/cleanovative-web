@@ -1,9 +1,8 @@
 <!--====== PROJECT PART END ======-->
-<section class="project-area pb-130 pt-100 wow fadeInUp" data-wow-delay=".3s">
+<section class="project-area pb-60 pt-30 wow fadeInUp" data-wow-delay=".3s">
     <div class="container">
         <div class="section-title text-center both-border mb-20">
-            <h2>25 Years We Provide <br> Cleaning Services</h2>
-            <p class="title-tag">Why Choose Us?</p>
+            <h2>Why Choose Us?</h2>
         </div>
 
         <div class="row why-us">

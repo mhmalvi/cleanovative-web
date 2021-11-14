@@ -1,19 +1,21 @@
 <!--====== FOOTER PART START ======-->
 <footer>
-    <div class="footer-widget-area pt-80 pb-40">
+    <div class="footer-widget-area pt-40 pb-40">
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-md-6 d-flex justify-content-center align-items-center">
                     <div class="footer-logo mb-40">
-                        <img src="{{asset('images/logos/logo01.png')}}" alt="Cleanovative">
+                        <img src="{{asset('images/logos/logo02.png')}}" alt="Cleanovative">
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="widget about-company mb-40">
-                        <h4 class="widget-title">About Company</h4>
-                        <p>Sed ut perspiciati unde omnis iste natus error sit voluptatem accusantium doloque
-                            laudantium, totam rem aperiam eaquipsa
-                            quae ab illo inventore veritatis</p>
+                        <h3 class="widget-title">About Company</h3>
+                        <p>
+                            Our focus is keep listening to our customers, understanding
+                            their needs and providing a unique residential and commercial
+                            cleaning service.
+                        </p>
                         <ul class="social-link">
                             <li> <a href="#"><i class="fab fa-facebook-f"></i></a> </li>
                             <li> <a href="#"><i class="fab fa-twitter"></i></a> </li>
@@ -25,27 +27,26 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="widget nav-widget d-lg-flex justify-content-lg-center mb-40">
                         <div>
-                            <h4 class="widget-title">Quick Links</h4>
+                            <h3 class="widget-title">Quick Links</h3>
                             <ul>
-                                <li><a href="#"><i class="far fa-arrow-right"></i>Our Services</a></li>
+                                <li><a href="{{ route('services') }}"><i class="far fa-arrow-right"></i>Our Services</a></li>
                                 <li><a href="#"><i class="far fa-arrow-right"></i>Team Members</a></li>
                                 <li><a href="#"><i class="far fa-arrow-right"></i>Articles & Tipes</a></li>
-                                <li><a href="#"><i class="far fa-arrow-right"></i>Company Hisory</a></li>
+                                <li><a href="#"><i class="far fa-arrow-right"></i>Company History</a></li>
                                 <li><a href="#"><i class="far fa-arrow-right"></i>About Company</a></li>
-                                <li><a href="#"><i class="far fa-arrow-right"></i>Need A Jobs ?</a></li>
+                                <li><a href="#"><i class="far fa-arrow-right"></i>Need A Job?</a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="widget contact-widget mb-40">
-                        <h4 class="widget-title">Conatct Us</h4>
+                        <h3 class="widget-title">Conatct Us</h3>
                         <div class="contact-info">
-                            <h3>Don’t Hesited To <br> Contact Us</h3>
+                            <h4 class="mb-4">Don’t Hesitate To <br> Contact Us</h4>
                             <ul>
                                 <li><i class="far fa-phone"></i>042 445 5451</li>
                                 <li><i class="far fa-envelope-open"></i>info.cleanovative@gmail.com</li>
-                                <li><i class="far fa-map-marker-alt"></i>105/26 Cairds Avenue, Bankstown, 2200</li>
                             </ul>
                         </div>
                     </div>
@@ -67,7 +68,7 @@
                                     <input type="text" placeholder="Enter Your Name">
                                 </div>
                                 <div class="col-lg-6">
-                                    <button>Subscribe Now<i class="fal fa-plus"></i></button>
+                                    <button class="subscribe-now-btn">Subscribe Now<i class="fal fa-plus"></i></button>
                                 </div>
                             </div>
                         </div>
