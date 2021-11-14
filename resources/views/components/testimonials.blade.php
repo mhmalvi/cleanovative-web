@@ -16,10 +16,8 @@
                     </div>
                     <div class="testimonial-content">
                         <p>
-                            Sed perspiciatis unde omnis iste natus error
-                            sit voluptatem accusantium doloremque laut
-                            ium totam rem aperiam, eaque ipsa quae ainv
-                            entore veritatis quasi architecto beatae vitae dictaes explicabo nemo enim ipsam
+                            They does a great job at cleaning. My house was a mess. They made my house
+                            clean and gorgeous without any hassle.
                         </p>
                         <ul class="rating">
                             <li><i class="fas fa-star"></i></li>

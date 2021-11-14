@@ -1,5 +1,5 @@
 <!--====== CALL TO ACTION PART START ======-->
-<section class="cta-section">
+<section class="cta-section pt-50 pb-50">
     <div class="container">
         <div class="cta-inner">
             <div class="cta-text text-center wow fadeInUp" data-wow-delay=".3s">

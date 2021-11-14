@@ -1,5 +1,5 @@
 <!--====== APPOINTMENT PART START ======-->
-<section class="appointment-section pt-130 pb-130">
+<section class="appointment-section pt-90 pb-130">
     <div class="container">
         <div class="row no-gutters">
             <div class="col-lg-5">

@@ -12,13 +12,13 @@
 
     @include('components.booking_steps')
 
-    @include('components.testimonials')
+    @include('components.home.about_section')
 
     @include('components.home.statistics')
 
-    @include('components.home.call_to_action')
+    @include('components.testimonials')
 
-    @include('components.home.about_section')
+    @include('components.home.call_to_action')
 
     @include('components.booking-banner')
 
