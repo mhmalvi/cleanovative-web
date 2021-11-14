@@ -309,8 +309,7 @@ footer .footer-widget-area .widget .social-link li a {
     border: 1px solid var(--second) !important;
 }
 
-.cta-section
-{
+.cta-section {
     margin-top: 0;
 }
 
@@ -357,6 +356,10 @@ footer .footer-widget-area .widget .social-link li a {
 .breadcrumb-area .breadcrumb-text h1.page-title {
     font-size: 48px !important;
     color: var(--main) !important;
+}
+
+.breadcrumb-text {
+    padding: 25px 0px !important;
 }
 
 .service-banner-content p {
@@ -528,7 +531,7 @@ footer .footer-widget-area .widget .social-link li a {
     background-color: var(--second) !important;
 }
 
-.service-breadcrumb-area {
+.breadcrumb-area {
     padding-top: 230px;
     padding-bottom: 105px;
 }
