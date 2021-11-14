@@ -17,7 +17,7 @@
 
 @section('service_content')
     <img class="main-thumb" src="{{ asset('images/service-details.jpg') }}" alt="Image">
-    <h2 class="sub-title text-center py-3">Why Choose Our Services</h2>
+    <h2 class="sub-title pt-35 pb-35">Why Choose Our Services</h2>
     <ul class="service-list">
         <li class="d-flex align-items-center">
             <span class="icon"><i class="far fa-check"></i></span>

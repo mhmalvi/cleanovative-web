@@ -279,8 +279,7 @@ footer .subscribe-form .subs-inner form button {
     font-weight: 500 !important;
 }
 
-footer .subscribe-form .subs-inner form button i
-{
+footer .subscribe-form .subs-inner form button i {
     color: #fff;
 }
 
@@ -343,12 +342,20 @@ footer .footer-widget-area .widget .social-link li a {
     background-color: var(--main) !important;
 }
 
-.breadcrumb-area .breadcrumb-text h1.page-title {
-    font-size: 72px !important;
+.breadcrumb-box {
+    background-color: var(--light);
+    opacity: 0.5;
+    border-radius: 3px;
+    padding: 25px 15px;
 }
 
-.contact-breadcrumb-area .breadcrumb-text h1.page-title {
-    font-size: 64px !important;
+.breadcrumb-area .breadcrumb-text h1.page-title {
+    font-size: 48px !important;
+    color: var(--main) !important;
+}
+
+.service-banner-content p {
+    color: var(--main) !important;
 }
 
 .contact-breadcrumb-area .contact-breadcrumb-items {
@@ -396,8 +403,7 @@ footer .footer-widget-area .widget .social-link li a {
     background-color: var(--second) !important;
 }
 
-.signin-btn
-{
+.signin-btn {
     border-top-right-radius: 0px !important;
     border-top-left-radius: 18px !important;
     border-bottom-left-radius: 0px !important;
@@ -437,9 +443,9 @@ footer .footer-widget-area .widget .social-link li a {
         top: 0px !important;
     }
 
-    .main-logo img {
-        /* max-width: 80px !important; */
-    }
+    /* .main-logo img {
+        max-width: 80px !important;
+    } */
 
     .section-title h2 {
         font-size: 21px !important;
@@ -480,67 +486,56 @@ footer .footer-widget-area .widget .social-link li a {
     list-style-type: square;
 }
 
-.mb--2
-{
+.mb--2 {
     margin-bottom: -1rem;
 }
 
-.icon-color-red::before
-{
+.icon-color-red::before {
     color: red !important;
 }
 
-.service-section
-{
+.service-section {
     padding-top: 30px !important;
 }
 
-.testimonial-section
-{
+.testimonial-section {
     padding-top: 30px !important;
     padding-bottom: 160px !important;
 }
 
-@media screen and (max-width: 991px)
-{
-    .header-area .header-nav .navigation .navbar .navbar-nav .nav-item .nav-link
-    {
+@media screen and (max-width: 991px) {
+    .header-area
+        .header-nav
+        .navigation
+        .navbar
+        .navbar-nav
+        .nav-item
+        .nav-link {
         color: #fff !important;
     }
 
-    .navbar .navbar-nav .nav-item .nav-link .sub-nav-toggler i
-    {
+    .navbar .navbar-nav .nav-item .nav-link .sub-nav-toggler i {
         color: #fff !important;
     }
 }
 
-.subscribe-now-btn
-{
+.subscribe-now-btn {
     background-color: var(--second) !important;
 }
 
-.service-banner-content p
-{
-    font-size: 18px;
-    text-shadow: 0px 2px 4px #aaa;
-}
-
-.service-breadcrumb-area
-{
+.service-breadcrumb-area {
     padding-top: 230px;
     padding-bottom: 105px;
 }
 
-.service-list li
-{
+.service-list li {
     padding-left: 80px;
     position: relative;
     min-height: 60px;
     margin-bottom: 20px;
 }
 
-.service-list li span.icon
-{
+.service-list li span.icon {
     position: absolute;
     left: 0;
     top: 50%;
@@ -556,12 +551,10 @@ footer .footer-widget-area .widget .social-link li a {
     border-radius: 50%;
 }
 
-.service-list li span.icon i
-{
+.service-list li span.icon i {
     color: #fff;
 }
 
-.statistics-section
-{
+.statistics-section {
     padding-top: 30px;
 }
