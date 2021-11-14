@@ -8,11 +8,6 @@
         <div class="container">
             <div class="breadcrumb-text text-center">
                 <h1 class="page-title text-dark">Privacy Policy</h1>
-                <ul>
-                    <li><a href="{{ route('home') }}" class="text-dark">Home</a></li>
-                    <li class="sep"><i class="text-dark fal fa-angle-double-right"></i></li>
-                    <li class="text-dark">Privacy Policy</li>
-                </ul>
             </div>
         </div>
     </section>

@@ -8,11 +8,6 @@
         <div class="container">
             <div class="breadcrumb-text text-center">
                 <h1 class="page-title text-dark">Contact Us</h1>
-                <ul>
-                    <li class="contact-breadcrumb-items"><a href="{{ route('home') }}" class="text-dark">Home</a></li>
-                    <li class="sep contact-breadcrumb-items"><i class="text-dark fal fa-angle-double-right"></i></li>
-                    <li class="text-dark contact-breadcrumb-items">Contact Us</li>
-                </ul>
             </div>
         </div>
     </section>

@@ -8,11 +8,6 @@
         <div class="container">
             <div class="breadcrumb-text text-center">
                 <h1 class="page-title text-dark">Sign In</h1>
-                <ul>
-                    <li><a class="text-dark" href="{{ route('home') }}">Home</a></li>
-                    <li class="sep text-dark"><i class="fal fa-angle-double-right"></i></li>
-                    <li class="text-dark">Sign In</li>
-                </ul>
             </div>
         </div>
     </section>
