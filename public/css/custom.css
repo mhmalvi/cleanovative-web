@@ -567,7 +567,7 @@ footer .footer-widget-area .widget .social-link li a {
     padding-top: 30px;
 }
 
-.pricing-box.active li
+.pricing-box.active li, .pricing-box.active a
 {
     color: #fff;
 }
@@ -575,4 +575,14 @@ footer .footer-widget-area .widget .social-link li a {
 .pricing-box .second-pricing-btn
 {
     margin-top: 33px;
+}
+
+.full-checklist-section table tbody tr td i.fa-check
+{
+    color: var(--second);
+}
+
+.full-checklist-section table tbody tr td i.fa-times
+{
+    color: var(--danger);
 }

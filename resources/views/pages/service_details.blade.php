@@ -35,6 +35,14 @@
                         <li>
                             Customise or cancel your booking anytime
                         </li>
+                        <li class="mb-3">
+                            <a href="{{ route('full_checklist') }}" target="_blank">
+                                <b>
+                                    See full checklist
+                                </b>
+                            </a>
+                        </li>
+
                         <a class="main-btn" href="#">Choose Plan <i class="fal fa-plus"></i></a>
                     </div>
                 </div>
@@ -57,6 +65,14 @@
                         </li>
                         <li>
                             Customise or cancel your booking anytime
+                        </li>
+
+                        <li class="mb-3">
+                            <a href="{{ route('full_checklist') }}" target="_blank">
+                                <b>
+                                    See full checklist
+                                </b>
+                            </a>
                         </li>
 
                         <a class="main-btn second-pricing-btn" href="#">Choose Plan <i class="fal fa-plus"></i></a>

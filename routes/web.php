@@ -58,3 +58,5 @@ Route::view('gift-cards', 'pages.gift_cards')->name('gift_cards');
 Route::view('signin', 'pages.signin')->name('signin');
 
 Route::view('signup', 'pages.signup')->name('signup');
+
+Route::view('full-checklist', 'pages.full_checklist')->name('full_checklist');
