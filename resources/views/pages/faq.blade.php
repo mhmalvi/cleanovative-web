@@ -347,6 +347,4 @@
     </section>
     <!--====== FAQ PART END ======-->
 
-    @include('components.brands')
-
 @endsection

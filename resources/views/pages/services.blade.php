@@ -13,6 +13,4 @@
 
     @include('components.services.pricing')
 
-    @include('components.brands')
-
 @endsection
