@@ -8,11 +8,12 @@
                         <h2>Let’s See Company <br>
                             Life Statistics
                         </h2>
-                        <p class="title-tag">Company Statistics</p>
                     </div>
-                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                        laudantium, totam rem aperiam,
-                        eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae</p>
+
+                    <a class="main-btn btn-sm booking-btn main-btn-3" href="{{ route('book_now') }}" target="_blank">
+                        Book Now
+                        <i class="fal fa-plus"></i>
+                    </a>
                 </div>
             </div>
             <div class="col-xl-5 col-lg-6">
