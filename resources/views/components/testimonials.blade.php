@@ -12,11 +12,11 @@
                 <div class="single-testimonial">
                     <div class="testimonial-author">
                         <h4>Richard L. Logan </h4>
-                        <p class="author-pro">Web Designer</p>
                     </div>
                     <div class="testimonial-content">
                         <p>
-                            We are very happy with their services. Cleanovation has very Professionally done their all Cleaning Work.
+                            Reliable and trustworthy cleaning company so far. These guys do a wonderful job. 
+                            The best experience I had with carpet cleaning service. I would definitely recommend them...!
                         </p>
                         <ul class="rating">
                             <li><i class="fas fa-star"></i></li>
@@ -26,18 +26,18 @@
                             <li><i class="fas fa-star"></i></li>
                         </ul>
                     </div>
-                    <img src="{{ asset('images/testimonial-author-1.jpg') }}" alt="testimonial-author" class="author-img">
+                    <img src="{{ asset('images/testimonial/test01.jpg') }}" alt="testimonial-author" class="author-img">
                 </div>
             </div>
             <div class="col-lg-6">
                 <div class="single-testimonial">
                     <div class="testimonial-author">
                         <h4>John M. Abrams </h4>
-                        <p class="author-pro">School Teacher</p>
                     </div>
                     <div class="testimonial-content">
                         <p>
-                            Prices are more than fair, house looks and feels amazing. This company is a winner and definitely doing yourself a favor.
+                            I am very much happy with the amazing service. I had a good experience when the cleanovative’s team showed up on 
+                            time for cleaning our carpet. It looks totally brand new like I brought a new one.
                         </p>
                         <ul class="rating">
                             <li><i class="fas fa-star"></i></li>
@@ -47,18 +47,18 @@
                             <li><i class="fas fa-star"></i></li>
                         </ul>
                     </div>
-                    <img src="{{ asset('images/testimonial-author-1.jpg') }}" alt="testimonial-author" class="author-img">
+                    <img src="{{ asset('images/testimonial/test02.jpg') }}" alt="testimonial-author" class="author-img">
                 </div>
             </div>
             <div class="col-lg-6">
                 <div class="single-testimonial">
                     <div class="testimonial-author">
                         <h4>Mark Paul</h4>
-                        <p class="author-pro">Chef</p>
                     </div>
                     <div class="testimonial-content">
                         <p>
-                            They’re attention to detail and personal touches made our apartment look like 5 star hotel room. True professionals, cleaned from the top down.
+                            Mr. Reazur and zahid’s team came to clean for me and did a great job. My nanny was pleasant in taking my 
+                            information in trying to match me up with the perfect person while I had a very good experience with this company and also booked them for bi-weekly.
                         </p>
                         <ul class="rating">
                             <li><i class="fas fa-star"></i></li>
@@ -68,18 +68,18 @@
                             <li><i class="fas fa-star"></i></li>
                         </ul>
                     </div>
-                    <img src="{{ asset('images/testimonial-author-1.jpg') }}" alt="testimonial-author" class="author-img">
+                    <img src="{{ asset('images/testimonial/test04.jpg') }}" alt="testimonial-author" class="author-img">
                 </div>
             </div>
             <div class="col-lg-6">
                 <div class="single-testimonial">
                     <div class="testimonial-author">
                         <h4>Christine Brown</h4>
-                        <p class="author-pro">Engineer</p>
                     </div>
                     <div class="testimonial-content">
                         <p>
-                            The ladies who cleaned my home are very friendly too! It was a great feeling to dash off to work the other morning feeling confident that I would come home to a nice & tidy home. Highly recommend!
+                            We have used their service a couple of times and we are very pleased with Cleanovative’s cleaning services. 
+                            Their people are friendly, deliver top quality and their pricing is great.
                         </p>
                         <ul class="rating">
                             <li><i class="fas fa-star"></i></li>
@@ -89,13 +89,34 @@
                             <li><i class="fas fa-star"></i></li>
                         </ul>
                     </div>
-                    <img src="{{ asset('images/testimonial-author-2.jpg') }}" alt="testimonial-author" class="author-img">
+                    <img src="{{ asset('images/testimonial/test05.jpg') }}" alt="testimonial-author" class="author-img">
                 </div>
             </div>
             <div class="col-lg-6">
                 <div class="single-testimonial">
                     <div class="testimonial-author">
                         <h4>David Wood</h4>
+                    </div>
+                    <div class="testimonial-content">
+                        <p>
+                            We had a regular cleaning booked with Spotlessly Clean. The provided service was excellent and 
+                            I would totally recommend to take services from this company.
+                        </p>
+                        <ul class="rating">
+                            <li><i class="fas fa-star"></i></li>
+                            <li><i class="fas fa-star"></i></li>
+                            <li><i class="fas fa-star"></i></li>
+                            <li><i class="fas fa-star"></i></li>
+                            <li><i class="fas fa-star"></i></li>
+                        </ul>
+                    </div>
+                    <img src="{{ asset('images/testimonial/test06.jpg') }}" alt="testimonial-author" class="author-img">
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="single-testimonial">
+                    <div class="testimonial-author">
+                        <h4>John Bertham</h4>
                         <p class="author-pro">Doctor</p>
                     </div>
                     <div class="testimonial-content">
@@ -110,7 +131,90 @@
                             <li><i class="fas fa-star"></i></li>
                         </ul>
                     </div>
-                    <img src="{{ asset('images/testimonial-author-1.jpg') }}" alt="testimonial-author" class="author-img">
+                    <img src="{{ asset('images/testimonial/test07.jpg') }}" alt="testimonial-author" class="author-img">
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="single-testimonial">
+                    <div class="testimonial-author">
+                        <h4>Samaira’D Costa</h4>
+                    </div>
+                    <div class="testimonial-content">
+                        <p>
+                            We used Spotlessly Clean for a move in deep clean on our new home. Reazur and Zahid’s Team showed up early, 
+                            nd stayed late, never stopping. Great work, and well worth the cost. 
+                        </p>
+                        <ul class="rating">
+                            <li><i class="fas fa-star"></i></li>
+                            <li><i class="fas fa-star"></i></li>
+                            <li><i class="fas fa-star"></i></li>
+                            <li><i class="fas fa-star"></i></li>
+                            <li><i class="fas fa-star"></i></li>
+                        </ul>
+                    </div>
+                    <img src="{{ asset('images/testimonial/testi01.jpg') }}" alt="testimonial-author" class="author-img">
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="single-testimonial">
+                    <div class="testimonial-author">
+                        <h4>Winnile Long</h4>
+                    </div>
+                    <div class="testimonial-content">
+                        <p>
+                            Coming from a clean freak, Cleanovative blew my mind away at how they took all the initial cleaning work for my office premises.
+                        </p>
+                        <ul class="rating">
+                            <li><i class="fas fa-star"></i></li>
+                            <li><i class="fas fa-star"></i></li>
+                            <li><i class="fas fa-star"></i></li>
+                            <li><i class="fas fa-star"></i></li>
+                            <li><i class="fas fa-star"></i></li>
+                        </ul>
+                    </div>
+                    <img src="{{ asset('images/testimonial/testi02.jpg') }}" alt="testimonial-author" class="author-img">
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="single-testimonial">
+                    <div class="testimonial-author">
+                        <h4>Maria Morison</h4>
+                    </div>
+                    <div class="testimonial-content">
+                        <p>
+                            Best service I have ever got after a long-shot. Cleanovative will definitely be seeing more of me in the future! 
+                            Top service and very professional for office cleaning services.
+                        </p>
+                        <ul class="rating">
+                            <li><i class="fas fa-star"></i></li>
+                            <li><i class="fas fa-star"></i></li>
+                            <li><i class="fas fa-star"></i></li>
+                            <li><i class="fas fa-star"></i></li>
+                            <li><i class="fas fa-star"></i></li>
+                        </ul>
+                    </div>
+                    <img src="{{ asset('images/testimonial/testi03.jpg') }}" alt="testimonial-author" class="author-img">
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="single-testimonial">
+                    <div class="testimonial-author">
+                        <h4>Chris Clay</h4>
+                    </div>
+                    <div class="testimonial-content">
+                        <p>
+                            I used the end of tenancy cleaning service of cleanovative once. Speaking from experience, their 
+                            service prices are very cheap and they offer better quality cleaning services at a lower cost.
+                        </p>
+                        <ul class="rating">
+                            <li><i class="fas fa-star"></i></li>
+                            <li><i class="fas fa-star"></i></li>
+                            <li><i class="fas fa-star"></i></li>
+                            <li><i class="fas fa-star"></i></li>
+                            <li><i class="fas fa-star"></i></li>
+                        </ul>
+                    </div>
+                    <img src="{{ asset('images/testimonial/testi04.jpg') }}" alt="testimonial-author" class="author-img">
                 </div>
             </div>
         </div>

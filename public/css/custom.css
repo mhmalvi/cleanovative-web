@@ -36,6 +36,14 @@ i {
     color: var(--main);
 }
 
+.hero-ticks {
+    position: absolute !important;
+    bottom: 80px !important;
+    width: 100%;
+    left: 0;
+    padding: 15px 200px;
+}
+
 .banner-ticks {
     display: flex !important;
     text-align: center !important;
@@ -85,16 +93,13 @@ i {
     color: #2d2d2d !important;
 }
 
-.main-logo img {
-    max-width: 200px !important;
-}
-
 .sticky-logo img {
     max-width: 200px !important;
 }
 
 .header-area .header-nav.sticky {
     background-color: var(--light) !important;
+    padding: 15px 0px !important;
 }
 
 .header-area .header-nav .navigation .navbar .navbar-nav .nav-item .nav-link {
@@ -161,6 +166,10 @@ i {
     font-weight: 600;
 }
 
+.single-service .service-bg {
+    background-color: #fff !important;
+}
+
 .section-title h2 {
     font-size: 48px !important;
     line-height: 1.5 !important;
@@ -208,7 +217,7 @@ i {
     background-size: cover;
     background-position: center, center;
     text-align: center;
-    padding: 200px 30px;
+    padding: 130px 30px;
 }
 
 .banner-new .banner-title,
@@ -257,6 +266,10 @@ i {
 
 .service-checklist li span {
     margin: 5px 0px !important;
+}
+
+.cta-section .cta-inner {
+    padding: 50px 0px !important;
 }
 
 footer {
@@ -439,8 +452,17 @@ footer .footer-widget-area .widget .social-link li a {
 }
 
 @media screen and (max-width: 480px) {
+    .hero-ticks {
+        bottom: 40px !important;
+        padding: 15px;
+    }
+
     .top-bar {
         display: none !important;
+    }
+
+    .single-service .service-bg .service-link {
+        right: calc(100% - 63%) !important;
     }
 
     .header-area .header-nav {
@@ -450,10 +472,6 @@ footer .footer-widget-area .widget .social-link li a {
     .header-area .header-nav.sticky {
         top: 0px !important;
     }
-
-    /* .main-logo img {
-        max-width: 80px !important;
-    } */
 
     .section-title h2 {
         font-size: 21px !important;
@@ -466,12 +484,29 @@ footer .footer-widget-area .widget .social-link li a {
 }
 
 @media screen and (max-width: 768px) {
+    .hero-ticks {
+        bottom: 40px !important;
+        padding: 15px;
+    }
+    .header-area .header-nav .navigation .navbar .navbar-brand.logo-mt-neg img {
+        max-width: 200px !important;
+    }
+
+    .service-bg .img-fluid {
+        width: 100% !important;
+    }
+
+    .single-service .service-bg .service-link {
+        right: calc(100% - 58%) !important;
+    }
+
     .slider-title {
         font-size: 28px !important;
     }
     .header-area .header-nav .navigation .navbar .navbar-collapse {
         background-color: var(--second) !important;
     }
+
     .banner-ticks {
         width: calc(100% - 45%) !important;
         justify-content: left !important;
@@ -485,6 +520,9 @@ footer .footer-widget-area .widget .social-link li a {
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
+    .hero-ticks {
+        padding: 15px !important;
+    }
     .header-area .header-nav .navigation .navbar .navbar-collapse {
         background-color: var(--second) !important;
     }
