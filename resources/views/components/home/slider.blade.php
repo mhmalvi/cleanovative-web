@@ -3,8 +3,8 @@
     <div id="heroSlideActive">
         <div class="single-hero-slide" style="background-image: url({{ asset('images/slider/hero-image.jpg') }});">
             <div class="container">
-                <div class="hero-content text-center mt-5">
-                    <span class="promo-text">
+                <div class="hero-content text-center">
+                    <span class="promo-text ">
                         Home Cleaning
                     </span>
                     <h1 class="slider-title">
@@ -14,10 +14,11 @@
                         Use our booking form to create an instant customised quote for any home cleaning services in Sydney
                     </p>
                     <div class="btn-wrap">
-                        <a class="main-btn main-btn-2" href="https://cleanovative.bookingkoala.com/booknow"> Book online in less than 60 seconds</a>
+                        <a class="main-btn main-btn" href="{{ route('book_now') }}" target="_blank"> Book online in less than 60 seconds</a>
                     </div>
-
-                    <div class="row pt-4 mt-4">
+                </div>
+                <div class="hero-ticks">
+                    <div class="row">
                         <div class="col-md-4">
                             <p class="banner-ticks">
                                 <i class="fas fa-check-circle"></i>
@@ -42,7 +43,7 @@
         </div>
         <div class="single-hero-slide" style="background-image: url({{ asset('images/slider/hero-image-2.jpg') }});">
             <div class="container">
-                <div class="hero-content text-center mt-5">
+                <div class="hero-content text-center">
                     <span class="promo-text">
                         Commercial Cleaning
                     </span>
@@ -56,7 +57,9 @@
                         <a class="main-btn" href="{{ route('contact') }}">Contact Us<i
                                 class="fal fa-plus"></i></a>
                     </div>
-                    <div class="row pt-4 mt-4">
+                </div>
+                <div class="hero-ticks">
+                    <div class="row">
                         <div class="col-md-4">
                             <p class="banner-ticks">
                                 <i class="fas fa-check-circle"></i>

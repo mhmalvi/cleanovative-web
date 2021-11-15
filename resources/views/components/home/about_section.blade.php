@@ -4,7 +4,7 @@
         <!-- About Text -->
         <div class="row align-items-center justify-content-between">
             <div class="col-lg-6 order-last order-md-first wow fadeInLeft" data-wow-delay=".3s">
-                <div class="about-img text-center mb-0">
+                <div class="about-img text-center mb-0 mt-3 mt-md-0">
                     <img src="{{asset('images/about-img.png')}}" alt="Image">
                 </div>
             </div>
@@ -14,9 +14,18 @@
                         <h2>About us</h2>
                     </div>
                     <p>
-                        We constantly pursue perfection to better improve our efficacy and retain consistency with our service.
-                        Our focus is to maintain exceptional and responsive customer service every time.
+                        We wanted to support ourselves by doing something that makes a difference in people’s lives. 
+                        That’s why have created an innovative platform to provide trustworthy and reliable professional cleaners.
+                        Our top-quality services, affordable prices, and the cleaner’s years of service industry experience here in 
+                        Cleanovative makes all our clients trust us as we take their needs into account, truly becoming their partners-in-clean.
                     </p>
+
+                    <br>
+
+                    <p>
+                        We bring together the best professionals in the industry and our management team with client service excellence together in one dedicated team.
+                    </p>
+
                     <a class="main-btn main-btn-3 mt-50" href="{{ route('about_us') }}">Learn More<i
                             class="fal fa-plus"></i></a>
                 </div>

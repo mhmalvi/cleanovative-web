@@ -12,15 +12,42 @@
 
     @include('components.booking_steps')
 
+    @include('components.booking-banner')
+
     @include('components.home.about_section')
 
     @include('components.home.statistics')
 
+    <section class="pt-130 pb-130">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 class="sub-title">
+                        We’re providing services to the entire Sydney region. We mainly offer services in:
+                    </h2>
+
+                    <div class="card py-3 px-4 my-4">
+                        <span>Northern Suburbs</span>
+                    </div>
+
+                    <div class="card py-3 px-4 my-4">
+                        Inner West 
+                    </div>
+
+                    <div class="card py-3 px-4 my-4">
+                        Easter Suburbs 
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="{{asset('images/map.png')}}" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
     @include('components.testimonials')
 
     @include('components.home.call_to_action')
-
-    @include('components.booking-banner')
 
     @include('components.home.appointment')
 

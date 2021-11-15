@@ -1,5 +1,5 @@
 <!--====== STATISTICS PART START ======-->
-<section class="statistics-section bg-cover" style="background-image: url({{ asset('images/counter-bg.jpg') }});">
+<section class="statistics-section bg-cover pt-30 pb-50" style="background-image: url({{ asset('images/counter-bg.jpg') }});">
     <div class="container">
         <div class="row no-gutters justify-content-between">
             <div class="col-xl-5 col-lg-5">
