@@ -15,38 +15,19 @@
 @section('service_title', 'Other Cleaning')
 
 @section('service_content')
-    <img class="main-thumb" src="{{ asset('images/service-details.jpg') }}" alt="Image">
-    <h2 class="sub-title text-center py-3">Why Choose Our Services</h2>
-    <ul class="service-list">
-        <li class="d-flex align-items-center">
-            <span class="icon"><i class="far fa-check"></i></span>
+    <div class="row">
+        <div class="col-md-6">
+            <img class="main-thumb" src="{{ asset('images/service-details.jpg') }}" alt="Image">
+        </div>
+        <div class="col-md-6">
             <p>
-                Satisfaction guaranteed – If you are unhappy with the clean, simply contact us within 48 hours and we will re-do it. If your still unhappy we will provide a refund.
+                We can clean Schools, Childcare, Offices, Industrial, Warehouses, Restaurants/cafes, Leisure/sport centres, Gyms, Hotels, Retreats, Showrooms & Retail outlets , Stadium, bank branches and many more
             </p>
-        </li>
-        <li class="d-flex align-items-center">
-            <span class="icon"><i class="far fa-check"></i></span>
+
+            <br>
             <p>
-                We are insured, so your always covered!
+                Please call us on 0401396554 to discuss our services on your site.
             </p>
-        </li>
-        <li class="d-flex align-items-center">
-            <span class="icon"><i class="far fa-check"></i></span>
-            <p>
-                We are simple, and so is our booking system.
-            </p>
-        </li>
-        <li class="d-flex align-items-center">
-            <span class="icon"><i class="far fa-check"></i></span>
-            <p>
-                We are honest and straightforward. The price quoted is our final price. There are no hidden charges.
-            </p>
-        </li>
-        <li class="d-flex align-items-center">
-            <span class="icon"><i class="far fa-check"></i></span>
-            <p>
-                We care about the satisfaction and happiness of everyone involved with our service.
-            </p>
-        </li>
-    </ul>
+        </div>
+    </div>
 @endsection

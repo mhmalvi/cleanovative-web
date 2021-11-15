@@ -566,3 +566,13 @@ footer .footer-widget-area .widget .social-link li a {
 .statistics-section {
     padding-top: 30px;
 }
+
+.pricing-box.active li
+{
+    color: #fff;
+}
+
+.pricing-box .second-pricing-btn
+{
+    margin-top: 33px;
+}

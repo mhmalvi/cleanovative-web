@@ -16,44 +16,25 @@
 @section('service_title', 'House Cleaning')
 
 @section('service_content')
-    <img class="main-thumb" src="{{ asset('images/service-details.jpg') }}" alt="Image">
-    <h2 class="sub-title pt-35 pb-35">Why Choose Our Services</h2>
-    <ul class="service-list">
-        <li class="d-flex align-items-center">
-            <span class="icon"><i class="far fa-check"></i></span>
+    <div class="row">
+        <div class="col-md-6">
+            <img class="main-thumb" src="{{ asset('images/service-details.jpg') }}" alt="Image">
+        </div>
+        <div class="col-md-6">
             <p>
-                Satisfaction guaranteed – If you are unhappy with the clean, simply contact us within 48 hours and we will re-do it. If your still unhappy we will provide a refund.
+                Sit back and embrace the peace of mind that comes with knowing that your entire home has been professionally cleaned by a reputable company. Our team will ensure that your property is perfect and spotless. A professional cleaning staff that cleans exactly as you want it every time. 
             </p>
-        </li>
-        <li class="d-flex align-items-center">
-            <span class="icon"><i class="far fa-check"></i></span>
+
+            <br>
             <p>
-                We are insured, so your always covered!
+                In less than a minute, you can get a quote and book us.
             </p>
-        </li>
-        <li class="d-flex align-items-center">
-            <span class="icon"><i class="far fa-check"></i></span>
-            <p>
-                We are simple, and so is our booking system.
-            </p>
-        </li>
-        <li class="d-flex align-items-center">
-            <span class="icon"><i class="far fa-check"></i></span>
-            <p>
-                We are honest and straightforward. The price quoted is our final price. There are no hidden charges.
-            </p>
-        </li>
-        <li class="d-flex align-items-center">
-            <span class="icon"><i class="far fa-check"></i></span>
-            <p>
-                We care about the satisfaction and happiness of everyone involved with our service.
-            </p>
-        </li>
-    </ul>
+        </div>
+    </div>
 @endsection
 
 @section('checklist')
-    <div class="container mt-100 mb-50">
+    <div class="container mt-30 mb-70">
         <h2 class="sub-title text-md-center mb-85">
             What is included in our home cleaning service?
         </h2>
