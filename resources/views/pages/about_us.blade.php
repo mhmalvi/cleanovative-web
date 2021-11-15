@@ -119,6 +119,4 @@
 
     @include('components.testimonials')
 
-    @include('components.brands')
-
 @endsection

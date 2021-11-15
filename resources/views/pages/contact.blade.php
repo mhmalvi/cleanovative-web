@@ -98,5 +98,4 @@
     </section>
     <!--====== CONTACT PART END ======-->
 
-    @include('components.brands')
 @endsection
