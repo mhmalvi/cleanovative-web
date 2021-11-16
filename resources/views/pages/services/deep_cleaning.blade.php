@@ -21,7 +21,7 @@
 
 @section('service_content')
     <div class="text-center pt-50 pb-50">
-        <img class="main-thumb" src="{{ asset('images/service-details.jpg') }}" alt="Image" class="img-fluid">
+        <img class="main-thumb" src="{{ asset('images/services/deep.jpg') }}" alt="Image" class="img-fluid">
     </div>
 @endsection
 
@@ -43,7 +43,7 @@
         <div class="tab-content" id="pills-tabContent">
             <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
                 <div class="row mt-25">
-                    <div class="col-md-4 py-3">
+                    <div class="col-md-6 py-3">
                         <h6 class="text-uppercase">BEDROOMS, LIVING ROOMS AND ALL COMMON AREAS</h6>
 
                         <ul class="service-checklist">
@@ -68,7 +68,15 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-md-4 py-3">
+                    <div class="col-md-6 my-auto">
+                        <img src="{{ asset('images/services/deep-1.jpg') }}" alt="deep cleaning 1">
+                    </div>
+                </div>
+                <div class="row mt-25">
+                    <div class="col-md-6">
+                        <img src="{{ asset('images/services/deep-2.jpg') }}" alt="deep cleaning 2">
+                    </div>
+                    <div class="col-md-6 py-3">
                         <h6 class="text-uppercase">BATHROOM & LAUNDRY</h6>
 
                         <ul class="service-checklist">
@@ -83,7 +91,9 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-md-4 py-3">
+                </div>
+                <div class="row mt-25">
+                    <div class="col-md-6 py-3">
                         <h6 class="text-uppercase">KITCHEN</h6>
 
                         <ul class="service-checklist">
@@ -101,6 +111,9 @@
                                 <span class="correct"><i class="fas fa-check-circle mr-2 icon-color-red"></i></span>Clean inside cabinets, shelves &amp; drawers
                             </li>
                         </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="{{ asset('images/services/deep-3.jpg') }}" alt="deep cleaning 3">
                     </div>
                 </div>
             </div>
