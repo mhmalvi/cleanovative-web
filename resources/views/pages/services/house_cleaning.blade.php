@@ -22,7 +22,7 @@
 
 @section('service_content')
     <div class="text-center pt-50 pb-50">
-        <img class="main-thumb" src="{{ asset('images/service-details.jpg') }}" alt="Image" class="img-fluid">
+        <img class="main-thumb" src="{{ asset('images/services/home.jpg') }}" alt="Image" class="img-fluid">
     </div>
 @endsection
 

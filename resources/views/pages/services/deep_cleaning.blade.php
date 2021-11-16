@@ -20,19 +20,8 @@
 @endsection
 
 @section('service_content')
-    <div class="row">
-        <div class="col-md-6">
-            <img class="main-thumb" src="{{ asset('images/service-details.jpg') }}" alt="Image">
-        </div>
-        <div class="col-md-6">
-            <p>
-                At Cleanovative our professional and certified cleaners will make sure your new property is safe, breathable and spotless when you walk in, so you and your loved ones can actually feel like it's brand new.
-            </p>
-            <br>
-            <p>
-                Please call us on 180 xxx xxx to discuss a construction cleaning service on your property
-            </p>
-        </div>
+    <div class="text-center pt-50 pb-50">
+        <img class="main-thumb" src="{{ asset('images/service-details.jpg') }}" alt="Image" class="img-fluid">
     </div>
 @endsection
 
