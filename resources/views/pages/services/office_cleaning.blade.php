@@ -18,7 +18,7 @@
 
 @section('service_content')
     <div class="text-center pt-50 pb-50">
-        <img class="main-thumb" src="{{ asset('images/service-details.jpg') }}" alt="Image" class="img-fluid">
+        <img class="main-thumb" src="{{ asset('images/services/office.jpg') }}" alt="Image" class="img-fluid">
     </div>
 @endsection
 
@@ -55,11 +55,15 @@
                         </ul>
                     </div>
 
-                    <div class="col-md-6"></div>
+                    <div class="col-md-6">
+                        <img src="{{ asset('images/services/office-1.jpg') }}" class="rounded">
+                    </div>
                 </div>
 
                 <div class="row mt-25">
-                    <div class="col-md-6"></div>
+                    <div class="col-md-6">
+                        <img src="{{ asset('images/services/office-2.jpg') }}" class="rounded">
+                    </div>
                     <div class="col-md-6">
                         <h6 class="text-uppercase mb-3">Optional Services</h6>
 

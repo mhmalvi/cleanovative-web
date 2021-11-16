@@ -21,7 +21,7 @@
 
 @section('service_content')
     <div class="text-center pt-50 pb-50">
-        <img class="main-thumb" src="{{ asset('images/services/deep.jpg') }}" alt="Image" class="img-fluid">
+        <img class="main-thumb" src="{{ asset('images/services/deep.jpg') }}" alt="Image" class="img-fluid rounded">
     </div>
 @endsection
 
@@ -78,12 +78,12 @@
                         </ul>
                     </div>
                     <div class="col-md-6 my-auto">
-                        <img src="{{ asset('images/services/deep-1.jpg') }}" alt="deep cleaning 1">
+                        <img src="{{ asset('images/services/deep-1.jpg') }}" class="rounded" alt="deep cleaning 1">
                     </div>
                 </div>
                 <div class="row mt-25">
                     <div class="col-md-6">
-                        <img src="{{ asset('images/services/deep-2.jpg') }}" alt="deep cleaning 2">
+                        <img src="{{ asset('images/services/deep-2.jpg') }}" class="rounded" alt="deep cleaning 2">
                     </div>
                     <div class="col-md-6 py-3">
                         <h6 class="text-uppercase">BATHROOM & LAUNDRY</h6>
@@ -122,7 +122,7 @@
                         </ul>
                     </div>
                     <div class="col-md-6">
-                        <img src="{{ asset('images/services/deep-3.jpg') }}" alt="deep cleaning 3">
+                        <img src="{{ asset('images/services/deep-3.jpg') }}" class="rounded" alt="deep cleaning 3">
                     </div>
                 </div>
             </div>

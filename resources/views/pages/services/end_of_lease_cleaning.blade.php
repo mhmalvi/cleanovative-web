@@ -87,7 +87,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row-mt-25">
+            <div class="row mt-25">
                 <div class="col-md-6">
                     <h6 class="text-uppercase mb-3">KITCHEN</h6>
 
@@ -107,7 +107,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 my-auto">
                     <img src="{{ asset('images/services/end-of-lease-3.jpg') }}" class="rounded">
                 </div>
             </div>
