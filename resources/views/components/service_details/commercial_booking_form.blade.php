@@ -1,0 +1,1 @@
+<commercial-booking-component />

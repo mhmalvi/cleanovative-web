@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ContactController;
 use App\Http\Controllers\ServiceController;
 use Illuminate\Support\Facades\Route;
 
@@ -60,3 +61,8 @@ Route::view('signin', 'pages.signin')->name('signin');
 Route::view('signup', 'pages.signup')->name('signup');
 
 Route::view('full-checklist', 'pages.full_checklist')->name('full_checklist');
+
+/**
+ * For sending enquiry through contact form
+ */
+Route::post('contact', [ContactController::class, 'sendEnquiry']);

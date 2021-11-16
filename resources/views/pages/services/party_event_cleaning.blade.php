@@ -21,3 +21,7 @@
         <img class="main-thumb" src="{{ asset('images/service-details.jpg') }}" alt="Image" class="img-fluid">
     </div>
 @endsection
+
+@section('custom_form')
+    @include('components.service_details.commercial_booking_form')
+@endsection
