@@ -5,9 +5,9 @@
         $content =
             "
             <p>
-                Planning on having a party or an event? Worried about the mess after? At Cleanovative we cater for every after party cleaning services. 
-                While you grab a coffee and enjoy the memories of your crazy night, our experienced team will help you clean your entire house or event with 
-                quality products and make it spotless. Our areas of focus are pool, lounge, back deck and other areas where the fun happens. 
+                Planning on having a party or an event? Worried about the mess after? At Cleanovative we cater for every after party cleaning services.
+                While you grab a coffee and enjoy the memories of your crazy night, our experienced team will help you clean your entire house or event with
+                quality products and make it spotless. Our areas of focus are pool, lounge, back deck and other areas where the fun happens.
             </p>
             "
     @endphp
@@ -18,7 +18,7 @@
 
 @section('service_content')
     <div class="text-center pt-50 pb-50">
-        <img class="main-thumb" src="{{ asset('images/service-details.jpg') }}" alt="Image" class="img-fluid">
+        <img class="main-thumb" src="{{ asset('images/services/party.jpg') }}" alt="Image" class="img-fluid">
     </div>
 @endsection
 

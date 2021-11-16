@@ -5,8 +5,8 @@
         $content =
             "
             <p>
-                Worried about the mess made after construction work? A post-construction property becomes hazardous for our tradies and you due to the mess made. 
-                At Cleanovative our professional and certified cleaners will make sure your new property is safe, 
+                Worried about the mess made after construction work? A post-construction property becomes hazardous for our tradies and you due to the mess made.
+                At Cleanovative our professional and certified cleaners will make sure your new property is safe,
                 breathable and spotless when you walk in, so you and your loved ones can actually feel like it's brand new.
             </p>
             ";
@@ -16,7 +16,7 @@
 
 @section('service_content')
     <div class="text-center pt-50 pb-50">
-        <img class="main-thumb" src="{{ asset('images/service-details.jpg') }}" alt="Image" class="img-fluid">
+        <img class="main-thumb" src="{{ asset('images/services/construction.jpg') }}" alt="Image" class="img-fluid">
     </div>
 @endsection
 
@@ -47,12 +47,12 @@
                 </ul>
             </div>
             <div class="col-md-6">
-                <img src="" alt="">
+                <img src="{{ asset('images/services/construction-1.jpg') }}" alt="">
             </div>
         </div>
         <div class="row mt-25">
             <div class="col-md-6">
-                <img src="" alt="">
+                <img src="{{ asset('images/services/construction-2.jpg') }}" alt="">
             </div>
             <div class="col-md-6">
                 <h6 class="text-uppercase mb-3">Bathrooms</h6>
@@ -86,12 +86,12 @@
                 </ul>
             </div>
             <div class="col-md-6">
-                <img src="" alt="">
+                <img src="{{ asset('images/services/construction-3.jpg') }}" alt="">
             </div>
         </div>
         <div class="row mt-25">
             <div class="col-md-6">
-                <img src="" alt="">
+                <img src="{{ asset('images/services/construction-4.jpg') }}" alt="">
             </div>
             <div class="col-md-6">
                 <h6 class="text-uppercase mb-3">Additional servics</h6>

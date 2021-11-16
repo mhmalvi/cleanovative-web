@@ -5,7 +5,7 @@
         $content =
             "
             <p>
-                Strata is one of the major maintenance industries for real-estate. At Cleanovative, we make sure our professional 
+                Strata is one of the major maintenance industries for real-estate. At Cleanovative, we make sure our professional
                 team keeps your housing clean and spotless, making a safe and hygienic environment for all tenants in the building.
                  We work with the construction & building committee and site managers to keep all pub areas and amenities clean and hygienic.
             </p>
@@ -18,7 +18,7 @@
 
 @section('service_content')
     <div class="text-center pt-50 pb-50">
-        <img class="main-thumb" src="{{ asset('images/service-details.jpg') }}" alt="Image" class="img-fluid">
+        <img class="main-thumb" src="{{ asset('images/services/strata.jpg') }}" alt="Image" class="img-fluid">
     </div>
 @endsection
 
@@ -55,10 +55,14 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-md-6"></div>
+                    <div class="col-md-6">
+                        <img src="{{ asset('images/services/strata-1.jpg') }}" alt="">
+                    </div>
                 </div>
                 <div class="row mt-25">
-                    <div class="col-md-6"></div>
+                    <div class="col-md-6">
+                        <img src="{{ asset('images/services/strata-2.jpg') }}" alt="">
+                    </div>
                     <div class="col-md-6">
                         <h6 class="text-uppercase mb-3">External common areas</h6>
 
@@ -90,11 +94,13 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-md-6"></div>
+                    <div class="col-md-6">
+                        <img src="{{ asset('images/services/strata-3.jpg') }}" alt="">
+                    </div>
                 </div>
                 <div class="row mt-25">
                     <div class="col-md-6">
-                        <img src="" alt="">
+                        <img src="{{ asset('images/services/strata-4.jpg') }}" alt="">
                     </div>
                     <div class="col-md-6">
                         <h6 class="text-uppercase mb-3">Additional services</h6>
@@ -112,7 +118,6 @@
                         </ul>
                         We can cater to most strata cleaning demands, give us a call to learn more.
                     </div>
-
                 </div>
             </div>
         </div>
