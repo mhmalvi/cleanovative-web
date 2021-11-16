@@ -5,9 +5,9 @@
         $content =
             "
             <p>
-                Moving in-or-out of houses? Looking to secure a strong return on your bond? You’ve come to the right spot. 
-                Allow us to handle the housecleaning so you can enter into a home that has been professionally cleaned to your complete satisfaction and cross 
-                a major task off your list while you move. Our team will ensure that your end of lease cleaning meets the highest standard.   
+                Moving in-or-out of houses? Looking to secure a strong return on your bond? You’ve come to the right spot.
+                Allow us to handle the housecleaning so you can enter into a home that has been professionally cleaned to your complete satisfaction and cross
+                a major task off your list while you move. Our team will ensure that your end of lease cleaning meets the highest standard.
             </p>
             ";
     @endphp
@@ -22,7 +22,7 @@
 
 @section('service_content')
     <div class="text-center pt-50 pb-50">
-        <img class="main-thumb" src="{{ asset('images/service-details.jpg') }}" alt="Image" class="img-fluid">
+        <img class="main-thumb" src="{{ asset('images/services/end-of-lease.jpg') }}" alt="Image" class="img-fluid">
     </div>
 @endsection
 
@@ -63,12 +63,14 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-md-6"></div>
+                    <div class="col-md-6 my-auto">
+                        <img src="{{ asset('images/services/end-of-lease-1.jpg') }}" class="rounded">
+                    </div>
                 </div>
 
                 <div class="row mt-25">
                     <div class="col-md-6">
-                        <img src="" alt="">
+                        <img src="{{ asset('images/services/end-of-lease-2.jpg') }}" class="rounded">
                     </div>
                     <div class="col-md-6">
                         <h6 class="text-uppercase mb-3">BATHROOM & LAUNDRY</h6>
@@ -87,9 +89,6 @@
             </div>
             <div class="row-mt-25">
                 <div class="col-md-6">
-                    <img src="" alt="">
-                </div>
-                <div class="col-md-6">
                     <h6 class="text-uppercase mb-3">KITCHEN</h6>
 
                     <ul class="service-checklist">
@@ -107,6 +106,9 @@
                             <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean inside cabinets, shelves &amp; drawers
                         </li>
                     </ul>
+                </div>
+                <div class="col-md-6">
+                    <img src="{{ asset('images/services/end-of-lease-3.jpg') }}" class="rounded">
                 </div>
             </div>
         </div>
