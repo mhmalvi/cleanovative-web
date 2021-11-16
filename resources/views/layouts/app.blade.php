@@ -22,34 +22,35 @@
 	<!--[if lte IE 9]>
 			<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
 	<![endif]-->
+    <div id="app">
+        <!--====== PRELOADER ======-->
+        <div id="preloader">
+            <div>
+                <div></div>
+            </div>
+        </div>
 
-	<!--====== PRELOADER ======-->
-	<div id="preloader">
-		<div>
-			<div></div>
-		</div>
-	</div>
+        @include('layouts.header')
 
-    @include('layouts.header')
+        <main>
+            @yield('content')
+        </main>
 
-    <main id="app">
-        @yield('content')
-    </main>
+        <!--====== GO TO TOP PART START ======-->
+        <div class="go-top-area">
+            <div class="go-top-wrap">
+                <div class="go-top-btn-wrap">
+                    <div class="go-top go-top-btn">
+                        <i class="fal fa-angle-double-up"></i>
+                        <i class="fal fa-angle-double-up"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-    <!--====== GO TO TOP PART START ======-->
-	<div class="go-top-area">
-		<div class="go-top-wrap">
-			<div class="go-top-btn-wrap">
-				<div class="go-top go-top-btn">
-					<i class="fal fa-angle-double-up"></i>
-					<i class="fal fa-angle-double-up"></i>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!--====== GO TO TOP PART ENDS ======-->
-    @include('layouts.footer')
+        <!--====== GO TO TOP PART ENDS ======-->
+        @include('layouts.footer')
+    </div>
 
     @include('layouts.scripts')
 

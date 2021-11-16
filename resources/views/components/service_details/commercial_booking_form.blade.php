@@ -1,4 +1,4 @@
-<section class="appointment-section pt-80 pb-30">
+<section class="appointment-section pt-80 pb-80">
     <div class="container">
         <div class="row no-gutters">
             <div class="col-lg-5">

@@ -8,8 +8,6 @@
 
     @yield('pricing')
 
-    @yield('custom_form')
-
     <!--====== SERVICE DETAILS PART START ======-->
     <section class="service-details-wrap pt-0">
         <div class="container">
@@ -27,6 +25,8 @@
         <div class="mt-5 mb-0">
             @include('components.booking-banner')
         </div>
+
+        @yield('custom_form')
 
     </section>
     <!--====== SERVICE AREA STOP ======-->

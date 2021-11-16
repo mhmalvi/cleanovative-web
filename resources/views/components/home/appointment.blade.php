@@ -39,28 +39,8 @@
                     <h2 class="pt-0">Say Hello</h2>
                     <p class="title-tag">Leave A Message</p>
                 </div>
-                <form action="#">
-                    <div class="row">
-                        <div class="form-group col-12">
-                            <input type="text" class="form-control" placeholder="Your Name*" required>
-                        </div>
-                        <div class="form-group col-12">
-                            <input type="text" class="form-control" placeholder="Your Business name">
-                        </div>
-                        <div class="form-group col-12">
-                            <input type="tel" class="form-control" placeholder="Your Phone Number*">
-                        </div>
-                        <div class="form-group col-12">
-                            <input type="email" class="form-control" placeholder="Your Email*">
-                        </div>
-                        <div class="form-group col-12">
-                            <textarea class="form-control" placeholder="Brief comment about your enquiry" rows="8"></textarea>
-                        </div>
-                        <div class="col-12">
-                            <button class="main-btn"> Send <i class="fal fa-plus"></i></button>
-                        </div>
-                    </div>
-                </form>
+
+                <contact-us-form-component />
             </div>
             <div class="col-md-6 pt-50 pb-15 order-first order-md-last">
                 <img src="{{asset('images/contact-us.jpg')}}" alt="contact us" class="img-thumbnail">
