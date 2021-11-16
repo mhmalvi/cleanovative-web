@@ -29,7 +29,6 @@
                         <div>
                             <h3 class="widget-title">Quick Links</h3>
                             <ul>
-                                <li><a href="{{ route('services') }}"><i class="far fa-arrow-right"></i>Our Services</a></li>
                                 <li><a href="#"><i class="far fa-arrow-right"></i>Team Members</a></li>
                                 <li><a href="#"><i class="far fa-arrow-right"></i>Articles & Tipes</a></li>
                                 <li><a href="#"><i class="far fa-arrow-right"></i>Company History</a></li>

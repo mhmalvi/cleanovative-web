@@ -11,10 +11,10 @@
             </p>
             ";
     @endphp
-    @include('components.service_details.banner', ['banner_title' => 'Other Cleaning', 'content' => $content])
+    @include('components.service_details.banner', ['banner_title' => 'Other Commercial Cleaning', 'content' => $content])
 @endsection
 
-@section('service_title', 'Other Cleaning')
+@section('service_title', 'Other Commercial Cleaning')
 
 @section('service_content')
     <div class="text-center pt-50 pb-50">

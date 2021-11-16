@@ -72,14 +72,14 @@
                                         </a>
                                     </li>
 
-                                    {{-- <li class="nav-item">
+                                    <li class="nav-item">
                                         <a class="nav-link" href="{{ route('about_us') }}">
                                             About Us
                                         </a>
-                                    </li> --}}
+                                    </li>
 
                                     <li class="nav-item">
-                                        <a class="nav-link" href="{{ route('services') }}">
+                                        <a class="nav-link" href="javascript:void(0)">
                                             Services & Pricing
                                             <i class="fal fa-plus"></i>
                                         </a>
@@ -104,11 +104,16 @@
                                     </li>
 
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">
+                                        <a class="nav-link" href="javascript:void(0)">
                                             More
                                             <i class="fal fa-plus"></i>
                                         </a>
                                         <ul class="sub-menu">
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="{{ route('contact') }}">
+                                                    Contact
+                                                </a>
+                                            </li>
                                             <li class="nav-item">
                                                 <a class="nav-link" href="{{ route('faq') }}">
                                                     FAQ
@@ -125,12 +130,6 @@
                                                 </a>
                                             </li>
                                         </ul>
-                                    </li>
-
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="{{ route('contact') }}">
-                                            Contact
-                                        </a>
                                     </li>
 
                                     <li class="nav-item d-sm-none d-xs-block">

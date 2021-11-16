@@ -7,12 +7,12 @@
             <p class="title-tag">Pricing Plan</p>
         </div>
         <!-- Pricing Loop -->
-        <div class="row pricing-loop mx-auto">
+        <div class="row pricing-loop">
             <!-- Single box -->
-            <div class="col-lg-5 offset-lg-1 offset-0 wow fadeInLeft" data-wow-delay=".3s">
+            <div class="col-lg-4 offset-0 wow fadeInLeft" data-wow-delay=".3s">
                 <div class="pricing-box mb-30">
                     <h2 class="pricing-title">
-                        Regular Cleaning
+                        House cleaning
                     </h2>
                     <span class="price-tag">125.00</span>
                     <li>
@@ -35,14 +35,50 @@
                         </a>
                     </li>
 
-                    <a class="main-btn" href="#">Choose Plan <i class="fal fa-plus"></i></a>
+                    <a class="main-btn btn-sm booking-btn main-btn-3" href="{{ route('book_now') }}" target="_blank">
+                        Book Now
+                        <i class="fal fa-plus"></i>
+                    </a>
                 </div>
             </div>
             <!-- Single box -->
-            <div class="col-lg-5 wow fadeInRight" data-wow-delay=".7s">
+            <div class="col-lg-4 wow fadeInLeft" data-wow-delay=".3s">
                 <div class="pricing-box mb-30">
                     <h2 class="pricing-title">
-                        Deep Cleaning
+                        Deep cleaning
+                    </h2>
+                    <span class="price-tag">125.00</span>
+                    <li>
+                        Instant quotation available
+                    </li>
+                    <li>
+                        Easy online booking
+                    </li>
+                    <li>
+                        Recommended for routine or weekly  & fortnightly clean
+                    </li>
+                    <li>
+                        Customise or cancel your booking anytime
+                    </li>
+                    <li class="mb-3">
+                        <a href="{{ route('full_checklist') }}" target="_blank">
+                            <b>
+                                See full checklist
+                            </b>
+                        </a>
+                    </li>
+
+                    <a class="main-btn btn-sm booking-btn main-btn-3" href="{{ route('book_now') }}" target="_blank">
+                        Book Now
+                        <i class="fal fa-plus"></i>
+                    </a>
+                </div>
+            </div>
+            <!-- Single box -->
+            <div class="col-lg-4 wow fadeInRight" data-wow-delay=".7s">
+                <div class="pricing-box mb-30">
+                    <h2 class="pricing-title">
+                        End of lease cleaning
                     </h2>
                     <span class="price-tag">190.00</span>
 
@@ -53,7 +89,7 @@
                         Easy online booking
                     </li>
                     <li>
-                        Recommended for monthly clean
+                        Recommended for routine or weekly  & fortnightly clean
                     </li>
                     <li>
                         Customise or cancel your booking anytime
@@ -67,7 +103,10 @@
                         </a>
                     </li>
 
-                    <a class="main-btn second-pricing-btn" href="#">Choose Plan <i class="fal fa-plus"></i></a>
+                    <a class="main-btn btn-sm booking-btn main-btn-3" href="{{ route('book_now') }}" target="_blank">
+                        Book Now
+                        <i class="fal fa-plus"></i>
+                    </a>
                 </div>
             </div>
         </div>
