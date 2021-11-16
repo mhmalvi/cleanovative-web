@@ -4,6 +4,22 @@
     --light: #eff2f7;
 }
 
+.bg-theme-extra-light {
+    background-color: var(--light);
+}
+
+.bg-theme-light {
+    background-color: var(--second);
+}
+
+.bg-theme-dark {
+    background-color: var(--main);
+}
+
+.border-second-color {
+    border: 1px solid var(--second) !important;
+}
+
 .top-bar {
     position: absolute !important;
     top: 0;
@@ -77,6 +93,18 @@ i {
     .nav-item
     .nav-link {
     line-height: 30px !important;
+}
+
+.header-area
+    .header-nav
+    .navigation
+    .navbar
+    .navbar-nav
+    .nav-item
+    .sub-menu
+    > li
+    a {
+    font-size: 14px !important;
 }
 
 .slider-title {
@@ -272,6 +300,10 @@ i {
     padding: 50px 0px !important;
 }
 
+.cta-section .cta-inner .cta-text span {
+    font-size: 24px !important;
+}
+
 footer {
     background-color: var(--light) !important;
 }
@@ -294,10 +326,6 @@ footer .subscribe-form .subs-inner form button {
 
 footer .subscribe-form .subs-inner form button i {
     color: #fff;
-}
-
-.footer-logo img {
-    max-width: 200px !important;
 }
 
 footer .footer-widget-area .widget .widget-title {
@@ -517,6 +545,10 @@ footer .footer-widget-area .widget .social-link li a {
     .banner-new .banner-title {
         font-size: 24px !important;
     }
+
+    .service-banner-content p {
+        font-size: 14px !important;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
@@ -605,22 +637,19 @@ footer .footer-widget-area .widget .social-link li a {
     padding-top: 30px;
 }
 
-.pricing-box.active li, .pricing-box.active a
-{
+.pricing-box.active li,
+.pricing-box.active a {
     color: #fff;
 }
 
-.pricing-box .second-pricing-btn
-{
+.pricing-box .second-pricing-btn {
     margin-top: 33px;
 }
 
-.full-checklist-section table tbody tr td i.fa-check
-{
-    color: var(--second);
+.full-checklist-section table tbody tr td i.fa-check {
+    color: green;
 }
 
-.full-checklist-section table tbody tr td i.fa-times
-{
-    color: var(--danger);
+.full-checklist-section table tbody tr td i.fa-times {
+    color: red;
 }

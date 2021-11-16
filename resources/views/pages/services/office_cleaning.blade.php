@@ -5,7 +5,9 @@
         $content =
             "
                 <p>
-                    A lot of time is spent at work, and significant meetings are most likely held there. It is critical to maintain the cleanliness of the office in order to instil pride in the workplace, impress clients, and preserve hygiene.
+                    It is critical to maintain the cleanliness of the office in order to instil pride in the workplace, impress clients, and preserve hygiene.
+                     We believe that everyone, including you, your employees, and your customers, deserves to come to work in a clean atmosphere.
+                     We take pride in providing high-quality cleaning services at a fair price that are personalised to your individual or company needs.
                 </p>
             ";
     @endphp
@@ -15,21 +17,8 @@
 @section('service_title', 'Office Cleaning')
 
 @section('service_content')
-    <div class="row">
-        <div class="col-md-6">
-            <img class="main-thumb" src="{{ asset('images/service-details.jpg') }}" alt="Image">
-        </div>
-        <div class="col-md-6">
-            <p>
-                We believe that everyone, including you, your employees, and your customers, deserves to come to work in a clean atmosphere. We take pride in providing high-quality cleaning services at a fair price that are personalised to your individual or company needs.
-            </p>
-
-            <br>
-            <p>
-                You can rely on our skilled cleaners at Cleanovative to handle a variety of office cleaning services. Click here to see the area our services cover. 
-                In less than a minute, you can get a quote and book us.   
-            </p>
-        </div>
+    <div class="text-center pt-50 pb-50">
+        <img class="main-thumb" src="{{ asset('images/service-details.jpg') }}" alt="Image" class="img-fluid">
     </div>
 @endsection
 
@@ -51,7 +40,7 @@
         <div class="tab-content" id="pills-tabContent">
             <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
                 <div class="row mt-25">
-                    <div class="col-md-4 offset-md-2 py-3">
+                    <div class="col-md-6">
                         <h6 class="text-uppercase mb-3">Standard Services</h6>
 
                         <ul class="service-checklist">
@@ -66,7 +55,12 @@
                         </ul>
                     </div>
 
-                    <div class="col-md-4 py-3">
+                    <div class="col-md-6"></div>
+                </div>
+
+                <div class="row mt-25">
+                    <div class="col-md-6"></div>
+                    <div class="col-md-6">
                         <h6 class="text-uppercase mb-3">Optional Services</h6>
 
                         <ul class="service-checklist">

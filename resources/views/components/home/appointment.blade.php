@@ -1,72 +1,69 @@
 <!--====== APPOINTMENT PART START ======-->
 <section class="appointment-section pt-90 pb-130">
     <div class="container">
-        <div class="row no-gutters">
-            <div class="col-lg-5">
-                <div class="appointment-text bg-cover"
-                    style="background-image: url({{ asset('images/appointment-bg.jpg') }});">
-                    <div class="appointment-content">
-                        <div class="section-title left-border mb-40">
-                            <h2>Make An <br>
-                                Appointment</h2>
-                            <p class="title-tag">Contact Us</p>
+        <div class="contact-info-boxes">
+            <div class="row">
+                <div class="col-md-4 offset-md-2">
+                    <!-- Single Boxes -->
+                    <div class="card pt-25 pb-25 text-center mt-25 bg-theme-extra-light shadow-sm border-second-color">
+                        <div class="card-body">
+                            <span class="icon h2">
+                                <img src="{{ asset('images/icons/contact.png') }}" alt="phone">
+                            </span>
+                            <h6 class="title py-2">Phone Number</h6>
+                            <p class="info"><a href="tel:0401396554">0401396554</a></p>
                         </div>
-                        <p>
-                            Starting with us is easy:
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <!-- Single Boxes -->
+                    <div class="card pt-25 pb-25 text-center mt-25 bg-theme-extra-light shadow-sm border-second-color">
+                        <div class="card-body">
+                        <span class="icon h2">
+                            <img src="{{ asset('images/icons/mail.png') }}" alt="email">
+                        </span>
+                        <h6 class="title py-2">Email Address</h6>
+                        <p class="info">
+                            <a href="mailto:info.cleanovative@gmail.com">
+                                info.cleanovative@gmail.com
+                            </a>
                         </p>
-                        <ol class="list-style-type-square pl-3">
-                            <li>Contact us and organise a free quotation</li>
-                            <li>
-                                One of our friendly managers will come to your space and will do a walk through
-                                with you and indentify what you require.
-                            </li>
-                            <li>
-                                We then draw up and send our quotation to you.
-                            </li>
-                            <li>
-                                Once you accept our quotation we organise a start date that suits you.
-                            </li>
-                        </ol>
-                        <div class="read-more-btn">
-                            <a href="#">Start experiencing clean today!</a>
                         </div>
                     </div>
                 </div>
             </div>
-
-            <div class="col-lg-7">
-                <!-- appointment form -->
-                <div class="appointment-form">
-                    <div class="form-title bg-cover"
-                        style="background-image: url({{ asset('images/form-title-bg.jpg') }});">
-                        <h2>Request A Quote</h2>
-                    </div>
-                    <form action="#" style="background-image: url({{ asset('images/app-form-bg.jpg') }});">
-                        <div class="input-group mb-15">
-                            <input type="text" placeholder="Your Name*" required>
-                            <span class="icon"><i class="far fa-user-edit"></i></span>
-                        </div>
-                        <div class="input-group mb-15">
-                            <input type="text" placeholder="Your Business Name">
-                            <span class="icon"><i class="far fa-building"></i></span>
-                        </div>
-                        <div class="input-group mb-15">
-                            <input type="tel" placeholder="Your Phone Number*" required>
-                            <span class="icon"><i class="far fa-phone"></i></span>
-                        </div>
-                        <div class="input-group mb-15">
-                            <input type="text" placeholder="Your Email Address*" required>
-                            <span class="icon"><i class="far fa-envelope-open"></i></span>
-                        </div>
-                        <div class="input-group mb-15">
-                            <textarea placeholder="Brief comment about your enquiry"></textarea>
-                        </div>
-                        <button class="main-btn main-btn-3" type="submit">
-                            Send
-                            <i class="fal fa-plus"></i>
-                        </button>
-                    </form>
+        </div>
+        <div class="row pb-60 pt-5">
+            <div class="col-md-6 pt-50 pb-5">
+                <div class="section-title left-border mb-30">
+                    <h2 class="pt-0">Say Hello</h2>
+                    <p class="title-tag">Leave A Message</p>
                 </div>
+                <form action="#">
+                    <div class="row">
+                        <div class="form-group col-12">
+                            <input type="text" class="form-control" placeholder="Your Name*" required>
+                        </div>
+                        <div class="form-group col-12">
+                            <input type="text" class="form-control" placeholder="Your Business name">
+                        </div>
+                        <div class="form-group col-12">
+                            <input type="tel" class="form-control" placeholder="Your Phone Number*">
+                        </div>
+                        <div class="form-group col-12">
+                            <input type="email" class="form-control" placeholder="Your Email*">
+                        </div>
+                        <div class="form-group col-12">
+                            <textarea class="form-control" placeholder="Brief comment about your enquiry" rows="8"></textarea>
+                        </div>
+                        <div class="col-12">
+                            <button class="main-btn"> Send <i class="fal fa-plus"></i></button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-6 pt-50 pb-15 order-first order-md-last">
+                <img src="{{asset('images/contact-us.jpg')}}" alt="contact us" class="img-thumbnail">
             </div>
         </div>
     </div>
