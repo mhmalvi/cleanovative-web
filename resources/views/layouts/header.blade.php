@@ -4,13 +4,13 @@
             <div class="welome-text">
                 <ul class="top-list">
                     <li>
-                        <i class="fas fa-mobile-alt"></i>
+                        <i class="fas fa-mobile-alt mr-2"></i>
                         <span class="infos">
                             <a href="tel:0401396554">040 139 6554</a>
                         </span>
                     </li>
                     <li>
-                        <i class="far fa-clock"></i>
+                        <i class="far fa-clock mr-2"></i>
                         <span class="infos">
                             07.00 am - 07.00 pm
                         </span>
