@@ -45,8 +45,12 @@
                         <div class="contact-info">
                             <h4 class="mb-4">Don’t Hesitate To <br> Contact Us</h4>
                             <ul>
-                                <li><i class="far fa-phone"></i>042 445 5451</li>
-                                <li><i class="far fa-envelope-open"></i>info.cleanovative@gmail.com</li>
+                                <li>
+                                    <i class="far fa-phone"></i>
+                                    <a href="tel:040 139 6554">040 139 6554</a></li>
+                                <li>
+                                    <i class="far fa-envelope-open"></i>info.cleanovative@gmail.com
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -57,23 +61,7 @@
     <div class="subscribe-form">
         <div class="container">
             <div class="subs-inner">
-                <form action="#">
-                    <div class="row">
-                        <div class="col-lg-5">
-                            <input type="email" placeholder="Enter Your Email Address">
-                        </div>
-                        <div class="col-lg-7">
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <input type="text" placeholder="Enter Your Name">
-                                </div>
-                                <div class="col-lg-6">
-                                    <button class="subscribe-now-btn">Subscribe Now<i class="fal fa-plus"></i></button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </form>
+                <newsletter-form-component />
             </div>
         </div>
     </div>
