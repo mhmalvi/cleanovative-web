@@ -31,3 +31,7 @@
         </div>
     </div>
 @endsection
+
+@section('custom_form')
+    @include('components.service_details.commercial_booking_form')
+@endsection

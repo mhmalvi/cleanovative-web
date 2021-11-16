@@ -15,6 +15,10 @@
 
 @section('service_title', 'Deep Cleaning')
 
+@section('pricing')
+    @include('components.services.pricing')
+@endsection
+
 @section('service_content')
     <div class="row">
         <div class="col-md-6">

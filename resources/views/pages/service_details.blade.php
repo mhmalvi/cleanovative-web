@@ -6,7 +6,9 @@
 
     @yield('banner')
 
-    @include('components.services.pricing')
+    @yield('pricing')
+
+    @yield('custom_form')
 
     <!--====== SERVICE DETAILS PART START ======-->
     <section class="service-details-wrap pt-0">
