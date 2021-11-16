@@ -42,7 +42,7 @@
             </div>
 
             <div class="col-lg-3 col-md-6 wow fadeInRight" data-wow-delay=".5s">
-                <a href="{{ route('service.end_of_lease_cleaning') }}"">
+                <a href="{{ route('service.end_of_lease_cleaning') }}">
                     <div class="single-service active">
                         <div class="service-bg">
                             <img src="{{ asset('images/service-3.jpg') }}" alt="service" class="img-fluid rounded-top">
