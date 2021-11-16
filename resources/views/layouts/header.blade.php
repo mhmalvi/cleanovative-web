@@ -5,13 +5,13 @@
                 <ul class="top-list">
                     <li>
                         <i class="fas fa-mobile-alt"></i>
-                        <span class="infos">
+                        <span class="infos ml-2">
                             <a href="tel:0401396554">040 139 6554</a>
                         </span>
                     </li>
                     <li>
                         <i class="far fa-clock"></i>
-                        <span class="infos">
+                        <span class="infos ml-2">
                             07.00 am - 07.00 pm
                         </span>
                     </li>
