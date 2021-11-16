@@ -5,8 +5,8 @@
         $content =
             "
             <p>
-                Grab a coffee with your loved ones while we handle the housecleaning so you may walk into your home that has been inexplicably cleaned to your satisfaction. 
-                Sit back and embrace the peace of mind that comes with knowing that your entire 
+                Grab a coffee with your loved ones while we handle the housecleaning so you may walk into your home that has been inexplicably cleaned to your satisfaction.
+                Sit back and embrace the peace of mind that comes with knowing that your entire
                 home has been professionally cleaned by a reputable company. Our team will ensure that your property is perfect and spotless.
             </p>
             ";
@@ -72,10 +72,14 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-md-6"></div>
+                    <div class="col-md-6 my-auto">
+                        <img src="{{ asset('images/services/home-1.jpg') }}" class="rounded" alt="home-cleaning-1">
+                    </div>
                 </div>
                 <div class="row mt-25">
-                    <div class="col-md-6"></div>
+                    <div class="col-md-6 my-auto">
+                        <img src="{{ asset('images/services/home-2.jpg') }}" class="rounded" alt="home-cleaning-1">
+                    </div>
                     <div class="col-md-6">
                         <h6 class="text-uppercase mb-3">BATHROOM & LAUNDRY</h6>
 
@@ -112,7 +116,9 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-md-6"></div>
+                    <div class="col-md-6 my-auto">
+                        <img src="{{ asset('images/services/home-3.jpg') }}" class="rounded" alt="home-cleaning-1">
+                    </div>
                 </div>
             </div>
 
@@ -143,11 +149,15 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-md-6"></div>
+                    <div class="col-md-6 my-auto">
+                        <img src="{{ asset('images/services/home-4.jpg') }}" class="rounded" alt="home-cleaning-1">
+                    </div>
                 </div>
 
                 <div class="row mt-25">
-                    <div class="col-md-6"></div>
+                    <div class="col-md-6 my-auto">
+                        <img src="{{ asset('images/services/home-5.jpg') }}" class="rounded" alt="home-cleaning-1">
+                    </div>
                     <div class="col-md-6">
                         <h6 class="text-uppercase">BATHROOM & LAUNDRY</h6>
 
@@ -164,7 +174,7 @@
                         </ul>
                     </div>
                 </div>
-                
+
                 <div class="row mt-25">
                     <div class="col-md-6">
                         <h6 class="text-uppercase">KITCHEN</h6>
@@ -185,7 +195,9 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-md-6"></div>
+                    <div class="col-md-6">
+                        <img src="{{ asset('images/services/home-6.jpg') }}" class="rounded" alt="home-cleaning-1">
+                    </div>
                 </div>
             </div>
         </div>
