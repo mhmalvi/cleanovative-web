@@ -9,11 +9,6 @@
         <div class="container">
             <div class="breadcrumb-text text-center">
                 <h1 class="page-title text-dark">About Us</h1>
-                <ul>
-                    <li><a class="text-dark" href="{{ route('home') }}">Home</a></li>
-                    <li class="sep text-dark"><i class="fal fa-angle-double-right"></i></li>
-                    <li class="text-dark">About Us</li>
-                </ul>
             </div>
         </div>
     </section>
@@ -35,43 +30,29 @@
                             <p class="title-tag">About Company</p>
                         </div>
                         <p>
-                            We constantly pursue perfection to better improve our
-                            efficacy and retain consistency with our service.
-                            Our focus is to maintain exceptional and responsive
-                            customer service every time.
+                            We wanted to support ourselves by doing something that makes a difference in people’s lives. 
+                            That’s why have created an innovative platform to provide trustworthy and reliable professional cleaners. 
+                            Our top-quality services, affordable prices, and the cleaner’s years of service industry experience here in 
+                            Cleanovative makes all our clients trust us as we take their needs into account, truly becoming their partners-in-clean.
                         </p>
-
-                        <h4 class="my-2">Why We Are Different</h4>
-                        <ul class="list-group">
-                            <li class="list-group-item">
-                                Satisfaction guaranteed – If you are unhappy with the clean, simply contact us within 48 hours
-                                and we will re-do it. If your still unhappy we will provide a refund.
-                            </li>
-                            <li class="list-group-item">
-                                We are insured, so your always covered!
-                            </li>
-                            <li class="list-group-item">
-                                We are simple, and so is our booking system
-                            </li>
-                            <li class="list-group-item">
-                                We are honest and straightforward. The price quoted is our final price.
-                                There are no hidden charges
-                            </li>
-                            <li class="list-group-item">
-                                We care about the satisfaction and happiness of everyone involved with our service.
-                            </li>
-                        </ul>
-
-                        <a class="main-btn main-btn-3 mt-50" href="{{ route('about_us') }}">Learn More<i
-                                class="fal fa-plus"></i></a>
+                        <p>
+                            We bring together the best professionals in the industry and our management team with client service excellence together in one dedicated team.
+                        </p>
+                        <p>
+                            At Cleanovative we are driven by our core values and seek only to have like-minded, passionate and driven individuals join our team. 
+                            From head office, our field cleaning teams, trainers and all other supportive teams – we all have one mission: To care for our clients by 
+                            providing industry leading customer service experiences and great quality cleaning.
+                        </p>
+                        <p>
+                           Our cleaners are rewarded above industry rates and infinite company perks as we truly value their hard work and dedication. Yet our goal remains to provide our 
+                           cleaning services at the most affordable prices as we believe home and other industry cleaning can be easily accessible. 
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <!--====== ABOUT PART END ======-->
-
-    @include('components.booking_steps')
 
     <!--====== STATISTICS PART START ======-->
     @include('components.booking-banner')
@@ -81,33 +62,62 @@
     <section class="experience-section-two pt-130 pb-130">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-6 wow fadeInLeft" data-wow-delay=".3s">
-                    <div class="experience-img text-center">
-                        <img src="{{ asset('images/experience-3.jpg') }}" alt="Image">
-                    </div>
-                </div>
                 <div class="col-lg-6 wow fadeInRight" data-wow-delay=".3s">
                     <div class="experience-content">
-                        <h3>We Are A Professional Cleaning Service Agency</h3>
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                            laudantium, totam rem aperiam,
-                            eaque ipsa quae ab illo inventore veritatis et quasi architecto</p>
+                        <h3>Why Cleanovative?</h3>
                         <ul class="experience-list">
                             <li>
                                 <span class="icon">
                                     <i class="flaticon-tag"></i>
                                 </span>
-                                <h4>Best Offers & Support</h4>
-                                <p>Sedut perspiciatis unde omnis iste natus voluptaem
-                                    accusantium doloremque laudantium totame</p>
+                                <h4>Because we care.</h4>
+                                <p>
+                                    Yes, Dysons vacuums are great, though they rarely make you fall back in love with your home – but we can!
+
+                                    With our detailed checklists and verified cleaners, we will leave you and your home happy, relaxed and like never before.
+                                    Our mission is to bring ‘that spark’ back to your home. Our team is bonded, reliable, fully insured and background checked for
+                                    your security and comfort.
+
+                                    Because at the end of the day, we’re not just cleaning – we’re taking care of your biggest asset.
+                                </p>
                             </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInLeft" data-wow-delay=".3s">
+                    <div class="experience-img text-center">
+                        <img src="{{ asset('images/experience.jpg') }}" alt="Image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--====== EXPERIENCE PART END ======-->
+
+    @include('components.home.statistics')   
+
+
+    <!--====== EXPERIENCE PART START ======-->
+    <section class="experience-section-two pt-130 pb-130">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 wow fadeInLeft" data-wow-delay=".3s">
+                    <div class="experience-img text-center">
+                        <img src="{{ asset('images/mission.jpg') }}" alt="Image">
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInRight" data-wow-delay=".3s">
+                    <div class="experience-content">
+                        <h3>Our Mission </h3>
+                        <ul class="experience-list">
                             <li>
                                 <span class="icon">
-                                    <i class="flaticon-avatar"></i>
+                                    <img src="{{asset('images/icons/target.png')}}" alt="">
                                 </span>
-                                <h4>Product & Team Member</h4>
-                                <p>Quis autem vel eum iure repreheanderiin eavelit esse
-                                    quam nihil molestiae consequatur velillum</p>
+                                <p>
+                                    Our mission is very simple! Working a 9-5 job can be exhausting, and the last thing you want to do when you get home is clean. We aren’t here to judge. 
+                                    Instead, we live to get those pesky yet crucial tasks off your to-do list, so you can spend that precious time doing the things you enjoy.
+                                </p>
                             </li>
                         </ul>
                     </div>
@@ -117,6 +127,6 @@
     </section>
     <!--====== EXPERIENCE PART END ======-->
 
-    @include('components.testimonials')
+    @include('components.home.call_to_action')
 
 @endsection

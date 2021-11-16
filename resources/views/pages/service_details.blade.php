@@ -22,9 +22,9 @@
 
         @yield('checklist')
 
-        <div class="mt-5 mb-0">
-            @include('components.booking-banner')
-        </div>
+        @include('components.services.extras')
+
+        @include('components.booking-banner')
 
         @yield('custom_form')
 

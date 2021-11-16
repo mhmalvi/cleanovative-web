@@ -303,6 +303,9 @@ i {
 .cta-section .cta-inner .cta-text span {
     font-size: 24px !important;
 }
+.pricing-box .pricing-title {
+    font-size: 24px !important;
+}
 
 footer {
     background-color: var(--light) !important;
@@ -654,8 +657,7 @@ footer .footer-widget-area .widget .social-link li a {
     color: red;
 }
 
-.custom-commercial-form form input
-{
+.custom-commercial-form form input {
     height: 50px !important;
     line-height: 50px !important;
     font-size: 16px;
@@ -668,8 +670,7 @@ footer .footer-widget-area .widget .social-link li a {
     padding-right: 50px;
 }
 
-.custom-commercial-form form span.icon
-{
+.custom-commercial-form form span.icon {
     position: absolute;
     right: 30px;
     color: #50c2c3;
@@ -678,8 +679,7 @@ footer .footer-widget-area .widget .social-link li a {
     transform: translateY(-50%);
 }
 
-.custom-commercial-form form textarea
-{
+.custom-commercial-form form textarea {
     height: 115px;
     padding-right: 30px;
     padding-top: 30px;
@@ -693,12 +693,10 @@ footer .footer-widget-area .widget .social-link li a {
     border-radius: 5px;
 }
 
-.custom-commercial-form form .input-group
-{
+.custom-commercial-form form .input-group {
     margin-bottom: 15px;
 }
 
-.main-btn:disabled
-{
+.main-btn:disabled {
     opacity: 0.7;
 }
