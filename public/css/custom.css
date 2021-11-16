@@ -16,6 +16,10 @@
     background-color: var(--main);
 }
 
+.text-theme-light {
+    color: var(--second) !important;
+}
+
 .border-second-color {
     border: 1px solid var(--second) !important;
 }
