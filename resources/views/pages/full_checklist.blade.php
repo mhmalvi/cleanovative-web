@@ -17,13 +17,12 @@
     <section class="full-checklist-section">
         <div class="container">
             <div class="pt-20">
-                <h2 class="text-center py-3">Cleanovative Cleaning Checklists</h2>
-                <div class="row table-responsive py-2">
-
-                    <table class="col-lg-8 table table-striped mx-auto table-light">
-                        <thead>
+                <h2 class="text-center pt-50 pb-50">Cleanovative Cleaning Checklists</h2>
+                <div class="row table-responsive">
+                    <table class="table table-striped table-light mb-100">
+                        <thead class="bg-theme-light text-light">
                             <tr>
-                                <th style="width: 310px">
+                                <th>
                                     BEDROOMS, LIVING ROOMS AND ALL COMMON AREAS
                                 </th>
                                 <th class="text-center">
@@ -280,8 +279,8 @@
                         </tbody>
                     </table>
 
-                    <table class="col-lg-8 table table-striped mx-auto table-light mt-5">
-                        <thead>
+                    <table class="table table-striped table-light mb-100">
+                        <thead class="bg-theme-light text-light">
                             <tr>
                                 <th style="width: 310px">
                                     BATHROOM & LAUNDRY
@@ -400,8 +399,8 @@
                         </tbody>
                     </table>
 
-                    <table class="col-lg-8 table table-striped mx-auto table-light mt-5">
-                        <thead>
+                    <table class="table table-striped table-light mb-100">
+                        <thead class="bg-theme-light text-light">
                             <tr>
                                 <th style="width: 310px">
                                     KITCHEN

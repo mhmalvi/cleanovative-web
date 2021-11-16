@@ -5,8 +5,9 @@
         $content =
             "
             <p>
-                Grab a coffee with your loved ones while we handle the housecleaning so you may walk into your home that has been inexplicably
-                cleaned to your satisfaction.
+                Grab a coffee with your loved ones while we handle the housecleaning so you may walk into your home that has been inexplicably cleaned to your satisfaction. 
+                Sit back and embrace the peace of mind that comes with knowing that your entire 
+                home has been professionally cleaned by a reputable company. Our team will ensure that your property is perfect and spotless.
             </p>
             ";
     @endphp
@@ -20,20 +21,8 @@
 @endsection
 
 @section('service_content')
-    <div class="row">
-        <div class="col-md-6">
-            <img class="main-thumb" src="{{ asset('images/service-details.jpg') }}" alt="Image">
-        </div>
-        <div class="col-md-6">
-            <p>
-                Sit back and embrace the peace of mind that comes with knowing that your entire home has been professionally cleaned by a reputable company. Our team will ensure that your property is perfect and spotless. A professional cleaning staff that cleans exactly as you want it every time. 
-            </p>
-
-            <br>
-            <p>
-                In less than a minute, you can get a quote and book us.
-            </p>
-        </div>
+    <div class="text-center pt-50 pb-50">
+        <img class="main-thumb" src="{{ asset('images/service-details.jpg') }}" alt="Image" class="img-fluid">
     </div>
 @endsection
 
@@ -58,7 +47,7 @@
         <div class="tab-content" id="pills-tabContent">
             <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
                 <div class="row mt-25">
-                    <div class="col-md-4 py-3">
+                    <div class="col-md-6">
                         <h6 class="text-uppercase mb-3">BEDROOMS, LIVING ROOMS AND ALL COMMON AREAS</h6>
 
                         <ul class="service-checklist">
@@ -83,7 +72,11 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-md-4 py-3">
+                    <div class="col-md-6"></div>
+                </div>
+                <div class="row mt-25">
+                    <div class="col-md-6"></div>
+                    <div class="col-md-6">
                         <h6 class="text-uppercase mb-3">BATHROOM & LAUNDRY</h6>
 
                         <ul class="service-checklist">
@@ -98,7 +91,9 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-md-4 py-3">
+                </div>
+                <div class="row mt-25">
+                    <div class="col-md-6">
                         <h6 class="text-uppercase mb-3">KITCHEN</h6>
 
                         <ul class="service-checklist">
@@ -113,15 +108,17 @@
                                 <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Vacuum &amp; mop floors<br>
                                 <span class="correct"><i class="fas fa-check-circle mr-2 icon-color-red"></i></span>Clean inside oven<br>
                                 <span class="correct"><i class="fas fa-check-circle mr-2 icon-color-red"></i></span>Clean range hood &amp; filters<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2 icon-color-red"></i></span>Clean inside cabinets, shelves &amp; drawers</li>
+                                <span class="correct"><i class="fas fa-check-circle mr-2 icon-color-red"></i></span>Clean inside cabinets, shelves &amp; drawers
+                            </li>
                         </ul>
                     </div>
+                    <div class="col-md-6"></div>
                 </div>
             </div>
 
             <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
                 <div class="row mt-25">
-                    <div class="col-md-4 py-3">
+                    <div class="col-md-6">
                         <h6 class="text-uppercase">BEDROOMS, LIVING ROOMS AND ALL COMMON AREAS</h6>
 
                         <ul class="service-checklist">
@@ -146,7 +143,12 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-md-4 py-3">
+                    <div class="col-md-6"></div>
+                </div>
+
+                <div class="row mt-25">
+                    <div class="col-md-6"></div>
+                    <div class="col-md-6">
                         <h6 class="text-uppercase">BATHROOM & LAUNDRY</h6>
 
                         <ul class="service-checklist">
@@ -161,7 +163,10 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-md-4 py-3">
+                </div>
+                
+                <div class="row mt-25">
+                    <div class="col-md-6">
                         <h6 class="text-uppercase">KITCHEN</h6>
 
                         <ul class="service-checklist">
@@ -180,6 +185,7 @@
                             </li>
                         </ul>
                     </div>
+                    <div class="col-md-6"></div>
                 </div>
             </div>
         </div>

@@ -5,7 +5,9 @@
         $content =
             "
             <p>
-                Strata is one of the major maintenance industries for real-estate. At Cleanovative, we make sure our professional team keeps your housing clean and spotless, making a safe and hygienic environment for all tenants in the building.
+                Strata is one of the major maintenance industries for real-estate. At Cleanovative, we make sure our professional 
+                team keeps your housing clean and spotless, making a safe and hygienic environment for all tenants in the building.
+                 We work with the construction & building committee and site managers to keep all pub areas and amenities clean and hygienic.
             </p>
             ";
     @endphp
@@ -15,20 +17,8 @@
 @section('service_title', 'Strata Cleaning')
 
 @section('service_content')
-    <div class="row">
-        <div class="col-md-6">
-            <img class="main-thumb" src="{{ asset('images/service-details.jpg') }}" alt="Image">
-        </div>
-        <div class="col-md-6">
-            <p>
-                We work with the construction & building committee and site managers to keep all pub areas and amenities clean and hygenic. Cleanovative provides a top class standard to all strata properties.
-            </p>
-
-            <br>
-            <p>
-                Please call us on 180 xxx xxx to discuss maintenance on your strata property.
-            </p>
-        </div>
+    <div class="text-center pt-50 pb-50">
+        <img class="main-thumb" src="{{ asset('images/service-details.jpg') }}" alt="Image" class="img-fluid">
     </div>
 @endsection
 
@@ -50,7 +40,7 @@
         <div class="tab-content" id="pills-tabContent">
             <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
                 <div class="row mt-25">
-                    <div class="col-md-4 py-3">
+                    <div class="col-md-6">
                         <h6 class="text-uppercase mb-3">Internal common areas</h6>
 
                         <ul class="service-checklist">
@@ -65,8 +55,11 @@
                             </li>
                         </ul>
                     </div>
-
-                    <div class="col-md-4 py-3">
+                    <div class="col-md-6"></div>
+                </div>
+                <div class="row mt-25">
+                    <div class="col-md-6"></div>
+                    <div class="col-md-6">
                         <h6 class="text-uppercase mb-3">External common areas</h6>
 
                         <ul class="service-checklist">
@@ -80,8 +73,9 @@
                             </li>
                         </ul>
                     </div>
-
-                    <div class="col-md-4 py-3">
+                </div>
+                <div class="row mt-25">
+                    <div class="col-md-6">
                         <h6 class="text-uppercase mb-3">Foyers</h6>
 
                         <ul class="service-checklist">
@@ -96,8 +90,13 @@
                             </li>
                         </ul>
                     </div>
-
-                    <div class="col-md-4 py-3">
+                    <div class="col-md-6"></div>
+                </div>
+                <div class="row mt-25">
+                    <div class="col-md-6">
+                        <img src="" alt="">
+                    </div>
+                    <div class="col-md-6">
                         <h6 class="text-uppercase mb-3">Additional services</h6>
 
                         <ul class="service-checklist">
