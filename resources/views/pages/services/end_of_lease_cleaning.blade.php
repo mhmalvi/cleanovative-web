@@ -71,6 +71,7 @@
                     </div>
                     <div class="col-md-4 py-3">
                         <h6 class="text-uppercase mb-3">BATHROOM & LAUNDRY</h6>
+                        <ul class="service-checklist">
                             <li><span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean floors<br>
                                 <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Scrub toilets<br>
                                 <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean outside of cabinets &amp; drawers<br>

@@ -1,4 +1,4 @@
-<section class="mt-50 mb-50">
+<section>
     <div class="banner-new">
         <h2 class="banner-title pb-3">We provide whatever you need for cleaning service</h2>
         <p class="banner-para">
