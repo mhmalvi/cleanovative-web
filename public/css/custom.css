@@ -668,3 +668,8 @@ footer .footer-widget-area .widget .social-link li a {
 {
     margin-bottom: 15px;
 }
+
+.main-btn:disabled
+{
+    opacity: 0.7;
+}
