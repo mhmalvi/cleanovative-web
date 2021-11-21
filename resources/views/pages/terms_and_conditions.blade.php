@@ -76,7 +76,7 @@
                         <div class="border mt-30 mb-30"></div>
                         <h4 class="mt-2">BREAKAGE AND LOSS POLICY</h4>
                         <p>
-                            If our team has made any mistake which results in your property damage or loss, please call us at <a href="tel:0401396554">0401396554</a> or email us at <a href="info.cleanovative@gmail.com">info.cleanovative@gmail.com</a> within 24 hours after your service. Once we are updated on the issue, we will ask you to fill out a form. Please note that you will be given 14 days to resubmit the form after the date your property loss or damage ticket has been issued.
+                            If our team has made any mistake which results in your property damage or loss, please call us at <a href="tel:0401396554">0401396554</a> or email us at <a href="info@cleanovative.com">info@cleanovative.com</a> within 24 hours after your service. Once we are updated on the issue, we will ask you to fill out a form. Please note that you will be given 14 days to resubmit the form after the date your property loss or damage ticket has been issued.
                         </p>
                     </div>
                 </div>
