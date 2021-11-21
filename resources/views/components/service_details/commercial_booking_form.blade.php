@@ -1,4 +1,4 @@
-<section class="appointment-section pt-80 pb-80">
+<section class="appointment-section pt-80 pb-80" id="commercialBookingForm">
     <div class="container">
         <div class="row no-gutters">
             <div class="col-lg-5">

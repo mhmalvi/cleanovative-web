@@ -22,8 +22,6 @@
 
         @yield('extras')
 
-        @include('components.booking_steps')
-
         @include('components.booking-banner')
 
         @include('components.home.about_section')

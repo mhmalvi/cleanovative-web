@@ -1,23 +1,42 @@
 @extends('pages.service_details')
 
-@section('banner')
-    @php
-        $content =
-            "
-                <p>
-                    It is critical to maintain the cleanliness of the office in order to instil pride in the workplace, impress clients, and preserve hygiene.
-                     We believe that everyone, including you, your employees, and your customers, deserves to come to work in a clean atmosphere.
-                     We take pride in providing high-quality cleaning services at a fair price that are personalised to your individual or company needs.
-                </p>
-            ";
-    @endphp
-    @include('components.service_details.banner', ['banner_title' => 'Office Cleaning', 'content' => $content])
-@endsection
-
 @section('service_title', 'Office Cleaning')
 
-@section('service_content')
-<div class="pt-100 pb-50"></div>
+@section('banner')
+    <!--====== BREADCRUMB PART START ======-->
+    <section class="breadcrumb-area" style="background-image: url({{ asset('images/breadcrumb2.webp') }});">
+        <div class="container">
+            <div class="breadcrumb-text text-center col-md-8 mx-auto">
+                <h1 class="page-title text-dark">
+                    Office Cleaning
+                </h1>
+                <div class="service-banner-content">
+                    <p>
+                        It is critical to maintain the cleanliness of the office in order to instil pride in the workplace, impress clients, and preserve hygiene.
+                        We believe that everyone, including you, your employees, and your customers, deserves to come to work in a clean atmosphere.
+                        We take pride in providing high-quality cleaning services at a fair price that are personalised to your individual or company needs.
+                    </p>
+                </div>
+                <div class="mt-40">
+                    <a class="main-btn main-btn-2 mt-10 mb-0" href="tel:0401396554">
+                        Call us now
+                        <i class="fas fa-headset"></i>
+                    </a>
+                </div>
+                <div class="mt-10">
+                    <a class="main-btn main-btn-3 mt-10 mb-0" href="#commercialBookingForm">
+                        Request a quote
+                        <i class="fal fa-plus"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--====== BREADCRUMB PART END ======-->
+@endsection
+
+@section('link')
+
 @endsection
 
 @section('checklist')

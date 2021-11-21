@@ -47,7 +47,7 @@
 
         <div class="tab-content" id="pills-tabContent">
             <div class="tab-pane fade" id="standard" role="tabpanel" aria-labelledby="pills-home-tab">
-                <div class="row mt-25">
+                <div class="row mt-100">
                     <div class="col-md-6">
                         <h6 class="text-uppercase mb-3">BEDROOMS, LIVING ROOMS AND ALL COMMON AREAS</h6>
 
@@ -74,12 +74,12 @@
                         </ul>
                     </div>
                     <div class="col-md-6 my-auto">
-                        <img src="{{ asset('images/services/home-1.jpg') }}" class="rounded" alt="home-cleaning-1">
+                        <img src="{{ asset('images/services/home-1.webp') }}" class="rounded" alt="home-cleaning-1">
                     </div>
                 </div>
-                <div class="row mt-25">
+                <div class="row mt-100">
                     <div class="col-md-6 my-auto">
-                        <img src="{{ asset('images/services/home-2.jpg') }}" class="rounded" alt="home-cleaning-1">
+                        <img src="{{ asset('images/services/home-2.webp') }}" class="rounded" alt="home-cleaning-1">
                     </div>
                     <div class="col-md-6">
                         <h6 class="text-uppercase mb-3">BATHROOM & LAUNDRY</h6>
@@ -97,7 +97,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="row mt-25">
+                <div class="row mt-100">
                     <div class="col-md-6">
                         <h6 class="text-uppercase mb-3">KITCHEN</h6>
 
@@ -118,13 +118,13 @@
                         </ul>
                     </div>
                     <div class="col-md-6 my-auto">
-                        <img src="{{ asset('images/services/home-3.jpg') }}" class="rounded" alt="home-cleaning-1">
+                        <img src="{{ asset('images/services/home-3.webp') }}" class="rounded" alt="home-cleaning-1">
                     </div>
                 </div>
             </div>
 
             <div class="tab-pane fade" id="deep" role="tabpanel" aria-labelledby="pills-profile-tab">
-                <div class="row mt-25">
+                <div class="row mt-100">
                     <div class="col-md-6">
                         <h6 class="text-uppercase">BEDROOMS, LIVING ROOMS AND ALL COMMON AREAS</h6>
 
@@ -151,13 +151,13 @@
                         </ul>
                     </div>
                     <div class="col-md-6 my-auto">
-                        <img src="{{ asset('images/services/home-4.jpg') }}" class="rounded" alt="home-cleaning-1">
+                        <img src="{{ asset('images/services/home-4.webp') }}" class="rounded" alt="home-cleaning-1">
                     </div>
                 </div>
 
-                <div class="row mt-25">
+                <div class="row mt-100">
                     <div class="col-md-6 my-auto">
-                        <img src="{{ asset('images/services/home-5.jpg') }}" class="rounded" alt="home-cleaning-1">
+                        <img src="{{ asset('images/services/home-5.webp') }}" class="rounded" alt="home-cleaning-1">
                     </div>
                     <div class="col-md-6">
                         <h6 class="text-uppercase">BATHROOM & LAUNDRY</h6>
@@ -176,7 +176,7 @@
                     </div>
                 </div>
 
-                <div class="row mt-25">
+                <div class="row mt-100">
                     <div class="col-md-6">
                         <h6 class="text-uppercase">KITCHEN</h6>
 
@@ -197,13 +197,13 @@
                         </ul>
                     </div>
                     <div class="col-md-6">
-                        <img src="{{ asset('images/services/home-6.jpg') }}" class="rounded" alt="home-cleaning-1">
+                        <img src="{{ asset('images/services/home-6.webp') }}" class="rounded" alt="home-cleaning-1">
                     </div>
                 </div>
             </div>
 
             <div class="tab-pane fade show active" id="lease" role="tabpanel" aria-labelledby="pills-home-tab">
-                <div class="row mt-25">
+                <div class="row mt-100">
                     <div class="col-md-6">
                         <h6 class="text-uppercase mb-3">BEDROOMS, LIVING ROOMS AND ALL COMMON AREAS</h6>
 
@@ -224,13 +224,13 @@
                         </ul>
                     </div>
                     <div class="col-md-6 my-auto">
-                        <img src="{{ asset('images/services/end-of-lease-1.jpg') }}" class="rounded">
+                        <img src="{{ asset('images/services/end-of-lease-1.webp') }}" class="rounded">
                     </div>
                 </div>
 
-                <div class="row mt-25">
+                <div class="row mt-100">
                     <div class="col-md-6">
-                        <img src="{{ asset('images/services/end-of-lease-2.jpg') }}" class="rounded">
+                        <img src="{{ asset('images/services/end-of-lease-2.webp') }}" class="rounded">
                     </div>
                     <div class="col-md-6">
                         <h6 class="text-uppercase mb-3">BATHROOM & LAUNDRY</h6>
@@ -247,30 +247,6 @@
                     </div>
                 </div>
             </div>
-            <div class="row mt-25">
-                <div class="col-md-6">
-                    <h6 class="text-uppercase mb-3">KITCHEN</h6>
-
-                    <ul class="service-checklist">
-                        <li><span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Stack &amp; run dishwasher (upon request)<br>
-                            <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Wipe down outside of appliances<br>
-                            <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Wet wipe outside of fridge<br>
-                            <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Wet wipe outside of oven<br>
-                            <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean outside of cabinets &amp; drawers<br>
-                            <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean all surfaces<br>
-                            <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean sink<br>
-                            <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean stove<br>
-                            <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Vacuum &amp; mop floors<br>
-                            <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean inside oven<br>
-                            <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean range hood &amp; filters<br>
-                            <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean inside cabinets, shelves &amp; drawers
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-6 my-auto">
-                    <img src="{{ asset('images/services/end-of-lease-3.jpg') }}" class="rounded">
-                </div>
-            </div>
         </div>
 
         <div class="text-center mt-85">
@@ -284,4 +260,6 @@
 
 @section('extras')
     @include('components.services.extras')
+
+    @include('components.booking_steps')
 @endsection

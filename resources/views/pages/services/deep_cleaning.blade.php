@@ -259,4 +259,6 @@
 
 @section('extras')
     @include('components.services.extras')
+
+    @include('components.booking_steps')
 @endsection

@@ -9,7 +9,7 @@
                 {!! $content !!}
             </div>
             <div class="mt-40">
-                <a class="main-btn booking-btn main-btn-3 mt-10 mb-0" href="{{ route('book_now') }}" target="_blank">
+                <a class="main-btn main-btn-3 mt-10 mb-0" href="{{ route('book_now') }}" target="_blank">
                     Book Now
                     <i class="fal fa-plus"></i>
                 </a>

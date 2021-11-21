@@ -1,17 +1,36 @@
 @extends('pages.service_details')
 
 @section('banner')
-    @php
-        $content =
-            "
-            <p>
-                Worried about the mess made after construction work? A post-construction property becomes hazardous for our tradies and you due to the mess made.
-                At Cleanovative our professional and certified cleaners will make sure your new property is safe,
-                breathable and spotless when you walk in, so you and your loved ones can actually feel like it's brand new.
-            </p>
-            ";
-    @endphp
-    @include('components.service_details.banner', ['banner_title' => 'Construction Cleaning', 'content' => $content])
+    <!--====== BREADCRUMB PART START ======-->
+    <section class="breadcrumb-area" style="background-image: url({{ asset('images/breadcrumb2.webp') }});">
+        <div class="container">
+            <div class="breadcrumb-text text-center col-md-8 mx-auto">
+                <h1 class="page-title text-dark">
+                    Construction Cleaning
+                </h1>
+                <div class="service-banner-content">
+                    <p>
+                        Worried about the mess made after construction work? A post-construction property becomes hazardous for our tradies and you due to the mess made.
+                        At Cleanovative our professional and certified cleaners will make sure your new property is safe,
+                        breathable and spotless when you walk in, so you and your loved ones can actually feel like it's brand new.
+                    </p>
+                </div>
+                <div class="mt-40">
+                    <a class="main-btn main-btn-2 mt-10 mb-0" href="tel:0401396554">
+                        Call us now
+                        <i class="fas fa-headset"></i>
+                    </a>
+                </div>
+                <div class="mt-10">
+                    <a class="main-btn main-btn-3 mt-10 mb-0" href="#commercialBookingForm">
+                        Request a quote
+                        <i class="fal fa-plus"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--====== BREADCRUMB PART END ======-->
 @endsection
 
 @section('service_content')

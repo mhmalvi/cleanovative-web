@@ -1,17 +1,36 @@
 @extends('pages.service_details')
 
 @section('banner')
-    @php
-        $content =
-            "
-            <p>
-                Strata is one of the major maintenance industries for real-estate. At Cleanovative, we make sure our professional
-                team keeps your housing clean and spotless, making a safe and hygienic environment for all tenants in the building.
-                 We work with the construction & building committee and site managers to keep all pub areas and amenities clean and hygienic.
-            </p>
-            ";
-    @endphp
-    @include('components.service_details.banner', ['banner_title' => 'Strata Cleaning', 'content' => $content])
+    <!--====== BREADCRUMB PART START ======-->
+    <section class="breadcrumb-area" style="background-image: url({{ asset('images/breadcrumb2.webp') }});">
+        <div class="container">
+            <div class="breadcrumb-text text-center col-md-8 mx-auto">
+                <h1 class="page-title text-dark">
+                    Strata Cleaning
+                </h1>
+                <div class="service-banner-content">
+                    <p>
+                        Strata is one of the major maintenance industries for real-estate. At Cleanovative, we make sure our professional
+                        team keeps your housing clean and spotless, making a safe and hygienic environment for all tenants in the building.
+                        We work with the construction & building committee and site managers to keep all pub areas and amenities clean and hygienic.
+                    </p>
+                </div>
+                <div class="mt-40">
+                    <a class="main-btn main-btn-2 mt-10 mb-0" href="tel:0401396554">
+                        Call us now
+                        <i class="fas fa-headset"></i>
+                    </a>
+                </div>
+                <div class="mt-10">
+                    <a class="main-btn main-btn-3 mt-10 mb-0" href="#commercialBookingForm">
+                        Request a quote
+                        <i class="fal fa-plus"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--====== BREADCRUMB PART END ======-->
 @endsection
 
 @section('service_title', 'Strata Cleaning')

@@ -35,7 +35,7 @@
                         </a>
                     </li>
 
-                    <a class="main-btn btn-sm booking-btn main-btn-3" href="{{ route('book_now') }}" target="_blank">
+                    <a class="main-btn btn-sm main-btn-3" href="{{ route('book_now') }}" target="_blank">
                         Book Now
                         <i class="fal fa-plus"></i>
                     </a>
@@ -68,7 +68,7 @@
                         </a>
                     </li>
 
-                    <a class="main-btn btn-sm booking-btn main-btn-3" href="{{ route('book_now') }}" target="_blank">
+                    <a class="main-btn btn-sm main-btn-3" href="{{ route('book_now') }}" target="_blank">
                         Book Now
                         <i class="fal fa-plus"></i>
                     </a>
@@ -103,7 +103,7 @@
                         </a>
                     </li>
 
-                    <a class="main-btn btn-sm booking-btn main-btn-3" href="{{ route('book_now') }}" target="_blank">
+                    <a class="main-btn btn-sm main-btn-3" href="{{ route('book_now') }}" target="_blank">
                         Book Now
                         <i class="fal fa-plus"></i>
                     </a>
