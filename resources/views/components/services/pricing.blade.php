@@ -14,7 +14,7 @@
                     <h2 class="pricing-title">
                         House cleaning
                     </h2>
-                    <span class="price-tag">125.00</span>
+                    <span class="price-tag">110.00</span>
                     <li>
                         Instant quotation available
                     </li>
@@ -22,7 +22,7 @@
                         Easy online booking
                     </li>
                     <li>
-                        Recommended for routine or weekly  & fortnightly clean
+                        Recommended for weekly, fortnightly clean. 
                     </li>
                     <li>
                         Customise or cancel your booking anytime
@@ -35,7 +35,7 @@
                         </a>
                     </li>
 
-                    <a class="main-btn btn-sm booking-btn main-btn-3" href="{{ route('book_now') }}" target="_blank">
+                    <a class="main-btn btn-sm main-btn-3" href="{{ route('book_now') }}" target="_blank">
                         Book Now
                         <i class="fal fa-plus"></i>
                     </a>
@@ -47,7 +47,7 @@
                     <h2 class="pricing-title">
                         Deep cleaning
                     </h2>
-                    <span class="price-tag">125.00</span>
+                    <span class="price-tag">165.00</span>
                     <li>
                         Instant quotation available
                     </li>
@@ -55,7 +55,7 @@
                         Easy online booking
                     </li>
                     <li>
-                        Recommended for routine or weekly  & fortnightly clean
+                        Recommended for weekly, fortnightly clean. 
                     </li>
                     <li>
                         Customise or cancel your booking anytime
@@ -68,7 +68,7 @@
                         </a>
                     </li>
 
-                    <a class="main-btn btn-sm booking-btn main-btn-3" href="{{ route('book_now') }}" target="_blank">
+                    <a class="main-btn btn-sm main-btn-3" href="{{ route('book_now') }}" target="_blank">
                         Book Now
                         <i class="fal fa-plus"></i>
                     </a>
@@ -80,7 +80,7 @@
                     <h2 class="pricing-title">
                         End of lease cleaning
                     </h2>
-                    <span class="price-tag">190.00</span>
+                    <span class="price-tag">295.00</span>
 
                     <li>
                         Instant quotation available
@@ -89,7 +89,7 @@
                         Easy online booking
                     </li>
                     <li>
-                        Recommended for routine or weekly  & fortnightly clean
+                        Recommended for weekly, fortnightly clean. 
                     </li>
                     <li>
                         Customise or cancel your booking anytime
@@ -103,7 +103,7 @@
                         </a>
                     </li>
 
-                    <a class="main-btn btn-sm booking-btn main-btn-3" href="{{ route('book_now') }}" target="_blank">
+                    <a class="main-btn btn-sm main-btn-3" href="{{ route('book_now') }}" target="_blank">
                         Book Now
                         <i class="fal fa-plus"></i>
                     </a>

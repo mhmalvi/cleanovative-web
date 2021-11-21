@@ -29,11 +29,15 @@
                         <div>
                             <h3 class="widget-title">Quick Links</h3>
                             <ul>
-                                <li><a href="#"><i class="far fa-arrow-right"></i>Team Members</a></li>
-                                <li><a href="#"><i class="far fa-arrow-right"></i>Articles & Tipes</a></li>
-                                <li><a href="#"><i class="far fa-arrow-right"></i>Company History</a></li>
-                                <li><a href="#"><i class="far fa-arrow-right"></i>About Company</a></li>
-                                <li><a href="#"><i class="far fa-arrow-right"></i>Need A Job?</a></li>
+                                <li><a href="{{route('about_us')}}"><i class="far fa-arrow-right"></i>About us</a></li>
+                                <li><a href="{{route('gift_cards')}}"><i class="far fa-arrow-right"></i>Gift Cards</a></li>
+                                <li><a href="{{route('faq')}}"><i class="far fa-arrow-right"></i>FAQ</a></li>
+                                <li><a href="{{route('terms_and_conditions')}}"><i class="far fa-arrow-right"></i>Terms & Conditions</a></li>
+                                <li>
+                                    <a href="{{route('privacy_policy')}}">
+                                        <i class="far fa-arrow-right"></i>Privacy Policy
+                                    </a>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -48,7 +52,7 @@
                                     <i class="far fa-phone"></i>
                                     <a href="tel:040 139 6554">040 139 6554</a></li>
                                 <li>
-                                    <i class="far fa-envelope-open"></i>info.cleanovative@gmail.com
+                                    <i class="far fa-envelope-open"></i>info@cleanovative.com
                                 </li>
                             </ul>
                         </div>
@@ -65,7 +69,14 @@
         </div>
     </div>
     <div class="copyright-area text-center pt-40 pb-40">
-        <p>Copyright by@ QuadQue - 2021</p>
+        <div class="row">
+            <div class="col-md-6">
+                <p>Copyright by@ Cleanovative - 2021</p>
+            </div>
+            <div class="col-md-6">
+                <p>Design & Developed with <span class="text-danger">❤</span> by <a href="https://quadque.tech">Quadque Technologies ltd</a></p>
+            </div>
+        </div>
     </div>
 </footer>
 <!--====== FOOTER PART END ======-->

@@ -16,6 +16,26 @@
     background-color: var(--main);
 }
 
+#heroSlideActive .slick-dots {
+    display: table-row !important;
+    position: absolute !important;
+    bottom: 10px !important;
+    left: 46% !important;
+}
+
+#heroSlideActive .slick-dots li {
+    display: table-cell !important;
+}
+
+#heroSlideActive .slick-dots li button {
+    border: none !important;
+    width: 20px !important;
+    height: 20px !important;
+    border-radius: 50% !important;
+    margin: 0px 2px !important;
+    font-size: 12px !important;
+}
+
 .text-theme-light {
     color: var(--second) !important;
 }
@@ -219,6 +239,14 @@ i {
     background-color: transparent !important;
 }
 
+.guarantees {
+    list-style: disc inside !important;
+}
+
+.guarantees li {
+    padding: 10px 0px !important;
+}
+
 .statistics-section::before,
 .about-section .video-bg::before {
     background-color: var(--main) !important;
@@ -249,7 +277,7 @@ i {
     background-size: cover;
     background-position: center, center;
     text-align: center;
-    padding: 130px 30px;
+    padding: 90px 30px;
 }
 
 .banner-new .banner-title,
@@ -488,8 +516,16 @@ footer .footer-widget-area .widget .social-link li a {
 
 @media screen and (max-width: 480px) {
     .hero-ticks {
-        bottom: 40px !important;
+        bottom: 20px !important;
         padding: 15px;
+    }
+
+    .banner-ticks {
+        font-size: 14px !important;
+    }
+
+    .banner-ticks i {
+        font-size: 1.2rem !important;
     }
 
     .top-bar {
@@ -516,12 +552,20 @@ footer .footer-widget-area .widget .social-link li a {
     .breadcrumb-area .breadcrumb-text h1.page-title {
         font-size: 34px !important;
     }
+
+    .cta-info img {
+        max-width: 150px !important;
+    }
+
+    .cta-section .cta-inner .cta-text span {
+        font-size: 16px !important;
+    }
 }
 
 @media screen and (max-width: 768px) {
     .hero-ticks {
-        bottom: 40px !important;
-        padding: 15px;
+        bottom: 30px !important;
+        padding: 30px !important;
     }
     .header-area .header-nav .navigation .navbar .navbar-brand.logo-mt-neg img {
         max-width: 200px !important;

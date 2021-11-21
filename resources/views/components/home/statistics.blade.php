@@ -3,7 +3,7 @@
     <div class="container">
         <div class="row no-gutters justify-content-between">
             <div class="col-xl-5 col-lg-5">
-                <div class="statistics-text">
+                <div class="statistics-text text-center text-md-left">
                     <div class="section-title left-border mb-40">
                         <h2>Let’s See Company <br>
                             Life Statistics

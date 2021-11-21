@@ -1,25 +1,42 @@
 @extends('pages.service_details')
 
 @section('banner')
-    @php
-        $content =
-            "
-            <p>
-                Strata is one of the major maintenance industries for real-estate. At Cleanovative, we make sure our professional
-                team keeps your housing clean and spotless, making a safe and hygienic environment for all tenants in the building.
-                 We work with the construction & building committee and site managers to keep all pub areas and amenities clean and hygienic.
-            </p>
-            ";
-    @endphp
-    @include('components.service_details.banner', ['banner_title' => 'Strata Cleaning', 'content' => $content])
+    <!--====== BREADCRUMB PART START ======-->
+    <section class="breadcrumb-area" style="background-image: url({{ asset('images/breadcrumb2.webp') }});">
+        <div class="container">
+            <div class="breadcrumb-text text-center col-md-8 mx-auto">
+                <h1 class="page-title text-dark">
+                    Strata Cleaning
+                </h1>
+                <div class="service-banner-content">
+                    <p>
+                        Strata is one of the major maintenance industries for real-estate. At Cleanovative, we make sure our professional
+                        team keeps your housing clean and spotless, making a safe and hygienic environment for all tenants in the building.
+                        We work with the construction & building committee and site managers to keep all pub areas and amenities clean and hygienic.
+                    </p>
+                </div>
+                <div class="mt-40">
+                    <a class="main-btn main-btn-2 mt-10 mb-0" href="tel:0401396554">
+                        Call us now
+                        <i class="fas fa-headset"></i>
+                    </a>
+                </div>
+                <div class="mt-10">
+                    <a class="main-btn main-btn-3 mt-10 mb-0" href="#commercialBookingForm">
+                        Request a quote
+                        <i class="fal fa-plus"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--====== BREADCRUMB PART END ======-->
 @endsection
 
 @section('service_title', 'Strata Cleaning')
 
 @section('service_content')
-    <div class="text-center pt-50 pb-50">
-        <img class="main-thumb" src="{{ asset('images/services/strata.jpg') }}" alt="Image" class="img-fluid">
-    </div>
+<div class="pt-100 pb-50"></div>
 @endsection
 
 @section('checklist')
@@ -61,7 +78,7 @@
                 </div>
                 <div class="row mt-25">
                     <div class="col-md-6">
-                        <img src="{{ asset('images/services/strata-2.jpg') }}" alt="">
+                        <img src="{{ asset('images/services/strata-2.webp') }}" alt="">
                     </div>
                     <div class="col-md-6">
                         <h6 class="text-uppercase mb-3">External common areas</h6>
@@ -95,12 +112,12 @@
                         </ul>
                     </div>
                     <div class="col-md-6">
-                        <img src="{{ asset('images/services/strata-3.jpg') }}" alt="">
+                        <img src="{{ asset('images/services/strata-3.webp') }}" alt="">
                     </div>
                 </div>
                 <div class="row mt-25">
                     <div class="col-md-6">
-                        <img src="{{ asset('images/services/strata-4.jpg') }}" alt="">
+                        <img src="{{ asset('images/services/strata-4.webp') }}" alt="">
                     </div>
                     <div class="col-md-6">
                         <h6 class="text-uppercase mb-3">Additional services</h6>
