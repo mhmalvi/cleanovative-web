@@ -86,29 +86,30 @@
                         </ul>
                     </div>
                 </div>
-            </div>
-            <div class="row mt-25">
-                <div class="col-md-6">
-                    <h6 class="text-uppercase mb-3">KITCHEN</h6>
 
-                    <ul class="service-checklist">
-                        <li><span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Stack &amp; run dishwasher (upon request)<br>
-                            <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Wipe down outside of appliances<br>
-                            <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Wet wipe outside of fridge<br>
-                            <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Wet wipe outside of oven<br>
-                            <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean outside of cabinets &amp; drawers<br>
-                            <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean all surfaces<br>
-                            <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean sink<br>
-                            <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean stove<br>
-                            <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Vacuum &amp; mop floors<br>
-                            <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean inside oven<br>
-                            <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean range hood &amp; filters<br>
-                            <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean inside cabinets, shelves &amp; drawers
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-6 my-auto">
-                    <img src="{{ asset('images/services/end-of-lease-3.jpg') }}" class="rounded">
+                <div class="row mt-25">
+                    <div class="col-md-6">
+                        <h6 class="text-uppercase mb-3">KITCHEN</h6>
+
+                        <ul class="service-checklist">
+                            <li><span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Stack &amp; run dishwasher (upon request)<br>
+                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Wipe down outside of appliances<br>
+                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Wet wipe outside of fridge<br>
+                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Wet wipe outside of oven<br>
+                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean outside of cabinets &amp; drawers<br>
+                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean all surfaces<br>
+                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean sink<br>
+                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean stove<br>
+                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Vacuum &amp; mop floors<br>
+                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean inside oven<br>
+                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean range hood &amp; filters<br>
+                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean inside cabinets, shelves &amp; drawers
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 my-auto">
+                        <img src="{{ asset('images/services/end-of-lease-3.jpg') }}" class="rounded">
+                    </div>
                 </div>
             </div>
         </div>
