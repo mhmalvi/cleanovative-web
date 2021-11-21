@@ -16,18 +16,18 @@
     background-color: var(--main);
 }
 
-.slick-dots {
+#heroSlideActive .slick-dots {
     display: table-row !important;
     position: absolute !important;
     bottom: 10px !important;
     left: 46% !important;
 }
 
-.slick-dots li {
+#heroSlideActive .slick-dots li {
     display: table-cell !important;
 }
 
-.slick-dots li button {
+#heroSlideActive .slick-dots li button {
     border: none !important;
     width: 20px !important;
     height: 20px !important;
@@ -237,6 +237,14 @@ i {
 
 .about-section .video-bg .popup-video {
     background-color: transparent !important;
+}
+
+.guarantees {
+    list-style: disc inside !important;
+}
+
+.guarantees li {
+    padding: 10px 0px !important;
 }
 
 .statistics-section::before,

@@ -1,6 +1,6 @@
 <!--====== SERVICE PART START ======-->
 <section class="service-section service-page">
-    <div class="container-fluid">
+    <div class="container">
         <div class="section-title text-center both-border mb-50">
             <h2>We Provide Best Offer For <br>
                 Cleaning Services</h2>

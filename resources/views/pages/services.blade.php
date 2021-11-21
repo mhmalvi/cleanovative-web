@@ -11,6 +11,4 @@
 
     @include('components.services.call_to_action')
 
-    @include('components.services.about_us')
-
 @endsection

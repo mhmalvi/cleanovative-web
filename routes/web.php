@@ -17,7 +17,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::view('/', 'pages.home')->name('home');
 
-// Route::view('services', 'pages.services')->name('services');
+Route::view('services', 'pages.services')->name('services');
 
 Route::view('service_details', 'pages.service_details')->name('service_details');
 
