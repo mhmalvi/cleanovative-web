@@ -112,25 +112,9 @@
             <div class="col-6 col-md-2 my-2">
                 <div class="text-center">
                     <div class="border rounded p-3 bg-light shadow-sm">
-                        <img src="{{asset('images/icons/clean.png')}}" alt="" class="img-fluid">
-                    </div>
-                    Wall Washing (1-3 Bedrooms)
-                </div>
-            </div>
-            <div class="col-6 col-md-2 my-2">
-                <div class="text-center">
-                    <div class="border rounded p-3 bg-light shadow-sm">
                         <img src="{{asset('images/icons/vacuum-cleaner.png')}}" alt="" class="img-fluid">
                     </div>
                     Carpet Steam Clean (per room or area)
-                </div>
-            </div>
-            <div class="col-6 col-md-2 my-2">
-                <div class="text-center">
-                    <div class="border rounded p-3 bg-light shadow-sm">
-                        <img src="{{asset('images/icons/vacuum.png')}}" alt="" class="img-fluid">
-                    </div>
-                    Carpet Steam Clean (whole house)
                 </div>
             </div>
         </div>

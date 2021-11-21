@@ -17,9 +17,7 @@
 @section('service_title', 'Other Commercial Cleaning')
 
 @section('service_content')
-    <div class="text-center pt-50 pb-50">
-        <img class="main-thumb img-fluid" src="{{ asset('images/services/other.jpg') }}" alt="Image" />
-    </div>
+{{-- <div class="pt-100 pb-50"></div> --}}
 @endsection
 
 @section('custom_form')

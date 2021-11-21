@@ -17,9 +17,7 @@
 @section('service_title', 'Office Cleaning')
 
 @section('service_content')
-    <div class="text-center pt-50 pb-50">
-        <img class="main-thumb" src="{{ asset('images/services/office.jpg') }}" alt="Image" class="img-fluid">
-    </div>
+<div class="pt-100 pb-50"></div>
 @endsection
 
 @section('checklist')
