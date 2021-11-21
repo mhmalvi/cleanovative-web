@@ -4,7 +4,7 @@
         <div class="cta-inner">
             <div class="cta-text text-center wow fadeInUp" data-wow-delay=".3s">
                 <div class="container">
-                    <div class="row">
+                    <div class="row cta-info">
                         <div class="col-md-6">
                             <img src="{{asset('images/hapiness.png')}}" alt="">
                         </div>

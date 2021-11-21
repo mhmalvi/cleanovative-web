@@ -5,7 +5,7 @@
         <div class="row align-items-center justify-content-between">
             <div class="col-lg-6 order-last order-md-first wow fadeInLeft" data-wow-delay=".3s">
                 <div class="about-img text-center mb-0 mt-3 mt-md-0">
-                    <img src="{{asset('images/about-img.jpg')}}" alt="Image" class="img-fluid rounded">
+                    <img src="{{asset('images/about-img.webp')}}" alt="Image" class="img-fluid rounded">
                 </div>
             </div>
             <div class="col-lg-6 wow fadeInRight" data-wow-delay=".5s">

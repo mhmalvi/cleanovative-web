@@ -95,11 +95,11 @@
             <div class="col-lg-6">
                 <div class="single-testimonial">
                     <div class="testimonial-author">
-                        <h4>David Wood</h4>
+                        <h4>Stella Quiros</h4>
                     </div>
                     <div class="testimonial-content">
                         <p>
-                            We had a regular cleaning booked with Spotlessly Clean. The provided service was excellent and 
+                            We had a regular cleaning booked with Cleanovative. The provided service was excellent and 
                             I would totally recommend to take services from this company.
                         </p>
                         <ul class="rating">
@@ -141,8 +141,8 @@
                     </div>
                     <div class="testimonial-content">
                         <p>
-                            We used Spotlessly Clean for a move in deep clean on our new home. Reazur and Zahid’s Team showed up early, 
-                            nd stayed late, never stopping. Great work, and well worth the cost. 
+                            We used Cleanovative for a move in deep clean on our new home. Reazur and Zahid’s Team showed up early, 
+                            and stayed late, never stopping. Great work, and well worth the cost. 
                         </p>
                         <ul class="rating">
                             <li><i class="fas fa-star"></i></li>
@@ -194,27 +194,6 @@
                         </ul>
                     </div>
                     <img src="{{ asset('images/testimonial/testi03.jpg') }}" alt="testimonial-author" class="author-img">
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="single-testimonial">
-                    <div class="testimonial-author">
-                        <h4>Chris Clay</h4>
-                    </div>
-                    <div class="testimonial-content">
-                        <p>
-                            I used the end of tenancy cleaning service of cleanovative once. Speaking from experience, their 
-                            service prices are very cheap and they offer better quality cleaning services at a lower cost.
-                        </p>
-                        <ul class="rating">
-                            <li><i class="fas fa-star"></i></li>
-                            <li><i class="fas fa-star"></i></li>
-                            <li><i class="fas fa-star"></i></li>
-                            <li><i class="fas fa-star"></i></li>
-                            <li><i class="fas fa-star"></i></li>
-                        </ul>
-                    </div>
-                    <img src="{{ asset('images/testimonial/testi04.jpg') }}" alt="testimonial-author" class="author-img">
                 </div>
             </div>
         </div>

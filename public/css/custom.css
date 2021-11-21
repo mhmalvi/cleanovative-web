@@ -249,7 +249,7 @@ i {
     background-size: cover;
     background-position: center, center;
     text-align: center;
-    padding: 130px 30px;
+    padding: 90px 30px;
 }
 
 .banner-new .banner-title,
@@ -488,8 +488,16 @@ footer .footer-widget-area .widget .social-link li a {
 
 @media screen and (max-width: 480px) {
     .hero-ticks {
-        bottom: 40px !important;
+        bottom: 20px !important;
         padding: 15px;
+    }
+
+    .banner-ticks {
+        font-size: 14px !important;
+    }
+
+    .banner-ticks i {
+        font-size: 1.2rem !important;
     }
 
     .top-bar {
@@ -516,11 +524,19 @@ footer .footer-widget-area .widget .social-link li a {
     .breadcrumb-area .breadcrumb-text h1.page-title {
         font-size: 34px !important;
     }
+
+    .cta-info img {
+        max-width: 150px !important;
+    }
+
+    .cta-section .cta-inner .cta-text span {
+        font-size: 16px !important;
+    }
 }
 
 @media screen and (max-width: 768px) {
     .hero-ticks {
-        bottom: 40px !important;
+        bottom: 20px !important;
         padding: 15px;
     }
     .header-area .header-nav .navigation .navbar .navbar-brand.logo-mt-neg img {
