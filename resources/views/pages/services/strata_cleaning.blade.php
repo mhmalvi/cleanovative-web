@@ -78,7 +78,7 @@
                 </div>
                 <div class="row mt-25">
                     <div class="col-md-6">
-                        <img src="{{ asset('images/services/strata-2.jpg') }}" alt="">
+                        <img src="{{ asset('images/services/strata-2.webp') }}" alt="">
                     </div>
                     <div class="col-md-6">
                         <h6 class="text-uppercase mb-3">External common areas</h6>
@@ -112,12 +112,12 @@
                         </ul>
                     </div>
                     <div class="col-md-6">
-                        <img src="{{ asset('images/services/strata-3.jpg') }}" alt="">
+                        <img src="{{ asset('images/services/strata-3.webp') }}" alt="">
                     </div>
                 </div>
                 <div class="row mt-25">
                     <div class="col-md-6">
-                        <img src="{{ asset('images/services/strata-4.jpg') }}" alt="">
+                        <img src="{{ asset('images/services/strata-4.webp') }}" alt="">
                     </div>
                     <div class="col-md-6">
                         <h6 class="text-uppercase mb-3">Additional services</h6>

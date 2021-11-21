@@ -64,7 +64,7 @@
                 </ul>
             </div>
             <div class="col-md-6">
-                <img src="{{ asset('images/services/construction-1.jpg') }}" alt="">
+                <img src="{{ asset('images/services/construction-1.webp') }}" alt="">
             </div>
         </div>
         <div class="row mt-25">
@@ -103,12 +103,12 @@
                 </ul>
             </div>
             <div class="col-md-6">
-                <img src="{{ asset('images/services/construction-3.jpg') }}" alt="">
+                <img src="{{ asset('images/services/construction-3.webp') }}" alt="">
             </div>
         </div>
         <div class="row mt-25">
             <div class="col-md-6">
-                <img src="{{ asset('images/services/construction-4.jpg') }}" alt="">
+                <img src="{{ asset('images/services/construction-4.webp') }}" alt="">
             </div>
             <div class="col-md-6">
                 <h6 class="text-uppercase mb-3">Additional servics</h6>
