@@ -80,7 +80,7 @@
                                         </a>
                                         <ul class="sub-menu">
                                             <li>
-                                                <a href="{{ route('service.house_cleaning') }}">House Cleaning</a>
+                                                <a href="{{ route('service.house_cleaning') }}">Home Cleaning</a>
                                                 <a href="{{ route('service.deep_cleaning') }}">Deep Cleaning</a>
                                                 <a href="{{ route('service.end_of_lease_cleaning') }}">End of Lease Cleaning</a>
                                                 <a href="{{ route('service.office_cleaning') }}">Office Cleaning</a>
@@ -106,7 +106,7 @@
                                         <ul class="sub-menu">
                                             <li class="nav-item">
                                                 <a class="nav-link" href="{{ route('contact') }}">
-                                                    Contact
+                                                    Contact us
                                                 </a>
                                             </li>
                                             <li class="nav-item">

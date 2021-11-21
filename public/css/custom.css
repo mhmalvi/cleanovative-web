@@ -16,6 +16,26 @@
     background-color: var(--main);
 }
 
+.slick-dots {
+    display: table-row !important;
+    position: absolute !important;
+    bottom: 10px !important;
+    left: 46% !important;
+}
+
+.slick-dots li {
+    display: table-cell !important;
+}
+
+.slick-dots li button {
+    border: none !important;
+    width: 20px !important;
+    height: 20px !important;
+    border-radius: 50% !important;
+    margin: 0px 2px !important;
+    font-size: 12px !important;
+}
+
 .text-theme-light {
     color: var(--second) !important;
 }
@@ -536,8 +556,8 @@ footer .footer-widget-area .widget .social-link li a {
 
 @media screen and (max-width: 768px) {
     .hero-ticks {
-        bottom: 20px !important;
-        padding: 15px;
+        bottom: 30px !important;
+        padding: 30px !important;
     }
     .header-area .header-nav .navigation .navbar .navbar-brand.logo-mt-neg img {
         max-width: 200px !important;

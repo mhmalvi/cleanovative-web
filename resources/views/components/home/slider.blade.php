@@ -13,7 +13,7 @@
                     <p class="slider-sub-title">
                         Use our booking form to create an instant customised quote for any home cleaning services in Sydney
                     </p>
-                    <div class="btn-wrap">
+                    <div class="btn-wrap mt-0">
                         <a class="main-btn main-btn" href="{{ route('book_now') }}" target="_blank"> Book online in less than 60 seconds</a>
                     </div>
                 </div>
@@ -53,7 +53,7 @@
                     <p class="slider-sub-title">
                         Tailored quotation to your space and budget.
                     </p>
-                    <div class="btn-wrap">
+                    <div class="btn-wrap mt-0">
                         <a class="main-btn" href="{{ route('contact') }}">Contact Us<i
                                 class="fal fa-plus"></i></a>
                     </div>
