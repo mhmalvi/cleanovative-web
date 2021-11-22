@@ -2,7 +2,7 @@
 
 @section('banner')
     <!--====== BREADCRUMB PART START ======-->
-    <section class="breadcrumb-area" style="background-image: url({{ asset('images/breadcrumb2.webp') }});">
+    <section class="breadcrumb-area" style="background-image: url({{ asset('images/breadcrumb3.webp') }});">
         <div class="container">
             <div class="breadcrumb-text text-center col-md-8 mx-auto">
                 <h1 class="page-title text-dark">
@@ -73,14 +73,14 @@
                         </ul>
                     </div>
 
-                    <div class="col-md-6">
-                        <img src="{{ asset('images/services/party1.webp') }}" class="rounded">
+                    <div class="col-md-6 mb-5 mb-md-0 order-first order-md-last d-flex align-items-center">
+                        <img src="{{ asset('images/services/party1.webp') }}" class="img-thumbnail rounded border border-info">
                     </div>
                 </div>
 
                 <div class="row mt-100">
-                    <div class="col-md-6">
-                        <img src="{{ asset('images/services/party2.webp') }}" class="rounded">
+                    <div class="col-md-6 mb-5 mb-md-0 d-flex align-items-center">
+                        <img src="{{ asset('images/services/party2.webp') }}" class="img-thumbnail rounded border border-info">
                     </div>
                     <div class="col-md-6">
                         <h6 class="text-uppercase mb-3">Optional Services</h6>

@@ -18,7 +18,9 @@
                             </a>
                         </div>
                         <div class="service-content rounded-bottom">
-                            <h6>House Cleaning</h6>
+                            <a href="{{ route('service.house_cleaning') }}">
+                                <h6>House Cleaning</h6>
+                            </a>
                         </div>
                     </div>
                 </a>
@@ -35,7 +37,9 @@
                             </a>
                         </div>
                         <div class="service-content rounded-bottom">
-                            <h6>Deep Cleaning</h6>
+                            <a href="{{ route('service.deep_cleaning') }}">
+                                <h6>Deep Cleaning</h6>
+                            </a>
                         </div>
                     </div>
                 </a>
@@ -52,7 +56,9 @@
                             </a>
                         </div>
                         <div class="service-content rounded-bottom">
-                            <h6>End of Lease Cleaning</h6>
+                            <a href="{{ route('service.end_of_lease_cleaning') }}">
+                                <h6>End of Lease Cleaning</h6>
+                            </a>
                         </div>
                     </div>
                 </a>
@@ -69,7 +75,9 @@
                             </a>
                         </div>
                         <div class="service-content rounded-bottom">
-                            <h6>Party-Event Cleaning</h6>
+                            <a href="{{ route('service.party_event_cleaning') }}">
+                                <h6>Party-Event Cleaning</h6>
+                            </a>
                         </div>
                     </div>
                 </a>
@@ -86,7 +94,9 @@
                             </a>
                         </div>
                         <div class="service-content rounded-bottom">
-                            <h6>Office Cleaning</h6>
+                            <a href="{{ route('service.office_cleaning') }}">
+                                <h6>Office Cleaning</h6>
+                            </a>
                         </div>
                     </div>
                 </a>
@@ -103,7 +113,9 @@
                             </a>
                         </div>
                         <div class="service-content rounded-bottom">
-                            <h6>Construction Cleaning</h6>
+                            <a href="{{ route('service.construction_cleaning') }}">
+                                <h6>Construction Cleaning</h6>
+                            </a>
                         </div>
                     </div>
                 </a>
@@ -120,7 +132,9 @@
                             </a>
                         </div>
                         <div class="service-content rounded-bottom">
-                            <h6>Strata Cleaning</h6>
+                            <a href="{{ route('service.strata_cleaning') }}">
+                                <h6>Strata Cleaning</h6>
+                            </a>
                         </div>
                     </div>
                 </a>
@@ -137,7 +151,9 @@
                             </a>
                         </div>
                         <div class="service-content rounded-bottom">
-                            <h6>Other Cleaning</h6>
+                            <a href="{{ route('service.other_cleaning') }}">
+                                <h6>Other Cleaning</h6>
+                            </a>
                         </div>
                     </div>
                 </a>

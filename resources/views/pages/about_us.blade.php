@@ -33,8 +33,6 @@
 
     @include('components.home.statistics') 
 
-    @include('components.services.our_services')
-
     @include('components.testimonials')
 
     @include('components.home.call_to_action')

@@ -2,7 +2,9 @@
 
 namespace App\Http\Requests;
 
+use App\Mail\ContactAdminMail;
 use Illuminate\Foundation\Http\FormRequest;
+use Illuminate\Support\Facades\Mail;
 
 class ContactEnquiryRequest extends FormRequest
 {
@@ -24,14 +26,23 @@ class ContactEnquiryRequest extends FormRequest
     public function rules()
     {
         return [
-            'name' => 'required',
-            'phone' => 'required',
-            'email' => 'required',
-            'message' => 'required',
+            'name' => 'required|string|max:255',
+            'phone' => 'required|string|max:255',
+            'email' => 'required|email|max:255',
+            'message' => 'required|max:255',
         ];
     }
 
     public function send()
     {
+        $data = [
+            'name' => $this->name,
+            'business' => $this->business_name,
+            'email' => $this->email,
+            'phone' => $this->phone,
+            'query' => $this->message
+        ];
+
+        Mail::to('dev.quadque@gmail.com')->send(new ContactAdminMail($data));
     }
 }

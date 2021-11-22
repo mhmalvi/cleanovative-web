@@ -2,7 +2,7 @@
 
 @section('banner')
     <!--====== BREADCRUMB PART START ======-->
-    <section class="breadcrumb-area" style="background-image: url({{ asset('images/breadcrumb2.webp') }});">
+    <section class="breadcrumb-area" style="background-image: url({{ asset('images/breadcrumb6.webp') }});">
         <div class="container">
             <div class="breadcrumb-text text-center col-md-8 mx-auto">
                 <h1 class="page-title text-dark">
@@ -36,7 +36,11 @@
 @section('service_title', 'Other Commercial Cleaning')
 
 @section('service_content')
-{{-- <div class="pt-100 pb-50"></div> --}}
+    <div class="pt-100 pb-100">
+        <div class="d-flex justify-content-center">
+            <img src="{{asset('images/services/other.webp')}}" alt="">
+        </div>
+    </div>
 @endsection
 
 @section('custom_form')

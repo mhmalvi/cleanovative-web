@@ -71,10 +71,15 @@
     <div class="copyright-area text-center pt-40 pb-40">
         <div class="row">
             <div class="col-md-6">
-                <p>Copyright by@ Cleanovative - 2021</p>
+                <p>
+                    Copyright © 2021 All Rights Reserved - 
+                    <a href="{{route('terms_and_conditions')}}" target="_blank">Terms & Conditions</a>
+                    -
+                    <a href="{{route('privacy_policy')}}" target="_blank">Privacy Policy</a>
+                </p>
             </div>
             <div class="col-md-6">
-                <p>Design & Developed with <span class="text-danger">❤</span> by <a href="https://quadque.tech">Quadque Technologies ltd</a></p>
+                <p>Design & Developed by <a href="https://quadque.tech">Quadque Technologies ltd</a></p>
             </div>
         </div>
     </div>

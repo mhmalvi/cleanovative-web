@@ -2,7 +2,7 @@
 
 @section('banner')
     <!--====== BREADCRUMB PART START ======-->
-    <section class="breadcrumb-area" style="background-image: url({{ asset('images/breadcrumb2.webp') }});">
+    <section class="breadcrumb-area" style="background-image: url({{ asset('images/breadcrumb4.webp') }});">
         <div class="container">
             <div class="breadcrumb-text text-center col-md-8 mx-auto">
                 <h1 class="page-title text-dark">
@@ -47,7 +47,7 @@
             Our standard cleaning service is a more frequent cleaning option for a home that is already well kept
         </p>
 
-        <div class="row mt-25">
+        <div class="row mt-100">
             <div class="col-md-6">
                 <h6 class="text-uppercase mb-3">All Rooms</h6>
 
@@ -63,13 +63,13 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-md-6">
-                <img src="{{ asset('images/services/construction-1.webp') }}" alt="">
+            <div class="col-md-6 mb-5 mb-md-0 order-first order-md-last d-flex align-items-center">
+                <img src="{{ asset('images/services/construction-1.webp') }}" alt="" class="img-thumbnail rounded border border-info">
             </div>
         </div>
-        <div class="row mt-25">
-            <div class="col-md-6">
-                <img src="{{ asset('images/services/construction-2.jpg') }}" alt="">
+        <div class="row mt-100">
+            <div class="col-md-6 mb-5 mb-md-0 d-flex align-items-center">
+                <img src="{{ asset('images/services/construction-2.webp') }}" alt="" class="img-thumbnail rounded border border-info">
             </div>
             <div class="col-md-6">
                 <h6 class="text-uppercase mb-3">Bathrooms</h6>
@@ -87,7 +87,7 @@
                 </ul>
             </div>
         </div>
-        <div class="row mt-25">
+        <div class="row mt-100">
             <div class="col-md-6">
                 <h6 class="text-uppercase mb-3">KITCHEN</h6>
 
@@ -102,13 +102,13 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-md-6">
-                <img src="{{ asset('images/services/construction-3.webp') }}" alt="">
+            <div class="col-md-6 mb-5 mb-md-0 order-first order-md-last d-flex align-items-center">
+                <img src="{{ asset('images/services/construction-3.webp') }}" alt="" class="img-thumbnail rounded border border-info">
             </div>
         </div>
-        <div class="row mt-25">
-            <div class="col-md-6">
-                <img src="{{ asset('images/services/construction-4.webp') }}" alt="">
+        <div class="row mt-100">
+            <div class="col-md-6 mb-5 mb-md-0 d-flex align-items-center">
+                <img src="{{ asset('images/services/construction-4.webp') }}" alt="" class="img-thumbnail rounded border border-info">
             </div>
             <div class="col-md-6">
                 <h6 class="text-uppercase mb-3">Additional servics</h6>

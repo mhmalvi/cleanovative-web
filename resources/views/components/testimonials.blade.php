@@ -116,8 +116,7 @@
             <div class="col-lg-6">
                 <div class="single-testimonial">
                     <div class="testimonial-author">
-                        <h4>John Bertham</h4>
-                        <p class="author-pro">Doctor</p>
+                        <h4>Mary Rounsevell</h4>
                     </div>
                     <div class="testimonial-content">
                         <p>

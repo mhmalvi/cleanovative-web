@@ -2,7 +2,7 @@
 
 @section('banner')
     <!--====== BREADCRUMB PART START ======-->
-    <section class="breadcrumb-area" style="background-image: url({{ asset('images/breadcrumb2.webp') }});">
+    <section class="breadcrumb-area" style="background-image: url({{ asset('images/breadcrumb5.webp') }});">
         <div class="container">
             <div class="breadcrumb-text text-center col-md-8 mx-auto">
                 <h1 class="page-title text-dark">
@@ -56,7 +56,7 @@
 
         <div class="tab-content" id="pills-tabContent">
             <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-                <div class="row mt-25">
+                <div class="row mt-100">
                     <div class="col-md-6">
                         <h6 class="text-uppercase mb-3">Internal common areas</h6>
 
@@ -72,13 +72,13 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-md-6">
-                        <img src="{{ asset('images/services/strata-1.jpg') }}" alt="">
+                    <div class="col-md-6 mb-5 mb-md-0 order-first order-md-last d-flex align-items-center">
+                        <img src="{{ asset('images/services/strata-1.webp') }}" alt="" class="img-thumbnail rounded border border-info">
                     </div>
                 </div>
-                <div class="row mt-25">
-                    <div class="col-md-6">
-                        <img src="{{ asset('images/services/strata-2.webp') }}" alt="">
+                <div class="row mt-100">
+                    <div class="col-md-6 mb-5 mb-md-0 d-flex align-items-center">
+                        <img src="{{ asset('images/services/strata-2.webp') }}" alt="" class="img-thumbnail rounded border border-info">
                     </div>
                     <div class="col-md-6">
                         <h6 class="text-uppercase mb-3">External common areas</h6>
@@ -95,7 +95,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="row mt-25">
+                <div class="row mt-100">
                     <div class="col-md-6">
                         <h6 class="text-uppercase mb-3">Foyers</h6>
 
@@ -111,13 +111,13 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-md-6">
-                        <img src="{{ asset('images/services/strata-3.webp') }}" alt="">
+                    <div class="col-md-6 mb-5 mb-md-0 order-first order-md-last d-flex align-items-center">
+                        <img src="{{ asset('images/services/strata-3.webp') }}" alt="" class="img-thumbnail rounded border border-info">
                     </div>
                 </div>
-                <div class="row mt-25">
-                    <div class="col-md-6">
-                        <img src="{{ asset('images/services/strata-4.webp') }}" alt="">
+                <div class="row mt-100">
+                    <div class="col-md-6 mb-5 mb-md-0 d-flex align-items-center">
+                        <img src="{{ asset('images/services/strata-4.webp') }}" alt="" class="img-thumbnail rounded border border-info">
                     </div>
                     <div class="col-md-6">
                         <h6 class="text-uppercase mb-3">Additional services</h6>
