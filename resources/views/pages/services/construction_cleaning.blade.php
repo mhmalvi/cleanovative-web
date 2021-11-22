@@ -69,7 +69,7 @@
         </div>
         <div class="row mt-100">
             <div class="col-md-6 mb-5 mb-md-0 d-flex align-items-center">
-                <img src="{{ asset('images/services/construction-2.jpg') }}" alt="" class="img-fluid rounded">
+                <img src="{{ asset('images/services/construction-2.webp') }}" alt="" class="img-fluid rounded">
             </div>
             <div class="col-md-6">
                 <h6 class="text-uppercase mb-3">Bathrooms</h6>
