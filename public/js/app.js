@@ -19217,12 +19217,18 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 /* harmony import */ var _modules_Validation_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../modules/Validation.js */ "./resources/js/modules/Validation.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_2__);
+
 
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   setup: function setup() {
     var _Validation = (0,_modules_Validation_js__WEBPACK_IMPORTED_MODULE_1__["default"])(),
-        name = _Validation.name;
+        name = _Validation.name,
+        email = _Validation.email,
+        alphanumeric = _Validation.alphanumeric,
+        phoneNumber = _Validation.phoneNumber;
 
     var form = (0,vue__WEBPACK_IMPORTED_MODULE_0__.reactive)({
       name: "",
@@ -19231,25 +19237,44 @@ __webpack_require__.r(__webpack_exports__);
       email: "",
       message: ""
     });
-    var error = (0,vue__WEBPACK_IMPORTED_MODULE_0__.reactive)({
-      name: null
-    });
     var isSubmitting = (0,vue__WEBPACK_IMPORTED_MODULE_0__.ref)(false);
     var isValid = (0,vue__WEBPACK_IMPORTED_MODULE_0__.computed)(function () {
-      return form.name.length > 5 && form.phone.length > 0 && form.email.length > 0 && form.message.length > 0;
+      return name(form.name) && email(form.email) && phoneNumber(form.phone);
     });
     var nameIsValid = (0,vue__WEBPACK_IMPORTED_MODULE_0__.computed)(function () {
       return form.name.length > 0 ? name(form.name) : null;
     });
+    var emailIsValid = (0,vue__WEBPACK_IMPORTED_MODULE_0__.computed)(function () {
+      return form.email.length > 0 ? email(form.email) : null;
+    });
+    var businessNameIsValid = (0,vue__WEBPACK_IMPORTED_MODULE_0__.computed)(function () {
+      return form.business_name.length > 0 ? alphanumeric(form.business_name) : null;
+    });
+    var phoneNumberIsValid = (0,vue__WEBPACK_IMPORTED_MODULE_0__.computed)(function () {
+      return form.phone.length > 0 ? phoneNumber(form.phone) : null;
+    });
 
-    function handleSubmit() {}
+    var handleSubmit = function handleSubmit() {
+      if (nameIsValid) {
+        axios__WEBPACK_IMPORTED_MODULE_2___default().post("contact", form).then(function (res) {
+          console.log(res);
+        })["catch"](function (err) {
+          console.error(err.response);
+        });
+      } else {
+        alert("Invalid Submittion. Please try again!");
+      }
+    };
 
     return {
       form: form,
-      error: error,
       isSubmitting: isSubmitting,
       isValid: isValid,
-      nameIsValid: nameIsValid
+      nameIsValid: nameIsValid,
+      emailIsValid: emailIsValid,
+      businessNameIsValid: businessNameIsValid,
+      phoneNumberIsValid: phoneNumberIsValid,
+      handleSubmit: handleSubmit
     };
   }
 });
@@ -19493,7 +19518,7 @@ var _hoisted_11 = [_hoisted_9, _hoisted_10];
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("form", {
     onSubmit: _cache[5] || (_cache[5] = (0,vue__WEBPACK_IMPORTED_MODULE_0__.withModifiers)(function () {
-      return _ctx.handleSubmit && _ctx.handleSubmit.apply(_ctx, arguments);
+      return $setup.handleSubmit && $setup.handleSubmit.apply($setup, arguments);
     }, ["prevent"]))
   }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("input", {
     type: "text",
@@ -19507,31 +19532,31 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   /* CLASS */
   ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $setup.form.name]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("input", {
     type: "text",
-    "class": "form-control",
+    "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["form-control", $setup.businessNameIsValid ? 'is-valid' : $setup.businessNameIsValid === null ? '' : 'is-invalid']),
     placeholder: "Your Business name",
     "onUpdate:modelValue": _cache[1] || (_cache[1] = function ($event) {
       return $setup.form.business_name = $event;
     })
-  }, null, 512
-  /* NEED_PATCH */
+  }, null, 2
+  /* CLASS */
   ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $setup.form.business_name]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("input", {
     type: "tel",
-    "class": "form-control",
+    "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["form-control", $setup.phoneNumberIsValid ? 'is-valid' : $setup.phoneNumberIsValid === null ? '' : 'is-invalid']),
     placeholder: "Your Phone Number*",
     "onUpdate:modelValue": _cache[2] || (_cache[2] = function ($event) {
       return $setup.form.phone = $event;
     })
-  }, null, 512
-  /* NEED_PATCH */
+  }, null, 2
+  /* CLASS */
   ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $setup.form.phone]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("input", {
     type: "email",
-    "class": "form-control",
+    "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["form-control", $setup.emailIsValid ? 'is-valid' : $setup.emailIsValid === null ? '' : 'is-invalid']),
     placeholder: "Your Email*",
     "onUpdate:modelValue": _cache[3] || (_cache[3] = function ($event) {
       return $setup.form.email = $event;
     })
-  }, null, 512
-  /* NEED_PATCH */
+  }, null, 2
+  /* CLASS */
   ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $setup.form.email]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_6, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("textarea", {
     "class": "form-control message",
     placeholder: "Brief comment about your enquiry",
@@ -19698,11 +19723,30 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 function Validation() {
   var name = function name(value) {
-    return value.length > 5 ? true : false;
+    var regx = /^[A-Za-z\s]+$/;
+    return value.length > 5 && regx.test(value) ? true : false;
+  };
+
+  var alphanumeric = function alphanumeric(value) {
+    var regx = /^[A-Za-z0-9\s]+$/;
+    return value.length > 6 && regx.test(value) ? true : false;
+  };
+
+  var email = function email(value) {
+    var regx = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    return value.length > 5 && regx.test(value) ? true : false;
+  };
+
+  var phoneNumber = function phoneNumber(value) {
+    var regx = /^[+]?[0-9\s]+$/;
+    return value.length > 8 && regx.test(value) ? true : false;
   };
 
   return {
-    name: name
+    name: name,
+    email: email,
+    alphanumeric: alphanumeric,
+    phoneNumber: phoneNumber
   };
 }
 
