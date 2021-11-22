@@ -51,12 +51,12 @@
         </ul>
 
         <p class="text-center mt-25 mb-25">
-            Our office cleaning service is perfect for preparing the homes for new tenants/owners, homes needing extra care, or getting your bond money back.
+            Our office cleaning service is perfect for preparing the homes for new tenants/owners, <br> homes needing extra care, or getting your bond money back.
         </p>
 
         <div class="tab-content" id="pills-tabContent">
             <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-                <div class="row mt-25">
+                <div class="row mt-100">
                     <div class="col-md-6">
                         <h6 class="text-uppercase mb-3">Standard Services</h6>
 
@@ -72,14 +72,14 @@
                         </ul>
                     </div>
 
-                    <div class="col-md-6">
-                        <img src="{{ asset('images/services/office-1.jpg') }}" class="rounded">
+                    <div class="col-md-6 mb-5 mb-md-0 order-first order-md-last d-flex align-itesm-center">
+                        <img src="{{ asset('images/services/office-1.jpg') }}" class="img-fluid rounded">
                     </div>
                 </div>
 
-                <div class="row mt-25">
-                    <div class="col-md-6">
-                        <img src="{{ asset('images/services/office-2.jpg') }}" class="rounded">
+                <div class="row mt-100">
+                    <div class="col-md-6 mb-5 mb-md-0 d-flex align-items-center">
+                        <img src="{{ asset('images/services/office-2.jpg') }}" class="img-fluid rounded">
                     </div>
                     <div class="col-md-6">
                         <h6 class="text-uppercase mb-3">Optional Services</h6>

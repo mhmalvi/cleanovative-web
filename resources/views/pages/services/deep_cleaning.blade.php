@@ -72,13 +72,13 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-md-6 my-auto">
-                        <img src="{{ asset('images/services/home-1.webp') }}" class="rounded" alt="home-cleaning-1">
+                    <div class="col-md-6 order-first order-md-last mb-5 mb-md-0 d-flex align-items-center">
+                        <img src="{{ asset('images/services/home-1.webp') }}" class="img-fluid rounded" alt="home-cleaning-1">
                     </div>
                 </div>
                 <div class="row mt-100">
-                    <div class="col-md-6 my-auto">
-                        <img src="{{ asset('images/services/home-2.webp') }}" class="rounded" alt="home-cleaning-1">
+                    <div class="col-md-6 mb-5 mb-md-0 d-flex align-items-center">
+                        <img src="{{ asset('images/services/home-2.webp') }}" class="img-fluid rounded" alt="home-cleaning-1">
                     </div>
                     <div class="col-md-6">
                         <h6 class="text-uppercase mb-3">BATHROOM & LAUNDRY</h6>
@@ -116,8 +116,8 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-md-6 my-auto">
-                        <img src="{{ asset('images/services/home-3.webp') }}" class="rounded" alt="home-cleaning-1">
+                    <div class="col-md-6 mb-5 mb-md-0 order-first order-md-last d-flex align-items-center">
+                        <img src="{{ asset('images/services/home-3.webp') }}" class="img-fluid rounded" alt="home-cleaning-1">
                     </div>
                 </div>
             </div>
@@ -149,14 +149,14 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-md-6 my-auto">
-                        <img src="{{ asset('images/services/home-4.webp') }}" class="rounded" alt="home-cleaning-1">
+                    <div class="col-md-6 mb-5 mb-md-0 order-first order-md-last d-flex align-items-center">
+                        <img src="{{ asset('images/services/home-4.webp') }}" class="img-fluid rounded" alt="home-cleaning-1">
                     </div>
                 </div>
 
                 <div class="row mt-100">
-                    <div class="col-md-6 my-auto">
-                        <img src="{{ asset('images/services/home-5.webp') }}" class="rounded" alt="home-cleaning-1">
+                    <div class="col-md-6 mb-5 mb-md-0 d-flex align-items-center">
+                        <img src="{{ asset('images/services/home-5.webp') }}" class="img-fluid rounded" alt="home-cleaning-1">
                     </div>
                     <div class="col-md-6">
                         <h6 class="text-uppercase">BATHROOM & LAUNDRY</h6>
@@ -195,13 +195,13 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-md-6">
-                        <img src="{{ asset('images/services/home-6.webp') }}" class="rounded" alt="home-cleaning-1">
+                    <div class="col-md-6 mb-5 mb-md-0 order-first order-md-last d-flex align-items-center">
+                        <img src="{{ asset('images/services/home-6.webp') }}" class="img-fluid rounded" alt="home-cleaning-1">
                     </div>
                 </div>
             </div>
 
-            <div class="tab-pane fade show" id="lease" role="tabpanel" aria-labelledby="pills-home-tab">
+            <div class="tab-pane fade" id="lease" role="tabpanel" aria-labelledby="pills-home-tab">
                 <div class="row mt-100">
                     <div class="col-md-6">
                         <h6 class="text-uppercase mb-3">BEDROOMS, LIVING ROOMS AND ALL COMMON AREAS</h6>
@@ -222,14 +222,14 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-md-6 my-auto">
-                        <img src="{{ asset('images/services/end-of-lease-1.webp') }}" class="rounded">
+                    <div class="col-md-6 mb-5 mb-md-0 order-first order-md-last d-flex align-items-center">
+                        <img src="{{ asset('images/services/end-of-lease-1.webp') }}" class="img-fluid rounded">
                     </div>
                 </div>
 
                 <div class="row mt-100">
-                    <div class="col-md-6">
-                        <img src="{{ asset('images/services/end-of-lease-2.webp') }}" class="rounded">
+                    <div class="col-md-6 mb-5 mb-md-0 d-flex align-items-center">
+                        <img src="{{ asset('images/services/end-of-lease-2.webp') }}" class="img-fluid rounded">
                     </div>
                     <div class="col-md-6">
                         <h6 class="text-uppercase mb-3">BATHROOM & LAUNDRY</h6>
@@ -266,8 +266,8 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-md-6 my-auto">
-                        <img src="{{ asset('images/services/end-of-lease-3.webp') }}" class="rounded">
+                    <div class="col-md-6 mb-5 mb-md-0 order-first order-md-last d-flex align-items-center">
+                        <img src="{{ asset('images/services/end-of-lease-3.webp') }}" class="img-fluid rounded">
                     </div>
                 </div>
             </div>
