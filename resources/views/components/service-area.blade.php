@@ -8,30 +8,30 @@
 
                 <div class="row">
                     <div class="col-md-6">
-                        <div class="card py-3 px-4 my-4">
+                        <div class="card py-3 px-4 my-4 border-map">
                             <span>Northern Suburbs</span>
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="card py-3 px-4 my-4">
+                        <div class="card py-3 px-4 my-4 border-map">
                             Inner West 
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-6">
-                        <div class="card py-3 px-4 my-4">
+                        <div class="card py-3 px-4 my-4 border-map">
                             Easter Suburbs 
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="card py-3 px-4 my-4">
+                        <div class="card py-3 px-4 my-4 border-map">
                             Western Sydney 
                         </div>
                     </div>
                 </div>
 
-                <div class="card py-3 px-4 my-4">
+                <div class="card py-3 px-4 my-4 border-map">
                     Sutherland Shire
                 </div>
             </div>

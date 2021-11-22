@@ -2,7 +2,7 @@
 
 @section('banner')
     <!--====== BREADCRUMB PART START ======-->
-    <section class="breadcrumb-area" style="background-image: url({{ asset('images/breadcrumb2.webp') }});">
+    <section class="breadcrumb-area" style="background-image: url({{ asset('images/breadcrumb5.webp') }});">
         <div class="container">
             <div class="breadcrumb-text text-center col-md-8 mx-auto">
                 <h1 class="page-title text-dark">

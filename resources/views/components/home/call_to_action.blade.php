@@ -9,7 +9,7 @@
                             <img src="{{asset('images/hapiness.png')}}" alt="">
                         </div>
                         <div class="col-md-6 d-flex align-items-center">
-                            <span class="mt-3 mx-4 text-light text-justify">
+                            <span class="mt-3 mx-4 text-light text-left">
                                 Your complete satisfaction is our ultimate quality benchmark. That's why every Cleanovative service is assured with our 100% Happiness Guarantee.
                                 This means that if you are in any way dissatisfied with your service, we will have it amended for you - completely free!
                             </span>

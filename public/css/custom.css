@@ -16,6 +16,10 @@
     background-color: var(--main);
 }
 
+.border-map {
+    border: 1px solid #00b0f0 !important;
+}
+
 #heroSlideActive .slick-dots {
     display: table-row !important;
     position: absolute !important;
@@ -383,6 +387,16 @@ footer .subscribe-form .subs-inner {
 footer .footer-widget-area .widget .social-link li a {
     background-color: transparent !important;
     border: 1px solid var(--second) !important;
+}
+
+footer .footer-widget-area p,
+footer .footer-widget-area a,
+footer .footer-widget-area {
+    color: var(--main);
+}
+
+footer .copyright-area p {
+    font-size: 14px !important;
 }
 
 .cta-section {

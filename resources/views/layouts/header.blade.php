@@ -142,10 +142,10 @@
 
                             <!-- navbar collapse -->
                             <div class="navbar-btn d-none d-sm-block">
-                                <a class="main-btn btn-sm signin-btn text-light" href="{{ route('signin') }}" target="_blank">
+                                <a class="main-btn btn-sm signin-btn" href="{{ route('signin') }}" target="_blank">
                                     Sign in <i class="fal fa-plus"></i>
                                 </a>
-                                <a class="main-btn btn-sm booking-btn text-light" href="{{ route('book_now') }}" target="_blank">
+                                <a class="main-btn btn-sm booking-btn" href="{{ route('book_now') }}" target="_blank">
                                     Book Now <i class="fal fa-plus"></i>
                                 </a>
                             </div>
