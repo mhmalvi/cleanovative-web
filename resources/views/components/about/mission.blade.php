@@ -3,7 +3,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 wow fadeInLeft" data-wow-delay=".3s">
                 <div class="experience-img text-center">
-                    <img src="{{ asset('images/mission.jpg') }}" alt="Image">
+                    <img src="{{ asset('images/mission.jpg') }}" alt="Image" class="img-thumbnail rounded border border-info">
                 </div>
             </div>
             <div class="col-lg-6 wow fadeInRight" data-wow-delay=".3s">

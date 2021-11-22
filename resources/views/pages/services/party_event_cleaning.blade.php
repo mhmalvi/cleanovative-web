@@ -74,13 +74,13 @@
                     </div>
 
                     <div class="col-md-6 mb-5 mb-md-0 order-first order-md-last d-flex align-items-center">
-                        <img src="{{ asset('images/services/party1.webp') }}" class="img-fluid rounded">
+                        <img src="{{ asset('images/services/party1.webp') }}" class="img-thumbnail rounded border border-info">
                     </div>
                 </div>
 
                 <div class="row mt-100">
                     <div class="col-md-6 mb-5 mb-md-0 d-flex align-items-center">
-                        <img src="{{ asset('images/services/party2.webp') }}" class="img-fluid rounded">
+                        <img src="{{ asset('images/services/party2.webp') }}" class="img-thumbnail rounded border border-info">
                     </div>
                     <div class="col-md-6">
                         <h6 class="text-uppercase mb-3">Optional Services</h6>

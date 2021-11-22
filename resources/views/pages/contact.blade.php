@@ -60,7 +60,7 @@
                             </div>
                             <contact-us-form-component />
                         </div>
-                        <div class="col-md-6 pt-50 pb-15 order-first order-md-last">
+                        <div class="col-md-6 pt-50 pb-15 order-first order-md-last d-flex align-items-center">
                             <img src="{{asset('images/contact-us.jpg')}}" alt="contact us" class="img-thumbnail">
                         </div>
                     </div>
