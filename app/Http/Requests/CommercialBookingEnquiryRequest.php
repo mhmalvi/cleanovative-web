@@ -6,7 +6,7 @@ use App\Mail\ContactAdminMail;
 use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Support\Facades\Mail;
 
-class ContactEnquiryRequest extends FormRequest
+class CommercialBookingEnquiryRequest extends FormRequest
 {
     /**
      * Determine if the user is authorized to make this request.

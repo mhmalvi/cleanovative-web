@@ -9,6 +9,13 @@
           type="text"
           placeholder="Your Name*"
           v-model="form.name"
+          :class="[
+            nameIsValid
+              ? 'input-valid'
+              : nameIsValid === null
+              ? ''
+              : 'input-invalid',
+          ]"
           required
         />
         <span class="icon"><i class="far fa-user-edit"></i></span>
@@ -17,6 +24,13 @@
         <input
           type="text"
           placeholder="Your Business Name"
+          :class="[
+            businessNameIsValid
+              ? 'input-valid'
+              : businessNameIsValid === null
+              ? ''
+              : 'input-invalid',
+          ]"
           v-model="form.business_name"
         />
         <span class="icon"><i class="far fa-building"></i></span>
@@ -26,6 +40,13 @@
           type="tel"
           placeholder="Your Phone Number*"
           v-model="form.phone"
+          :class="[
+            phoneNumberIsValid
+              ? 'input-valid'
+              : phoneNumberIsValid === null
+              ? ''
+              : 'input-invalid',
+          ]"
           required
         />
         <span class="icon"><i class="far fa-phone"></i></span>
@@ -35,6 +56,13 @@
           type="text"
           placeholder="Your Email Address*"
           v-model="form.email"
+          :class="[
+            emailIsValid
+              ? 'input-valid'
+              : emailIsValid === null
+              ? ''
+              : 'input-invalid',
+          ]"
           required
         />
         <span class="icon"><i class="far fa-envelope-open"></i></span>
@@ -60,10 +88,12 @@
 <script>
 import axios from "axios";
 import { ref, reactive, computed } from "vue";
+import Validation from "../modules/Validation.js";
 
 export default {
   setup() {
     const isSubmitting = ref(false);
+    const { name, alphanumeric, email, phoneNumber } = new Validation();
 
     const form = reactive({
       name: "",
@@ -76,7 +106,7 @@ export default {
     function handleFormSubmit() {
       isSubmitting.value = true;
       axios
-        .post("/contact", form)
+        .post("/booking", form)
         .then((res) => {})
         .catch((err) => {
           console.error(err);
@@ -91,8 +121,28 @@ export default {
         form.name.length > 0 &&
         form.phone.length > 0 &&
         form.email.length > 0 &&
-        form.message.length > 0
+        name(form.name) &&
+        phoneNumber(form.phone) &&
+        email(form.email)
       );
+    });
+
+    const nameIsValid = computed(() => {
+      return form.name.length > 0 ? name(form.name) : null;
+    });
+
+    const emailIsValid = computed(() => {
+      return form.email.length > 0 ? email(form.email) : null;
+    });
+
+    const businessNameIsValid = computed(() => {
+      return form.business_name.length > 0
+        ? alphanumeric(form.business_name)
+        : null;
+    });
+
+    const phoneNumberIsValid = computed(() => {
+      return form.phone.length > 0 ? phoneNumber(form.phone) : null;
     });
 
     return {
@@ -100,7 +150,21 @@ export default {
       handleFormSubmit,
       isSubmitting,
       isValid,
+      nameIsValid,
+      emailIsValid,
+      businessNameIsValid,
+      phoneNumberIsValid,
     };
   },
 };
 </script>
+
+<style>
+.input-valid {
+  border: 1px solid #28a745 !important;
+}
+
+.input-invalid {
+  border: 1px solid #f80643 !important;
+}
+</style>
