@@ -36,7 +36,11 @@
 @section('service_title', 'Other Commercial Cleaning')
 
 @section('service_content')
-{{-- <div class="pt-100 pb-50"></div> --}}
+    <div class="pt-100 pb-100">
+        <div class="d-flex justify-content-center">
+            <img src="{{asset('images/services/other.webp')}}" alt="">
+        </div>
+    </div>
 @endsection
 
 @section('custom_form')
