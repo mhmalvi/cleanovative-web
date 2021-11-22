@@ -73,7 +73,7 @@
                         </ul>
                     </div>
                     <div class="col-md-6 mb-5 mb-md-0 order-first order-md-last d-flex align-items-center">
-                        <img src="{{ asset('images/services/strata-1.jpg') }}" alt="" class="img-fluid rounded">
+                        <img src="{{ asset('images/services/strata-1.webp') }}" alt="" class="img-fluid rounded">
                     </div>
                 </div>
                 <div class="row mt-100">
