@@ -3,6 +3,7 @@
 use App\Http\Controllers\CommercialBookingController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\ServiceController;
+use App\Http\Controllers\SubscriptionController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -68,3 +69,7 @@ Route::post('contact', [ContactController::class, 'sendEnquiry']);
 Route::post('booking', [CommercialBookingController::class, 'sendEnquiry']);
 
 Route::view('test', 'mails.contact');
+
+Route::post('subscribe', [SubscriptionController::class, 'subNewsletter']);
+
+Route::view('nl-temp', 'mails.newsletter_subscribed');

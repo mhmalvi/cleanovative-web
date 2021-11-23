@@ -19351,6 +19351,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
+/* harmony import */ var _modules_Validation__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../modules/Validation */ "./resources/js/modules/Validation.js");
+
 
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
@@ -19359,19 +19361,39 @@ __webpack_require__.r(__webpack_exports__);
       email: "",
       name: ""
     });
+
+    var _Validation = new _modules_Validation__WEBPACK_IMPORTED_MODULE_2__["default"](),
+        name = _Validation.name,
+        email = _Validation.email;
+
+    var submitSuccess = (0,vue__WEBPACK_IMPORTED_MODULE_1__.ref)(false);
     var isSubmitting = (0,vue__WEBPACK_IMPORTED_MODULE_1__.ref)(false);
     var isValid = (0,vue__WEBPACK_IMPORTED_MODULE_1__.computed)(function () {
-      return form.email.length > 0 && form.name.length > 0;
+      return form.email.length > 0 && form.name.length > 0 && email(form.email) && name(form.name);
     });
 
+    function resetForm() {
+      form.email = "";
+      form.name = "";
+    }
+
     function handleSubmit() {
-      axios__WEBPACK_IMPORTED_MODULE_0___default().post("/contact", form).then(function (res) {})["catch"](function (err) {
+      submitSuccess.value = false;
+      isSubmitting.value = true;
+      axios__WEBPACK_IMPORTED_MODULE_0___default().post("/subscribe", form).then(function (res) {
+        resetForm();
+        submitSuccess.value = true;
+      })["catch"](function (err) {
         console.error(err);
+        submitSuccess.value = false;
+      })["finally"](function () {
+        isSubmitting.value = false;
       });
     }
 
     return {
       form: form,
+      submitSuccess: submitSuccess,
       isSubmitting: isSubmitting,
       isValid: isValid,
       handleSubmit: handleSubmit
@@ -19710,16 +19732,24 @@ var _hoisted_6 = {
   "class": "col-lg-6"
 };
 var _hoisted_7 = ["disabled"];
-
-var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Subscribe Now");
-
-var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+var _hoisted_8 = {
+  key: 0
+};
+var _hoisted_9 = {
+  key: 1
+};
+var _hoisted_10 = {
+  key: 2,
   "class": "fal fa-plus"
-}, null, -1
-/* HOISTED */
-);
-
-var _hoisted_10 = [_hoisted_8, _hoisted_9];
+};
+var _hoisted_11 = {
+  key: 3,
+  "class": "fal fa-check"
+};
+var _hoisted_12 = {
+  key: 4,
+  "class": "fal fa-circle-notch fa-spin"
+};
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("form", {
     onSubmit: _cache[2] || (_cache[2] = (0,vue__WEBPACK_IMPORTED_MODULE_0__.withModifiers)(function () {
@@ -19744,7 +19774,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $setup.form.name]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_6, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
     "class": "subscribe-now-btn",
     disabled: !$setup.isValid || $setup.isSubmitting
-  }, _hoisted_10, 8
+  }, [!$setup.submitSuccess ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("span", _hoisted_8, "Subscribe Now")) : ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("span", _hoisted_9, "Subscribed")), !$setup.isSubmitting && !$setup.submitSuccess ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("i", _hoisted_10)) : $setup.submitSuccess ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("i", _hoisted_11)) : ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("i", _hoisted_12))], 8
   /* PROPS */
   , _hoisted_7)])])])])], 32
   /* HYDRATE_EVENTS */
