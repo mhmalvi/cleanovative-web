@@ -31,6 +31,6 @@ class ContactAdminMail extends Mailable
     public function build()
     {
         $data = $this->data;
-        return $this->subject('test mail')->view('mails.contact', compact('data'));
+        return $this->subject('Someone wants to connect')->view('mails.contact', compact('data'));
     }
 }
