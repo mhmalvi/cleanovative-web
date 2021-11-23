@@ -3,10 +3,9 @@
 namespace App\Http\Requests;
 
 use App\Mail\ContactAdminMail;
-use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Support\Facades\Mail;
 
-class CommercialBookingEnquiryRequest extends FormRequest
+class CommercialBookingEnquiryRequest extends MailRequest
 {
     /**
      * Determine if the user is authorized to make this request.
@@ -43,6 +42,6 @@ class CommercialBookingEnquiryRequest extends FormRequest
             'query' => $this->message
         ];
 
-        Mail::to('dev.quadque@gmail.com')->send(new ContactAdminMail($data));
+        Mail::to($this->to)->send(new ContactAdminMail($data));
     }
 }

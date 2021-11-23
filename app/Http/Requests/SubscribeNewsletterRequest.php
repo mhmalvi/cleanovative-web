@@ -4,10 +4,9 @@ namespace App\Http\Requests;
 
 use App\Mail\NewsletterSubscribedMail;
 use App\Models\Subscriber;
-use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Support\Facades\Mail;
 
-class SubscribeNewsletterRequest extends FormRequest
+class SubscribeNewsletterRequest extends MailRequest
 {
     /**
      * Determine if the user is authorized to make this request.
@@ -39,6 +38,6 @@ class SubscribeNewsletterRequest extends FormRequest
             'email' => $this->email,
         ]);
 
-        Mail::to('dev.quadque@gmail.com')->send(new NewsletterSubscribedMail($this->all()));
+        Mail::to($this->to)->send(new NewsletterSubscribedMail($this->all()));
     }
 }

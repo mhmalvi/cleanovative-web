@@ -19191,7 +19191,7 @@ __webpack_require__.r(__webpack_exports__);
     });
     var success_message = (0,vue__WEBPACK_IMPORTED_MODULE_1__.ref)("");
 
-    function handleFormSubmit() {
+    var handleFormSubmit = function handleFormSubmit() {
       isSubmitting.value = true;
       success_message.value = "";
       axios__WEBPACK_IMPORTED_MODULE_0___default().post("/booking", form).then(function (res) {
@@ -19202,7 +19202,7 @@ __webpack_require__.r(__webpack_exports__);
       })["finally"](function () {
         isSubmitting.value = false;
       });
-    }
+    };
 
     var resetForm = function resetForm() {
       form.name = "";
@@ -19294,13 +19294,13 @@ __webpack_require__.r(__webpack_exports__);
       return nameIsValid.value && emailIsValid.value && phoneNumberIsValid.value;
     });
 
-    function formReset() {
+    var formReset = function formReset() {
       form.name = "";
       form.business_name = "";
       form.phone = "";
       form.email = "";
       form.message = "";
-    }
+    };
 
     var handleSubmit = function handleSubmit() {
       success_message.value = "";
@@ -19372,12 +19372,12 @@ __webpack_require__.r(__webpack_exports__);
       return form.email.length > 0 && form.name.length > 0 && email(form.email) && name(form.name);
     });
 
-    function resetForm() {
+    var resetForm = function resetForm() {
       form.email = "";
       form.name = "";
-    }
+    };
 
-    function handleSubmit() {
+    var handleSubmit = function handleSubmit() {
       submitSuccess.value = false;
       isSubmitting.value = true;
       axios__WEBPACK_IMPORTED_MODULE_0___default().post("/subscribe", form).then(function (res) {
@@ -19389,7 +19389,7 @@ __webpack_require__.r(__webpack_exports__);
       })["finally"](function () {
         isSubmitting.value = false;
       });
-    }
+    };
 
     return {
       form: form,
