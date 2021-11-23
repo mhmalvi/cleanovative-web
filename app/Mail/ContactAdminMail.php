@@ -30,6 +30,7 @@ class ContactAdminMail extends Mailable
      */
     public function build()
     {
-        return $this->subject('test mail')->view('mails.contact');
+        $data = $this->data;
+        return $this->subject('test mail')->view('mails.contact', compact('data'));
     }
 }

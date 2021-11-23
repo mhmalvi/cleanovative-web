@@ -42,7 +42,7 @@
                 <tr>
                   <td style="padding:0 15px; text-align:center;">
                     <h1 style="color:#1e1e2d; font-weight:400; margin:0;font-size:32px;font-family:'Rubik',sans-serif;">Appointment Reminder</h1>
-                    <span style="display:inline-block; vertical-align:middle; margin:29px 0 26px; border-bottom:1px solid #cecece; 
+                    <span style="display:inline-block; vertical-align:middle; margin:29px 0 26px; border-bottom:1px solid #cecece;
                                         width:100px;"></span>
                   </td>
                 </tr>
@@ -56,7 +56,7 @@
                                 Name:
                             </td>
                             <td style="padding: 10px; border-bottom: 1px solid #ededed; color: #455056;">
-                                ABC-101
+                                {{ $data['name'] }}
                             </td>
                         </tr>
                         <tr>
@@ -64,7 +64,7 @@
                                 Business Name:
                             </td>
                             <td style="padding: 10px; border-bottom: 1px solid #ededed; color: #455056;">
-                                ABC-101
+                                {{ $data['business'] }}
                             </td>
                         </tr>
                         <tr>
@@ -72,7 +72,7 @@
                                 Email:
                             </td>
                             <td style="padding: 10px; border-bottom: 1px solid #ededed; color: #455056;">
-                                ABC-101
+                                {{ $data['email'] }}
                             </td>
                         </tr>
                         <tr>
@@ -80,7 +80,7 @@
                                 Phone:
                             </td>
                             <td style="padding: 10px; border-bottom: 1px solid #ededed; color: #455056;">
-                                ABC-101
+                                {{ $data['phone'] }}
                             </td>
                         </tr>
                         <tr>
@@ -88,7 +88,7 @@
                                 Query:
                             </td>
                             <td style="padding: 10px; border-bottom: 1px solid #ededed; color: #455056;">
-                                ABC-101
+                                {!! $data['query'] !!}
                             </td>
                         </tr>
                       </tbody>
@@ -106,7 +106,7 @@
           </tr>
           <tr style="margin-bottom: 50px">
             <td style="text-align:center;">
-                <p style="font-size:14px; color:#455056bd; line-height:18px; margin:0 0 0;">&copy; 
+                <p style="font-size:14px; color:#455056bd; line-height:18px; margin:0 0 0;">&copy;
                     <a href="https://cleanovative.com.au">https://Cleanovativecom.au</a>
                 </p>
             </td>
