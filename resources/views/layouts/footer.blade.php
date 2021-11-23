@@ -50,7 +50,7 @@
                                     <i class="far fa-phone"></i>
                                     <a href="tel:040 139 6554">040 139 6554</a></li>
                                 <li>
-                                    <i class="far fa-envelope-open"></i>info@cleanovative.com
+                                    <i class="far fa-envelope-open"></i>info@cleanovative.com.au
                                 </li>
                             </ul>
                         </div>

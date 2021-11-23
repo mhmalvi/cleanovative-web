@@ -37,7 +37,7 @@
                                         <div class="card-body">
                                             Absolutely, as professional cleaning service providers, we are insured.
                                             For proof of insurance or any other legal documents please email us at
-                                            <a href="mailto:info@cleanovative.com">info@cleanovative.com</a>
+                                            <a href="mailto:info@cleanovative.com.au">info@cleanovative.com.au</a>
                                             and we will gladly forward you our business documents.
                                         </div>
                                     </div>
@@ -154,7 +154,7 @@
                                     <div id="faqSeven" class="collapse" data-parent="#faqAccordion">
                                         <div class="card-body">
                                             If our team has made any mistake which results in your property damage or loss,
-                                            please call us at 0401396554 or email us at info@cleanovative.com within
+                                            please call us at 0401396554 or email us at info@cleanovative.com.au within
                                             24 hours after your service. Once we are updated on the issue, we will ask you
                                             to fill out a form. Please note that you will be given 14 days to resubmit the
                                             form after the date your property loss or damage ticket has been issued.

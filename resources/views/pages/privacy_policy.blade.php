@@ -87,7 +87,7 @@
                             If you have any queries or complaints about our Privacy Policy please contact us at:
                         </p>
                         <p>
-                            info@cleanovative.com
+                            info@cleanovative.com.au
                         </p>
 
                         <p>
