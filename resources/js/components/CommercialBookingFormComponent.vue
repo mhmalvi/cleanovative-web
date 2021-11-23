@@ -4,6 +4,21 @@
       style="background-image: url('images/app-form-bg.jpg')"
       @submit.prevent="handleFormSubmit"
     >
+      <div
+        class="alert alert-success alert-dismissible fade show"
+        role="alert"
+        v-if="success_message.length > 0"
+      >
+        {{ success_message }}
+        <button
+          type="button"
+          class="close"
+          data-dismiss="alert"
+          aria-label="Close"
+        >
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
       <div class="input-group mb-15">
         <input
           type="text"
@@ -79,7 +94,8 @@
         :disabled="!isValid || isSubmitting"
       >
         Send
-        <i class="fal fa-plus"></i>
+        <i class="fal fa-plus text-light" v-if="!isSubmitting"></i>
+        <li class="fal fa-circle-notch fa-spin text-light" v-else></li>
       </button>
     </form>
   </div>
@@ -102,18 +118,31 @@ export default {
       email: "",
       message: "",
     });
+    const success_message = ref("");
 
     function handleFormSubmit() {
       isSubmitting.value = true;
+      success_message.value = "";
       axios
         .post("/booking", form)
-        .then((res) => {})
+        .then((res) => {
+          success_message.value = res.data.message;
+          resetForm();
+        })
         .catch((err) => {
           console.error(err);
         })
         .finally(() => {
           isSubmitting.value = false;
         });
+    }
+
+    function resetForm() {
+      form.name = "";
+      form.business_name = "";
+      form.phone = "";
+      form.email = "";
+      form.message = "";
     }
 
     const isValid = computed(() => {
@@ -123,7 +152,8 @@ export default {
         form.email.length > 0 &&
         name(form.name) &&
         phoneNumber(form.phone) &&
-        email(form.email)
+        email(form.email) &&
+        (form.business_name.length > 0 ? name(form.business_name) : true)
       );
     });
 
@@ -147,6 +177,7 @@ export default {
 
     return {
       form,
+      success_message,
       handleFormSubmit,
       isSubmitting,
       isValid,
