@@ -137,13 +137,13 @@ export default {
         });
     }
 
-    function resetForm() {
+    const resetForm = () => {
       form.name = "";
       form.business_name = "";
       form.phone = "";
       form.email = "";
       form.message = "";
-    }
+    };
 
     const isValid = computed(() => {
       return (
