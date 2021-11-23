@@ -66,3 +66,5 @@ Route::view('full-checklist', 'pages.full_checklist')->name('full_checklist');
 Route::post('contact', [ContactController::class, 'sendEnquiry']);
 
 Route::post('booking', [CommercialBookingController::class, 'sendEnquiry']);
+
+Route::view('test', 'mails.contact');
