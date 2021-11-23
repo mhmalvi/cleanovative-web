@@ -20,6 +20,18 @@
     border: 1px solid #00b0f0 !important;
 }
 
+.header-area
+    .header-nav
+    .navigation
+    .navbar
+    .navbar-nav
+    .nav-item
+    .sub-menu
+    > li
+    a {
+    color: var(--main) !important;
+}
+
 #heroSlideActive .slick-dots {
     display: table-row !important;
     position: absolute !important;
@@ -311,6 +323,15 @@ i {
     border-bottom-right-radius: 0px !important;
 }
 
+.service-area {
+    list-style: none inside !important;
+    margin-top: 25px !important;
+}
+
+.service-area li {
+    padding: 15px 0px !important;
+}
+
 .service-nav-link {
     padding: 0.8rem 3.5rem !important;
 }
@@ -506,15 +527,24 @@ footer .copyright-area p {
     border-top-left-radius: 18px !important;
     border-bottom-left-radius: 0px !important;
     border-bottom-right-radius: 18px !important;
-    background-color: transparent !important;
-    color: var(--second) !important;
-    border: 1px solid var(--second);
+    background-color: var(--main) !important;
+    color: var(--light) !important;
+    border: 1px solid var(--main);
     margin-right: 10px;
 }
 
 .signin-btn:hover {
     color: #fff !important;
     background-color: var(--second) !important;
+    border: 1px solid var(--second) !important;
+}
+
+.signin-btn i {
+    color: var(--light) !important;
+}
+
+.booking-btn i {
+    color: var(--light) !important;
 }
 
 @keyframes ripple {

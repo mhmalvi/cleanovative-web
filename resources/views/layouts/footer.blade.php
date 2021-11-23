@@ -17,10 +17,8 @@
                             cleaning service.
                         </p>
                         <ul class="social-link">
-                            <li> <a href="#"><i class="fab fa-facebook-f"></i></a> </li>
-                            <li> <a href="#"><i class="fab fa-twitter"></i></a> </li>
-                            <li> <a href="#"><i class="fab fa-instagram"></i></a> </li>
-                            <li> <a href="#"><i class="fab fa-google-plus-g"></i></a> </li>
+                            <li> <a href="https://www.facebook.com/cleanovative"><i class="fab fa-facebook-f"></i></a> </li>
+                            <li> <a href="https://www.instagram.com/cleanovative/"><i class="fab fa-instagram"></i></a> </li>
                         </ul>
                     </div>
                 </div>
@@ -52,7 +50,7 @@
                                     <i class="far fa-phone"></i>
                                     <a href="tel:040 139 6554">040 139 6554</a></li>
                                 <li>
-                                    <i class="far fa-envelope-open"></i>info@cleanovative.com
+                                    <i class="far fa-envelope-open"></i>info@cleanovative.com.au
                                 </li>
                             </ul>
                         </div>

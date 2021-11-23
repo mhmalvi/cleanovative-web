@@ -7,32 +7,25 @@
                 </h2>
 
                 <div class="row">
-                    <div class="col-md-6">
-                        <div class="card py-3 px-4 my-4 border-map">
-                            <span>Northern Suburbs</span>
-                        </div>
+                    <div class="col-md-12">
+                        <ul class="service-area">
+                            <li>
+                                <span class="mr-2"><img src="{{asset('images/icons/australia.png')}}" alt=""></span> Northern Suburbs
+                            </li>
+                            <li>
+                                <span class="mr-2"><img src="{{asset('images/icons/australia.png')}}" alt=""></span> Inner West
+                            </li>
+                            <li>
+                                <span class="mr-2"><img src="{{asset('images/icons/australia.png')}}" alt=""></span> Easter Suburbs
+                            </li>
+                            <li>
+                                <span class="mr-2"><img src="{{asset('images/icons/australia.png')}}" alt=""></span> Western Sydney
+                            </li>
+                            <li>
+                                <span class="mr-2"><img src="{{asset('images/icons/australia.png')}}" alt=""></span> Sutherland Shire
+                            </li>
+                        </ul>
                     </div>
-                    <div class="col-md-6">
-                        <div class="card py-3 px-4 my-4 border-map">
-                            Inner West 
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="card py-3 px-4 my-4 border-map">
-                            Easter Suburbs 
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="card py-3 px-4 my-4 border-map">
-                            Western Sydney 
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card py-3 px-4 my-4 border-map">
-                    Sutherland Shire
                 </div>
             </div>
             <div class="col-md-6 d-flex justify-content-center align-items-center">

@@ -8,21 +8,17 @@ services:
         ports:
             - 7000:8000
         command: bash -c 'php artisan serve --host=0.0.0.0'
-        # depends_on:
-        #     - db
-        # links:
-        #     - db
+        depends_on:
+            - db
+        links:
+            - db
 
-    # db:
-    #     image: mysql:latest
-    #     environment:
-    #         MYSQL_ROOT_PASSWORD: password
-    #         MYSQL_USERNAME: cynax
-    #         MYSQL_PASSWORD: password
-    #         MYSQL_DATABASE: cleanovative
-    #     # entrypoint:
-    #     #   sh -c "echo 'CREATE DATABASE IF NOT EXISTS learn_que; CREATE DATABASE IF NOT EXISTS quadmin;' > /docker-entrypoint-initdb.d/init.sql; /usr/local/bin/docker-entrypoint.sh --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci"
-    #     # makes learn_que and quadmin database
-
-    #     ports:
-    #         - 3306:3306
+    db:
+        image: mysql:latest
+        environment:
+            MYSQL_ROOT_PASSWORD: password
+            MYSQL_USERNAME: cynax
+            MYSQL_PASSWORD: password
+            MYSQL_DATABASE: cleanovative
+        ports:
+            - 3306:3306

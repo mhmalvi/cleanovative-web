@@ -2,10 +2,11 @@
 
 namespace App\Http\Requests;
 
-use App\Mail\ContactAdminMail;
+use App\Mail\NewsletterSubscribedMail;
+use App\Models\Subscriber;
 use Illuminate\Support\Facades\Mail;
 
-class ContactEnquiryRequest extends MailRequest
+class SubscribeNewsletterRequest extends MailRequest
 {
     /**
      * Determine if the user is authorized to make this request.
@@ -25,23 +26,18 @@ class ContactEnquiryRequest extends MailRequest
     public function rules()
     {
         return [
-            'name' => 'required|string|max:255',
-            'phone' => 'required|string|max:255',
-            'email' => 'required|email|max:255',
-            'message' => 'max:255',
+            'email' => 'required|email',
+            'name' => 'required',
         ];
     }
 
-    public function send()
+    public function subscribe()
     {
-        $data = [
+        Subscriber::create([
             'name' => $this->name,
-            'business' => $this->business_name,
             'email' => $this->email,
-            'phone' => $this->phone,
-            'query' => $this->message
-        ];
+        ]);
 
-        Mail::to($this->to)->send(new ContactAdminMail($data));
+        Mail::to($this->to)->send(new NewsletterSubscribedMail($this->all()));
     }
 }

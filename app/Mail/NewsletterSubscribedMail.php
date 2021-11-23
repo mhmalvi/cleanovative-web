@@ -7,11 +7,11 @@ use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 
-class ContactAdminMail extends Mailable
+class NewsletterSubscribedMail extends Mailable
 {
     use Queueable, SerializesModels;
 
-    public $data;
+    private $data;
 
     /**
      * Create a new message instance.
@@ -31,6 +31,6 @@ class ContactAdminMail extends Mailable
     public function build()
     {
         $data = $this->data;
-        return $this->subject('test mail')->view('mails.contact', compact('data'));
+        return $this->view('mails.newsletter_subscribed', compact('data'));
     }
 }

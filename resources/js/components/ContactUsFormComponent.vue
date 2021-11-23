@@ -1,5 +1,20 @@
 <template>
   <div>
+    <div
+      class="alert alert-success alert-dismissible fade show"
+      role="alert"
+      v-if="success_message.length > 0"
+    >
+      {{ success_message }}
+      <button
+        type="button"
+        class="close"
+        data-dismiss="alert"
+        aria-label="Close"
+      >
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
     <form @submit.prevent="handleSubmit">
       <div class="row">
         <div class="form-group col-12">
@@ -76,7 +91,8 @@
             class="main-btn main-btn-3"
             :disabled="!isValid || isSubmitting"
           >
-            Send <i class="fal fa-plus"></i>
+            Send <i class="fal fa-plus text-light" v-if="!isSubmitting"></i>
+            <i class="fal fa-circle-notch fa-spin text-light" v-else></i>
           </button>
         </div>
       </div>
@@ -100,12 +116,9 @@ export default {
       email: "",
       message: "",
     });
+    const success_message = ref("");
 
     const isSubmitting = ref(false);
-
-    const isValid = computed(() => {
-      return name(form.name) && email(form.email) && phoneNumber(form.phone);
-    });
 
     const nameIsValid = computed(() => {
       return form.name.length > 0 ? name(form.name) : null;
@@ -125,15 +138,36 @@ export default {
       return form.phone.length > 0 ? phoneNumber(form.phone) : null;
     });
 
+    const isValid = computed(() => {
+      return (
+        nameIsValid.value && emailIsValid.value && phoneNumberIsValid.value
+      );
+    });
+
+    const formReset = () => {
+      form.name = "";
+      form.business_name = "";
+      form.phone = "";
+      form.email = "";
+      form.message = "";
+    };
+
     const handleSubmit = () => {
+      success_message.value = "";
       if (nameIsValid) {
+        isSubmitting.value = true;
         axios
           .post("contact", form)
           .then((res) => {
             console.log(res);
+            success_message.value = res.data.message;
+            formReset();
           })
           .catch((err) => {
             console.error(err.response);
+          })
+          .finally(() => {
+            isSubmitting.value = false;
           });
       } else {
         alert("Invalid Submittion. Please try again!");
@@ -142,6 +176,7 @@ export default {
 
     return {
       form,
+      success_message,
       isSubmitting,
       isValid,
       nameIsValid,

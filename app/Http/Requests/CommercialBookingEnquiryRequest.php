@@ -5,7 +5,7 @@ namespace App\Http\Requests;
 use App\Mail\ContactAdminMail;
 use Illuminate\Support\Facades\Mail;
 
-class ContactEnquiryRequest extends MailRequest
+class CommercialBookingEnquiryRequest extends MailRequest
 {
     /**
      * Determine if the user is authorized to make this request.

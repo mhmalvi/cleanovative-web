@@ -73,12 +73,12 @@
                         </ul>
                     </div>
                     <div class="col-md-6 mb-5 mb-md-0 order-first order-md-last d-flex align-items-center">
-                        <img src="{{ asset('images/services/strata-1.webp') }}" alt="" class="img-thumbnail rounded border border-info">
+                        <img src="{{ asset('images/services/strata-1.webp') }}" alt="" class="img-fluid rounded">
                     </div>
                 </div>
                 <div class="row mt-100">
                     <div class="col-md-6 mb-5 mb-md-0 d-flex align-items-center">
-                        <img src="{{ asset('images/services/strata-2.webp') }}" alt="" class="img-thumbnail rounded border border-info">
+                        <img src="{{ asset('images/services/strata-2.webp') }}" alt="" class="img-fluid rounded">
                     </div>
                     <div class="col-md-6">
                         <h6 class="text-uppercase mb-3">External common areas</h6>
@@ -112,12 +112,12 @@
                         </ul>
                     </div>
                     <div class="col-md-6 mb-5 mb-md-0 order-first order-md-last d-flex align-items-center">
-                        <img src="{{ asset('images/services/strata-3.webp') }}" alt="" class="img-thumbnail rounded border border-info">
+                        <img src="{{ asset('images/services/strata-3.webp') }}" alt="" class="img-fluid rounded">
                     </div>
                 </div>
                 <div class="row mt-100">
                     <div class="col-md-6 mb-5 mb-md-0 d-flex align-items-center">
-                        <img src="{{ asset('images/services/strata-4.webp') }}" alt="" class="img-thumbnail rounded border border-info">
+                        <img src="{{ asset('images/services/strata-4.webp') }}" alt="" class="img-fluid rounded">
                     </div>
                     <div class="col-md-6">
                         <h6 class="text-uppercase mb-3">Additional services</h6>

@@ -23,7 +23,14 @@
                 class="subscribe-now-btn"
                 :disabled="!isValid || isSubmitting"
               >
-                Subscribe Now<i class="fal fa-plus"></i>
+                <span v-if="!submitSuccess">Subscribe Now</span>
+                <span v-else>Subscribed</span>
+                <i
+                  class="fal fa-plus"
+                  v-if="!isSubmitting && !submitSuccess"
+                ></i>
+                <i class="fal fa-check" v-else-if="submitSuccess"></i>
+                <i class="fal fa-circle-notch fa-spin" v-else></i>
               </button>
             </div>
           </div>
@@ -36,6 +43,7 @@
 <script>
 import axios from "axios";
 import { reactive, ref, computed } from "vue";
+import Validation from "../modules/Validation";
 
 export default {
   setup() {
@@ -43,22 +51,45 @@ export default {
       email: "",
       name: "",
     });
+    const { name, email } = new Validation();
+
+    const submitSuccess = ref(false);
     const isSubmitting = ref(false);
     const isValid = computed(() => {
-      return form.email.length > 0 && form.name.length > 0;
+      return (
+        form.email.length > 0 &&
+        form.name.length > 0 &&
+        email(form.email) &&
+        name(form.name)
+      );
     });
 
-    function handleSubmit() {
+    const resetForm = () => {
+      form.email = "";
+      form.name = "";
+    };
+
+    const handleSubmit = () => {
+      submitSuccess.value = false;
+      isSubmitting.value = true;
       axios
-        .post("/contact", form)
-        .then((res) => {})
+        .post("/subscribe", form)
+        .then((res) => {
+          resetForm();
+          submitSuccess.value = true;
+        })
         .catch((err) => {
           console.error(err);
+          submitSuccess.value = false;
+        })
+        .finally(() => {
+          isSubmitting.value = false;
         });
-    }
+    };
 
     return {
       form,
+      submitSuccess,
       isSubmitting,
       isValid,
       handleSubmit,
@@ -66,3 +97,9 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+.subscribe-now-btn:disabled {
+  opacity: 0.8;
+}
+</style>

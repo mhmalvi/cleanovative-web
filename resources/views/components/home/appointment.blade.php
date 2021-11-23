@@ -24,8 +24,8 @@
                         </span>
                         <h6 class="title py-2">Email Address</h6>
                         <p class="info">
-                            <a href="mailto:info.cleanovative@gmail.com">
-                                info@cleanovative.com
+                            <a href="mailto:info@cleanovative.com.au">
+                                info@cleanovative.com.au
                             </a>
                         </p>
                         </div>
