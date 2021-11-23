@@ -97,3 +97,9 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+.subscribe-now-btn:disabled {
+  opacity: 0.8;
+}
+</style>
