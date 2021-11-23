@@ -64,12 +64,12 @@ export default {
       );
     });
 
-    function resetForm() {
+    const resetForm = () => {
       form.email = "";
       form.name = "";
-    }
+    };
 
-    function handleSubmit() {
+    const handleSubmit = () => {
       submitSuccess.value = false;
       isSubmitting.value = true;
       axios
@@ -85,7 +85,7 @@ export default {
         .finally(() => {
           isSubmitting.value = false;
         });
-    }
+    };
 
     return {
       form,

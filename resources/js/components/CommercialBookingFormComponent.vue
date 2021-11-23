@@ -120,7 +120,7 @@ export default {
     });
     const success_message = ref("");
 
-    function handleFormSubmit() {
+    const handleFormSubmit = () => {
       isSubmitting.value = true;
       success_message.value = "";
       axios
@@ -135,7 +135,7 @@ export default {
         .finally(() => {
           isSubmitting.value = false;
         });
-    }
+    };
 
     function resetForm() {
       form.name = "";

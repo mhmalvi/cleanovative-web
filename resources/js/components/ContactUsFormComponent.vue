@@ -144,13 +144,13 @@ export default {
       );
     });
 
-    function formReset() {
+    const formReset = () => {
       form.name = "";
       form.business_name = "";
       form.phone = "";
       form.email = "";
       form.message = "";
-    }
+    };
 
     const handleSubmit = () => {
       success_message.value = "";
