@@ -28,11 +28,6 @@
                             <i class="fab fa-instagram"></i>
                         </a>
                     </li>
-                    <li>
-                        <a href="https://www.linkedin.com/feed/?trk=AUS-SEM_google-adwords_acq-brand-sign-up" target="_blank">
-                            <i class="fab fa-linkedin-in"></i>
-                        </a>
-                    </li>
                 </ul>
             </div>
         </div>
@@ -142,7 +137,7 @@
 
                             <!-- navbar collapse -->
                             <div class="navbar-btn d-none d-sm-block">
-                                <a class="main-btn btn-sm signin-btn" href="{{ route('signin') }}" target="_blank">
+                                <a class="main-btn main-btn-2 btn-sm signin-btn" href="{{ route('signin') }}" target="_blank">
                                     Sign in <i class="fal fa-plus"></i>
                                 </a>
                                 <a class="main-btn btn-sm booking-btn" href="{{ route('book_now') }}" target="_blank">

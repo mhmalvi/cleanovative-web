@@ -4,7 +4,7 @@
         <div class="row align-items-center justify-content-between">
             <div class="col-lg-6">
                 <div class="about-img text-center wow fadeInLeft" data-wow-delay=".3s">
-                    <img src="{{ asset('images/about-img.webp') }}" alt="Image" class="img-thumbnail rounded border border-info">
+                    <img src="{{ asset('images/about-img.webp') }}" alt="Image" class="img-fluid rounded">
                 </div>
             </div>
             <div class="col-lg-6">
