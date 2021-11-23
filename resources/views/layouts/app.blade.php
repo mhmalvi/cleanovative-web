@@ -24,12 +24,6 @@
 	<![endif]-->
     <div id="app">
         <!--====== PRELOADER ======-->
-        <div id="preloader">
-            <div>
-                <div></div>
-            </div>
-        </div>
-
         @include('layouts.header')
 
         <main>
