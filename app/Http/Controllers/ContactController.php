@@ -12,7 +12,7 @@ class ContactController extends Controller
         try {
             $request->send();
 
-            return response()->json(['message' => 'success'], 201);
+            return response()->json(['message' => 'Successfully sent your enquiry'], 201);
         } catch (\Throwable $th) {
             return response()->json(['message' => $th->getMessage()], 503);
         }
