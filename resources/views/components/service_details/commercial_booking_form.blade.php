@@ -4,7 +4,7 @@
             <div class="col-lg-5">
                 <div
                 class="appointment-text bg-cover"
-                style="background-image: url({{ asset('images/appointment-bg.jpg') }})"
+                style="background-image: url({{ asset('images/appointment-bg.webp') }})"
                 >
                     <div class="appointment-content">
                         <div class="section-title left-border mb-40">
@@ -37,7 +37,7 @@
                 <div class="appointment-form">
                     <div
                     class="form-title bg-cover"
-                    style="background-image: url({{ asset('images/form-title-bg.jpg') }})"
+                    style="background-image: url({{ asset('images/form-title-bg.webp') }})"
                     >
                         <h2>Request A Quote</h2>
                     </div>

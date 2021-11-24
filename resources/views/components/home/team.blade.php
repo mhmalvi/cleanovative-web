@@ -11,7 +11,7 @@
                 <div class="col-lg-4">
                     <div class="single-member-box">
                         <div class="team-img">
-                            <img src="{{ asset('images/team01.jpg') }}" alt="Image">
+                            <img src="{{ asset('images/team01.webp') }}" alt="Image">
                         </div>
                         <div class="team-content">
                             <div class="content-wrap">
@@ -29,7 +29,7 @@
                 <div class="col-lg-4">
                     <div class="single-member-box">
                         <div class="team-img">
-                            <img src="{{ asset('images/team02.jpg') }}" alt="Image">
+                            <img src="{{ asset('images/team02.webp') }}" alt="Image">
                         </div>
                         <div class="team-content">
                             <div class="content-wrap">
@@ -47,7 +47,7 @@
                 <div class="col-lg-4">
                     <div class="single-member-box">
                         <div class="team-img">
-                            <img src="{{ asset('images/team03.jpg') }}" alt="Image">
+                            <img src="{{ asset('images/team03.webp') }}" alt="Image">
                         </div>
                         <div class="team-content">
                             <div class="content-wrap">
@@ -65,7 +65,7 @@
                 <div class="col-lg-4">
                     <div class="single-member-box">
                         <div class="team-img">
-                            <img src="{{ asset('images/team04.jpg') }}" alt="Image">
+                            <img src="{{ asset('images/team04.webp') }}" alt="Image">
                         </div>
                         <div class="team-content">
                             <div class="content-wrap">
@@ -83,7 +83,7 @@
                 <div class="col-lg-4">
                     <div class="single-member-box">
                         <div class="team-img">
-                            <img src="{{ asset('images/team05.jpg') }}" alt="Image">
+                            <img src="{{ asset('images/team05.webp') }}" alt="Image">
                         </div>
                         <div class="team-content">
                             <div class="content-wrap">
@@ -101,7 +101,7 @@
                 <div class="col-lg-4">
                     <div class="single-member-box">
                         <div class="team-img">
-                            <img src="{{ asset('images/team06.jpg') }}" alt="Image">
+                            <img src="{{ asset('images/team06.webp') }}" alt="Image">
                         </div>
                         <div class="team-content">
                             <div class="content-wrap">
@@ -119,7 +119,7 @@
                 <div class="col-lg-4">
                     <div class="single-member-box">
                         <div class="team-img">
-                            <img src="{{ asset('images/team07.jpg') }}" alt="Image">
+                            <img src="{{ asset('images/team07.webp') }}" alt="Image">
                         </div>
                         <div class="team-content">
                             <div class="content-wrap">
@@ -137,7 +137,7 @@
                 <div class="col-lg-4">
                     <div class="single-member-box">
                         <div class="team-img">
-                            <img src="{{ asset('images/team08.jpg') }}" alt="Image">
+                            <img src="{{ asset('images/team08.webp') }}" alt="Image">
                         </div>
                         <div class="team-content">
                             <div class="content-wrap">

@@ -288,7 +288,7 @@ i {
 
 .banner-new {
     position: relative;
-    background: url("../images/banner101.jpg");
+    background: url("../images/banner101.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center, center;
@@ -369,7 +369,7 @@ footer {
 }
 
 footer::after {
-    background-image: url(../images/footer-shape.png);
+    background-image: url(../images/footer-shape.webp);
 }
 
 footer .subscribe-form .subs-inner form input {
@@ -429,11 +429,11 @@ footer .copyright-area p {
 }
 
 .cta-section .cta-inner::before {
-    background-image: url(../images/cta-bg.png) !important;
+    background-image: url(../images/cta-bg.webp) !important;
 }
 
 .testimonial-section::after {
-    background-image: url("../images/testimonial-bg.png");
+    background-image: url("../images/testimonial-bg.webp");
 }
 
 .breadcrumb-area::after {

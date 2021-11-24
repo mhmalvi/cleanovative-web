@@ -8,7 +8,7 @@
                     <div class="card pt-25 pb-25 text-center mt-25 bg-theme-extra-light shadow-sm border-second-color">
                         <div class="card-body">
                             <span class="icon h2">
-                                <img src="{{ asset('images/icons/contact.png') }}" alt="phone">
+                                <img src="{{ asset('images/icons/contact.webp') }}" alt="phone">
                             </span>
                             <h6 class="title py-2">Phone Number</h6>
                             <p class="info"><a href="tel:0401396554">0401396554</a></p>
@@ -20,7 +20,7 @@
                     <div class="card pt-25 pb-25 text-center mt-25 bg-theme-extra-light shadow-sm border-second-color">
                         <div class="card-body">
                         <span class="icon h2">
-                            <img src="{{ asset('images/icons/mail.png') }}" alt="email">
+                            <img src="{{ asset('images/icons/mail.webp') }}" alt="email">
                         </span>
                         <h6 class="title py-2">Email Address</h6>
                         <p class="info">
@@ -43,7 +43,7 @@
                 <contact-us-form-component />
             </div>
             <div class="col-md-6 pt-50 pb-15 order-first order-md-last">
-                <img src="{{asset('images/contact-us.jpg')}}" alt="contact us" class="img-thumbnail">
+                <img src="{{asset('images/contact-us.webp')}}" alt="contact us" class="img-thumbnail">
             </div>
         </div>
     </div>

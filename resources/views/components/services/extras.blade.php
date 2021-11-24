@@ -8,7 +8,7 @@
             <div class="col-6 col-md-2 my-2">
                 <div class="text-center">
                     <div class="border rounded p-3 bg-light shadow-sm">
-                        <img src="{{asset('images/icons/bed.png')}}" alt="" class="img-fluid">
+                        <img src="{{asset('images/icons/bed.webp')}}" alt="" class="img-fluid">
                     </div>
                     Change Bed Sheet
                 </div>
@@ -16,7 +16,7 @@
             <div class="col-6 col-md-2 my-2">
                 <div class="text-center">
                     <div class="border rounded p-3 bg-light shadow-sm">
-                        <img src="{{asset('images/icons/washing-machine.png')}}" alt="" class="img-fluid">
+                        <img src="{{asset('images/icons/washing-machine.webp')}}" alt="" class="img-fluid">
                     </div>
                     Laundry (Load & run machine)
                 </div>
@@ -24,7 +24,7 @@
             <div class="col-6 col-md-2 my-2">
                 <div class="text-center">
                     <div class="border rounded p-3 bg-light shadow-sm">
-                        <img src="{{asset('images/icons/fridge.png')}}" alt="" class="img-fluid">
+                        <img src="{{asset('images/icons/fridge.webp')}}" alt="" class="img-fluid">
                     </div>
                     Inside Fridge
                 </div>
@@ -40,7 +40,7 @@
             <div class="col-6 col-md-2 my-2">
                 <div class="text-center">
                     <div class="border rounded p-3 bg-light shadow-sm">
-                        <img src="{{asset('images/icons/balcony.png')}}" alt="" class="img-fluid">
+                        <img src="{{asset('images/icons/balcony.webp')}}" alt="" class="img-fluid">
                     </div>
                     Small Balcony
                 </div>
@@ -48,7 +48,7 @@
             <div class="col-6 col-md-2 my-2">
                 <div class="text-center">
                     <div class="border rounded p-3 bg-light shadow-sm">
-                        <img src="{{asset('images/icons/antique-balcony.png')}}" alt="" class="img-fluid">
+                        <img src="{{asset('images/icons/antique-balcony.webp')}}" alt="" class="img-fluid">
                     </div>
                     Large Balcony
                 </div>
@@ -56,7 +56,7 @@
             <div class="col-6 col-md-2 my-2">
                 <div class="text-center">
                     <div class="border rounded p-3 bg-light shadow-sm">
-                        <img src="{{asset('images/icons/deck-chair.png')}}" alt="" class="img-fluid">
+                        <img src="{{asset('images/icons/deck-chair.webp')}}" alt="" class="img-fluid">
                     </div>
                     Deck
                 </div>
@@ -64,7 +64,7 @@
             <div class="col-6 col-md-2 my-2">
                 <div class="text-center">
                     <div class="border rounded p-3 bg-light shadow-sm">
-                        <img src="{{asset('images/icons/terrace.png')}}" alt="" class="img-fluid">
+                        <img src="{{asset('images/icons/terrace.webp')}}" alt="" class="img-fluid">
                     </div>
                     Patio
                 </div>
@@ -72,7 +72,7 @@
             <div class="col-6 col-md-2 my-2">
                 <div class="text-center">
                     <div class="border rounded p-3 bg-light shadow-sm">
-                        <img src="{{asset('images/icons/garage.png')}}" alt="" class="img-fluid">
+                        <img src="{{asset('images/icons/garage.webp')}}" alt="" class="img-fluid">
                     </div>
                     Garage Sweep & Tidy
                 </div>
@@ -80,7 +80,7 @@
             <div class="col-6 col-md-2 my-2">
                 <div class="text-center">
                     <div class="border rounded p-3 bg-light shadow-sm">
-                        <img src="{{asset('images/icons/blinds.png')}}" alt="" class="img-fluid">
+                        <img src="{{asset('images/icons/blinds.webp')}}" alt="" class="img-fluid">
                     </div>
                     Wet Wipe Blinds (per fixture)
                 </div>
@@ -88,7 +88,7 @@
             <div class="col-6 col-md-2 my-2">
                 <div class="text-center">
                     <div class="border rounded p-3 bg-light shadow-sm">
-                        <img src="{{asset('images/icons/cupboard.png')}}" alt="" class="img-fluid">
+                        <img src="{{asset('images/icons/cupboard.webp')}}" alt="" class="img-fluid">
                     </div>
                     Inside Cupboards (must be empty)
                 </div>
@@ -96,7 +96,7 @@
             <div class="col-6 col-md-2 my-2">
                 <div class="text-center">
                     <div class="border rounded p-3 bg-light shadow-sm">
-                        <img src="{{asset('images/icons/window.png')}}" alt="" class="img-fluid">
+                        <img src="{{asset('images/icons/window.webp')}}" alt="" class="img-fluid">
                     </div>
                     Interior Windows (1-3 Bedroom)
                 </div>
@@ -112,7 +112,7 @@
             <div class="col-6 col-md-2 my-2">
                 <div class="text-center">
                     <div class="border rounded p-3 bg-light shadow-sm">
-                        <img src="{{asset('images/icons/vacuum-cleaner.png')}}" alt="" class="img-fluid">
+                        <img src="{{asset('images/icons/vacuum-cleaner.webp')}}" alt="" class="img-fluid">
                     </div>
                     Carpet Steam Clean (per room or area)
                 </div>

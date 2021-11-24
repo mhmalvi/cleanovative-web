@@ -6,7 +6,7 @@
                 <div class="container">
                     <div class="row cta-info">
                         <div class="col-md-6">
-                            <img src="{{asset('images/hapiness.png')}}" alt="">
+                            <img src="{{asset('images/hapiness.webp')}}" alt="">
                         </div>
                         <div class="col-md-6 d-flex align-items-center">
                             <span class="mt-3 mx-4 text-light text-left">

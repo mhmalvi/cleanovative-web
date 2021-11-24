@@ -11,7 +11,7 @@
             <div class="col-xl-3 col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay=".3s">
                 <div class="single-service-two text-center">
                     <div class="service-img mb-40">
-                        <img src="assets/img/service-icon-1.png" alt="Icon">
+                        <img src="assets/img/service-icon-1.webp" alt="Icon">
                     </div>
                     <div class="service-content">'
                         <h4><a href="{{ route('services') }}">House Cleaning</a></h4>
@@ -23,7 +23,7 @@
             <div class="col-xl-3 offset-xl-1 col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay=".4s">
                 <div class="single-service-two text-center">
                     <div class="service-img mb-40">
-                        <img src="assets/img/service-icon-2.png" alt="Icon">
+                        <img src="assets/img/service-icon-2.webp" alt="Icon">
                     </div>
                     <div class="service-content">'
                         <h4><a href="{{ route('services') }}">Dress Cleaning</a></h4>
@@ -35,7 +35,7 @@
             <div class="col-xl-3 offset-xl-1 col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
                 <div class="single-service-two text-center">
                     <div class="service-img mb-40">
-                        <img src="assets/img/service-icon-3.png" alt="Icon">
+                        <img src="assets/img/service-icon-3.webp" alt="Icon">
                     </div>
                     <div class="service-content">'
                         <h4><a href="{{ route('services') }}">Kitchen Cleaning</a></h4>
@@ -47,7 +47,7 @@
             <div class="col-xl-3 col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay=".6s">
                 <div class="single-service-two text-center">
                     <div class="service-img mb-40">
-                        <img src="assets/img/service-icon-4.png" alt="Icon">
+                        <img src="assets/img/service-icon-4.webp" alt="Icon">
                     </div>
                     <div class="service-content">'
                         <h4><a href="{{ route('services') }}">Ofice Cleaning</a></h4>
@@ -59,7 +59,7 @@
             <div class="col-xl-3 offset-xl-1 col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay=".7s">
                 <div class="single-service-two text-center">
                     <div class="service-img mb-40">
-                        <img src="assets/img/service-icon-5.png" alt="Icon">
+                        <img src="assets/img/service-icon-5.webp" alt="Icon">
                     </div>
                     <div class="service-content">'
                         <h4><a href="#">Garden Cleaning</a></h4>
@@ -71,7 +71,7 @@
             <div class="col-xl-3 offset-xl-1 col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay=".8s">
                 <div class="single-service-two text-center">
                     <div class="service-img mb-40">
-                        <img src="assets/img/service-icon-6.png" alt="Icon">
+                        <img src="assets/img/service-icon-6.webp" alt="Icon">
                     </div>
                     <div class="service-content">'
                         <h4><a href="{{ route('services') }}">Road Cleaning</a></h4>

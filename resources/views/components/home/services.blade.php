@@ -1,5 +1,5 @@
 <!--====== SERVICE PART START ======-->
-<section class="service-section" style="background-image: url({{ asset('images/service-bg.png') }});">
+<section class="service-section" style="background-image: url({{ asset('images/service-bg.webp') }});">
     <div class="container">
         <div class="section-title white-color text-center both-border mb-40">
             <h2 class="pb-0">
@@ -11,7 +11,7 @@
                 <a href="{{ route('service.house_cleaning') }}">
                     <div class="single-service">
                         <div class="service-bg">
-                            <img src="{{ asset('images/service-1.jpg') }}" alt="service" class="img-fluid rounded-top img-main-bg">
+                            <img src="{{ asset('images/service-1.webp') }}" alt="service" class="img-fluid rounded-top img-main-bg">
                             <a href="{{ route('service.house_cleaning') }}"
                                 class="service-link">
                                 <img src="{{asset('images/icons/house.png')}}" alt="">
@@ -30,7 +30,7 @@
                 <a href="{{ route('service.deep_cleaning') }}">
                     <div class=" single-service">
                         <div class="service-bg">
-                            <img src="{{ asset('images/service-2.jpg') }}" alt="service" class="img-fluid rounded-top">
+                            <img src="{{ asset('images/service-2.webp') }}" alt="service" class="img-fluid rounded-top">
                             <a href="{{ route('service.deep_cleaning') }}"
                                 class="service-link">
                                 <img src="{{asset('images/icons/carpet-cleaner.png')}}" alt="">
@@ -49,10 +49,10 @@
                 <a href="{{ route('service.end_of_lease_cleaning') }}">
                     <div class="single-service active">
                         <div class="service-bg">
-                            <img src="{{ asset('images/service-3.jpg') }}" alt="service" class="img-fluid rounded-top">
+                            <img src="{{ asset('images/service-3.webp') }}" alt="service" class="img-fluid rounded-top">
                             <a href="{{ route('service.end_of_lease_cleaning') }}"
                                 class="service-link">
-                                <img src="{{asset('images/icons/sanitizer.png')}}" alt="">
+                                <img src="{{asset('images/icons/sanitizer.webp')}}" alt="">
                             </a>
                         </div>
                         <div class="service-content rounded-bottom">
@@ -68,7 +68,7 @@
                 <a href="{{ route('service.party_event_cleaning') }}">
                     <div class=" single-service">
                         <div class="service-bg">
-                            <img src="{{ asset('images/service-4.jpg') }}" alt="service" class="img-fluid rounded-top">
+                            <img src="{{ asset('images/service-4.webp') }}" alt="service" class="img-fluid rounded-top">
                             <a href="{{ route('service.party_event_cleaning') }}"
                                 class="service-link">
                                 <img src="{{asset('images/icons/cleaning-cart.png')}}" alt="">
@@ -87,7 +87,7 @@
                 <a href="{{ route('service.office_cleaning') }}">
                     <div class=" single-service">
                         <div class="service-bg">
-                            <img src="{{ asset('images/service-5.jpg') }}" alt="service" class="img-fluid rounded-top">
+                            <img src="{{ asset('images/service-5.webp') }}" alt="service" class="img-fluid rounded-top">
                             <a href="{{ route('service.office_cleaning') }}"
                                 class="service-link">
                                 <img src="{{asset('images/icons/cleaning.png')}}" alt="">
@@ -106,10 +106,10 @@
                 <a href="{{ route('service.construction_cleaning') }}">
                     <div class=" single-service">
                         <div class="service-bg">
-                            <img src="{{ asset('images/service-6.jpg') }}" alt="service" class="img-fluid rounded-top">
+                            <img src="{{ asset('images/service-6.webp') }}" alt="service" class="img-fluid rounded-top">
                             <a href="{{ route('service.construction_cleaning') }}"
                                 class="service-link">
-                                <img src="{{asset('images/icons/street.png')}}" alt="">
+                                <img src="{{asset('images/icons/street.webp')}}" alt="">
                             </a>
                         </div>
                         <div class="service-content rounded-bottom">
@@ -125,7 +125,7 @@
                 <a href="{{ route('service.strata_cleaning') }}">
                     <div class="single-service">
                         <div class="service-bg">
-                            <img src="{{ asset('images/service-7.jpg') }}" alt="service" class="img-fluid rounded-top">
+                            <img src="{{ asset('images/service-7.webp') }}" alt="service" class="img-fluid rounded-top">
                             <a href="{{ route('service.strata_cleaning') }}"
                                 class="service-link">
                                 <img src="{{asset('images/icons/mop.png')}}" alt="">
@@ -144,7 +144,7 @@
                 <a href="{{ route('service.other_cleaning') }}">
                     <div class=" single-service">
                         <div class="service-bg">
-                            <img src="{{ asset('images/service-8.jpg') }}" alt="service" class="img-fluid rounded-top">
+                            <img src="{{ asset('images/service-8.webp') }}" alt="service" class="img-fluid rounded-top">
                             <a href="{{ route('service.other_cleaning') }}"
                                 class="service-link">
                                 <img src="{{asset('images/icons/spray-bottle.png')}}" alt="">

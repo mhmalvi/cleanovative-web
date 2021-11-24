@@ -4,7 +4,7 @@
         <div class="experience-inner">
             <div class="row no-gutters">
                 <div class="col-xl-4 col-lg-4 custom-width">
-                    <div class="experience-bg" style="background-image: url(assets/img/experience.jpg);">
+                    <div class="experience-bg" style="background-image: url(assets/img/experience.webp);">
                     </div>
                 </div>
                 <div class="col-xl-8 col-lg-8 custom-width">

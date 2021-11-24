@@ -5,7 +5,7 @@
             <div class="row">
                 <div class="col-lg-3 col-md-6 d-flex justify-content-center align-items-center">
                     <div class="footer-logo mb-40">
-                        <img src="{{asset('images/logos/logo02.png')}}" alt="Cleanovative">
+                        <img src="{{asset('images/logos/logo02.webp')}}" alt="Cleanovative">
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">

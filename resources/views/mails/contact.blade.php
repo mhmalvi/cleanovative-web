@@ -24,7 +24,7 @@
           <tr>
             <td style="text-align:center;">
               <a href="https://cleanovative.com.au" title="logo" target="_blank">
-                <img width="300" src="{{asset('images/logos/logo02.png')}}" title="logo" alt="logo">
+                <img width="300" src="{{asset('images/logos/logo02.webp')}}" title="logo" alt="logo">
               </a>
             </td>
           </tr>

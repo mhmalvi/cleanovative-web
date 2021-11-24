@@ -1,6 +1,6 @@
 <!--====== BLOG PART START ======-->
 <section class="latest-blog pt-100 pb-100 bg-cover"
-    style="background-image: url(assets/img/blog-section-bg.jpg);">
+    style="background-image: url(assets/img/blog-section-bg.webp);">
     <div class="container">
         <div class="section-title text-center both-border mb-50">
             <h2>Read Our Latest <br>
@@ -14,7 +14,7 @@
                 <div class="single-latest-post">
                     <div class="post-thumb">
                         <a href="#">
-                            <span class="thumb" style="background-image: url(assets/img/blog01.jpg);"></span>
+                            <span class="thumb" style="background-image: url(assets/img/blog01.webp);"></span>
                         </a>
                     </div>
                     <div class="post-content">
@@ -34,7 +34,7 @@
                 <div class="single-latest-post">
                     <div class="post-thumb">
                         <a href="#">
-                            <span class="thumb" style="background-image: url(assets/img/blog03.jpg);"></span>
+                            <span class="thumb" style="background-image: url(assets/img/blog03.webp);"></span>
                         </a>
                     </div>
                     <div class="post-content">
@@ -53,7 +53,7 @@
                 <div class="single-latest-post">
                     <div class="post-thumb">
                         <a href="#">
-                            <span class="thumb" style="background-image: url(assets/img/blog02.jpg);"></span>
+                            <span class="thumb" style="background-image: url(assets/img/blog02.webp);"></span>
                         </a>
                     </div>
                     <div class="post-content">

@@ -1,7 +1,7 @@
 <!--====== HERO PART START ======-->
 <section class="hero-section">
     <div id="heroSlideActive">
-        <div class="single-hero-slide" style="background-image: url({{ asset('images/slider/hero-image.jpg') }});">
+        <div class="single-hero-slide" style="background-image: url({{ asset('images/slider/hero-image.webp') }});">
             <div class="container">
                 <div class="hero-content text-center">
                     <span class="promo-text ">
@@ -41,7 +41,7 @@
                 </div>
             </div>
         </div>
-        <div class="single-hero-slide" style="background-image: url({{ asset('images/slider/hero-image-2.jpg') }});">
+        <div class="single-hero-slide" style="background-image: url({{ asset('images/slider/hero-image-2.webp') }});">
             <div class="container">
                 <div class="hero-content text-center">
                     <span class="promo-text">

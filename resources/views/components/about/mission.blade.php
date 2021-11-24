@@ -3,7 +3,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 wow fadeInLeft" data-wow-delay=".3s">
                 <div class="experience-img text-center">
-                    <img src="{{ asset('images/mission.jpg') }}" alt="Image" class="img-fluid rounded">
+                    <img src="{{ asset('images/mission.webp') }}" alt="Image" class="img-fluid rounded">
                 </div>
             </div>
             <div class="col-lg-6 wow fadeInRight" data-wow-delay=".3s">
@@ -12,7 +12,7 @@
                     <ul class="experience-list">
                         <li>
                             <span class="icon">
-                                <img src="{{asset('images/icons/target.png')}}" alt="">
+                                <img src="{{asset('images/icons/target.webp')}}" alt="">
                             </span>
                             <p>
                                 Our mission is very simple! Working a 9-5 job can be exhausting, and the last thing you want to do when you get home is clean. We aren’t here to judge. 

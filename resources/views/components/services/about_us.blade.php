@@ -6,9 +6,9 @@
             <div class="col-xl-5 col-lg-5 col-md-8 mx-auto wow fadeInLeft" data-wow-delay=".3s">
                 <div class="about-left">
                     <div class="about-img">
-                        <img src="{{ asset('images/about-img-2.jpg') }}" alt="image">
+                        <img src="{{ asset('images/about-img-2.webp') }}" alt="image">
                     </div>
-                    <img src="{{ asset('images/about-tag.jpg') }}" class="about-tag" alt="image">
+                    <img src="{{ asset('images/about-tag.webp') }}" class="about-tag" alt="image">
                 </div>
             </div>
             <div class="col-xl-5 col-lg-6 offset-lg-1 col-md-10 mx-auto">

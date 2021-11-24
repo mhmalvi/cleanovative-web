@@ -25,7 +25,7 @@
             </div>
             <div class="col-lg-6 wow fadeInLeft" data-wow-delay=".3s">
                 <div class="experience-img text-center">
-                    <img src="{{ asset('images/experience.jpg') }}" alt="Image" class="img-fluid rounded">
+                    <img src="{{ asset('images/experience.webp') }}" alt="Image" class="img-fluid rounded">
                 </div>
             </div>
         </div>

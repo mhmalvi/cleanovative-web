@@ -10,26 +10,26 @@
                     <div class="col-md-12">
                         <ul class="service-area">
                             <li>
-                                <span class="mr-2"><img src="{{asset('images/icons/australia.png')}}" alt=""></span> Northern Suburbs
+                                <span class="mr-2"><img src="{{asset('images/icons/australia.webp')}}" alt=""></span> Northern Suburbs
                             </li>
                             <li>
-                                <span class="mr-2"><img src="{{asset('images/icons/australia.png')}}" alt=""></span> Inner West
+                                <span class="mr-2"><img src="{{asset('images/icons/australia.webp')}}" alt=""></span> Inner West
                             </li>
                             <li>
-                                <span class="mr-2"><img src="{{asset('images/icons/australia.png')}}" alt=""></span> Easter Suburbs
+                                <span class="mr-2"><img src="{{asset('images/icons/australia.webp')}}" alt=""></span> Easter Suburbs
                             </li>
                             <li>
-                                <span class="mr-2"><img src="{{asset('images/icons/australia.png')}}" alt=""></span> Western Sydney
+                                <span class="mr-2"><img src="{{asset('images/icons/australia.webp')}}" alt=""></span> Western Sydney
                             </li>
                             <li>
-                                <span class="mr-2"><img src="{{asset('images/icons/australia.png')}}" alt=""></span> Sutherland Shire
+                                <span class="mr-2"><img src="{{asset('images/icons/australia.webp')}}" alt=""></span> Sutherland Shire
                             </li>
                         </ul>
                     </div>
                 </div>
             </div>
             <div class="col-md-6 d-flex justify-content-center align-items-center">
-                <img src="{{asset('images/map.png')}}" alt="">
+                <img src="{{asset('images/map.webp')}}" alt="">
             </div>
         </div>
     </div>
