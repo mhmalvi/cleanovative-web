@@ -46,6 +46,8 @@
         @include('layouts.footer')
     </div>
 
+    <script src="{{asset('js/app.js')}}" type="text/javascript" defer></script>
+
     @include('layouts.scripts')
 
     @stack('js')
