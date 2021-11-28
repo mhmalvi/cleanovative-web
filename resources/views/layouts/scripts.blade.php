@@ -12,4 +12,3 @@
 <script src="{{asset('assets/js/jquery.easypiechart.js')}}"></script>
 <script src="{{asset('assets/js/wow.min.js')}}"></script>
 <script src="{{asset('assets/js/main.js')}}"></script>
-<script src="{{asset('js/app.js')}}" type="text/javascript"></script>
