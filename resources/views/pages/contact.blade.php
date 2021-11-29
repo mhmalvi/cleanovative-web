@@ -17,10 +17,10 @@
         <div class="container">
             <!-- Contact Info boxes -->
             <div class="row">
-                <div class="col-md-8 mx-auto">
+                <div class="col-md-10 mx-auto">
                     <div class="contact-info-boxes">
                         <div class="row">
-                            <div class="col-md-6">
+                            <div class="col-md-4">
                                 <!-- Single Boxes -->
                                 <div class="card pt-25 pb-25 text-center mt-25">
                                     <div class="card-body">
@@ -32,7 +32,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-4">
                                 <!-- Single Boxes -->
                                 <div class="card pt-25 pb-25 text-center mt-25">
                                     <div class="card-body">
@@ -45,6 +45,20 @@
                                             info@cleanovative.com.au
                                         </a>
                                     </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <!-- Single Boxes -->
+                                <div class="card pt-25 pb-25 text-center mt-25">
+                                    <div class="card-body">
+                                    <span class="icon h2">
+                                        <img src="{{ asset('images/icons/location.webp') }}" alt="address">
+                                    </span>
+                                        <h6 class="title py-2">Address</h6>
+                                        <p class="info">
+                                            111/2 Macquarie Road Auburn NSW 2144
+                                        </p>
                                     </div>
                                 </div>
                             </div>
