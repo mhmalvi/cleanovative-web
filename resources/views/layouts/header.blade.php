@@ -4,13 +4,13 @@
             <div class="welome-text">
                 <ul class="top-list">
                     <li>
-                        <i class="flaticon-phone-call mr-2"></i>
+                        <i class="bi bi-headset mr-2"></i>
                         <span class="infos">
                             <a href="tel:0401396554">+61450007982</a>
                         </span>
                     </li>
                     <li>
-                        <i class="flaticon-tag mr-2"></i>
+                        <i class="bi bi-calendar2-check mr-2"></i>
                         <span class="infos">
                             07.00 am - 07.00 pm
                         </span>
@@ -71,7 +71,7 @@
                                     <li class="nav-item">
                                         <a class="nav-link" href="javascript:void(0)">
                                             Services & Pricing
-                                            <i class="flaticon-add"></i>
+                                            <i class="bi bi-arrow-down-short"></i>
                                         </a>
                                         <ul class="sub-menu">
                                             <li>
@@ -96,7 +96,7 @@
                                     <li class="nav-item">
                                         <a class="nav-link" href="javascript:void(0)">
                                             More
-                                            <i class="flaticon-add"></i>
+                                            <i class="bi bi-arrow-down-short"></i>
                                         </a>
                                         <ul class="sub-menu">
                                             <li class="nav-item">

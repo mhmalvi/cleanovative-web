@@ -31,8 +31,8 @@
             <div class="go-top-wrap">
                 <div class="go-top-btn-wrap">
                     <div class="go-top go-top-btn">
-                        <i class="flaticon-duster"></i>
-                        <i class="flaticon-duster"></i>
+                        <i class="bi bi-chevron-double-up"></i>
+                        <i class="bi bi-chevron-double-up"></i>
                     </div>
                 </div>
             </div>

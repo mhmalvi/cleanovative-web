@@ -69,7 +69,7 @@ $(function () {
             .parent("li")
             .children("a")
             .append(function () {
-                return '<button class="sub-nav-toggler"> <i class="flaticon-add"></i> <i class="flaticon-add"></i> </button>';
+                return '<button class="sub-nav-toggler"> <i class="bi bi-arrow-down-short"></i> <i class="bi bi-arrow-down-short"></i> </button>';
             });
 
         var subMenuToggler = $(".sub-menu-bar .navbar-nav .sub-nav-toggler");
@@ -91,9 +91,9 @@ $(function () {
         slidesToShow: 1,
         slidesToScroll: 1,
         prevArrow:
-            '<span class="slick-arrow prev-arrow"><i class="flaticon-left-arrow"></i></span>',
+            '<span class="slick-arrow prev-arrow"><i class="bi bi-chevron-left"></i></span>',
         nextArrow:
-            '<span class="slick-arrow next-arrow"><i class="flaticon-right-arrow"></i></span>',
+            '<span class="slick-arrow next-arrow"><i class="bi bi-chevron-right"></i></span>',
         responsive: [
             {
                 breakpoint: 767,

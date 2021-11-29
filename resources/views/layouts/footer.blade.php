@@ -36,17 +36,17 @@
                             <h3 class="widget-title">Quick Links</h3>
                             <ul>
                                 <li><a href="{{route('about_us')}}">
-                                    <i class="flaticon-right-arrow"></i>About us</a>
+                                    <i class="bi bi-arrow-right-short"></i>About us</a>
                                 </li>
                                 <li><a href="{{route('gift_cards')}}">
-                                    <i class="flaticon-right-arrow"></i>Gift Cards</a></li>
+                                    <i class="bi bi-arrow-right-short"></i>Gift Cards</a></li>
                                 <li><a href="{{route('faq')}}">
-                                    <i class="flaticon-right-arrow"></i>FAQ</a></li>
+                                    <i class="bi bi-arrow-right-short"></i>FAQ</a></li>
                                 <li><a href="{{route('terms_and_conditions')}}">
-                                    <i class="flaticon-right-arrow"></i>Terms & Conditions</a></li>
+                                    <i class="bi bi-arrow-right-short"></i>Terms & Conditions</a></li>
                                 <li>
                                     <a href="{{route('privacy_policy')}}">
-                                        <i class="flaticon-right-arrow"></i>Privacy Policy
+                                        <i class="bi bi-arrow-right-short"></i>Privacy Policy
                                     </a>
                                 </li>
                             </ul>
@@ -60,10 +60,10 @@
                             <h4 class="mb-4">Don’t Hesitate To <br> Contact Us</h4>
                             <ul>
                                 <li>
-                                    <i class="flaticon-phone-call"></i>
+                                    <i class="bi bi-headset"></i>
                                     <a href="tel:+61450007982">+61450007982</a></li>
                                 <li>
-                                    <i class="flaticon-e-mail-envelope"></i>info@cleanovative.com.au
+                                    <i class="bi bi-envelope"></i>info@cleanovative.com.au
                                 </li>
                             </ul>
                         </div>

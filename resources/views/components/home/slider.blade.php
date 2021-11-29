@@ -21,19 +21,19 @@
                     <div class="row">
                         <div class="col-md-4">
                             <p class="banner-ticks">
-                                <i class="flaticon-medal"></i>
+                                <i class="bi bi-check-circle-fill"></i>
                                 Trusted Cleaning
                             </p>  
                         </div>
                         <div class="col-md-4">
                             <p class="banner-ticks">
-                                <i class="flaticon-medal"></i>
+                                <i class="bi bi-check-circle-fill"></i>
                                 5-Star Rated
                             </p>
                         </div>
                         <div class="col-md-4">
                             <p class="banner-ticks">
-                                <i class="flaticon-medal"></i>
+                                <i class="bi bi-check-circle-fill"></i>
                                 100% Guarantee 
                             </p>
                         </div>
@@ -61,19 +61,19 @@
                     <div class="row">
                         <div class="col-md-4">
                             <p class="banner-ticks">
-                                <i class="flaticon-medal"></i>
+                                <i class="bi bi-check-circle-fill"></i>
                                 Trusted Cleaning
                             </p>  
                         </div>
                         <div class="col-md-4">
                             <p class="banner-ticks">
-                                <i class="flaticon-medal"></i>
+                                <i class="bi bi-check-circle-fill"></i>
                                 5-Star Rated
                             </p>
                         </div>
                         <div class="col-md-4">
                             <p class="banner-ticks">
-                                <i class="flaticon-medal"></i>
+                                <i class="bi bi-check-circle-fill"></i>
                                 100% Guarantee 
                             </p>
                         </div>
