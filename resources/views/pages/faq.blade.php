@@ -154,7 +154,7 @@
                                     <div id="faqSeven" class="collapse" data-parent="#faqAccordion">
                                         <div class="card-body">
                                             If our team has made any mistake which results in your property damage or loss,
-                                            please call us at 0401396554 or email us at info@cleanovative.com.au within
+                                            please call us at +61450007982 or email us at info@cleanovative.com.au within
                                             24 hours after your service. Once we are updated on the issue, we will ask you
                                             to fill out a form. Please note that you will be given 14 days to resubmit the
                                             form after the date your property loss or damage ticket has been issued.
@@ -306,7 +306,7 @@
                                     <div id="faq3Two" class="collapse" data-parent="#faqAccordion3">
                                         <div class="card-body">
                                             <p>
-                                                Nope, not at all. When you book you will be able to tell us what type of job you are aiming at and that is enough. Should you have concerns after your book, please feel free to call us at 0401396554 and let us know.
+                                                Nope, not at all. When you book you will be able to tell us what type of job you are aiming at and that is enough. Should you have concerns after your book, please feel free to call us at +61450007982 and let us know.
                                             </p>
                                         </div>
                                     </div>

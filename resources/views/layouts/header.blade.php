@@ -6,7 +6,7 @@
                     <li>
                         <i class="flaticon-phone-call mr-2"></i>
                         <span class="infos">
-                            <a href="tel:0401396554">040 139 6554</a>
+                            <a href="tel:0401396554">+61450007982</a>
                         </span>
                     </li>
                     <li>

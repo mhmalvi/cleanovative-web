@@ -61,7 +61,7 @@
                             <ul>
                                 <li>
                                     <i class="flaticon-phone-call"></i>
-                                    <a href="tel:040 139 6554">040 139 6554</a></li>
+                                    <a href="tel:+61450007982">+61450007982</a></li>
                                 <li>
                                     <i class="flaticon-e-mail-envelope"></i>info@cleanovative.com.au
                                 </li>

@@ -28,7 +28,7 @@
                                             <img src="{{ asset('images/icons/contact.webp') }}" alt="phone">
                                         </span>
                                         <h6 class="title py-2">Phone Number</h6>
-                                        <p class="info"><a href="tel:0401396554">0401396554</a></p>
+                                        <p class="info"><a href="tel:+61450007982">+61450007982</a></p>
                                     </div>
                                 </div>
                             </div>

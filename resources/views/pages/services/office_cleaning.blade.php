@@ -18,7 +18,7 @@
                     </p>
                 </div>
                 <div class="mt-40">
-                    <a class="main-btn main-btn-2 mt-10 mb-0" href="tel:0401396554">
+                    <a class="main-btn main-btn-2 mt-10 mb-0" href="tel:+61450007982">
                         Call us now
                         <i class="fas fa-headset"></i>
                     </a>
