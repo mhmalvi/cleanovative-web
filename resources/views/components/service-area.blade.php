@@ -29,7 +29,7 @@
                 </div>
             </div>
             <div class="col-md-6 d-flex justify-content-center align-items-center">
-                <img src="{{asset('images/map.webp')}}" alt="">
+                <img data-src="{{asset('images/map.webp')}}" alt="map" class="lazyload">
             </div>
         </div>
     </div>

@@ -53,13 +53,13 @@
 
                 <ul class="service-checklist">
                     <li>
-                        <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean Interior Glass &amp; Doors<br>
-                        <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Remove Trash<br>
-                        <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Remove Painters Tape &amp; Masking Tape As Needed<br>
-                        <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Wipe Down Window Trims<br>
-                        <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Vacuum Carpet<br>
-                        <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Mop Hard Surfaces<br>
-                        <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean &amp; Remove Marks Form Walls<br>
+                        <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Clean Interior Glass &amp; Doors<br>
+                        <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Remove Trash<br>
+                        <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Remove Painters Tape &amp; Masking Tape As Needed<br>
+                        <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Wipe Down Window Trims<br>
+                        <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Vacuum Carpet<br>
+                        <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Mop Hard Surfaces<br>
+                        <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Clean &amp; Remove Marks Form Walls<br>
                     </li>
                 </ul>
             </div>
@@ -76,13 +76,13 @@
 
                 <ul class="service-checklist">
                     <li>
-                        <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Scrub &amp; Clean Toilets<br>
-                        <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Scrub &amp; Clean Sinks<br>
-                        <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Mop / Clean Floors<br>
-                        <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Wipe Down Cabinets<br>
-                        <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean &amp; Remove Marks From Walls<br>
-                        <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean Mirrors &amp; Glass<br>
-                        <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Wipe / Clean Taps
+                        <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Scrub &amp; Clean Toilets<br>
+                        <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Scrub &amp; Clean Sinks<br>
+                        <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Mop / Clean Floors<br>
+                        <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Wipe Down Cabinets<br>
+                        <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Clean &amp; Remove Marks From Walls<br>
+                        <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Clean Mirrors &amp; Glass<br>
+                        <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Wipe / Clean Taps
                     </li>
                 </ul>
             </div>
@@ -92,13 +92,13 @@
                 <h6 class="text-uppercase mb-3">KITCHEN</h6>
 
                 <ul class="service-checklist">
-                    <li><span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Wipe / Clean Countertops<br>
-                        <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Empty &amp; Replace Bins<br>
-                        <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Wipe / Clean Appliances<br>
-                        <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Vacuum / Mop Floors<br>
-                        <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Wipe / Clean Cabinets &amp; Handles<br>
-                        <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Wipe / Clean Splashback<br>
-                        <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean Window &amp; Window Sills<br>
+                    <li><span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Wipe / Clean Countertops<br>
+                        <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Empty &amp; Replace Bins<br>
+                        <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Wipe / Clean Appliances<br>
+                        <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Vacuum / Mop Floors<br>
+                        <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Wipe / Clean Cabinets &amp; Handles<br>
+                        <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Wipe / Clean Splashback<br>
+                        <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Clean Window &amp; Window Sills<br>
                     </li>
                 </ul>
             </div>
@@ -114,10 +114,10 @@
                 <h6 class="text-uppercase mb-3">Additional servics</h6>
 
                 <ul class="service-checklist">
-                    <li><span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Carpet Steam Cleaning<br>
-                        <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Pressure Washing<br>
-                        <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Car park / Basement Cleaning<br>
-                        <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>We can cater to most post construction cleans;
+                    <li><span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Carpet Steam Cleaning<br>
+                        <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Pressure Washing<br>
+                        <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Car park / Basement Cleaning<br>
+                        <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>We can cater to most post construction cleans;
                         give us a call to learn more.
                     </li>
                 </ul>

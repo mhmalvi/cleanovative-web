@@ -61,14 +61,14 @@
                         <h6 class="text-uppercase mb-3">Internal common areas</h6>
 
                         <ul class="service-checklist">
-                            <li><span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Remove Loose Rubbish.<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Sweep & Mop Fire Stairs.<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Sweep & Mop Common Area Stairs.<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Wall Scuff Marks Cleaned<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Cobwebs Removed<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Picture Frames Dusted<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Window Sills & Windows Dusted & Cleaned<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Stairwell Balustrade Dusted & Cleaned<br>
+                            <li><span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Remove Loose Rubbish.<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Sweep & Mop Fire Stairs.<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Sweep & Mop Common Area Stairs.<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Wall Scuff Marks Cleaned<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Cobwebs Removed<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Picture Frames Dusted<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Window Sills & Windows Dusted & Cleaned<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Stairwell Balustrade Dusted & Cleaned<br>
                             </li>
                         </ul>
                     </div>
@@ -85,12 +85,12 @@
 
                         <ul class="service-checklist">
                             <li>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Refill of biodegradable toilet paper, soap dispenser and paper towel.<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Remove Loose Rubbish<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Mailboxes Cleaned<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Take In / Out Bins<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Remove Cobwebs<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean Bins<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Refill of biodegradable toilet paper, soap dispenser and paper towel.<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Remove Loose Rubbish<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Mailboxes Cleaned<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Take In / Out Bins<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Remove Cobwebs<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Clean Bins<br>
                             </li>
                         </ul>
                     </div>
@@ -101,13 +101,13 @@
 
                         <ul class="service-checklist">
                             <li>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Vacuum / Mop Floors<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean Light Switches<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Remove Loose Rubbish<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Remove Cobwebs<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean Windows & Window Sills<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Cleaning & Dusting Furniture<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Glass Door & Mirrors Cleaned<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Vacuum / Mop Floors<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Clean Light Switches<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Remove Loose Rubbish<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Remove Cobwebs<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Clean Windows & Window Sills<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Cleaning & Dusting Furniture<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Glass Door & Mirrors Cleaned<br>
                             </li>
                         </ul>
                     </div>
@@ -124,13 +124,13 @@
 
                         <ul class="service-checklist">
                             <li>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Carpet Steam Cleaning<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Pressure Washing<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Car Park / Basement Cleaning<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Remove Cobwebs<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean Windows & Window Sills<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Cleaning & Dusting Furniture<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Glass Door & Mirrors Cleaned<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Carpet Steam Cleaning<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Pressure Washing<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Car Park / Basement Cleaning<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Remove Cobwebs<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Clean Windows & Window Sills<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Cleaning & Dusting Furniture<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Glass Door & Mirrors Cleaned<br>
                             </li>
                         </ul>
                         We can cater to most strata cleaning demands, give us a call to learn more.

@@ -29,8 +29,8 @@
                                     <div class="card-header">
                                         <button type="button" data-toggle="collapse" data-target="#faqOne">
                                             Are We Covered by Insurance?
-                                            <span class="open-icon"><i class="fal fa-plus"></i></span>
-                                            <span class="close-icon"><i class="fal fa-minus"></i></span>
+                                            <span class="open-icon"><i class="flaticon-add"></i></span>
+                                            <span class="close-icon"><i class="flaticon-add"></i></span>
                                         </button>
                                     </div>
                                     <div id="faqOne" class="collapse" data-parent="#faqAccordion">
@@ -47,8 +47,8 @@
                                         <button type="button" data-toggle="collapse"
                                             data-target="#faqTwo">
                                             What do we mean my “100% Satisfaction Guaranteed”?
-                                            <span class="open-icon"><i class="fal fa-plus"></i></span>
-                                            <span class="close-icon"><i class="fal fa-minus"></i></span>
+                                            <span class="open-icon"><i class="flaticon-add"></i></span>
+                                            <span class="close-icon"><i class="flaticon-add"></i></span>
                                         </button>
                                     </div>
                                     <div id="faqTwo" class="collapse" data-parent="#faqAccordion">
@@ -81,8 +81,8 @@
                                     <div class="card-header">
                                         <button type="button" data-toggle="collapse" data-target="#faqThree">
                                             Is it required for me to enter my payment details on booking?
-                                            <span class="open-icon"><i class="fal fa-plus"></i></span>
-                                            <span class="close-icon"><i class="fal fa-minus"></i></span>
+                                            <span class="open-icon"><i class="flaticon-add"></i></span>
+                                            <span class="close-icon"><i class="flaticon-add"></i></span>
                                         </button>
                                     </div>
                                     <div id="faqThree" class="collapse" data-parent="#faqAccordion">
@@ -97,8 +97,8 @@
                                     <div class="card-header">
                                         <button type="button" data-toggle="collapse" data-target="#faqFour">
                                             Is our team pet friendly?
-                                            <span class="open-icon"><i class="fal fa-plus"></i></span>
-                                            <span class="close-icon"><i class="fal fa-minus"></i></span>
+                                            <span class="open-icon"><i class="flaticon-add"></i></span>
+                                            <span class="close-icon"><i class="flaticon-add"></i></span>
                                         </button>
                                     </div>
                                     <div id="faqFour" class="collapse" data-parent="#faqAccordion">
@@ -114,8 +114,8 @@
                                     <div class="card-header">
                                         <button type="button" data-toggle="collapse" data-target="#faqFive">
                                             Are there any late cancellation fees?
-                                            <span class="open-icon"><i class="fal fa-plus"></i></span>
-                                            <span class="close-icon"><i class="fal fa-minus"></i></span>
+                                            <span class="open-icon"><i class="flaticon-add"></i></span>
+                                            <span class="close-icon"><i class="flaticon-add"></i></span>
                                         </button>
                                     </div>
                                     <div id="faqFive" class="collapse" data-parent="#faqAccordion">
@@ -131,8 +131,8 @@
                                     <div class="card-header">
                                         <button type="button" data-toggle="collapse" data-target="#faqSix">
                                             What if I am not satisfied with the cleaning?
-                                            <span class="open-icon"><i class="fal fa-plus"></i></span>
-                                            <span class="close-icon"><i class="fal fa-minus"></i></span>
+                                            <span class="open-icon"><i class="flaticon-add"></i></span>
+                                            <span class="close-icon"><i class="flaticon-add"></i></span>
                                         </button>
                                     </div>
                                     <div id="faqSix" class="collapse" data-parent="#faqAccordion">
@@ -147,8 +147,8 @@
                                     <div class="card-header">
                                         <button type="button" data-toggle="collapse" data-target="#faqSeven">
                                             Property Damage or Loss Policy?
-                                            <span class="open-icon"><i class="fal fa-plus"></i></span>
-                                            <span class="close-icon"><i class="fal fa-minus"></i></span>
+                                            <span class="open-icon"><i class="flaticon-add"></i></span>
+                                            <span class="close-icon"><i class="flaticon-add"></i></span>
                                         </button>
                                     </div>
                                     <div id="faqSeven" class="collapse" data-parent="#faqAccordion">
@@ -165,8 +165,8 @@
                                     <div class="card-header">
                                         <button type="button" data-toggle="collapse" data-target="#faqEight">
                                             Hazardous Working Condition?
-                                            <span class="open-icon"><i class="fal fa-plus"></i></span>
-                                            <span class="close-icon"><i class="fal fa-minus"></i></span>
+                                            <span class="open-icon"><i class="flaticon-add"></i></span>
+                                            <span class="close-icon"><i class="flaticon-add"></i></span>
                                         </button>
                                     </div>
                                     <div id="faqEight" class="collapse" data-parent="#faqAccordion">
@@ -188,8 +188,8 @@
                                     <div class="card-header">
                                         <button type="button" data-toggle="collapse" data-target="#faq2One">
                                             How long would it take to clean my house?
-                                            <span class="open-icon"><i class="fal fa-plus"></i></span>
-                                            <span class="close-icon"><i class="fal fa-minus"></i></span>
+                                            <span class="open-icon"><i class="flaticon-add"></i></span>
+                                            <span class="close-icon"><i class="flaticon-add"></i></span>
                                         </button>
                                     </div>
                                     <div id="faq2One" class="collapse" data-parent="#faqAccordion2">
@@ -206,8 +206,8 @@
                                         <button type="button" data-toggle="collapse"
                                             data-target="#faq2Two">
                                             How many people will be coming to clean my house?
-                                            <span class="open-icon"><i class="fal fa-plus"></i></span>
-                                            <span class="close-icon"><i class="fal fa-minus"></i></span>
+                                            <span class="open-icon"><i class="flaticon-add"></i></span>
+                                            <span class="close-icon"><i class="flaticon-add"></i></span>
                                         </button>
                                     </div>
                                     <div id="faq2Two" class="collapse" data-parent="#faqAccordion2">
@@ -222,8 +222,8 @@
                                     <div class="card-header">
                                         <button type="button" data-toggle="collapse" data-target="#faq2Three">
                                             Is your cleaner background checked for my safety and security?
-                                            <span class="open-icon"><i class="fal fa-plus"></i></span>
-                                            <span class="close-icon"><i class="fal fa-minus"></i></span>
+                                            <span class="open-icon"><i class="flaticon-add"></i></span>
+                                            <span class="close-icon"><i class="flaticon-add"></i></span>
                                         </button>
                                     </div>
                                     <div id="faq2Three" class="collapse" data-parent="#faqAccordion2">
@@ -236,8 +236,8 @@
                                     <div class="card-header">
                                         <button type="button" data-toggle="collapse" data-target="#faq2Four">
                                             Do we provide our own cleaning products, or do I have to?
-                                            <span class="open-icon"><i class="fal fa-plus"></i></span>
-                                            <span class="close-icon"><i class="fal fa-minus"></i></span>
+                                            <span class="open-icon"><i class="flaticon-add"></i></span>
+                                            <span class="close-icon"><i class="flaticon-add"></i></span>
                                         </button>
                                     </div>
                                     <div id="faq2Four" class="collapse" data-parent="#faqAccordion2">
@@ -250,8 +250,8 @@
                                     <div class="card-header">
                                         <button type="button" data-toggle="collapse" data-target="#faq2Five">
                                             What services do we provide?
-                                            <span class="open-icon"><i class="fal fa-plus"></i></span>
-                                            <span class="close-icon"><i class="fal fa-minus"></i></span>
+                                            <span class="open-icon"><i class="flaticon-add"></i></span>
+                                            <span class="close-icon"><i class="flaticon-add"></i></span>
                                         </button>
                                     </div>
                                     <div id="faq2Five" class="collapse" data-parent="#faqAccordion2">
@@ -264,8 +264,8 @@
                                     <div class="card-header">
                                         <button type="button" data-toggle="collapse" data-target="#faq2Six">
                                             What do you mean by deep cleaning?
-                                            <span class="open-icon"><i class="fal fa-plus"></i></span>
-                                            <span class="close-icon"><i class="fal fa-minus"></i></span>
+                                            <span class="open-icon"><i class="flaticon-add"></i></span>
+                                            <span class="close-icon"><i class="flaticon-add"></i></span>
                                         </button>
                                     </div>
                                     <div id="faq2Six" class="collapse" data-parent="#faqAccordion2">
@@ -284,8 +284,8 @@
                                     <div class="card-header">
                                         <button type="button" data-toggle="collapse" data-target="#faq3One">
                                             Can I book for the same day?
-                                            <span class="open-icon"><i class="fal fa-plus"></i></span>
-                                            <span class="close-icon"><i class="fal fa-minus"></i></span>
+                                            <span class="open-icon"><i class="flaticon-add"></i></span>
+                                            <span class="close-icon"><i class="flaticon-add"></i></span>
                                         </button>
                                     </div>
                                     <div id="faq3One" class="collapse" data-parent="#faqAccordion3">
@@ -299,8 +299,8 @@
                                         <button type="button" data-toggle="collapse"
                                             data-target="#faq3Two">
                                             Do you need someone to come and inspect my place before booking?
-                                            <span class="open-icon"><i class="fal fa-plus"></i></span>
-                                            <span class="close-icon"><i class="fal fa-minus"></i></span>
+                                            <span class="open-icon"><i class="flaticon-add"></i></span>
+                                            <span class="close-icon"><i class="flaticon-add"></i></span>
                                         </button>
                                     </div>
                                     <div id="faq3Two" class="collapse" data-parent="#faqAccordion3">
@@ -315,8 +315,8 @@
                                     <div class="card-header">
                                         <button type="button" data-toggle="collapse" data-target="#faq3Three">
                                             Is your cleaner punctual, will he get here as per booking time?
-                                            <span class="open-icon"><i class="fal fa-plus"></i></span>
-                                            <span class="close-icon"><i class="fal fa-minus"></i></span>
+                                            <span class="open-icon"><i class="flaticon-add"></i></span>
+                                            <span class="close-icon"><i class="flaticon-add"></i></span>
                                         </button>
                                     </div>
                                     <div id="faq3Three" class="collapse" data-parent="#faqAccordion3">

@@ -37,7 +37,6 @@
 
                     <a class="main-btn btn-sm main-btn-3" href="{{ route('book_now') }}" target="_blank">
                         Book Now
-                        <i class="fal fa-plus"></i>
                     </a>
                 </div>
             </div>
@@ -70,7 +69,6 @@
 
                     <a class="main-btn btn-sm main-btn-3" href="{{ route('book_now') }}" target="_blank">
                         Book Now
-                        <i class="fal fa-plus"></i>
                     </a>
                 </div>
             </div>
@@ -105,7 +103,6 @@
 
                     <a class="main-btn btn-sm main-btn-3" href="{{ route('book_now') }}" target="_blank">
                         Book Now
-                        <i class="fal fa-plus"></i>
                     </a>
                 </div>
             </div>

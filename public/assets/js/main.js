@@ -91,9 +91,9 @@ $(function () {
         slidesToShow: 1,
         slidesToScroll: 1,
         prevArrow:
-            '<span class="slick-arrow prev-arrow"><i class="fal fa-angle-double-left"></i></span>',
+            '<span class="slick-arrow prev-arrow"><i class="flaticon-left-arrow"></i></span>',
         nextArrow:
-            '<span class="slick-arrow next-arrow"><i class="fal fa-angle-double-right"></i></span>',
+            '<span class="slick-arrow next-arrow"><i class="flaticon-right-arrow"></i></span>',
         responsive: [
             {
                 breakpoint: 767,

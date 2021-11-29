@@ -4,7 +4,7 @@
         <div class="cta-text text-center wow fadeInUp" data-wow-delay=".3s">
             <span>Needs Any Helps Or Supports</span>
             <h1>Don’t Hesitate, Contact <br> Us For Better Help & Services.</h1>
-            <a class="main-btn" href="{{ route('contact') }}">Contact Us<i class="fal fa-plus"></i></a>
+            <a class="main-btn" href="{{ route('contact') }}">Contact Us</a>
         </div>
     </div>
 </section>

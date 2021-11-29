@@ -62,13 +62,13 @@
 
                         <ul class="service-checklist">
                             <li>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Round up garbage<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Pack leftovers<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Load the dishwasher<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Load the washer<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Wipe up spills<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Check for strains on carpet/rugs<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Wipe down kitchen counters<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Round up garbage<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Pack leftovers<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Load the dishwasher<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Load the washer<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Wipe up spills<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Check for strains on carpet/rugs<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Wipe down kitchen counters<br>
                             </li>
                         </ul>
                     </div>
@@ -87,15 +87,15 @@
 
                         <ul class="service-checklist">
                             <li>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Run the dishwaher<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Put away decor pieces<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean kitchen areas<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Tidy up<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Wipe the furniture<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Vacuum the floor<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Mop the floor<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean bathroom surfaces<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean outdoor areas<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Run the dishwaher<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Put away decor pieces<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Clean kitchen areas<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Tidy up<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Wipe the furniture<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Vacuum the floor<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Mop the floor<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Clean bathroom surfaces<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Clean outdoor areas<br>
                             </li>
                         </ul>
                     </div>

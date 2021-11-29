@@ -10,11 +10,7 @@
 	<title>@yield('title')</title>
 	<!--====== Favicon Icon ======-->
 	<link rel="shortcut icon" href="{{asset('favicon.ico')}}" type="image/png" />
-
-	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-	integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"
-	/>
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     @include('layouts.styles')
 </head>
 
@@ -35,8 +31,8 @@
             <div class="go-top-wrap">
                 <div class="go-top-btn-wrap">
                     <div class="go-top go-top-btn">
-                        <i class="fal fa-angle-double-up"></i>
-                        <i class="fal fa-angle-double-up"></i>
+                        <i class="flaticon-duster"></i>
+                        <i class="flaticon-duster"></i>
                     </div>
                 </div>
             </div>

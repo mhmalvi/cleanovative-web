@@ -43,13 +43,13 @@
                                     Clean switches & doorknobs
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                             </tr>
                             <tr>
@@ -57,13 +57,13 @@
                                     Clean hallways & staircases
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                             </tr>
                             <tr>
@@ -71,13 +71,13 @@
                                     Vacuum & mop all floors
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                             </tr>
                             <tr>
@@ -85,13 +85,13 @@
                                     Dust & wipe down all surfaces
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                             </tr>
                             <tr>
@@ -99,13 +99,13 @@
                                     Empty Bins
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                             </tr>
                             <tr>
@@ -113,13 +113,13 @@
                                     Make Beds (upon request)
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-times"></i>
+                                    <i class="bi bi-x-circle"></i>
                                 </td>
                             </tr>
                             <tr>
@@ -127,13 +127,13 @@
                                     Dust furniture
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                             </tr>
                             <tr>
@@ -141,13 +141,13 @@
                                     Clean window ledges
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                             </tr>
                             <tr>
@@ -155,13 +155,13 @@
                                     Quick de-clutter of floors
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                             </tr>
                             <tr>
@@ -169,13 +169,13 @@
                                     Clean cobwebs
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                             </tr>
                             <tr>
@@ -183,13 +183,13 @@
                                     Wipe down electronics
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                             </tr>
                             <tr>
@@ -197,13 +197,13 @@
                                     Clean Mirrors
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                             </tr>
                             <tr>
@@ -211,13 +211,13 @@
                                     Detail skirting boards
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-times"></i>
+                                    <i class="bi bi-x-circle"></i>
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                             </tr>
                             <tr>
@@ -225,13 +225,13 @@
                                     Detail all doors & door frames
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-times"></i>
+                                    <i class="bi bi-x-circle"></i>
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                             </tr>
                             <tr>
@@ -239,13 +239,13 @@
                                     Clean ceiling fan & A.C vents
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-times"></i>
+                                    <i class="bi bi-x-circle"></i>
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                             </tr>
                             <tr>
@@ -253,13 +253,13 @@
                                     Clean inside cabinets, drawers & shelves
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-times"></i>
+                                    <i class="bi bi-x-circle"></i>
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-times"></i>
+                                    <i class="bi bi-x-circle"></i>
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                             </tr>
                             <tr>
@@ -267,13 +267,13 @@
                                     Inside windows + Window Tracks
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-times"></i>
+                                    <i class="bi bi-x-circle"></i>
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-times"></i>
+                                    <i class="bi bi-x-circle"></i>
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                             </tr>
                         </tbody>
@@ -303,13 +303,13 @@
                                     Clean floors
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                             </tr>
                             <tr>
@@ -317,13 +317,13 @@
                                     Scrub Toilers
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                             </tr>
                             <tr>
@@ -331,13 +331,13 @@
                                     Clean outside of cabinets & drawers
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                             </tr>
                             <tr>
@@ -345,13 +345,13 @@
                                     Clean bathtub & shower
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                             </tr>
                             <tr>
@@ -359,13 +359,13 @@
                                     Clean sink & taps
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                             </tr>
                             <tr>
@@ -373,13 +373,13 @@
                                     Clean mirrors
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                             </tr>
                             <tr>
@@ -387,13 +387,13 @@
                                     Clean inside of cabinets & drawers
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-times"></i>
+                                    <i class="bi bi-x-circle"></i>
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-times"></i>
+                                    <i class="bi bi-x-circle"></i>
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                             </tr>
                         </tbody>
@@ -423,13 +423,13 @@
                                     Stack & run dishwasher (upon request)
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                             </tr>
                             <tr>
@@ -437,13 +437,13 @@
                                     Wipe down outside of appliances
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                             </tr>
                             <tr>
@@ -451,13 +451,13 @@
                                     Wet wipe outside of fridge
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                             </tr>
                             <tr>
@@ -465,13 +465,13 @@
                                     Wet wipe outside of oven
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                             </tr>
                             <tr>
@@ -479,13 +479,13 @@
                                     Clean outside of cabinets & drawers
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                             </tr>
                             <tr>
@@ -493,13 +493,13 @@
                                     Clean all surface
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                             </tr>
                             <tr>
@@ -507,13 +507,13 @@
                                     Clean sink
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                             </tr>
                             <tr>
@@ -521,13 +521,13 @@
                                     Clean stove
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                             </tr>
                             <tr>
@@ -535,13 +535,13 @@
                                     Vacuum & mop floor
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                             </tr>
                             <tr>
@@ -549,13 +549,13 @@
                                     Clean inside oven
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-times"></i>
+                                    <i class="bi bi-x-circle"></i>
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-times"></i>
+                                    <i class="bi bi-x-circle"></i>
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                             </tr>
                             <tr>
@@ -563,13 +563,13 @@
                                     Clean range hood & filters
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-times"></i>
+                                    <i class="bi bi-x-circle"></i>
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-times"></i>
+                                    <i class="bi bi-x-circle"></i>
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                             </tr>
                             <tr>
@@ -577,13 +577,13 @@
                                     Clean inside cabinets, shelves & drawers
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-times"></i>
+                                    <i class="bi bi-x-circle"></i>
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-times"></i>
+                                    <i class="bi bi-x-circle"></i>
                                 </td>
                                 <td class="text-center">
-                                    <i class="far fa-check"></i>
+                                    <i class="bi bi-check2-circle"></i>
                                 </td>
                             </tr>
                         </tbody>
