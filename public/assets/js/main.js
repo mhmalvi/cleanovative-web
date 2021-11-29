@@ -69,7 +69,7 @@ $(function () {
             .parent("li")
             .children("a")
             .append(function () {
-                return '<button class="sub-nav-toggler"> <i class="fal fa-plus"></i> <i class="fal fa-minus"></i> </button>';
+                return '<button class="sub-nav-toggler"> <i class="flaticon-add"></i> <i class="flaticon-add"></i> </button>';
             });
 
         var subMenuToggler = $(".sub-menu-bar .navbar-nav .sub-nav-toggler");

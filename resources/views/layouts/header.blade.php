@@ -71,7 +71,7 @@
                                     <li class="nav-item">
                                         <a class="nav-link" href="javascript:void(0)">
                                             Services & Pricing
-                                            <i class="fal fa-plus"></i>
+                                            <i class="flaticon-add"></i>
                                         </a>
                                         <ul class="sub-menu">
                                             <li>
@@ -96,7 +96,7 @@
                                     <li class="nav-item">
                                         <a class="nav-link" href="javascript:void(0)">
                                             More
-                                            <i class="fal fa-plus"></i>
+                                            <i class="flaticon-add"></i>
                                         </a>
                                         <ul class="sub-menu">
                                             <li class="nav-item">
