@@ -18,7 +18,7 @@
                     </p>
                 </div>
                 <div class="mt-40">
-                    <a class="main-btn main-btn-2 mt-10 mb-0" href="tel:0401396554">
+                    <a class="main-btn main-btn-2 mt-10 mb-0" href="tel:+61450007982">
                         Call us now
                         <i class="fas fa-headset"></i>
                     </a>
@@ -61,13 +61,13 @@
                         <h6 class="text-uppercase mb-3">Standard Services</h6>
 
                         <ul class="service-checklist">
-                            <li><span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Vacuum all carpeted areas.<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Empty rubbish bins.<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Wipe clean kitchen benchtop, sink and taps.<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Wipe clean microwave ovens and kitchen appliances.<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Spot clean kitchen cabinet doors.<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Mop all hard surface floors.<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean, sanitise and deodorise restrooms including: clean and polish mirrors, disinfect toilets, empty rubbish bins and mop floors with disinfectant.<br>
+                            <li><span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Vacuum all carpeted areas.<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Empty rubbish bins.<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Wipe clean kitchen benchtop, sink and taps.<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Wipe clean microwave ovens and kitchen appliances.<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Spot clean kitchen cabinet doors.<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Mop all hard surface floors.<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Clean, sanitise and deodorise restrooms including: clean and polish mirrors, disinfect toilets, empty rubbish bins and mop floors with disinfectant.<br>
                             </li>
                         </ul>
                     </div>
@@ -86,9 +86,9 @@
 
                         <ul class="service-checklist">
                             <li>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Refill of biodegradable toilet paper, soap dispenser and paper towel.<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Computer, printer and telephone sanitizing and cleaning.<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Office’s can vary greatly and so can your requirements to the clean. If there are special requests you can give us a call.<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Refill of biodegradable toilet paper, soap dispenser and paper towel.<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Computer, printer and telephone sanitizing and cleaning.<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Office’s can vary greatly and so can your requirements to the clean. If there are special requests you can give us a call.<br>
                             </li>
                         </ul>
                     </div>

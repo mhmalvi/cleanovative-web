@@ -5,7 +5,7 @@
             <div class="row">
                 <div class="col-lg-3 col-md-6 d-flex justify-content-center align-items-center">
                     <div class="footer-logo mb-40">
-                        <img src="{{asset('images/logos/logo02.webp')}}" alt="Cleanovative">
+                        <img data-src="{{asset('images/logos/logo02.webp')}}" alt="Cleanovative" class="lazyload">
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
@@ -17,8 +17,16 @@
                             cleaning service.
                         </p>
                         <ul class="social-link">
-                            <li> <a href="https://www.facebook.com/cleanovative"><i class="fab fa-facebook-f"></i></a> </li>
-                            <li> <a href="https://www.instagram.com/cleanovative/"><i class="fab fa-instagram"></i></a> </li>
+                            <li> 
+                                <a href="https://www.facebook.com/cleanovative">
+                                    <img src="{{asset('images/icons/facebook.png')}}" alt="fb" width="28" height="28">
+                                </a> 
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/cleanovative/">
+                                    <img src="{{asset('images/icons/instagram.png')}}" alt="instaa" width="28" height="28">
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -27,13 +35,18 @@
                         <div>
                             <h3 class="widget-title">Quick Links</h3>
                             <ul>
-                                <li><a href="{{route('about_us')}}"><i class="far fa-arrow-right"></i>About us</a></li>
-                                <li><a href="{{route('gift_cards')}}"><i class="far fa-arrow-right"></i>Gift Cards</a></li>
-                                <li><a href="{{route('faq')}}"><i class="far fa-arrow-right"></i>FAQ</a></li>
-                                <li><a href="{{route('terms_and_conditions')}}"><i class="far fa-arrow-right"></i>Terms & Conditions</a></li>
+                                <li><a href="{{route('about_us')}}">
+                                    <i class="flaticon-right-arrow"></i>About us</a>
+                                </li>
+                                <li><a href="{{route('gift_cards')}}">
+                                    <i class="flaticon-right-arrow"></i>Gift Cards</a></li>
+                                <li><a href="{{route('faq')}}">
+                                    <i class="flaticon-right-arrow"></i>FAQ</a></li>
+                                <li><a href="{{route('terms_and_conditions')}}">
+                                    <i class="flaticon-right-arrow"></i>Terms & Conditions</a></li>
                                 <li>
                                     <a href="{{route('privacy_policy')}}">
-                                        <i class="far fa-arrow-right"></i>Privacy Policy
+                                        <i class="flaticon-right-arrow"></i>Privacy Policy
                                     </a>
                                 </li>
                             </ul>
@@ -47,10 +60,10 @@
                             <h4 class="mb-4">Don’t Hesitate To <br> Contact Us</h4>
                             <ul>
                                 <li>
-                                    <i class="far fa-phone"></i>
-                                    <a href="tel:040 139 6554">040 139 6554</a></li>
+                                    <i class="flaticon-phone-call"></i>
+                                    <a href="tel:+61450007982">+61450007982</a></li>
                                 <li>
-                                    <i class="far fa-envelope-open"></i>info@cleanovative.com.au
+                                    <i class="flaticon-e-mail-envelope"></i>info@cleanovative.com.au
                                 </li>
                             </ul>
                         </div>

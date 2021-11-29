@@ -3,7 +3,7 @@
     <div class="container">
         <div class="contact-info-boxes">
             <div class="row">
-                <div class="col-md-4 offset-md-2">
+                <div class="col-md-4">
                     <!-- Single Boxes -->
                     <div class="card pt-25 pb-25 text-center mt-25 bg-theme-extra-light shadow-sm border-second-color">
                         <div class="card-body">
@@ -11,7 +11,7 @@
                                 <img src="{{ asset('images/icons/contact.webp') }}" alt="phone">
                             </span>
                             <h6 class="title py-2">Phone Number</h6>
-                            <p class="info"><a href="tel:0401396554">0401396554</a></p>
+                            <p class="info"><a href="tel:+61450007982">+61450007982</a></p>
                         </div>
                     </div>
                 </div>
@@ -28,6 +28,20 @@
                                 info@cleanovative.com.au
                             </a>
                         </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <!-- Single Boxes -->
+                    <div class="card pt-25 pb-25 text-center mt-25 bg-theme-extra-light shadow-sm border-second-color">
+                        <div class="card-body">
+                        <span class="icon h2">
+                            <img src="{{ asset('images/icons/location.webp') }}" alt="address">
+                        </span>
+                            <h6 class="title py-2">Address</h6>
+                            <p class="info">
+                                111/2 Macquarie Road Auburn NSW 2144
+                            </p>
                         </div>
                     </div>
                 </div>

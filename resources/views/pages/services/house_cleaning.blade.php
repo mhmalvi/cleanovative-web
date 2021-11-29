@@ -53,23 +53,23 @@
 
                         <ul class="service-checklist">
                             <li>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean switches &amp; doorknobs<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean hallways &amp; staircases<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Vacuum &amp; mop all floors<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Dust &amp; wipe down all surfaces<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Empty Bins<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Make Beds (upon request)<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Dust furniture<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean window ledges<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Quick de-clutter of floors<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean cobwebs<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Wipe down electronics<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean Mirrors<br>
-                                <span class="wrong"><i class="fas fa-times-circle mr-2"></i></span>Detail skirting boards<br>
-                                <span class="wrong"><i class="fas fa-times-circle mr-2"></i></span>Detail all doors &amp; door frames<br>
-                                <span class="wrong"><i class="fas fa-times-circle mr-2"></i></span>Clean ceiling fans &amp; A.C vents<br>
-                                <span class="wrong"><i class="fas fa-times-circle mr-2"></i></span>Clean inside cabinets, drawers &amp; shelves<br>
-                                <span class="wrong"><i class="fas fa-times-circle mr-2"></i></span>Inside windows + Window Tracks
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Clean switches &amp; doorknobs<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Clean hallways &amp; staircases<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Vacuum &amp; mop all floors<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Dust &amp; wipe down all surfaces<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Empty Bins<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Make Beds (upon request)<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Dust furniture<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Clean window ledges<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Quick de-clutter of floors<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Clean cobwebs<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Wipe down electronics<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Clean Mirrors<br>
+                                <span class="wrong"><i class="bi bi-x-circle mr-2"></i></span>Detail skirting boards<br>
+                                <span class="wrong"><i class="bi bi-x-circle mr-2"></i></span>Detail all doors &amp; door frames<br>
+                                <span class="wrong"><i class="bi bi-x-circle mr-2"></i></span>Clean ceiling fans &amp; A.C vents<br>
+                                <span class="wrong"><i class="bi bi-x-circle mr-2"></i></span>Clean inside cabinets, drawers &amp; shelves<br>
+                                <span class="wrong"><i class="bi bi-x-circle mr-2"></i></span>Inside windows + Window Tracks
                             </li>
                         </ul>
                     </div>
@@ -86,13 +86,13 @@
 
                         <ul class="service-checklist">
                             <li>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean floors<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Scrub toilets<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean outside of cabinets &amp; drawers<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean bathtub &amp; shower<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean sink &amp; taps<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean mirrors<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2 icon-color-red"></i></span>Clean inside of cabinets &amp; drawers
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Clean floors<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Scrub toilets<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Clean outside of cabinets &amp; drawers<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Clean bathtub &amp; shower<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Clean sink &amp; taps<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Clean mirrors<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2 icon-color-red"></i></span>Clean inside of cabinets &amp; drawers
                             </li>
                         </ul>
                     </div>
@@ -102,18 +102,18 @@
                         <h6 class="text-uppercase mb-3">KITCHEN</h6>
 
                         <ul class="service-checklist">
-                            <li><span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Stack &amp; run dishwasher (upon request)<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Wipe down outside of appliances<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Wet wipe outside of fridge<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Wet wipe outside of oven<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean outside of cabinets &amp; drawers<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean all surfaces<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean sink<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean stove<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Vacuum &amp; mop floors<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2 icon-color-red"></i></span>Clean inside oven<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2 icon-color-red"></i></span>Clean range hood &amp; filters<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2 icon-color-red"></i></span>Clean inside cabinets, shelves &amp; drawers
+                            <li><span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Stack &amp; run dishwasher (upon request)<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Wipe down outside of appliances<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Wet wipe outside of fridge<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Wet wipe outside of oven<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Clean outside of cabinets &amp; drawers<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Clean all surfaces<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Clean sink<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Clean stove<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Vacuum &amp; mop floors<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2 icon-color-red"></i></span>Clean inside oven<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2 icon-color-red"></i></span>Clean range hood &amp; filters<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2 icon-color-red"></i></span>Clean inside cabinets, shelves &amp; drawers
                             </li>
                         </ul>
                     </div>
@@ -130,23 +130,23 @@
 
                         <ul class="service-checklist">
                             <li>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean switches &amp; doorknobs<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean hallways &amp; staircases<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Vacuum &amp; mop all floors<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Dust &amp; wipe down all surfaces<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Empty Bins<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Make Beds (upon request)<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Dust furniture<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean window ledges<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Quick de-clutter of floors<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean cobwebs<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Wipe down electronics<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean Mirrors<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Detail skirting boards<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Detail all doors &amp; door frames<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean ceiling fans &amp; A.C vents<br>
-                                <span class="wrong"><i class="fas fa-times-circle mr-2"></i></span>Clean inside cabinets, drawers &amp; shelves<br>
-                                <span class="wrong"><i class="fas fa-times-circle mr-2"></i></span>Inside windows + Window Tracks
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Clean switches &amp; doorknobs<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Clean hallways &amp; staircases<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Vacuum &amp; mop all floors<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Dust &amp; wipe down all surfaces<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Empty Bins<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Make Beds (upon request)<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Dust furniture<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Clean window ledges<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Quick de-clutter of floors<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Clean cobwebs<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Wipe down electronics<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Clean Mirrors<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Detail skirting boards<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Detail all doors &amp; door frames<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Clean ceiling fans &amp; A.C vents<br>
+                                <span class="wrong"><i class="bi bi-x-circle mr-2"></i></span>Clean inside cabinets, drawers &amp; shelves<br>
+                                <span class="wrong"><i class="bi bi-x-circle mr-2"></i></span>Inside windows + Window Tracks
                             </li>
                         </ul>
                     </div>
@@ -164,13 +164,13 @@
 
                         <ul class="service-checklist">
                             <li>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean floors<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Scrub toilets<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean outside of cabinets &amp; drawers<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean bathtub &amp; shower<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean sink &amp; taps<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean mirrors<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2 icon-color-red"></i></span>Clean inside of cabinets &amp; drawers
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Clean floors<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Scrub toilets<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Clean outside of cabinets &amp; drawers<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Clean bathtub &amp; shower<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Clean sink &amp; taps<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Clean mirrors<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2 icon-color-red"></i></span>Clean inside of cabinets &amp; drawers
                             </li>
                         </ul>
                     </div>
@@ -181,18 +181,18 @@
                         <h6 class="text-uppercase">KITCHEN</h6>
 
                         <ul class="service-checklist">
-                            <li><span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Stack &amp; run dishwasher (upon request)<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Wipe down outside of appliances<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Wet wipe outside of fridge<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Wet wipe outside of oven<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean outside of cabinets &amp; drawers<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean all surfaces<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean sink<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean stove<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Vacuum &amp; mop floors<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2 icon-color-red"></i></span>Clean inside oven<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2 icon-color-red"></i></span>Clean range hood &amp; filters<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2 icon-color-red"></i></span>Clean inside cabinets, shelves &amp; drawers
+                            <li><span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Stack &amp; run dishwasher (upon request)<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Wipe down outside of appliances<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Wet wipe outside of fridge<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Wet wipe outside of oven<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Clean outside of cabinets &amp; drawers<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Clean all surfaces<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Clean sink<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Clean stove<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Vacuum &amp; mop floors<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2 icon-color-red"></i></span>Clean inside oven<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2 icon-color-red"></i></span>Clean range hood &amp; filters<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2 icon-color-red"></i></span>Clean inside cabinets, shelves &amp; drawers
                             </li>
                         </ul>
                     </div>
@@ -208,18 +208,18 @@
                         <h6 class="text-uppercase mb-3">BEDROOMS, LIVING ROOMS AND ALL COMMON AREAS</h6>
 
                         <ul class="service-checklist">
-                            <li><span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Stack &amp; run dishwasher (upon request)<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Wipe down outside of appliances<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Wet wipe outside of fridge<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Wet wipe outside of oven<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean outside of cabinets &amp; drawers<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean all surfaces<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean sink<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean stove<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Vacuum &amp; mop floors<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean inside oven<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean range hood &amp; filters<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean inside cabinets, shelves &amp; drawers
+                            <li><span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Stack &amp; run dishwasher (upon request)<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Wipe down outside of appliances<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Wet wipe outside of fridge<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Wet wipe outside of oven<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Clean outside of cabinets &amp; drawers<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Clean all surfaces<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Clean sink<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Clean stove<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Vacuum &amp; mop floors<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Clean inside oven<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Clean range hood &amp; filters<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Clean inside cabinets, shelves &amp; drawers
                             </li>
                         </ul>
                     </div>
@@ -235,13 +235,13 @@
                     <div class="col-md-6">
                         <h6 class="text-uppercase mb-3">BATHROOM & LAUNDRY</h6>
                         <ul class="service-checklist">
-                            <li><span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean floors<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Scrub toilets<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean outside of cabinets &amp; drawers<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean bathtub &amp; shower<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean sink &amp; taps<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean mirrors<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean inside of cabinets &amp; drawers
+                            <li><span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Clean floors<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Scrub toilets<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Clean outside of cabinets &amp; drawers<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Clean bathtub &amp; shower<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Clean sink &amp; taps<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Clean mirrors<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Clean inside of cabinets &amp; drawers
                             </li>
                         </ul>
                     </div>
@@ -252,18 +252,18 @@
                         <h6 class="text-uppercase mb-3">KITCHEN</h6>
 
                         <ul class="service-checklist">
-                            <li><span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Stack &amp; run dishwasher (upon request)<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Wipe down outside of appliances<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Wet wipe outside of fridge<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Wet wipe outside of oven<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean outside of cabinets &amp; drawers<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean all surfaces<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean sink<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean stove<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Vacuum &amp; mop floors<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean inside oven<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean range hood &amp; filters<br>
-                                <span class="correct"><i class="fas fa-check-circle mr-2"></i></span>Clean inside cabinets, shelves &amp; drawers
+                            <li><span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Stack &amp; run dishwasher (upon request)<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Wipe down outside of appliances<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Wet wipe outside of fridge<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Wet wipe outside of oven<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Clean outside of cabinets &amp; drawers<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Clean all surfaces<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Clean sink<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Clean stove<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Vacuum &amp; mop floors<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Clean inside oven<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Clean range hood &amp; filters<br>
+                                <span class="correct"><i class="bi bi-check2-circle mr-2"></i></span>Clean inside cabinets, shelves &amp; drawers
                             </li>
                         </ul>
                     </div>

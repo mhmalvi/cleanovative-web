@@ -21,19 +21,19 @@
                     <div class="row">
                         <div class="col-md-4">
                             <p class="banner-ticks">
-                                <i class="fas fa-check-circle"></i>
+                                <i class="flaticon-medal"></i>
                                 Trusted Cleaning
                             </p>  
                         </div>
                         <div class="col-md-4">
                             <p class="banner-ticks">
-                                <i class="fas fa-check-circle"></i>
+                                <i class="flaticon-medal"></i>
                                 5-Star Rated
                             </p>
                         </div>
                         <div class="col-md-4">
                             <p class="banner-ticks">
-                                <i class="fas fa-check-circle"></i>
+                                <i class="flaticon-medal"></i>
                                 100% Guarantee 
                             </p>
                         </div>
@@ -54,27 +54,26 @@
                         Tailored quotation to your space and budget.
                     </p>
                     <div class="btn-wrap mt-0">
-                        <a class="main-btn" href="{{ route('contact') }}">Contact Us<i
-                                class="fal fa-plus"></i></a>
+                        <a class="main-btn" href="{{ route('contact') }}">Contact Us</a>
                     </div>
                 </div>
                 <div class="hero-ticks">
                     <div class="row">
                         <div class="col-md-4">
                             <p class="banner-ticks">
-                                <i class="fas fa-check-circle"></i>
+                                <i class="flaticon-medal"></i>
                                 Trusted Cleaning
                             </p>  
                         </div>
                         <div class="col-md-4">
                             <p class="banner-ticks">
-                                <i class="fas fa-check-circle"></i>
+                                <i class="flaticon-medal"></i>
                                 5-Star Rated
                             </p>
                         </div>
                         <div class="col-md-4">
                             <p class="banner-ticks">
-                                <i class="fas fa-check-circle"></i>
+                                <i class="flaticon-medal"></i>
                                 100% Guarantee 
                             </p>
                         </div>

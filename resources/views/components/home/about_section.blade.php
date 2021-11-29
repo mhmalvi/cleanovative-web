@@ -26,8 +26,7 @@
                         We bring together the best professionals in the industry and our management team with client service excellence together in one dedicated team.
                     </p>
 
-                    <a class="main-btn main-btn-3 mt-50" href="{{ route('about_us') }}">Learn More<i
-                            class="fal fa-plus"></i></a>
+                    <a class="main-btn main-btn-3 mt-50" href="{{ route('about_us') }}">Learn More</a>
                 </div>
             </div>
         </div>

@@ -4,13 +4,13 @@
             <div class="welome-text">
                 <ul class="top-list">
                     <li>
-                        <i class="fas fa-mobile-alt mr-2"></i>
+                        <i class="flaticon-phone-call mr-2"></i>
                         <span class="infos">
-                            <a href="tel:0401396554">040 139 6554</a>
+                            <a href="tel:0401396554">+61450007982</a>
                         </span>
                     </li>
                     <li>
-                        <i class="far fa-clock mr-2"></i>
+                        <i class="flaticon-tag mr-2"></i>
                         <span class="infos">
                             07.00 am - 07.00 pm
                         </span>
@@ -20,12 +20,12 @@
                 <ul>
                     <li>
                         <a href="https://www.facebook.com/cleanovative" target="_blank">
-                            <i class="fab fa-facebook-f"></i>
+                            <img src="{{asset('images/icons/facebook.png')}}" alt="fb" width="16" height="16">
                         </a>
                     </li>
                     <li>
                         <a href="https://www.instagram.com/cleanovative/" target="_blank">
-                            <i class="fab fa-instagram"></i>
+                            <img src="{{asset('images/icons/instagram.png')}}" alt="instaa" width="16" height="16">
                         </a>
                     </li>
                 </ul>
@@ -71,7 +71,7 @@
                                     <li class="nav-item">
                                         <a class="nav-link" href="javascript:void(0)">
                                             Services & Pricing
-                                            <i class="fal fa-plus"></i>
+                                            <i class="flaticon-add"></i>
                                         </a>
                                         <ul class="sub-menu">
                                             <li>
@@ -96,7 +96,7 @@
                                     <li class="nav-item">
                                         <a class="nav-link" href="javascript:void(0)">
                                             More
-                                            <i class="fal fa-plus"></i>
+                                            <i class="flaticon-add"></i>
                                         </a>
                                         <ul class="sub-menu">
                                             <li class="nav-item">
@@ -138,10 +138,10 @@
                             <!-- navbar collapse -->
                             <div class="navbar-btn d-none d-sm-block">
                                 <a class="main-btn main-btn-2 btn-sm signin-btn" href="{{ route('signin') }}" target="_blank">
-                                    Sign in <i class="fal fa-plus"></i>
+                                    Sign in
                                 </a>
                                 <a class="main-btn btn-sm booking-btn" href="{{ route('book_now') }}" target="_blank">
-                                    Book Now <i class="fal fa-plus"></i>
+                                    Book Now
                                 </a>
                             </div>
                         </nav>

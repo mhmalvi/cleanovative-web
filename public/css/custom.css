@@ -741,11 +741,11 @@ footer .copyright-area p {
     margin-top: 33px;
 }
 
-.full-checklist-section table tbody tr td i.fa-check {
+.full-checklist-section table tbody tr td i.bi-check2-circle {
     color: green;
 }
 
-.full-checklist-section table tbody tr td i.fa-times {
+.full-checklist-section table tbody tr td i.bi-x-circle {
     color: red;
 }
 

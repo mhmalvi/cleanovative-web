@@ -26,7 +26,7 @@
                             <li><i class="fas fa-star"></i></li>
                         </ul>
                     </div>
-                    <img src="{{ asset('images/testimonial/test01.webp') }}" alt="testimonial-author" class="author-img">
+                    <img data-src="{{ asset('images/testimonial/test01.webp') }}" alt="testimonial-author" class="author-img lazyload">
                 </div>
             </div>
             <div class="col-lg-6">
@@ -47,7 +47,7 @@
                             <li><i class="fas fa-star"></i></li>
                         </ul>
                     </div>
-                    <img src="{{ asset('images/testimonial/test02.webp') }}" alt="testimonial-author" class="author-img">
+                    <img data-src="{{ asset('images/testimonial/test02.webp') }}" alt="testimonial-author" class="author-img lazyload">
                 </div>
             </div>
             <div class="col-lg-6">
@@ -68,7 +68,7 @@
                             <li><i class="fas fa-star"></i></li>
                         </ul>
                     </div>
-                    <img src="{{ asset('images/testimonial/test04.webp') }}" alt="testimonial-author" class="author-img">
+                    <img data-src="{{ asset('images/testimonial/test04.webp') }}" alt="testimonial-author" class="author-img lazyload">
                 </div>
             </div>
             <div class="col-lg-6">
@@ -89,7 +89,7 @@
                             <li><i class="fas fa-star"></i></li>
                         </ul>
                     </div>
-                    <img src="{{ asset('images/testimonial/test05.webp') }}" alt="testimonial-author" class="author-img">
+                    <img data-src="{{ asset('images/testimonial/test05.webp') }}" alt="testimonial-author" class="author-img lazyload">
                 </div>
             </div>
             <div class="col-lg-6">
@@ -110,7 +110,7 @@
                             <li><i class="fas fa-star"></i></li>
                         </ul>
                     </div>
-                    <img src="{{ asset('images/testimonial/test06.webp') }}" alt="testimonial-author" class="author-img">
+                    <img data-src="{{ asset('images/testimonial/test06.webp') }}" alt="testimonial-author" class="author-img lazyload">
                 </div>
             </div>
             <div class="col-lg-6">
@@ -130,7 +130,7 @@
                             <li><i class="fas fa-star"></i></li>
                         </ul>
                     </div>
-                    <img src="{{ asset('images/testimonial/test07.webp') }}" alt="testimonial-author" class="author-img">
+                    <img data-src="{{ asset('images/testimonial/test07.webp') }}" alt="testimonial-author" class="author-img lazyload">
                 </div>
             </div>
             <div class="col-lg-6">
@@ -151,7 +151,7 @@
                             <li><i class="fas fa-star"></i></li>
                         </ul>
                     </div>
-                    <img src="{{ asset('images/testimonial/testi01.webp') }}" alt="testimonial-author" class="author-img">
+                    <img data-src="{{ asset('images/testimonial/testi01.webp') }}" alt="testimonial-author" class="author-img lazyload">
                 </div>
             </div>
             <div class="col-lg-6">
@@ -171,7 +171,7 @@
                             <li><i class="fas fa-star"></i></li>
                         </ul>
                     </div>
-                    <img src="{{ asset('images/testimonial/testi02.webp') }}" alt="testimonial-author" class="author-img">
+                    <img data-src="{{ asset('images/testimonial/testi02.webp') }}" alt="testimonial-author" class="author-img lazyload">
                 </div>
             </div>
             <div class="col-lg-6">
@@ -192,7 +192,7 @@
                             <li><i class="fas fa-star"></i></li>
                         </ul>
                     </div>
-                    <img src="{{ asset('images/testimonial/testi03.webp') }}" alt="testimonial-author" class="author-img">
+                    <img data-src="{{ asset('images/testimonial/testi03.webp') }}" alt="testimonial-author" class="author-img lazyload">
                 </div>
             </div>
         </div>
