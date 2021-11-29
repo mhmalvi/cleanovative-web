@@ -179,6 +179,14 @@ i {
 }
 
 .hero-section .single-hero-slide::before {
+    background: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        from(rgba(235, 241, 242, 0.9)),
+        color-stop(79%, rgba(235, 241, 242, 0.47)),
+        to(rgba(235, 241, 242, 0))
+    ) !important;
     background: linear-gradient(
         -180deg,
         rgba(235, 241, 242, 0.9) 0%,
@@ -192,6 +200,7 @@ i {
 }
 
 .single-service .service-bg .service-link {
+    -webkit-box-shadow: 0px 10px 30px 0px rgba(235, 241, 242, 0.57);
     box-shadow: 0px 10px 30px 0px rgba(235, 241, 242, 0.57);
 }
 
@@ -279,7 +288,7 @@ i {
 
 .banner-new {
     position: relative;
-    background: url(/images/banner101.webp?e4fe6777ff3aa3ff3f545308263202ef);
+    background: url(../../public/images/banner101.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center, center;
@@ -360,7 +369,7 @@ footer {
 }
 
 footer::after {
-    background-image: url(/images/footer-shape.webp?f749bd994ddf8b7cc8e0b9acc1c50407);
+    background-image: url(../../public/images/footer-shape.webp);
 }
 
 footer .subscribe-form .subs-inner form input {
@@ -420,14 +429,22 @@ footer .copyright-area p {
 }
 
 .cta-section .cta-inner::before {
-    background-image: url(/images/cta-bg.webp?475fdf8dfc598560a3be99742db06de1) !important;
+    background-image: url(../../public/images/cta-bg.webp) !important;
 }
 
 .testimonial-section::after {
-    background-image: url(/images/testimonial-bg.webp?fd15eb7ff9a4bec2ee6a653a8726ce1a);
+    background-image: url(../../public/images/testimonial-bg.webp);
 }
 
 .breadcrumb-area::after {
+    background: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        from(rgba(235, 241, 242, 0.94902)),
+        color-stop(79%, rgba(235, 241, 242, 0.47)),
+        to(rgba(235, 241, 242, 0))
+    ) !important;
     background: linear-gradient(
         -180deg,
         rgba(235, 241, 242, 0.949) 0%,
@@ -497,8 +514,7 @@ footer .copyright-area p {
     border-top-left-radius: 18px !important;
     border-bottom-left-radius: 0px !important;
     border-bottom-right-radius: 18px !important;
-    -webkit-animation: ripple 1.8s linear infinite;
-            animation: ripple 1.8s linear infinite;
+    animation: ripple 1.8s linear infinite;
 }
 
 .booking-btn:hover {
@@ -529,17 +545,6 @@ footer .copyright-area p {
 
 .booking-btn i {
     color: var(--light) !important;
-}
-
-@-webkit-keyframes ripple {
-    0% {
-        box-shadow: 0 0 0 2px rgba(80, 194, 195, 0.3),
-            0 0 0 5px rgba(80, 194, 195, 0.3);
-    }
-    100% {
-        box-shadow: 0 0 0 20px rgba(80, 194, 195, 0),
-            0 0 0 30px rgba(80, 194, 195, 0);
-    }
 }
 
 @keyframes ripple {
@@ -707,6 +712,7 @@ footer .copyright-area p {
     position: absolute;
     left: 0;
     top: 50%;
+    -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
     height: 60px;
     width: 60px;
@@ -761,6 +767,7 @@ footer .copyright-area p {
     right: 30px;
     color: #50c2c3;
     top: 50%;
+    -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
 }
 
@@ -785,4 +792,3 @@ footer .copyright-area p {
 .main-btn:disabled {
     opacity: 0.7;
 }
-

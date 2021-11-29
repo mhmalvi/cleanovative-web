@@ -9,8 +9,8 @@
 <!--====== Owl Carousel css ======-->
 <link rel="stylesheet" href="{{asset('assets/css/slick.css')}}" />
 <!--====== Default css ======-->
-<link rel="stylesheet" href="{{asset('assets/css/default.css')}}" />
+<link rel="stylesheet" href="{{asset('css/default.css')}}" />
 <!--====== Style css ======-->
-<link rel="stylesheet" href="{{mix('css/app.css')}}" />
+<link rel="stylesheet" href="{{asset('css/app.css')}}" />
 
 <link rel="stylesheet" href="{{asset('css/custom.css')}}" />
