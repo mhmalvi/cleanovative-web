@@ -41,8 +41,9 @@
         <!--====== GO TO TOP PART ENDS ======-->
         @include('layouts.footer')
     </div>
-
-    <script src="{{asset('js/app.js')}}" type="text/javascript" defer></script>
+    @if (!in_array(Route::currentRouteName(), ['book_now', 'gift_cards', 'signin', 'signup']))
+        <script src="{{asset('js/app.js')}}" type="text/javascript" defer></script>
+    @endif
 
     @include('layouts.scripts')
 
