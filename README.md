@@ -1,3 +1,6 @@
+<!-- repo-card -->
+![cleanovative-web](docs/assets/social-card.png)
+
 # Cleanovative Web
 
 A web application for a professional cleaning service business, built with Laravel. This platform allows customers to explore cleaning services, request quotes, and manage bookings. Features a modern frontend compiled with Webpack Mix.
